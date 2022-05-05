@@ -4,13 +4,7 @@ body{width: 100%; height: 100%; font-family: '微軟正黑體', 'MS UI Gothic','
 a,a:hover,a:active,a:visited {display: inline-block; color: #005bac; text-decoration: none;}
 table{width: 100%; border-collapse: collapse; border-spacing: 0;}
 table,tr,th,td{margin: 0; padding: 0;}
-img{margin: 0; padding: 0; display: block;
-    image-rendering:-moz-crisp-edges;
-    image-rendering:-o-crisp-edges;
-    image-rendering:-webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: nearest-neighbor;
-    -webkit-font-smooting:  antialiased;}
+img{margin: 0; padding: 0; display: block;}
 
 .main{width: 100%; max-width: 1920px; margin: 0 auto; overflow: hidden; color:#333333; padding-top: 80px; font-size: 12px;}
 .section{width: 100%; max-width: 1920px; margin: 0 auto;}
@@ -19,7 +13,7 @@ img{margin: 0; padding: 0; display: block;
 .kv_container{width: 100%; margin: 0 auto; background: #fff5e4;}
 .kv{width: 100%; max-width: 1900px; height: 0; padding-bottom: 42.7%; text-align: center; background: #fff3e5 url("../images/campus.png") center top no-repeat; background-size: 100% auto; position: relative;}
 .kv .kv_logo{width: 26%; margin: 0 auto; padding-top: 3%;}
-.kv .student2{width: 8.7%; position: absolute; top: 21%; left: 28.9%; opacity: 0; 
+.kv .student2{width: 8.5%; position: absolute; top: 21%; left: 28.9%; opacity: 0; 
   -webkit-animation-name: expandUp,moved;
           animation-name: expandUp,moved;
           animation-duration: 1s,1s;
@@ -55,7 +49,7 @@ img{margin: 0; padding: 0; display: block;
 /* content */
 .content_container{ width: 100%; margin: 0 auto; background: #fccb83 url("../images/ribbon.png") center top no-repeat; background-size: cover; color: #333333;}
 .content_container::before{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4%; background: #fff5e4 url("../images/book.png") center top no-repeat; background-size: 100% auto;}
-.content_tit{width: 420px; margin: 0 auto; padding-top: 5%;}
+.content_tit{max-width: 450px; margin: 0 auto; padding-top: 5%;}
 .content{width: 100%; max-width: 1400px; margin: 0 auto; position: relative;}
 .content .content_boy{width: 14%; position: absolute; bottom: 45%; left: 1%; animation: boy 3s linear infinite; transform-origin: right bottom;}
 .content .content_girl{width: 16%; position: absolute; top: 48%; left: 83.5%; animation: girl 2.6s linear infinite; transform-origin: left bottom;}
@@ -64,7 +58,7 @@ img{margin: 0; padding: 0; display: block;
 .content .note::before{content: ''; display: block; width: 100%; height: 0; padding-bottom: 7.5188%; background: url("../images/note_bg1.png") center bottom no-repeat; background-size: 100% auto;}
 .content .note::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 7.5188%; background: url("../images/note_bg3.png") center top no-repeat; background-size: 100% auto;}
 .content .note .tit1,
-.content .note .tit2{width: 180px; margin: 0 auto; padding: 3% 0;}
+.content .note .tit2{width: 175px; margin: 0 auto; padding: 3% 0;}
 .content .note .date{font-size: 24px; font-weight: bold; color: #eb6100;}
 .content .note .s_line{width: 100%; margin: 5% auto 3%; border-bottom: 2px solid #333333;}
 .content .note h2{font-size: 22px; line-height: 1.8; font-weight: bold;}
@@ -96,7 +90,7 @@ img{margin: 0; padding: 0; display: block;
 .notice_container{background: #fccb83;}
 .notice_container::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4%; background: #fccb83 url("../images/book2.png") center bottom no-repeat; background-size: 100% auto;}
 .notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 16px; line-height: 28px; padding: 0 5% 3%; text-align: justify;}
-.notice .tit3{width: 180px; margin: 0 auto; padding: 3% 0;}
+.notice .tit3{width: 175px; margin: 0 auto; padding: 3% 0;}
 .notice h2{font-size: 24px; font-weight: bold; text-align: center; color: #005bac;}
 .notice h3{font-weight: bold; margin-top: 20px;}
 .notice .notice_all{padding: 0 2% 2%;}
