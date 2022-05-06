@@ -48,7 +48,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv .kv_tit{width: 42%; margin: 0 auto; padding-top: 25%;}
 /* content */
 .content_container{ width: 100%; margin: 0 auto; background: #fccb83 url("../images/ribbon.png") center top no-repeat; background-size: cover; color: #333333;}
-.content_container::before{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4%; background: #fff5e4 url("../images/book.png") center top no-repeat; background-size: 100% auto;}
+.content_container::before{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4.0625%; background: #fff5e4 url("../images/book.png") center top no-repeat; background-size: 100% auto;}
 .content_tit{max-width: 450px; margin: 0 auto; padding-top: 5%;}
 .content{width: 100%; max-width: 1400px; margin: 0 auto; position: relative;}
 .content .content_boy{width: 14%; position: absolute; bottom: 45%; left: 1%; animation: boy 3s linear infinite; transform-origin: right bottom;}
@@ -88,7 +88,7 @@ img{margin: 0; padding: 0; display: block;}
 .content .btn:hover img{-webkit-transform:translateY(8px);transform:translateY(8px);}
 /* notice */
 .notice_container{background: #fccb83;}
-.notice_container::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4%; background: #fccb83 url("../images/book2.png") center bottom no-repeat; background-size: 100% auto;}
+.notice_container::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4.0625%; background: url("../images/book2.png") center bottom no-repeat; background-size: 100% auto;}
 .notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 16px; line-height: 28px; padding: 0 5% 3%; text-align: justify;}
 .notice .tit3{width: 175px; margin: 0 auto; padding: 3% 0;}
 .notice h2{font-size: 24px; font-weight: bold; text-align: center; color: #005bac;}
@@ -96,7 +96,7 @@ img{margin: 0; padding: 0; display: block;}
 .notice .notice_all{padding: 0 2% 2%;}
 .notice ul{}
 .notice ul li{}
-.notice ol{padding-left: 1.5%;}
+.notice ol{padding-left: 20px;}
 .notice ol li{list-style-type: decimal;}
 .notice .innernotice {counter-reset: list; margin: 0 auto; padding: 0 0 0 2.5em;}
 .notice .innernotice > li {list-style: none; position: relative;}
@@ -168,7 +168,7 @@ img{margin: 0; padding: 0; display: block;}
 .content .action-item{max-width:280px;margin:auto;}
 }
 @media screen and (max-width:600px) {
-.content .note .discount li p{font-size: 14px;}
+.content .note .discount li p{font-size: 15px;}
 .content .action-item{max-width:250px;margin:auto;}
 .content .note .tit1,
 .content .note .tit2,
@@ -176,16 +176,17 @@ img{margin: 0; padding: 0; display: block;}
 }
 @media screen and (max-width:500px) {
 /* content */
-.content .note .date{font-size: 17px;}
-.content .note h2{font-size: 17px;}
+.content .note .date{font-size: 18px;}
+.content .note h2{font-size: 18px;}
+.content .note .discount li{margin: 6% auto 0;}
 .content .note .discount li .dis_pic{width: 100%; height: 0; padding-bottom: 65%; box-shadow: 0px 8px #fccb83; font-size: 4vw;}
 .content .note .discount li .dis_pic .dis_sn{margin-top: 8%;}
 .content .note .discount li .dis_pic .dis_txt_s{font-size: 80%;}
 .content .note .discount li .dis_pic .dis_num{width: 80%; height: 0; padding-bottom: 14%;}
-.content .action-item{max-width:200px;}
+.content .action-item{max-width:210px;}
 .content .note .tit1,
 .content .note .tit2,
-.notice .tit3{width: 140px;}
+.notice .tit3{width: 140px; padding: 7% 0;}
 /* notice */
 .notice{padding: 5% 8% 10%;}
 .notice h2{font-size: 20px;}
