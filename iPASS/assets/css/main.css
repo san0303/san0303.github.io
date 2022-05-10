@@ -163,10 +163,7 @@ img{margin: 0; padding: 0; display: block;}
 @media screen and (max-width:600px) {
 .content .note .discount li p{font-size: 15px;}
 .content .action-item{max-width:250px;margin:auto;}
-.content .note .tit1,
-.content .note .tit2,
-.content .note .tit3,
-.notice .tit4{width: 180px;}
+.tit1,.tit2,.tit3,.tit4{width: 180px;}
 }
 @media screen and (max-width:500px) {
 /* content */
@@ -179,7 +176,7 @@ img{margin: 0; padding: 0; display: block;}
 .content .note .discount li .dis_pic .dis_txt_s{font-size: 80%;}
 .content .note .discount li .dis_pic .dis_num{width: 80%; height: 0; padding-bottom: 14%;}
 .content .action-item{max-width:250px;}
-.tit1,.tit2,.tit3,.tit4{width: 140px; padding: 7% 0;}
+.tit1,.tit2,.tit3,.tit4{width: 140px;}
 /* notice */
 .notice{padding: 10% 5%;}
 }
