@@ -90,9 +90,10 @@ img{margin: 0; padding: 0; display: block;}
 /* notice */
 .notice_container{background: #fccb83;}
 .notice_container::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 4.0625%; background: url("../images/book2.png") center bottom no-repeat; background-size: 100% auto;}
-.notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 14px; line-height: 24px; padding: 4% 5% 3%; text-align: justify;}
+.notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 14px; line-height: 24px; padding: 4% 5% 3%; /* text-align: justify; */}
 .notice_all{padding: 2%;}
-.notice_all ul{font-size:16px;line-height:1.8;margin:0;padding-left:30px;list-style-type:decimal;font-weight: 400;}
+.notice_all ul{font-size:16px;line-height:1.8;margin:0;padding-left:30px;list-style-type:decimal;}
+.notice_all ul>li{margin-bottom: 2%;}
 .notice_all ul>li>ol{list-style-type:none;padding-left:24px}
 .notice_all ul>li>ol>li{position:relative;counter-increment:section}
 .notice_all ul>li>ol>li::before{content:"(" counter(section,decimal) ")";position:absolute;top:0;left:-5px;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
