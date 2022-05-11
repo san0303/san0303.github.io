@@ -191,7 +191,7 @@ img{margin: 0; padding: 0; display: block;}
 .content .note h3{font-size: 16px;}
 .content .note h3 .pointer{width: 28px;}
 /* notice */
-.notice{padding: 10% 5%;}
+.notice{padding: 0 5% 10%;}
 }
 /* animation */
 @keyframes slideInDown {
