@@ -188,7 +188,7 @@ img{margin: 0; padding: 0; display: block;}
 .content .note .discount li .dis_pic .dis_num{width: 80%; height: 0; padding-bottom: 14%;}
 .content .action-item{max-width:220px;}
 .tit1,.tit2,.tit3,.tit4{width: 140px;}
-.content .note h3{font-size: 16px;}
+.content .note h3{font-size: 16px; margin: 5% auto;}
 .content .note h3 .pointer{width: 28px;}
 /* notice */
 .notice{padding: 0 5% 10%;}
