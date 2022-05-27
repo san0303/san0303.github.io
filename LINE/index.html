@@ -43,18 +43,32 @@ th {
 .pink {color: #fe68b0;}
 .indigo {color: #3169d8;}
 .yellow {color: #fedd7b; font-weight: bold;}
+.disBoxAll{ display: block; width: 100%; display: table; text-align: center;}
 @media screen and (max-width: 960px) {
     .wrapper {width: 100% !important; max-width: 100% !important;}
+    .disBox-cont {height: 150px !important;}
+}
+@media screen and (max-width: 850px) {
+	.spacer2 {display: none !important;}
+	.disBox-cont {height: 180px !important;}
+	.point-pic {width: 260px !important;}
 }
 @media screen and (max-width: 800px) {
-    .spacer2 {display: none !important;}
+/*     .spacer2 {display: none !important;} */
 }
 @media screen and (max-width: 768px) {
     .mob-block {display: block !important;}
 }
+@media screen and (max-width: 700px) {    
+    .disBox { display: inline-block !important; width: 100% !important; text-align: center !important; margin-bottom: 4% !important;}
+    .disBox-space { display: none !important;}
+    .disBox-space2 { display: inline-block !important; width: 100% !important;}
+    .disBox-cont {height: auto !important;}
+    .separate {border-bottom: 1px solid #ffffff !important;}
+}
 @media screen and (max-width: 600px) {
     .mob-none {display: none !important;}
-    .info-tit {width: 100% !important; max-width: 350px !important;}
+    .info-tit {width: 100% !important; max-width: 300px !important;}
     .info-txt {text-align: justify !important;}
 }
 @media screen and (max-width: 430px) {
@@ -74,7 +88,10 @@ th {
 	}
     .spacer3{display: none;}
     .info-tit {width: 250px !important;}
-    .info-txt {font-size: 18px !important; line-height: 30px !important;}
+    .info-txt {font-size: 20px !important; line-height: 30px !important;}
+    .info-btn {width: 230px !important;}
+    .disBox-tit {font-size: 16px !important;}
+    .point-pic {width: 230px !important;}
 }
 </style>
 </head>
@@ -110,8 +127,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="80" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="80" alt="" border="0" />
+                            <td width="50" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="50" alt="" border="0" />
                             </td>
                             <!-- main -->
                             <td>
@@ -172,7 +189,7 @@ th {
                                     <!-- btn -->
                                     <tr>
                                         <td align="center" width="250" style="font-size: 0">
-                                        	<a href="https://page.line.me/mwr3999i" target="_blank"><img src="images/btn1.png" alt="立即加入好友" width="250" border="0"/></a>
+                                        	<a href="https://page.line.me/mwr3999i" target="_blank"><img class="info-btn" src="images/btn1.png" alt="立即加入好友" width="250" border="0"/></a>
                                         </td>
                                     </tr>
                                     <!-- spacer -->
@@ -193,8 +210,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="80" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="80" alt="" border="0" />
+                            <td width="50" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="50" alt="" border="0" />
                             </td>
                         </tr>
                     </table>
@@ -215,8 +232,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="80" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="80" alt="" border="0" />
+                            <td width="50" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="50" alt="" border="0" />
                             </td>
                             <!-- main -->
                             <td>
@@ -248,47 +265,133 @@ th {
                                             <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
+                                    <!-- point -->
                                     <tr>
-						                <td align="center" class="info-txt" style="color: #ffffff; font-size: 22px; line-height: 36px; text-align: center;"><span class="yellow">首次</span><b>加入元大銀行LINE官方帳號好友</b>之用戶，<br class="mob-none">即可得到 <span class="yellow">Nespresso 膠囊咖啡機</span> 抽獎券一張。 </td>
-						            </tr>
-						            <tr>
-                                        <td height="25">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                        <td>
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <!-- disbox -->
+                                                <tr>
+                                                    <td align="center">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%" class="disBoxAll">
+                                                          <tr>
+                                                            <!-- 1 -->
+                                                            <td width="39%" align="center" valign="top" class="disBox">
+                                                            	<table cellspacing="0" cellpadding="0" border="0" width="100%">
+	                                                                <tr>
+	                                                                	<td align="center">
+	                                                                		<table cellspacing="0" cellpadding="0" border="0">
+	                                                                            <tr>
+	                                                                              <td valign="middle" height="25"><img src="images/spacer.gif" height="25" alt="" border="0" /></td>
+	                                                                          	</tr>
+	                                                                          	<tr>
+	                                                                              <td valign="middle" align="center" width="300" style="font-size: 0"><img class="point-pic" src="images/point20.png" alt="LINE Points 20點" width="300" border="0"/></td>
+	                                                                          	</tr>
+	                                                                          	<tr>
+	                                                                              <td valign="middle" height="25"><img src="images/spacer.gif" height="25" alt="" border="0" /></td>
+	                                                                            </tr>
+	                                                                        </table>
+	                                                                	</td>
+	                                                                </tr>
+	                                                                <tr>
+	                                                                	<td>
+			                                                              <table cellspacing="0" cellpadding="0" border="0" width="100%">
+			                                                                <tr>
+                                                                				<td height="150" align="left" valign="top" class="disBox-cont" style="color: #ffffff; font-size: 20px; line-height: 36px; text-align: justify;"><span class="yellow">首次綁定</span>LINE個人化服務之用戶，即享<span class="yellow">LINE Points 20點</span>，限量8,000名。</td>
+			                                                                </tr>
+			                                                                <tr>
+			                                                                  <td height="25">
+			                                                                    <img src="images/spacer.gif" height="25" alt="" border="0" />
+			                                                                  </td>
+			                                                                </tr>
+			                                                                <!-- btn -->
+										                                    <tr>
+										                                        <td align="center" width="250" style="font-size: 0">
+										                                        	<a href="https://www.yuantabank.com.tw/bank" target="_blank"><img class="info-btn" src="images/btn2.png" alt="瞭解更多" width="250" border="0"/></a>
+										                                        </td>
+										                                    </tr>
+			                                                                <tr>
+			                                                                  <td height="30">
+			                                                                    <img src="images/spacer.gif" height="30" alt="" border="0" />
+			                                                                  </td>
+			                                                                </tr>
+			                                                              </table>
+			                                                            </td>
+			                                                        </tr>
+		                                                    	</table>
+		                                                    </td>    
+                                                            <td width="5%" align="center" valign="top" class="disBox-space2">
+                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                            </td>
+                                                            <!-- separate -->
+					                                        <td width="0.1%" style="font-size: 0; border-right: 1px solid #ffffff;" class="disBox separate">
+					                                            <img src="images/spacer.gif" width="1" alt="" border="0" />
+					                                        </td>
+                                                            <!-- 2 -->
+                                                            <td width="5%" align="center" valign="top" class="disBox-space2">
+                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                            </td>
+                                                            <td width="39%" align="center" valign="top" class="disBox">
+                                                            	<table cellspacing="0" cellpadding="0" border="0" width="100%">
+	                                                                <tr>
+	                                                                	<td align="center">
+	                                                                		<table cellspacing="0" cellpadding="0" border="0">
+	                                                                            <tr>
+	                                                                              <td valign="middle" height="25"><img src="images/spacer.gif" height="25" alt="" border="0" /></td>
+	                                                                          	</tr>
+	                                                                          	<tr>
+	                                                                              <td valign="middle" align="center" width="300" style="font-size: 0"><img class="point-pic" src="images/point1000.png" alt="LINE Points 1,000點" width="300" border="0"/></td>
+	                                                                          	</tr>
+	                                                                          	<tr>
+	                                                                              <td valign="middle" height="25"><img src="images/spacer.gif" height="25" alt="" border="0" /></td>
+	                                                                            </tr>
+	                                                                        </table>
+	                                                                	</td>
+	                                                                </tr>
+	                                                                <tr>
+	                                                                	<td>
+			                                                              <table cellspacing="0" cellpadding="0" border="0" width="100%">
+			                                                                <tr>
+                                                                				<td height="150" align="left" valign="top" class="disBox-cont" style="color: #ffffff; font-size: 20px; line-height: 36px; text-align: justify;">2022/7/31日前已完成LINE個人化服務綁定之<span class="yellow">所有用戶</span>，皆可參加<span class="yellow">LINE Points 1,000點</span>加碼抽獎！最後將會抽出<span class="yellow">10名</span>幸運得獎者！</td>
+			                                                                </tr>
+			                                                                <tr>
+			                                                                  <td height="25">
+			                                                                    <img src="images/spacer.gif" height="25" alt="" border="0" />
+			                                                                  </td>
+			                                                                </tr>
+			                                                                <!-- btn -->
+										                                    <tr>
+										                                        <td align="center" width="250" style="font-size: 0">
+										                                        	<a href="https://www.yuantabank.com.tw/bank" target="_blank"><img class="info-btn" src="images/btn2.png" alt="瞭解更多" width="250" border="0"/></a>
+										                                        </td>
+										                                    </tr>
+			                                                                <tr>
+			                                                                  <td height="30">
+			                                                                    <img src="images/spacer.gif" height="30" alt="" border="0" />
+			                                                                  </td>
+			                                                                </tr>
+			                                                              </table>
+			                                                            </td>
+			                                                        </tr>
+		                                                    	</table>
+		                                                    </td>
+                                                          </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <!-- disbox end -->
+                                            </table>
                                         </td>
                                     </tr>
-						            <tr>
-                                        <td align="center">
-                                        	<img src="images/ticket.png" alt="抽獎券" border="0" style="width: 100%; max-width: 561px"/>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td height="25">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-						                <td align="center" class="info-s" style="color: #ffffff; font-size: 18px;">(每人限參加乙次)</td>
-						            </tr>
-						            <tr>
-                                        <td height="35">
-                                            <img src="images/spacer.gif" height="35" alt="" border="0" />
-                                        </td>
-                                    </tr>
-                                    <!-- btn -->
-                                    <tr>
-                                        <td align="center" width="250" style="font-size: 0">
-                                        	<a href="https://page.line.me/mwr3999i" target="_blank"><img src="images/btn1.png" alt="立即加入好友" width="250" border="0"/></a>
-                                        </td>
-                                    </tr>
+                                    <!-- point end -->
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="50">
-                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                        <td height="20">
+                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td height="25" class="spacer2">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                        <td height="50" class="spacer2">
+                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
                                         </td>
                                     </tr>
                                 </table>
@@ -298,8 +401,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="80" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="80" alt="" border="0" />
+                            <td width="50" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="50" alt="" border="0" />
                             </td>
                         </tr>
                     </table>
