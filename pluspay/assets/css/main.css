@@ -30,8 +30,8 @@ img{margin: 0; padding: 0; display: block;}
 .tt_blue{color: #2178e0; font-weight: 700;}
 .tt_red{color: #ff4600; font-weight: 700;}
 .s_line{width: 70%; margin: 4% auto;}
-.dudu{width: 25%; position: absolute; top: 24%; left: -5%;}
-.bird{width: 10%; position: absolute; top: 10%; left: 85%;}
+.dudu{width: 25%; position: absolute; top: 24%; left: -5%;-webkit-animation: move 2s infinite ease-in-out;animation: move 2s infinite ease-in-out;}
+.bird{width: 10%; position: absolute; top: 10%; left: 85%;-webkit-animation: move 2s 0.5s infinite ease-in-out;animation: move 2s 0.5s infinite ease-in-out;}
 .action{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:3% 0 5%;}
 .action-item{-webkit-flex:0 1 270px;flex:0 1 270px;max-width:270px;}
 .action-item a{display: block;}
@@ -152,7 +152,7 @@ img{margin: 0; padding: 0; display: block;}
 .event_txt{text-align: justify;}
 .event_date{text-align: center;}
 .s_line{width: 100%; margin: 8% auto;}
-.dudubird{width: 80%; margin: 0 auto; padding-top: 10%;}
+.dudubird{width: 80%; margin: 0 auto; padding-top: 5%;-webkit-animation: move 2s infinite ease-in-out;animation: move 2s infinite ease-in-out;}
 .action{padding:10% 0;}
 /* gift */
 .gift .text{width: 100%;}
@@ -212,3 +212,7 @@ img{margin: 0; padding: 0; display: block;}
 }
 
 /* animation */
+@keyframes move{
+  0%,100%{-webkit-transform:translate(0,0);transform:translate(0,0);}
+      50%{-webkit-transform:translate(0,7%);transform:translate(0,7%);}
+}
