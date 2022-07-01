@@ -64,27 +64,69 @@ img{margin: 0; padding: 0; display: block;}
 .step-title img{width:90%;margin:0 auto;}
 .step-img{margin:10% auto;}
 .step-img img{width:55%; margin:0 auto;}
-.step-content{-webkit-flex:1;flex:1;margin:10% 0 0 6%;}
+.step-content{-webkit-flex:1;flex:1;margin:5%;}
 .step-content .subTitle{margin:3% 0 10%;}
 .step-content .subTitle img{width:80%; margin: 0 auto;}
 .stepList{display:-webkit-flex;display:flex;margin-top:10px;}
 .stepList-num{-webkit-flex:0 0 40px;flex:0 0 40px;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;background-color:#fa723f;}
 .stepList-num img{width:24px}
-.stepList-text{-webkit-flex:1;flex:1;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;box-sizing:border-box;min-height:74px;padding:12px 10px;font-size:15px;line-height:1.4;color:#1e334e;background-color:#fdede4; text-align: left;}
-.stepList-text p{width:100%;}
+.stepList-text{-webkit-flex:1;flex:1;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;box-sizing:border-box;min-height:74px;padding:12px;font-size:16px;line-height:1.5;color:#1e334e;background-color:#fdede4; text-align: left;}
+.stepList-text p{width:100%;padding:0;}
 .stepList-num-w,.stepList-text-w{background-color: #ffffff;}
 .moreInfo a{display:inline-block;font-size:22px;line-height:1.75; font-weight: 700; color:#007fe0;text-decoration:none;border-bottom:1px solid #007fe0;margin:3% 0 1%;}
 /* notice */
 .notice_container{}
-.notice{width: 100%; max-width: 1920px; margin: 0 auto; font-size: 14px; line-height: 2; padding: 0 5% 2%; text-align: justify;}
+.notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 0 5% 2%; text-align: justify;}
 .notice_tit{font-size: 20px; font-weight: bold; text-align: center}
 .notice_all{padding: 2%;}
 .notice_all a{text-decoration: underline;}
-.notice_all ul{font-size:14px;line-height:2;margin:0;padding-left:30px;list-style-type:decimal;}
+.notice_all ul{margin:0;padding-left:30px;list-style-type:decimal;}
 .notice_all ul>li{margin-bottom: 2%;}
 .notice_all ul>li>ol{list-style-type:none;padding-left:24px}
 .notice_all ul>li>ol>li{position:relative;counter-increment:section}
 .notice_all ul>li>ol>li::before{content:"(" counter(section,decimal) ")";position:absolute;top:0;left:-5px;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+
+#contTab{
+    display: none;}
+.content-more{
+    display: none;
+}
+#contTab:checked ~ #cont{
+    max-height: 180px;
+    overflow: hidden;
+}
+#contTab:checked ~  .content-more{
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#contTab:checked ~  .content-more .gradient{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(254,239,212,0)),to(#feefd4));
+    background-image: -webkit-linear-gradient(top,rgba(254,239,212,0),#feefd4);
+    background-image: linear-gradient(-180deg,rgba(254,239,212,0),#feefd4);
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: -80px;
+    width: 100%;
+}
+#contTab:checked ~  .content-more .readmore{
+    display: inline-block;
+    background: #fa723f;
+    color: #ffffff;
+    width: 175px;
+    height: 42px;
+    border-radius: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.6;
+	transition: 0.3s;
+}
+#contTab:checked ~  .content-more .readmore:hover{opacity: 1}
+
 
 @media screen and (max-width: 1024px) {
 .main{padding-top: 76px;}
@@ -105,7 +147,7 @@ img{margin: 0; padding: 0; display: block;}
 .content_container{margin: 20% auto 10%;background: none;}
 .content{width: 100%; max-width: 950px;}
 /* event */
-.event{width: 86%; /* padding: 10% 5%; */}
+.event{width: 86%;}
 .event_tit{margin: 6% auto;}
 .event_txt{text-align: justify;}
 .event_date{text-align: center;}
@@ -138,6 +180,17 @@ img{margin: 0; padding: 0; display: block;}
 .moreInfo a{font-size: 18px;margin:5% 0;}
 /* notice */
 .notice_all ul{font-size:14px;padding-left:20px}
+#contTab:checked ~ #cont{
+    max-height: 48vw;
+    overflow: hidden;
+}
+#contTab:checked ~  .content-more .readmore{
+	width: 65vw;
+	height: 8vw;
+    border-radius: 4vw;
+    line-height: 8vw;
+    font-size: 1em;
+}
 }
 @media screen and (max-width:500px) {
 /* content */
