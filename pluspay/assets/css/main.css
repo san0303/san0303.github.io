@@ -196,9 +196,9 @@ img{margin: 0; padding: 0; display: block;}
 /* content */
 /* event */
 .event{width: 86%; padding: 7%;}
-.event_tit img{width: 36px; margin-right: 10px;}
-.event_tit span{font-size: 22px;}
-.event_txt{font-size: 17px;}
+.event_tit img{width: 44px; margin-right: 10px;}
+.event_tit span{font-size: 24px;}
+.event_txt{font-size: 20px;}
 .s_line{width: 100%; margin: 10% auto;}
 .dudubird{width: 90%;}
 .action-item{max-width:220px;margin:auto;}
