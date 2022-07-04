@@ -15,7 +15,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv .title{width: 50%; margin: 0 auto; padding-top: 1.5%;}
 .kv .title .kv_tit{width: 100%;}
 .kv .title .kv_subtit{width: 80%; margin: 0 auto;}
-.kv .peopleAll{width: 26.8%; position: absolute; top: 49.9%; left: 47%;}
+.kv .peopleAll{width: 26.8%; position: absolute; top: 49.9%; left: 42.5%;}
 .kv .peopleAll .people{width: 100%; position: relative;}
 .kv .peopleAll .girlflag{width: 40%; position: absolute; left: -12%; top: -17%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
 .kv .peopleAll .girlphone{width: 19%; position: absolute; left: 15%; top: -4%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
