@@ -19,7 +19,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv .peopleAll .people{width: 100%; position: relative;}
 .kv .peopleAll .girlflag{width: 40%; position: absolute; left: -12%; top: -17%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
 .kv .peopleAll .girlphone{width: 19%; position: absolute; left: 15%; top: -4%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
-.kv .peopleAll .boyphone{width: 22%; position: absolute; left: 38%; top: -19%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
+.kv .peopleAll .boyphone{width: 22%; position: absolute; left: 38.5%; top: -18%; -webkit-animation: sway 1.5s infinite ease-in-out; animation: sway 1.5s infinite ease-in-out; transform-origin: right bottom;}
 .kv .kv_logo{width: 26%; position: absolute; bottom: -4%; left: 37%;}
 .mobOnly{display: none;}
 /* content */
