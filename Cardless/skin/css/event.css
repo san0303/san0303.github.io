@@ -1,0 +1,629 @@
+@charset "UTF-8";
+.page-tp--event .tp__event--hd {
+    width: 100%;
+    /* background-image: url(img/bg-promptpc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center; */
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../Content/images/bg-promptPc.jpg', sizingMethod='scale')";
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader( src='../Content/images/bg-promptPc.jpg', sizingMethod='scale');
+    padding-bottom: 20px;
+}
+
+.page-tp--event .tp__event--hd .logo-area {
+    padding: 0px;
+}
+
+.page-tp--event .tp__event--hd .logo-area .logo-white {
+    width: 100%;
+    height: 80px;
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 1900px 80px;
+    display: inline-block;
+}
+
+.page-tp--event .tp__event--hd .event-kv {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-tp--event .tp__event--hd .event-kv img {
+    width: 100%;
+}
+
+.page-tp--event .tp__event--hd .kv-shadow {
+    width: 780px;
+    height: 35px;
+    margin: 0 auto;
+    background-image: url(img/kv-shadow.png);
+    background-repeat: no-repeat;
+    background-size: 780px 35px;
+}
+
+.page-tp--event .tp__event--footer {
+    width: 100%;
+    background: #21587e;
+    padding: 30px 0 30px 0;
+}
+
+.page-tp--event .illustrat-group {
+    font-size: 16px;
+}
+
+.page-tp--event .illustrat-group h3 {
+    text-align: left;
+}
+
+.page-tp--event .illustrat-group ol {
+    padding-left: 20px;
+}
+
+.page-tp--event .illustrat-group ol li {
+    margin-bottom: 10px;
+}
+
+.page-tp--event .mobile--pic {
+    text-align: center;
+	position: relative
+}
+
+.page-tp--event .mobile--pic a {
+	position: absolute;
+}
+
+.mobile--pic a.link-1 {
+	width: 18.5%;
+    height: 3%;
+    left: 14%;
+    top: 18.5%;
+}
+
+.mobile--pic a.link-2 {
+	width: 18.5%;
+    height: 3%;
+    left: 14%;
+    top: 27.6%;
+}
+
+.mobile--pic a.link-3 {
+	width: 18.5%;
+    height: 3%;
+    left: 14%;
+    top: 55.6%;
+}
+
+.mobile--pic a.link-4 {
+	width: 11%;
+    height: 2%;
+    right: 38.5%;
+    top: 61.6%;
+}
+
+.mobile--pic a.link-5 {
+	width: 12.5%;
+    height: 2%;
+    right: 25%;
+    top: 61.6%;
+}
+
+@media screen and (max-width: 767px) {
+	.mobile--pic a.link-1,
+	.mobile--pic a.link-2,
+	.mobile--pic a.link-3 {
+		width: 25.5%;
+		height: 3%;
+		left: 1%;
+	}
+	.mobile--pic a.link-4 {
+		width: 15%;
+    	right: 34.5%;
+	}
+	.mobile--pic a.link-5 {
+		width: 16.5%;
+		right: 17%;
+	}
+}
+
+.page-tp--event .mobile--pic .qrCodeArea {
+    width: 435px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px 20px 10px 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.page-tp--event .mobile--pic .qrCodeArea a.appleDownload {
+    width: 180px;
+    height: 236px;
+    background-image: url(img/appstoreqrcode.png);
+    background-size: 180px 236px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+.page-tp--event .mobile--pic .qrCodeArea a.googleDownload {
+    width: 180px;
+    height: 236px;
+    background-image: url(img/googleplayqrcode.png);
+    background-size: 180px 236px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+}
+
+.wrap-content {
+    max-width: 1900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap {
+    margin: 0 auto;
+    position: relative;
+}
+
+.h1-title {
+    font-size: 35px;
+    color: #0089d1;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*---------- border -----------*/
+
+.bb-none {
+    border-bottom: none !important;
+}
+
+
+/*---------- accordion -----------*/
+
+.accordion ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.accordion ul.secure__ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.accordion ul.secure__ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.accordion ul.secure__ul li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(img/icon-secure.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.accordion .accordion--tabs {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: none;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: -45px;
+    text-align: center;
+}
+
+.accordion .accordion--tabs.tab7 li {
+    width: 97px;
+}
+
+.accordion .accordion--tabs.tab4 li {
+    width: 33.33%;
+    padding: 0PX;
+    border: 1PX solid #FFFFFF;
+    margin: 0PX;
+}
+
+.accordion .accordion--tabs.tab5 li {
+    width: 140px;
+}
+
+.accordion .accordion--tabs li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e25a00;
+    border: none;
+    border-left: 0;
+    height: 45px;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+    margin-right: 1px;
+}
+
+.accordion .accordion--tabs li:first-child {
+    border-left: none;
+}
+
+.accordion .accordion--tabs li.active {
+    border-bottom: none;
+    border-top: none;
+    background: #e25a00;
+    height: 45px;
+}
+
+.accordion .accordion--tabs li .tab-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    height: 48px;
+    display: block;
+    overflow: hidden;
+}
+
+.accordion .accordion--tabs.tabs--blue li.active {
+    border-top: 3px solid #0089d1;
+}
+
+.accordion .accordion--group {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.accordion .accordion--group>li {
+    margin-bottom: 20px;
+    padding-top: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.accordion .accordion--group>li .accordion--content {
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+/*---------- 注意事項展開收合 ------------*/
+
+.sub--notice {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.sub--notice .sub--notice__title {
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    background: #fff;
+}
+
+.sub--notice .sub--notice__title:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    display: inline-block;
+    width: 15px;
+    height: 9px;
+    text-align: center;
+    background: url(img/left-arrowdown-dark.png) no-repeat;
+    background-size: 11px 7px;
+}
+
+.sub--notice .sub--notice__title.active:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    display: inline-block;
+    width: 15px;
+    height: 9px;
+    text-align: center;
+    background: url(img/left-arrowup-dark.png) no-repeat;
+    background-size: 11px 7px;
+}
+
+.sub--notice .sub--notice__content {
+    padding: 10px;
+    margin: 0;
+    display: none;
+    border: 1px solid #dddddd;
+    border-top: none;
+    background: #fff;
+}
+
+.sub--notice .sub--notice__content>ol {
+    padding-left: 25px;
+}
+
+.sub--notice .sub--notice__content>ol>li {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+/*---------- icon-appMenu ---------*/
+
+.icon-appMenu {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/icon-appmenu.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+/*---------- event gotop -----------*/
+
+.event-gotop {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/event-gotop.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    display: inline-block;
+    position: absolute;
+    top: -100px;
+    left: 85%;
+    margin-left: -40px;
+}
+
+
+/* ==========================================================================
+				Mobile	CSS
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+    .wrap {
+        min-width: 100%;
+    }
+    .wrap-content {
+        min-width: 100%;
+    }
+    .mo-show {
+        display: block;
+    }
+    .pc-show {
+        display: none;
+    }
+    .page-tp--event .tp__event--hd {
+        width: 100%;
+        /* background-image: url(img/bg-promptpc.jpg);
+        background-size: cover;
+        background-position: center center; */
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../Content/images/bg-promptPc.jpg', sizingMethod='scale')";
+        filter: progid: DXImageTransform.Microsoft.AlphaImageLoader( src='../Content/images/bg-promptPc.jpg', sizingMethod='scale');
+        padding-bottom: 0;
+    }
+    .page-tp--event .tp__event--hd .logo-area {
+        padding: 0px;
+    }
+    .page-tp--event .tp__event--hd .logo-area .logo-white {
+        width: 1900px;
+        height: 80px;
+        background-image: url(img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: 1900px 80px;
+        display: inline-block;
+    }
+    .page-tp--event .tp__event--hd .event-kv {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .page-tp--event .tp__event--hd .event-kv img {
+        width: 100%;
+        height: auto;
+    }
+    .page-tp--event .tp__event--hd .kv-shadow {
+        width: 90%;
+        height: 35px;
+        margin: 0 auto;
+        background-image: url(img/kv-shadow.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .page-tp--event .tp__event--footer {
+        width: 100%;
+        background: #21587e;
+        padding: 50px 0 20px 0;
+    }
+    .page-tp--event .mobile--pic {
+        width: 100%;
+    }
+    .page-tp--event .mobile--pic .qrCodeArea {
+        width: 100%;
+        padding: 20px;
+    }
+    .page-tp--event .mobile--pic .qrCodeArea a.appleDownload {
+        width: 45%;
+        height: 180px;
+        background-image: url(img/appstoreqrcode.png);
+        background-size: 100%;
+        display: inline-block;
+        float: left;
+    }
+    .page-tp--event .mobile--pic .qrCodeArea a.googleDownload {
+        width: 45%;
+        height: 180px;
+        background-image: url(img/googleplayqrcode.png);
+        background-size: 100%;
+        display: inline-block;
+        float: right;
+    }
+    .page-tp--event .mobile--pic img {
+        width: 100%;
+    }
+    .page-tp--event .illustrat-group .qa__div>ol {
+        padding-left: 30px;
+    }
+    /*----------- accordion ------------*/
+    .accordion--group>li {
+        margin-bottom: 10px;
+        border: none;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .accordion--group>li.active .accordion--content {
+        display: block;
+        background: #fff;
+    }
+    .accordion--group>li.active .accordion--title {
+        background-color: #e25a00;
+    }
+    .accordion--group>li.active .accordion--title:after {
+        content: '';
+        width: 11px;
+        height: 7px;
+        background: url(img/left-arrowup-white.png) no-repeat;
+        background-size: 11px 7px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .accordion--group>li .accordion--title {
+        padding: 8px 10px;
+        color: #fff;
+        font-size: 24px;
+        position: relative;
+        background-color: #e25a00;
+    }
+    .accordion--group>li .accordion--title:after {
+        content: '';
+        width: 11px;
+        height: 7px;
+        background: url(img/left-arrowdown-white.png) no-repeat;
+        background-size: 11px 7px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .accordion--group>li .accordion--content {
+        display: none;
+        padding: 10px !important;
+    }
+    /*--------- accordion tabs ---------*/
+    .mo-hide {
+        display: none;
+    }
+    .accordion {
+        position: relative;
+        padding: 10px 10px 70px 10px;
+        background: #ececec;
+    }
+    .accordion .tabs-nav {
+        width: 100%;
+        border: 1px solid #ddd;
+        height: 45px;
+        background: #fff;
+        position: relative;
+        text-align: center;
+    }
+    .accordion .tabs-nav:after {
+        content: '';
+        width: 13px;
+        height: 8px;
+        background: url(img/arrowdown-dark.png);
+        background-size: 13px 8px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .accordion .tabs-nav.active {
+        background: #0089d1;
+        color: #5a5a5a;
+    }
+    .accordion .tabs-nav.active:after {
+        content: '';
+        width: 13px;
+        height: 8px;
+        background: url(img/arrowup-up.png);
+        background-size: 13px 8px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .accordion .tabs-nav li {
+        padding: 10px 0;
+    }
+    .accordion .accordion--tabs {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        position: absolute;
+        top: 45px;
+    }
+    .accordion .accordion--tabs.tab7 li {
+        width: 100% !important;
+    }
+    .accordion .accordion--tabs.tab4 li {
+        width: 100% !important;
+    }
+    .accordion .accordion--tabs.tab5 li {
+        width: 100% !important;
+    }
+    .accordion .accordion--tabs li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #21587e;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        float: none;
+        text-align: center;
+        padding: 0 10px;
+        width: 100% !important;
+    }
+    .accordion .accordion--tabs li:last-child {
+        border-bottom: none;
+    }
+    .accordion .accordion--tabs li.active {
+        border-top: none !important;
+        border-bottom: 1px solid #ddd;
+        border-left: none;
+        background: #fff;
+        height: 45px;
+    }
+    .accordion .accordion--tabs li .tab-title {
+        color: #fff;
+        font-size: 15px;
+        line-height: 45px;
+        height: 45px;
+        display: block;
+        overflow: hidden;
+    }
+    .accordion .accordion--tabs.tabs--blue li.active {
+        border-top: none !important;
+    }
+    /*---------- event--pic ----------*/
+    .event--pic img {
+        width: 100%;
+    }
+}
