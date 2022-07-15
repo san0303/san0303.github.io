@@ -215,8 +215,20 @@ img{margin: 0; padding: 0; display: block;}
 /* icashpay */
 .moreInfo a{font-size:16px;}
 /* notice */
+.notice{padding:2% 5% 10%;}
 .notice_all ul{font-size:14px;padding-left:20px}
 .notice_tit{font-size: 18px;}
+#contTab:checked ~ #cont{
+    max-height: 48vw;
+    overflow: hidden;
+}
+#contTab:checked ~  .content-more .readmore{
+    width: 65vw;
+    height: 8vw;
+    border-radius: 4vw;
+    line-height: 8vw;
+    font-size: 1em;
+}
 }
 @media screen and (max-width:500px) {
 /* content */
