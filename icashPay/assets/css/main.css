@@ -32,7 +32,7 @@ img{margin: 0; padding: 0; display: block;}
 .event_tit{font-size: 24px; line-height: 2; font-weight: bold; color: #005bab;}
 .event_pic{width: 70%; margin:10% auto;}
 .event_txt{margin: 8% 0;}
-.event_txt h3{display: inline-block; font-size: 20px; line-height: 2; font-weight: bold; color: #333333; border-bottom: 2px solid #333333;}
+.event_txt h3{display: inline-block; font-size: 20px; line-height: 2; font-weight: bold; color: #333333; border-bottom: 2px solid #333333; margin-bottom: 10px;}
 .event_txt h4{font-size: 18px;}
 .event_txt p{font-size: 16px; text-align: left;}
 .event_txt span{font-weight: bold;}
@@ -166,7 +166,6 @@ img{margin: 0; padding: 0; display: block;}
 .event_tit{font-size: 24px;}
 .event_txt h3{font-size: 20px;}
 .event_txt h4{font-size: 18px;}
-/* icashpay*/
 /* icashpay */
 .icashpay{padding:37% 1% 0;}
 .icashpay{
@@ -196,18 +195,23 @@ img{margin: 0; padding: 0; display: block;}
 @media screen and (max-width:767px) {
 .main{padding-top: 58px;}
 /* content */
+/* icashpay */
+.step-img{max-width:80%;}
+.step-content{margin-top:40px;margin:10% 0 0;}
+.step-content .subTitle{max-width:100%; margin:0 auto;padding-top: 5%;}
+.step-content .subTitle img{width:100%;}
 /* action */
 .action{display:block;}
 .action-item{max-width:300px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
 /* event */
 .event_tit{font-size: 20px;}
-.event_pic{width: 70%; margin:10% auto;}
+.event_pic{width: 100%;}
 .event_txt{margin: 8% 0;}
 .event_txt h3{font-size: 18px;}
-.event_txt h4{font-size: 14px;}
-.event_txt p{font-size: 14px;}
-.event_txt span.tt_gray{font-size: 12px;}
+.event_txt h4{font-size: 16px;}
+.event_txt p{font-size: 16px;}
+.event_txt span.tt_gray{font-size: 14px;}
 /* icashpay */
 .moreInfo a{font-size:16px;}
 /* notice */
@@ -218,7 +222,7 @@ img{margin: 0; padding: 0; display: block;}
 /* content */
 /* store */
 .event_point{font-size: 16px;}
-.eventAll .discount{padding: 5% 12%;}
+.eventAll .discount{padding: 5% 10%;}
 /* icashpay */
 .stepList-text{font-size: 14px;}
 /* action */
