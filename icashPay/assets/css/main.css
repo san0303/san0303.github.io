@@ -180,8 +180,8 @@ img{margin: 0; padding: 0; display: block;}
 .step-content{margin-top:40px;margin:10% 0 0;}
 .step-content .subTitle{max-width:100%; margin:0 auto;padding-top: 5%;}
 .step-content .subTitle img{width:100%;}
-.man{width: 45%; top: 39%; right: 1%;}
-.woman{width: 48%; top: 28%; left: 1%;}
+.man{width: 45%; top: 32%; right: 1%;}
+.woman{width: 48%; top: 20%; left: 1%;}
 /* action */
 .action{padding:5% 0 10%;}
 /* notice */
@@ -196,7 +196,7 @@ img{margin: 0; padding: 0; display: block;}
 .main{padding-top: 58px;}
 /* content */
 /* icashpay */
-.step-img{max-width:80%;}
+.step-img{max-width:75%;}
 .step-content{margin-top:40px;margin:10% 0 0;}
 .step-content .subTitle{max-width:100%; margin:0 auto;padding-top: 5%;}
 .step-content .subTitle img{width:100%;}
@@ -224,7 +224,6 @@ img{margin: 0; padding: 0; display: block;}
 .event_point{font-size: 16px;}
 .eventAll .discount{padding: 5% 10%;}
 /* icashpay */
-.stepList-text{font-size: 14px;}
 /* action */
 .action-item{max-width:220px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
@@ -232,6 +231,8 @@ img{margin: 0; padding: 0; display: block;}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
 .notice{width: 92%; padding: 2% 5% 8%;}
+
+
 /* animation */
 @keyframes sway{
 0%,100% {transform:rotate(-3deg);}
