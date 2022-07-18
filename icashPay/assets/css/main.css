@@ -332,11 +332,11 @@ img{margin: 0; padding: 0; display: block;}
 }
 @media screen and (max-width:500px) {
 /* store */
-.eventAll .discount{padding: 5% 10%;}
+.eventAll .discount{padding: 5% 12%;}
 .event_tit{font-size: 19px;}
 .event_point{font-size: 18px;}
 /* icashpay */
-.step-img{max-width:85%;}
+.step-img{max-width:80%;}
 .moreInfo a{font-size: 18px;}
 .man{top: 33%;}
 .woman{top: 25%;}
