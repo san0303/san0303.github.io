@@ -12,8 +12,103 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{width: 100%;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 36%; background: url("../images/kv_bg.png") center top no-repeat; background-size: 100% auto; position: relative;}
 .kv .kv_tit{width: 36.6%; margin: 0 auto; padding-top: 2%;}
-.kv .peopleAll{width: 57.1355%; height: 65%; overflow: hidden; position: absolute; top: 35%; left: 21%;}
-.kv .peopleAll .people{width: 100%; position: relative;}
+.kv .peopleAll{width: 46%; height: 65%; overflow: hidden; position: absolute; top: 35%; left: 28%;}
+.kv .peopleAll .people{width: 100%; position: relative; margin-top: -6.5%;}
+.kv .peopleAll .man1_hand{width: 37.5%; position: absolute; top: 31%; left: 4.8%; transform-origin: top left;
+      -webkit-animation-name: hand;
+              animation-name: hand;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .man2_hand{width: 31.5%; position: absolute; top: 4%; left: 40%; transform-origin: top right;
+      -webkit-animation-name: hand;
+              animation-name: hand;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-delay: -1s;
+              animation-delay: -1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .man2_hand2{width: 32.5%; position: absolute; top: 29%; left: 61.5%; transform-origin: top right;
+      -webkit-animation-name: hand;
+              animation-name: hand;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-delay: -1.5s;
+              animation-delay: -1.5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .woman1_hand{width: 21.5%; position: absolute; top: 45%; left: 29%; transform-origin: top center;
+      -webkit-animation-name: hand;
+              animation-name: hand;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-delay: -1s;
+              animation-delay: -1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .woman2_hand{width: 23.5%; position: absolute; top: 47%; left: 50%; transform-origin: top right;
+      -webkit-animation-name: hand;
+              animation-name: hand;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .shine1{width: 3%; position: absolute; top: 18%; left: 7%;
+      -webkit-animation-name: shine;
+              animation-name: shine;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .shine2{width: 3%; position: absolute; top: 2%; left: 35%;
+      -webkit-animation-name: shine;
+              animation-name: shine;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s;
+      -webkit-animation-delay: -1s;
+              animation-delay: -1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;
+}
+.kv .peopleAll .shine3{width: 3%; position: absolute; top: 14%; left: 63%;
+      -webkit-animation-name: shine;
+              animation-name: shine;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s;
+      -webkit-animation-delay: -1.5s;
+              animation-delay: -1.5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .peopleAll .shine4{width: 3%; position: absolute; top: 5%; left: 85%;
+      -webkit-animation-name: shine;
+              animation-name: shine;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s;
+      -webkit-animation-delay: -0.5s;
+              animation-delay: -0.5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+
 .kv .kv_logo{width: 26%; position: absolute; bottom: -8%; left: 37%;}
 .mobOnly{display: none;}
 /* content */
@@ -22,13 +117,12 @@ img{margin: 0; padding: 0; display: block;}
 .store{width: 100%; padding: 6% 0 0; background: #9dd8f3 url("../images/store_bg.png") center bottom no-repeat; background-size: 100% auto;}
 .event{width: 84%; max-width: 1200px; margin: 0 auto; display:flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;}
 .event .eventAll{width: 50%; padding: 0 1.5%;}
-.eventAll .event_num{width: 100%; height: 0; padding-bottom: 26.4%; font-size: 28px; line-height: 2.3; font-weight: bold; color: #ffffff;
-    background: url("../images/eaves_green.png") center top no-repeat; background-size: 100% auto;}
+.eventAll .event_num{width: 100%; height: 0; padding-bottom: 26.4%; background: url("../images/eaves_green.png") center top no-repeat; background-size: 100% auto;}
 .eventAll .event_num.event_numOrange{background: url("../images/eaves_orange.png") center top no-repeat; background-size: 100% auto;}
 .eventAll .discount{width: 94%; height: 84%; margin: 0 auto; padding: 5% 8%; background: #ffffff; position:relative;}
 .eventAll .discount::after{content:''; width: 106%; height: 15px; position: absolute; left: -3%; bottom: -15px; border-radius: 15px; background-color: #3b4966;}
 .event_tit{font-size: 24px; line-height: 2; font-weight: bold; color: #005bab;}
-.event_pic{width: 70%; margin:10% auto;}
+.event_pic{width: 90%; margin:10% auto;}
 .event_txt{margin: 8% 0;}
 .event_txt h3{display: inline-block; font-size: 20px; line-height: 2; font-weight: bold; color: #333333; border-bottom: 2px solid #333333; margin-bottom: 10px;}
 .event_txt h4{font-size: 18px;}
@@ -126,13 +220,11 @@ img{margin: 0; padding: 0; display: block;}
 
 @media screen and (max-width: 1600px) {
 .eventAll .discount{height: 82%;}
-.eventAll .event_num{font-size: 1.8vw;}
 .notice{width: 90%;}
 }
 @media screen and (max-width: 1200px) {
 /* store */
 .event{width: 94%;}
-.eventAll .event_num{font-size: 2vw;}
 .eventAll .discount{height: 85%;}
 /* icashpay */
 .account{width: 85%;}
@@ -143,14 +235,20 @@ img{margin: 0; padding: 0; display: block;}
 .event_tit{font-size: 20px;}
 .event_txt h3{font-size: 18px;}
 .event_txt h4{font-size: 16px;}
-.event_txt p{font-size: 16px; text-align: left;}
+.event_txt p{font-size: 16px;text-align: left;}
 .storeOnly{display: none;}
 }
 @media screen and (max-width: 960px) {
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 110.52%; margin: 0 auto; background: url("../images/kv_bg_m.png") center top no-repeat; background-size: 100% auto;}
 .kv .kv_tit{width: 86%; padding-top: 16%;}
-.kv .peopleAll{width: 94%; height: 55%; overflow: hidden; position: absolute; top: 45%; left: 3%;}
+.kv .peopleAll{width: 94%; height: 60%; overflow: hidden; position: absolute; top: 40%; left: 3%;}
+.kv .peopleAll .people{margin-top: -5%;}
+.kv .peopleAll .man1_hand{top: 24%;}
+.kv .peopleAll .man2_hand{top: 5%;}
+.kv .peopleAll .man2_hand2{top: 23%;}
+.kv .peopleAll .woman1_hand{top: 35%;}
+.kv .peopleAll .woman2_hand{top: 36%;}
 .kv .kv_logo{width: 70%; bottom: -7%; left: 15%;}
 .webOnly{display: none;}
 .mobOnly{display: block;}
@@ -161,7 +259,6 @@ img{margin: 0; padding: 0; display: block;}
 .event{display: block; padding: 15% 0 5%;}
 .event .eventAll{width: 100%;}
 .eventAll:nth-child(2){margin-top: 15%;}
-.eventAll .event_num{font-size: 4.2vw; line-height: 2.2;}
 .eventAll .discount{height: 100%;}
 .event_tit{font-size: 24px;}
 .event_txt h3{font-size: 20px;}
@@ -234,21 +331,23 @@ img{margin: 0; padding: 0; display: block;}
 }
 }
 @media screen and (max-width:500px) {
-/* content */
 /* store */
 .eventAll .discount{padding: 5% 10%;}
 .event_tit{font-size: 19px;}
 .event_point{font-size: 18px;}
 /* icashpay */
+.step-img{max-width:85%;}
 .moreInfo a{font-size: 18px;}
+.man{top: 33%;}
+.woman{top: 25%;}
 /* action */
 .action-item{max-width:220px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
-.notice{width: 92%;}
-
+.notice{width: 92%;padding:8% 5% 15%;}
+}
 
 /* animation */
 @keyframes sway{
@@ -262,4 +361,16 @@ img{margin: 0; padding: 0; display: block;}
 @keyframes shadow{
   0%,100%{-webkit-transform:scaleX(.5);transform:scaleX(.5);}
       50%{-webkit-transform:scaleX(1);transform:scaleX(1);}
+}
+@keyframes hand {
+  0% {
+    transform: rotate(0); -webkit-transform: rotate(0);}
+  100% {
+    transform: rotate(3deg); -webkit-transform: rotate(3deg);} }
+
+
+@keyframes shine {
+  0%   { opacity:1; -webkit-opacity:1;}
+  50%  { opacity:0; -webkit-opacity:0;}
+  100% { opacity:1; -webkit-opacity:1;}
 }
