@@ -222,7 +222,8 @@
 
 @media screen and (max-width: 767px) {
   .topBanner {
-    background-image: url("../images/section-0/cardless_topbanner_m.jpg"); }
+    background-image: url("../images/section-0/cardless_topbanner_m.jpg"); 
+	padding-bottom: 110%;}
   .featureWrapper {
     padding-top: 10px; }
     .featureWrapper .featureCont {
