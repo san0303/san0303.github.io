@@ -51,23 +51,20 @@ th {
     .spacer2 {display: none !important;}
 }
 @media screen and (max-width: 750px) {
+    .info-intro {font-size: 24px !important;}
     .info-box {display: block !important; width: 100% !important;}
-    .priBoxAll {width: 100% !important; text-align: center !important; padding: 0 20px !important;}
-    .priBox {display: inline-block !important; width: 200px !important;}
-    .priBox-space1 { display: inline-block !important;}
-    .priBox-space2 { display: none !important; }
+    .info-tit {font-size: 24px !important;}
+    .misBoxAll { display: block !important; width: 100% !important; display: table-row !important; text-align: center !important;}
+    .misBox { display: inline-block !important; width: 45% !important; margin-bottom: 7% !important;}
+    .misBox-space1 { display: inline-block !important; width: 5% !important;}
+    .misBox-space2 { display: none !important;}
 }
 @media screen and (max-width: 600px) {
-    .info-tit {font-size: 28px !important;}
-    .info-cont {font-size: 18px !important;}    
+    .info-intro {font-size: 22px !important;}
+    .cont-l {font-size: 28px !important;}
+    .cont-m {font-size: 16px !important; line-height: 24px !important;}
     .btnBox {display: block; width: 100% !important;}
     .btn-pic {width: 100% !important; max-width: 220px !important;}
-}
-@media screen and (max-width: 510px) {
-    .priBox {display: inline-block !important; width: 45% !important;}
-    .priBox img {width: 85% !important;}
-    .priBox-space1{ width: 5px !important;}
-    .priBox-cont { font-size: 13px !important;}
 }
 @media screen and (max-width: 450px) {
     table.column-break,
@@ -85,19 +82,21 @@ th {
         display: none !important;
     }
     .info-all {width: 94% !important;}
-    .info-tit {font-size: 24px !important;}
-    .info-cont {font-size: 16px !important; text-align: justify !important; line-height: 28px !important;}
-    .cont-m {font-size: 17px !important; line-height: 30px !important;}
-    .cont-l {font-size: 30px !important;}
-    .info-pic {width: 100% !important; max-width: 160px !important;}
-    .mob-none {display: none;}
+    .info-intro {font-size: 20px !important;}
+    .info-txt {font-size: 18px !important; line-height: 30px !important;}
+    .info-pic {width: 100% !important; max-width: 140px !important;}
+    .info-more {font-size: 18px !important;}
+    .misBoxAll img{width: 60%;}
+    .misBox {width: 48% !important;}
+    .misBox-space1 { width: 2% !important;}
+    .misBox-cont {font-size: 12px !important; line-height: 20px !important; height: 60px !important;}
 }
 </style>
 </head>
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#ffffff">
     <!-- inbox-preview -->
-    <div class="inbox-preview" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all">鑽金達人召集令｜尋找賺金達人 鑽金卡友限定！完成兩步驟即可獲得NT$400元回饋，還可再抽NT$88,888刷卡金等眾多好禮！</div>
+    <div class="inbox-preview" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all">鑽金達人召集令｜尋找賺金達人 再完成一項賺金任務即可獲得鑽金新戶禮NT$200元回饋金！</div>
     <table width="950" align="center" cellspacing="0" cellpadding="0" border="0" class="wrapper">
         <tbody>
             <!-- CI bar & Banner -->
@@ -111,7 +110,7 @@ th {
                         </tr>
                         <tr>
                             <td style="font-size: 0">
-                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/WelcomeQ3/index.html" target="_blank"><img src="images/topbanner.jpg" alt="鑽金達人召集令｜尋找賺金達人 鑽金卡友限定！完成兩步驟即可獲得NT$400元回饋，還可再抽NT$88,888刷卡金等眾多好禮！" style="width: 100%; max-width: 950px" border="0" /></a>
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/WelcomeQ3/index.html" target="_blank"><img src="images/topbanner.jpg" alt="鑽金達人召集令｜尋找賺金達人 再完成一項賺金任務即可獲得鑽金新戶禮NT$200元回饋金！" style="width: 100%; max-width: 950px" border="0" /></a>
                             </td>
                         </tr>
                     </table>
@@ -149,21 +148,11 @@ th {
                                             <table cellspacing="0" cellpadding="0" border="0">
                                                 <tr>
                                                     <td height="25"><img src="images/shine.png" height="25" alt="" border="0" /></td>
-                                                    <td style="color: #ffffff; font-size: 32px; font-weight: bold; padding: 0 10px;" class="info-tit">鑽金卡友限定</td>
+                                                    <td style="color: #ffffff; font-size: 28px; font-weight: bold; padding: 0 10px; text-align: center;" class="info-intro">恭喜你！再完成一項賺金任務即可獲得</td>
                                                     <td height="25"><img src="images/shine.png" height="25" alt="" border="0" /></td>
                                                 </tr>
                                             </table>
                                         </td>
-                                    </tr>
-                                    <!-- spacer -->
-                                    <tr>
-                                        <td height="15">
-                                            <img src="images/spacer.gif" height="15" alt="" border="0" />
-                                        </td>
-                                    </tr>
-                                    <!-- info -->
-                                    <tr>
-                                        <td align="center" class="info-cont" style="color: #ffffff;font-size: 20px; line-height: 36px; font-weight: bold;">鑽金卡友完成兩步驟，即可獲得<span style="color: #ffba00;">NT$400元</span>回饋！</span><br class="mob-none">還可以再抽<span style="color: #ffba00;">NT$88,888刷卡金</span>等眾多好禮！</td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -178,8 +167,8 @@ th {
                                                     <td valign="middle" align="center" class="info-box">
                                                         <table cellspacing="0" cellpadding="0" border="0">
                                                             <tr>
-                                                                <td align="center" class="cont-m" style="color: #ffffff; font-size: 22px; line-height: 36px;">
-                                                                    *新戶成功<span class="lightyellow">申辦鑽金數位存款帳戶</span><br>且再設定<span class="lightyellow">信用卡款自動扣繳</span><br><span class="yellow cont-l" style="font-size: 38px; line-height: 52px;">享NT$400元回饋</span>
+                                                                <td align="center" class="cont-m" style="color: #ffffff; font-size: 18px; line-height: 36px;">
+                                                                    <span class="yellow cont-l" style="font-size: 38px; line-height: 44px;">鑽金新戶禮</span><br>(新戶完成任一項賺金任務)<br><span class="yellow cont-l" style="font-size: 38px; line-height: 44px;">NT$200元回饋金</span>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -188,19 +177,11 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" class="cont-s" style="color: #ffffff;font-size: 14px;">（NT$200元回饋金+NT$200元刷卡金）</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="20">
-                                                                    <img src="images/spacer.gif" height="20" alt="" border="0" />
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
                                                                 <td align="center">
                                                                     <table width="120" cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
-                                                                            <td align="center" class="btn-blue" bgcolor="#d2e7fa" style="color: #427acf; font-size: 14px; line-height: 36px;">
-                                                                                 限額1,000名
+                                                                            <td align="center" bgcolor="#d2e7fa" style="color: #427acf; font-size: 14px; border-top: 5px solid #d2e7fa; border-bottom: 5px solid #d2e7fa; border-left: 5px solid #d2e7fa; border-right: 5px solid #d2e7fa;">
+                                                                                 限額2,000名
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -212,7 +193,7 @@ th {
                                                         <img src="images/spacer.gif" width="10" height="30" alt="" border="0" />
                                                     </td>
                                                     <td valign="middle" align="center" class="info-box">
-                                                        <img class="info-pic" src="images/pic3.png" alt="" width="200" border="0"/>
+                                                        <img class="info-pic" src="images/pic4.png" alt="" width="200" border="0"/>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -224,21 +205,14 @@ th {
                                             <img src="images/spacer.gif" height="20" alt="" border="0" />
                                         </td>
                                     </tr>
-                                    <!-- remark -->
+                                    <!-- more -->
                                     <tr>
-                                        <td>
-                                            <table cellspacing="0" cellpadding="0" border="0" align="center">
-                                                <tr>
-                                                    <td valign="top" style="color: #ffffff; font-size: 14px;">＊</td>
-                                                    <td valign="top" style="color: #ffffff; font-size: 14px;">新戶定義：2022年7月1日前未持有元大銀行臺幣帳戶者。</td>
-                                                </tr>
-                                            </table>
-                                        </td>
+                                        <td align="center" class="info-txt" style="color: #ffffff; font-size: 22px; font-weight: bold; line-height: 36px;">還能再抽NT$88,888刷卡金、<span style="display: inline-block">Apple Watch S7等眾多大獎唷！</span></td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="30">
-                                            <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                        <td height="20">
+                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
@@ -248,25 +222,15 @@ th {
                                     </tr>
                                     <!-- btn -->
                                     <tr>
-                                        <td>
-                                            <table cellspacing="0" cellpadding="0" border="0" align="center">
-                                                <tr>
-                                                    <td class="btnBox" valign="top">
-                                                        <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2021/openacct/index.html" target="_blank"><img class="btn-pic" src="images/btn1.png" alt="線上申辦鑽金數位存款帳戶" border="0" style="display: inline-block; width: 220px;"/></a>
-                                                    </td>
-                                                    <td class="btnBox" width="20" height="15"><img src="images/spacer.gif" width="20" height="15" alt="" border="0" /></td>
-                                                    <td class="btnBox" valign="top">
-                                                        <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/WelcomeQ3/index.html" target="_blank"><img class="btn-pic" src="images/btn2.png" alt="立即了解活動詳情" border="0" style="display: inline-block; width: 220px;"/></a>
-                                                    </td>
-                                                </tr>
-                                            </table>
+                                        <td class="btnBox" valign="top" align="center">
+                                            <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/WelcomeQ3/index.html" target="_blank"><img class="btn-pic" src="images/btn.png" alt="立即了解活動詳情" width="220" border="0" style="display: inline-block;"/></a>
                                         </td>
                                     </tr>
                                     <!-- btn end -->
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="60">
-                                            <img src="images/spacer.gif" height="60" alt="" border="0" />
+                                        <td height="50">
+                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
@@ -288,25 +252,39 @@ th {
                     </table>
                 </td>
             </tr>
-            <!-- Prize -->
+            <!-- Mission -->
             <tr>
                 <td>
                     <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#d2e7fa">
                         <tr>
-                            <td style="font-size: 0">
-                                <img src="images/flag2.jpg" alt="" style="width: 100%; max-width: 950px" border="0" />
+                            <!-- side spacer -->
+                            <td width="20" style="font-size: 0">
+                                <img src="images/spacer.gif" width="20" alt="" border="0" />
                             </td>
-                        </tr>
-                        <!-- title -->
-                        <tr>
-                            <td valign="middle" align="center">
-                                <table cellspacing="0" cellpadding="0" border="0">
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
+                            </td>
+                            <!-- main -->
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <!-- spacer -->
+                                    <tr>
+                                        <td height="50">
+                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="20" class="spacer2">
+                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                    <!-- title -->
                                     <tr>
                                         <td valign="middle" align="center">
                                             <table cellspacing="0" cellpadding="0" border="0">
                                                 <tr>
                                                     <td height="25"><img src="images/shine.png" height="25" alt="" border="0" /></td>
-                                                    <td style="color: #005bab; font-size: 32px; font-weight: bold; padding: 0 10px;" class="info-tit">達人抽大獎</td>
+                                                    <td style="color: #005bab; font-size: 32px; font-weight: bold; padding: 0 10px;" class="info-tit">賺金任務推薦</td>
                                                     <td height="25"><img src="images/shine.png" height="25" alt="" border="0" /></td>
                                                 </tr>
                                             </table>
@@ -323,50 +301,34 @@ th {
                                             <img src="images/spacer.gif" height="20" alt="" border="0" />
                                         </td>
                                     </tr>
-                                    <!-- awards -->
+                                    <!-- mission -->
                                     <tr>
                                         <td align="center">
-                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                            <table cellspacing="0" cellpadding="0" border="0" width="100%" class="misBoxAll">
                                                 <tr>
-                                                    <td>
-                                                        <table cellspacing="0" cellpadding="0" border="0" align="center" class="priBoxAll">
+                                                    <!-- 01-->
+                                                    <td width="23%" align="center" valign="top" class="misBox">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                             <tr>
-                                                                <td valign="top" class="priBox priBox1">
-                                                                    <table cellspacing="0" border="0" width="100%" valign="top">
-                                                                        <tr>
-                                                                            <td align="center"><img class="priBox-pic" src="images/prize1.png" width="180" alt="" border="0" /></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="20">
-                                                                                <img src="images/spacer.gif" height="20" alt="" border="0" />
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td align="center" valign="top" class="priBox-cont" style="font-size:16px;line-height:26px;color:#333333; font-weight: bold;"><span style="color:#427acf; font-size: 18px;">｜頭獎｜</span><br>NT$88,888刷卡金</td>
-                                                                        </tr>
+                                                                <td align="center" valign="top" bgcolor="#ffffff" style="border-radius: 15px;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td height="30">
                                                                                 <img src="images/spacer.gif" height="30" alt="" border="0" />
                                                                             </td>
                                                                         </tr>
-                                                                    </table>
-                                                                </td>
-                                                                <!-- spacer -->
-                                                                <td valign="top" width="50" class="priBox-space1">
-                                                                    <img src="images/spacer.gif" alt="" border="0" />
-                                                                </td>
-                                                                <td valign="top" class="priBox">
-                                                                    <table cellspacing="0" border="0" width="100%" valign="top">
                                                                         <tr>
-                                                                            <td align="center"><img class="priBox-pic" src="images/prize2.png" width="180" alt="" border="0" /></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="20">
-                                                                                <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                                            <td align="center">
+                                                                                <img class="misBox-img" src="images/mission1.png" width="140" alt="" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td align="center" valign="top" class="priBox-cont" style="font-size:16px;line-height:26px;color:#333333; font-weight: bold;"><span style="color:#427acf; font-size: 18px;">｜二獎｜</span><br>NT$8,888刷卡金</td>
+                                                                            <td height="15">
+                                                                                <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" height="80" valign="middle" class="misBox-cont" style="font-size: 14px; line-height: 24px; color: #333333;">成功綁定元大銀行<br>LINE個人化服務</td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td height="30">
@@ -376,73 +338,57 @@ th {
                                                                     </table>
                                                                 </td>
                                                             </tr>
+                                                            <!-- spacer -->
+                                                            <tr>
+                                                                <td height="15">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="15" class="spacer2">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <!-- btn -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table width="100" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td align="center" bgcolor="#4179ce"><a href="https://page.line.me/mwr3999i" target="_blank" class="btn-blue" style="display:block; color: #ffffff; font-size: 14px; border-top: 10px solid #4179ce; border-bottom: 10px solid #4179ce; border-left: 22px solid #4179ce; border-right: 22px solid #4179ce;">立即綁定</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
                                                         </table>
                                                     </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <table cellspacing="0" cellpadding="0" border="0" align="center" class="priBoxAll">
+                                                    <!-- spacer -->
+                                                    <td width="2%" align="center" valign="top" class="misBox-space1">
+                                                        <img src="images/spacer.gif" alt="" border="0" />
+                                                    </td>
+                                                    <!-- 02-->
+                                                    <td width="23%" align="center" valign="top" class="misBox">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                             <tr>
-                                                                <td valign="top" class="priBox">
-                                                                    <table cellspacing="0" border="0" width="100%" valign="top">
-                                                                        <tr>
-                                                                            <td align="center"><img class="priBox-pic" src="images/prize3.png" width="180" alt="" border="0" /></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="20">
-                                                                                <img src="images/spacer.gif" height="20" alt="" border="0" />
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td align="center" valign="top" class="priBox-cont" style="font-size:16px;line-height:26px;color:#333333; font-weight: bold;"><span style="color:#427acf; font-size: 18px;">｜特別獎｜</span><br>Apple Watch S7</td>
-                                                                        </tr>
+                                                                <td align="center" valign="top" bgcolor="#ffffff" style="border-radius: 15px;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td height="30">
                                                                                 <img src="images/spacer.gif" height="30" alt="" border="0" />
                                                                             </td>
                                                                         </tr>
-                                                                    </table>
-                                                                </td>
-                                                                <!-- spacer -->
-                                                                <td valign="top" width="50" class="priBox-space1">
-                                                                    <img src="images/spacer.gif" alt="" border="0" />
-                                                                </td>
-                                                                <td valign="top" class="priBox">
-                                                                    <table cellspacing="0" border="0" width="100%" valign="top">
                                                                         <tr>
-                                                                            <td align="center"><img class="priBox-pic" src="images/prize4.png" width="180" alt="" border="0" /></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="20">
-                                                                                <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                                            <td align="center">
+                                                                                <img class="misBox-img" src="images/mission2.png" width="140" alt="" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td align="center" valign="top" class="priBox-cont" style="font-size:16px;line-height:26px;color:#333333; font-weight: bold;"><span style="color:#427acf; font-size: 18px;">｜特別獎｜</span><br>BALMUDA蒸氣烤麵包機</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="30">
-                                                                                <img src="images/spacer.gif" height="30" alt="" border="0" />
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </td>
-                                                                <!-- spacer -->
-                                                                <td valign="top" width="50" class="priBox-space2">
-                                                                    <img src="images/spacer.gif" alt="" border="0" />
-                                                                </td>
-                                                                <td valign="top" class="priBox">
-                                                                    <table cellspacing="0" border="0" width="100%" valign="top">
-                                                                        <tr>
-                                                                            <td align="center"><img class="priBox-pic" src="images/prize5.png" width="180" alt="" border="0" /></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td height="20">
-                                                                                <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                                            <td height="15">
+                                                                                <img src="images/spacer.gif" height="15" alt="" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td align="center" valign="top" class="priBox-cont" style="font-size:16px;line-height:26px;color:#333333; font-weight: bold;"><span style="color:#427acf; font-size: 18px;">｜特別獎｜</span><br>AirPods 3</td>
+                                                                            <td align="center" height="80" valign="middle" class="misBox-cont" style="font-size: 14px; line-height: 24px; color: #333333;">線上申辦信用卡/<br>設定信用卡款自動扣繳/<br>線上消費分期</td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td height="30">
@@ -452,30 +398,197 @@ th {
                                                                     </table>
                                                                 </td>
                                                             </tr>
+                                                            <!-- spacer -->
+                                                            <tr>
+                                                                <td height="15">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="15" class="spacer2">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <!-- btn -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table width="100" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td align="center" bgcolor="#4179ce"><a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2021/Card20210831/index.html" target="_blank" class="btn-blue" style="display:block; color: #ffffff; font-size: 14px; border-top: 10px solid #4179ce; border-bottom: 10px solid #4179ce; border-left: 22px solid #4179ce; border-right: 22px solid #4179ce;">立即申辦</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
                                                         </table>
                                                     </td>
+                                                    <!-- spacer -->
+                                                    <td width="2%" align="center" valign="top" class="misBox-space2">
+                                                        <img src="images/spacer.gif" alt="" border="0" />
+                                                    </td>
+                                                    <!-- 03-->
+                                                    <td width="23%" align="center" valign="top" class="misBox">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tr>
+                                                                <td align="center" valign="top" bgcolor="#ffffff" style="border-radius: 15px;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td height="30">
+                                                                                <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <img class="misBox-img" src="images/mission3.png" width="140" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="15">
+                                                                                <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" height="80" valign="middle" class="misBox-cont" style="font-size: 14px; line-height: 24px; color: #333333;">完成帳戶連結台灣Pay/<br>全盈+PAY/icash Pay/<br>一卡通MONEY</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="30">
+                                                                                <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- spacer -->
+                                                            <tr>
+                                                                <td height="15">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="15" class="spacer2">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <!-- btn -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table width="100" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td align="center" bgcolor="#4179ce"><a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/" target="_blank" class="btn-blue" style="display:block; color: #ffffff; font-size: 14px; border-top: 10px solid #4179ce; border-bottom: 10px solid #4179ce; border-left: 22px solid #4179ce; border-right: 22px solid #4179ce;">立即綁定</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <!-- spacer -->
+                                                    <td width="2%" align="center" valign="top" class="misBox-space1">
+                                                        <img src="images/spacer.gif" alt="" border="0" />
+                                                    </td>
+                                                    <!-- 04-->
+                                                    <td width="23%" align="center" valign="top" class="misBox">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tr>
+                                                                <td align="center" valign="top" bgcolor="#ffffff" style="border-radius: 15px;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td height="30">
+                                                                                <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <img class="misBox-img" src="images/mission4.png" width="140" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="15">
+                                                                                <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" height="80" valign="middle" class="misBox-cont" style="font-size: 14px; line-height: 24px; color: #333333;">每筆無卡提款交易/<br>跨行轉帳交易/<br>手機門號轉帳交易</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="30">
+                                                                                <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- spacer -->
+                                                            <tr>
+                                                                <td height="15">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="15" class="spacer2">
+                                                                    <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <!-- btn -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table width="100" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td align="center" bgcolor="#4179ce"><a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2018/Cardless/index.html" target="_blank" class="btn-blue" style="display:block; color: #ffffff; font-size: 14px; border-top: 10px solid #4179ce; border-bottom: 10px solid #4179ce; border-left: 22px solid #4179ce; border-right: 22px solid #4179ce;">立即交易</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>   
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
-                                    <!-- awards end -->
+                                    <!-- mission end-->
+                                    <!-- spacer -->
+                                    <tr>
+                                        <td height="30">
+                                            <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                    <!-- more -->
+                                    <tr>
+                                        <td align="center">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td class="info-more" style="color: #005bab; font-size: 20px; font-weight: bold; padding: 5px 0; border-bottom: 2px solid #005bab;">
+                                                        <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/WelcomeQ3/index.html#task" target="_blank" style="color: #005bab;">更多賺金任務 ►</a></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- spacer -->
+                                    <tr>
+                                        <td height="50">
+                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="20" class="spacer2">
+                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                        </td>
+                                    </tr>
                                 </table>
                             </td>
-                        </tr>
-                        <!-- spacer -->
-                        <tr>
-                            <td height="30">
-                                <img src="images/spacer.gif" height="30" alt="" border="0" />
+                            <!-- main end -->
+                            <!-- side spacer -->
+                            <td width="20" style="font-size: 0">
+                                <img src="images/spacer.gif" width="20" alt="" border="0" />
                             </td>
-                        </tr>
-                        <tr>
-                            <td height="20" class="spacer2">
-                                <img src="images/spacer.gif" height="20" alt="" border="0" />
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr>      
+            </tr>
             <!-- Footer -->
             <tr>
                 <td bgcolor="#f4f4f4" style="background: #f4f4f4">
