@@ -397,8 +397,12 @@
 .linepay .blocksy2 .subtit {
   width: 450px;
 }
+.linepay .gallery-thumbs3 .swiper-slide-thumb-active,
 .linepay .blocksy2 .Rightbx .swiper-slide-thumb-active {
   background-color: #d0f0dd;
+}
+.linepay .swiper-slide-thumb-active::after {
+  border-color: transparent transparent transparent #d0f0dd;
 }
 .linepay .swiper-slide-thumb-active::before {
   background-color: #8ad699;
@@ -547,6 +551,7 @@
 .icashpay .swiper-slide-thumb-active::before {
   background-color: #6ecbcd;
 }
+.icashpay .gallery-thumbs .swiper-slide-thumb-active,
 .icashpay .gallery-thumbs3 .swiper-slide-thumb-active {
   background-color: #d2f1f2;
 }
@@ -701,6 +706,7 @@
 .pluspay .swiper-slide-thumb-active::before {
   background-color: #fa723f;
 }
+.pluspay .gallery-thumbs .swiper-slide-thumb-active,
 .pluspay .gallery-thumbs3 .swiper-slide-thumb-active {
   background-color: #fdede4;
 }
@@ -1153,7 +1159,9 @@
   overflow: hidden;
 }
 .linepay .swiper-slide .pic,
-.icashpay .swiper-slide .pic {
+.icashpay .swiper-slide .pic,
+.pluspay .swiper-slide .pic,
+.easywallet .swiper-slide .pic {
   left: 50.5%;
 }
 .phone .pic img {
@@ -1703,7 +1711,9 @@
   border-bottom: none;
 }
 .linepay .qabx:last-child,
-.icashpay .qabx:last-child {
+.icashpay .qabx:last-child,
+.pluspay .qabx:last-child,
+.easywallet .qabx:last-child {
   padding-bottom: 0px;
   margin-bottom: 0;
 }
@@ -1906,7 +1916,9 @@
     margin-bottom: 25px;
   }
   .linepay .bn02bx .titbx,
-  .icashpay .bn02bx .titbx {
+  .icashpay .bn02bx .titbx,
+  .pluspay .bn02bx .titbx,
+  .easywallet .bn02bx .titbx {
     width: 100%;
     max-width: 400px;
   }
@@ -2260,7 +2272,14 @@
   .clomode02 .inner_colum02-1 ul li {
     min-height: 150px;
   }
- /*icashPay*/
+  /*linePay*/
+  .clomode03 .inner_colum01_line ul li {
+    min-height: 10px;
+  }
+  .clomode03 .inner_colum03_line ul li{
+    min-height: 10px;
+  }
+  /*icashPay*/
   .clomode02 .inner_colum02_icash ul li {
     min-height: 10px;
   }
@@ -2270,7 +2289,7 @@
   .clomode03 .inner_colum03_icash ul li{
     min-height: 10px;
   }
- /*plusPay*/
+  /*plusPay*/
   .clomode02 .inner_colum02_plus ul li {
     min-height: 10px;
   }
