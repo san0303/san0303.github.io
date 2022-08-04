@@ -2196,6 +2196,9 @@
     left: 53%;
     width: 235px;
   }
+  .func_bx .txt_s{
+    font-size: 12px;
+  }
   /*---區塊更改一列---*/
   .blocksy1 .modebtn {
     justify-content: center;
