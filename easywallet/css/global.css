@@ -453,16 +453,17 @@ a:hover {
   font-weight: bold;
   white-space: nowrap;
   position: relative;
+  font-size: 0.875rem;
 }
 .bannerbx .buton .imgbxbuton {
-  min-width: 100px;
+  min-width: 80px;
   position: relative;
   margin: 0 auto;
-  height: 120px;
+  height: 100px;
 }
 
 .bannerbx .buton img {
-  width: 100px;
+  width: 80px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -472,13 +473,13 @@ a:hover {
   transition: 0.2s ease-in-out;
 }
 .bannerbx .buton img:hover {
-  width: 125px;
+  width: 90px;
   transition: 0.2s ease-in-out;
 }
 .hover_bg_hide {
   position: absolute;
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   background-color: #ccc;
   border-radius: 50%;
   z-index: 1;
@@ -493,15 +494,15 @@ a:hover {
   opacity: 0;
 }
 .hover_open {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   animation-play-state: running;
 }
 
 @keyframes hover_bg {
   0% {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
     opacity: 1;
   }
@@ -510,8 +511,8 @@ a:hover {
   }
 
   100% {
-    width: 145px;
-    height: 145px;
+    width: 100px;
+    height: 100px;
 
     opacity: 0;
   }
@@ -955,9 +956,9 @@ footer p {
     font-size: 1.125rem;
     animation-delay: 1.2s;
   }
-   .bannerbx .buton P {
+   .bannerbx .buton p {
     text-align: left;
-  margin-left: 0.6em;
+    margin-left: 0.6em;
   }
   .bannerbx .deco01 {
     left: 65%;

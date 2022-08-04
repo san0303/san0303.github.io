@@ -1419,7 +1419,8 @@
   top: 50%;
   display: block;
 }
-.mode_bx .deco_pig {
+.mode_bx .deco_pig,
+.mode_bx .deco_hand {
   position: absolute;
   bottom: 20px;
   width: 220px;
@@ -2125,7 +2126,8 @@
     top: 50%;
     display: block;
   }
-  .mode_bx .deco_pig {
+  .mode_bx .deco_pig,
+  .mode_bx .deco_hand {
     display: none;
   }
   .lockbx {
