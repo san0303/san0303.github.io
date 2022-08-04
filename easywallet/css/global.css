@@ -437,85 +437,30 @@ a:hover {
   animation-duration: 2s;
 }
 .bannerbx .buton_block {
-  position: relative;
-  top: 20px;
   display: flex;
+  width: 100%;
+  padding: 20px 5px 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .bannerbx .buton {
-  width: 140px;
-  animation-delay: 1.2s;
-  display: inline-block;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
   cursor: pointer;
-  transition: 0.2s all ease-in-out;
   text-align: center;
   color: #1e334e;
   font-weight: bold;
-  white-space: nowrap;
-  position: relative;
   font-size: 0.875rem;
 }
-.bannerbx .buton .imgbxbuton {
-  min-width: 80px;
-  position: relative;
+.bannerbx .buton .imgbxbuton img {
+  width: 80%;
   margin: 0 auto;
-  height: 100px;
-}
-
-.bannerbx .buton img {
-  width: 80px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  z-index: 2;
   transition: 0.2s ease-in-out;
 }
 .bannerbx .buton img:hover {
-  width: 90px;
-  transition: 0.2s ease-in-out;
-}
-.hover_bg_hide {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  background-color: #ccc;
-  border-radius: 50%;
-  z-index: 1;
-  left: 50%;
-  top: 50%;
-  animation-name: hover_bg;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  transform: translate(-50%, -50%);
-  transform-origin: 50% 50%;
-  animation-play-state: paused;
-  opacity: 0;
-}
-.hover_open {
-  width: 100px;
-  height: 100px;
-  animation-play-state: running;
-}
-
-@keyframes hover_bg {
-  0% {
-    width: 80px;
-    height: 80px;
-
-    opacity: 1;
-  }
-  70% {
-    opacity: 0.4;
-  }
-
-  100% {
-    width: 100px;
-    height: 100px;
-
-    opacity: 0;
-  }
+  transform:translateY(-6px)
 }
 
 /*----首頁輪播-----*/
@@ -945,20 +890,9 @@ footer p {
     margin-top: -30px;
     margin-bottom: 0px;
   }
-  .bannerbx .buton_block {
-    flex-direction: column;
-    margin-left: 20px;
-  }
   .bannerbx .buton {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-    font-size: 1.125rem;
-    animation-delay: 1.2s;
-  }
-   .bannerbx .buton p {
-    text-align: left;
-    margin-left: 0.6em;
+    width: 33%;
+    margin-bottom: 10px;
   }
   .bannerbx .deco01 {
     left: 65%;
