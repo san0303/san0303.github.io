@@ -1525,6 +1525,15 @@
 .pinbg .mode_bx .sele {
   background-color: #fff;
 }
+.grebg {
+  background-color: #f3fdf7;
+}
+.grebg .lockbx .subtit p {
+  color: #a8a8a9;
+}
+.grebg .mode_bx .sele {
+  background-color: #fff;
+}
 .blubg {
   background-color: #f1faf9;
 }
