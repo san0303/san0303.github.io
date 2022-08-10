@@ -2258,6 +2258,10 @@ section .section-center {
         bottom: 0;
         background: #ce861d;
     }
+    .fix-btn > a:nth-child(1)::after{ 
+        content: "";
+        display: none;
+    }
 
     .fix-btn > a {
         float: left;
