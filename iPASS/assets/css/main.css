@@ -37,7 +37,7 @@ background: url("../images/city.png") center bottom no-repeat; background-size: 
 .event .discount li{width: 33%; margin: 0 1.5%;}
 .event .discount li .dis_tit{width: 160px; margin: 5% auto;}
 .event .discount li .dis_cont{width: 100%; height: auto; border-radius: 10px; background-color: #ffffff; border: 3px solid #9eceed; padding: 5% 2%;}
-.event .discount li .dis_cont .dis_txt{font-weight: bold; line-height: 1.3; margin: 5% auto;}
+.event .discount li .dis_cont .dis_txt{font-weight: bold; line-height: 1.5; margin: 5% auto;}
 .event .discount li .dis_cont .dis_txt .blue{color: #0276cf;}
 .event .discount li .dis_cont .dis_num{width: 230px; height: 93px; margin: 6% auto;}
 .event .discount li .dis_cont .dis_num1{background: url("../images/10percent-point.png") center top no-repeat; background-size: 100% auto;}
@@ -169,16 +169,15 @@ background: url("../images/city-m.png") center bottom no-repeat; background-size
 }
 @media screen and (max-width:500px) {
 /* content */
-.event{font-size: 18px;}
 .event h2{text-align: left;}
 .event p{font-size: 14px;}
 .event .store{font-size: 18px; text-align: left;}
 .event .tit1,
-.event .tit2{max-width: 120px; padding: 5% 0;}
+.event .tit2{max-width: 140px; padding: 5% 0;}
 .event .tit3{padding: 5% 0;}
 .event .date{max-width: 260px; padding: 5% 0;}
 .event .discount li{width: 100%;}
-.event .discount li .dis_tit{width: 140px;}
+.event .discount li .dis_tit{width: 150px;}
 .event .discount li .dis_cont{padding: 5%;}
 .event .discount li .dis_cont .dis_num{width: 100%; max-width: 230px;}
 .event .discount li .dis_cont .dis_pic{width: 80%; max-width: 150px;}
@@ -189,20 +188,7 @@ background: url("../images/city-m.png") center bottom no-repeat; background-size
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
-.notice{width: 92%;padding:8% 3% 3%;}
+.notice{width: 94%;padding: 8% 5% 3%;}
 }
 
 /* animation */
-
-@keyframes hand {
-  0% {
-    -webkit-transform: rotate(0);transform: rotate(0); }
-  100% {
-    -webkit-transform: rotate(3deg);transform: rotate(3deg); }
-}
-
-@keyframes shine {
-  0%   { opacity:1; -webkit-opacity:1;}
-  50%  { opacity:0; -webkit-opacity:0;}
-  100% { opacity:1; -webkit-opacity:1;}
-}
