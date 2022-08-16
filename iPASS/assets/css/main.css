@@ -58,7 +58,7 @@ background: url("../images/city.png") center bottom no-repeat; background-size: 
 .btn:hover img{-webkit-transform:translateY(6px);transform:translateY(6px);}
 /* notice */
 .notice_container{background: #a7d6f2;}
-.notice{width: 100%; max-width: 1800px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 3%;}
+.notice{width: 100%; max-width: 1800px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 3% 5%;}
 .notice_tit{font-size: 20px; font-weight: bold; text-align: center;}
 .notice_all{padding: 2%; text-align: justify;}
 .notice_all h4{margin-left: -18px; margin-top: 1%;}
@@ -189,7 +189,7 @@ background: url("../images/city-m.png") center bottom no-repeat; background-size
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
-.notice{width: 92%;padding:8% 5% 3%;}
+.notice{width: 92%;padding:8% 3% 3%;}
 }
 
 /* animation */
