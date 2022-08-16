@@ -152,7 +152,7 @@ background: url("../images/city-m.png") center bottom no-repeat; background-size
 .event .date{max-width: 350px;}
 .event .discount li{width: 80%;}
 /* notice */
-.notice_all ul{font-size:14px;padding-left:20px}
+.notice_all ul{font-size:14px;padding-left:22px}
 .notice_tit{font-size: 18px;}
 #contTab:checked ~ #cont{
     max-height: 48vw;
