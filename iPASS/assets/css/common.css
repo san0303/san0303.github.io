@@ -102,13 +102,25 @@ img {
 .header .yuantaLogo a {
     display: inline-block;
     *display: inline;
-    zoom:1;width: 308px;
+    *zoom: 1;
+    width: 308px;
     height: 39px;
     background-image: url("../images/header/yuanta_logo.svg");
     background-size: 100% auto;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    float: left;
 }
-
+.header .yuantaplusLogo {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 130px;
+    height: 39px;
+    background-image: url("../images/header/yuantaplus_logo.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    float: right;
+}
 .header .mediaIcons {
     display: none;
     position: fixed;
@@ -304,6 +316,11 @@ img {
         height: 36px
     }
 
+    .header .yuantaplusLogo {
+        width: 120px;
+        height: 36px
+    }
+
     .header .mediaIcons a {
         width: 28px;
         height: 28px
@@ -333,6 +350,10 @@ img {
         height: 26px
     }
 
+    .header .yuantaplusLogo {
+        width: 87px;
+        height: 26px
+    }
     .header .mediaIcons {
         width: 100%;
         bottom: 0;
@@ -410,8 +431,23 @@ img {
     }
 }
 
+
+@media screen and (max-width: 345px) {
+    .header .yuantaLogo a {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 123px;
+        height: 26px;
+        background-image: url("../images/header/yuantabank_logo.svg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        float: left
+    }
+}
+
 /* appDownload */
-.appDownload{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:20px 0;background-color:#fff3e4;}
+.appDownload{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:25px 0 20px;background-color:#a7d6f2;}
 .appDownload-QRcode img{width:120px;margin-right:20px;}
 .appDownload-link h5{margin:10px 0;font-size:16px;line-height:22px;text-align:center;font-weight:bold;color:#333333;}
 .appDownload-link a{display:inline-block;padding:0 3px;text-decoration:none;transition:.3s;}
@@ -420,7 +456,7 @@ img {
 .appDownload-link a:hover{-webkit-transform:translateY(-10%);transform:translateY(-10%)}
 }
 @media only screen and (max-width:949px){
+.appDownload{padding:18px 0 20px;}
 .appDownload-QRcode{display:none}
 .appDownload-link img{width:140px}
 }
-
