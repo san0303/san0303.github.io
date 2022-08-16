@@ -61,13 +61,12 @@ background: url("../images/city.png") center bottom no-repeat; background-size: 
 .notice{width: 100%; max-width: 1800px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 3% 5%;}
 .notice_tit{font-size: 20px; font-weight: bold; text-align: center;}
 .notice_all{padding: 2%; text-align: justify;}
-.notice_all h4{margin-left: -18px; margin-top: 1%;}
 .notice_all a{font-weight: bold; text-decoration: underline;}
 .notice_all span.font-b{font-weight: bold;}
-.notice_all ul{margin: 0; padding-left: 22px; list-style-type: cjk-ideographic;}
+.notice_all ul{margin: 0; padding-left: 18px; list-style-type: cjk-ideographic;}
 .notice_all ul>li{/* margin-bottom: 2%; */}
 .notice_all ul>li>ol{list-style-type: decimal; padding-left: 18px;}
-.notice_all ul>li>ol>li>ol{list-style-type: none; padding-left: 22px;}
+.notice_all ul>li>ol>li>ol{list-style-type: none; padding-left: 18px;}
 .notice_all ul>li>ol>li>ol>li{position: relative; counter-increment:section;}
 .notice_all ul>li>ol>li>ol>li::before{content:"(" counter(section,decimal) ")";position:absolute;top:0;left:-5px;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
 .notice_all ul>li>ol>li>ol>li>ul{list-style-type: disc;}
