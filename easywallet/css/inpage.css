@@ -273,6 +273,35 @@
   z-index: 2;
   top: 210px;
 }
+
+/*--內頁banner02 twpay-----*/
+.twpay .bn02bx .bndeco01 {
+  left: -10%;
+  top: 5%;
+  animation-delay: 0.5s;
+  transform: rotate(-45deg);
+  width: 120px;
+}
+.twpay .bn02bx .bndeco03 {
+  left: -5%;
+  right: auto;
+  top: auto;
+  bottom: 6%;
+  transform: rotate(-45deg);
+  width: 70px;
+}
+.twpay .bn02bx .bndeco04 {
+  width: 130px;
+}
+.twpay .bn02bx .bndeco05 {
+  right: 2%;
+  top: 25%;
+}
+.twpay .bn02bx .bndeco06 {
+  left: 20%;
+  bottom: 0;
+}
+
 /*--內頁banner03 linepay-----*/
 .linepay .pointbg {
   background: url(../images/point_bg-2.png) repeat;
