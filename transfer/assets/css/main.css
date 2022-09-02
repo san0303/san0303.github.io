@@ -43,7 +43,7 @@ img{margin: 0; padding: 0; display: block;}
 .discount-item p{font-size: 16px; color: #0276cf; font-weight: bold;}
 /* howToUse */
 .howToUse_container{ width: 100%; margin: 0 auto; background-color: #e0dbc7; 
-    background-image: url("../images/deco3.png"),url("../images/check.png");
+    background-image: url("../images/deco2.png"),url("../images/check.png");
     background-position: center center,center top; background-repeat: no-repeat,repeat; background-size: auto,auto;}
 .tit_section{width: 531px; margin: 5% auto;}
 .tit_section img{width:100%}
@@ -262,16 +262,7 @@ img{margin: 0; padding: 0; display: block;}
 @media only screen and (max-width: 767px) {
   .tab-action {
     font-size: 20px; } }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-size: 1em; }
-p {
-  margin: 0; }
+
 .warning {
   position: relative;
   display: inline-block;
@@ -414,7 +405,7 @@ p {
       .checkList > li .note {
         margin-top: 12px; } }
 /* 手機門號轉帳css end */
-/* line */
+/* linepersonal */
 .line_container{ width: 100%; margin: 0 auto; background-color: #f6f2e1; 
     background-image: url("../images/deco3.png"),url("../images/cont_bg.jpg");
     background-position: center center,center top; background-repeat: no-repeat,repeat; background-size: auto,100% auto;}
@@ -507,7 +498,7 @@ p {
 }
 @media screen and (max-width: 1024px) {
 .main{padding-top: 76px;}
-/* line */
+/* linepersonal */
 .account{width: 85%;}
 /* kv */
 .kv{width: 100%; max-width: 1024px; margin: 0 auto; height: 0; padding-bottom: 50%; background: url("../images/kv_bg-1500.jpg") center top no-repeat; background-size: 100% auto;}
@@ -532,7 +523,7 @@ p {
 .discount-item .dis_cont .dis_txt{margin: 4% auto;}
 .discount-item .dis_cont .dis_num{width: 250px; height: 100px; margin: 5% auto 2%;}
 .discount-item p{font-size: 16px;}
-/* line */
+/* linepersonal */
 .tit_section{width: 50%; max-width: 531px; margin: 5% auto;}
 .account{padding:10% 8%;}
 .linestep-img{max-width:40%;}
@@ -560,7 +551,7 @@ p {
 .event .tit2{max-width: 180px;}
 /* howToUse */
 .tit_section{width: 60%; max-width: 570px; margin: 10% auto;}
-/* line */
+/* linepersonal */
 .linepersonal{padding:5% 1% 0;}
 .account{width: 80%; padding:10%;}
 .linestep{display:block;}
@@ -605,7 +596,7 @@ p {
 .discount-item p{font-size: 3vw;}
 }
 @media screen and (max-width:500px) {
-/* line */
+/* linepersonal */
 .tit_section{width: 70%; max-width: 570px; margin: 10% auto;}
 .linestep-img{max-width: 80%;}
 .linestepList-num img{width:20px}
