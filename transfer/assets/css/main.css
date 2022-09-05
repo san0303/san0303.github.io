@@ -521,6 +521,8 @@ img{margin: 0; padding: 0; display: block;}
 .account{width: 85%;}
 /* kv */
 .kv{width: 100%; max-width: 1024px; margin: 0 auto; height: 0; padding-bottom: 50%; background: url("../images/kv_bg-1500.jpg") center top no-repeat; background-size: 100% auto;}
+.kv .leafL{top: -5%;}
+.kv .leafR{top: -5%;}
 .kv .hand{width: 21%; bottom: 10%; right: 17%;}
 .kv .grass{width: 42%; bottom: 7.5%; right: -2%;}
 .kv .kv_tit{width: 44.5%; top: 4.5%; left: 17%;}
@@ -599,7 +601,7 @@ img{margin: 0; padding: 0; display: block;}
     font-size: 1em;
 }
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:500px) {
 /* event */
 .event{font-size: 16px;}
 .event h2{text-align: justify;}
@@ -608,13 +610,11 @@ img{margin: 0; padding: 0; display: block;}
 .event .tit2{max-width: 150px; padding: 5% 0;}
 .event .discount .discount-item{width: 110%; height: auto;}
 .discount-item .dis_tit{width: 45%; height: auto;}
-.discount-item .dis_cont{font-size: 4vw; text-align: justify; padding: 0 15%;}
+.discount-item .dis_cont{font-size: 3.8vw; text-align: justify; padding: 0 15%;}
 .discount-item .dis_cont .dis_txt .mobNone{display: none;}
 .discount-item .dis_cont .dis_num{width: 80%; height: auto;}
 .discount-item .hrline{width: 100%;}
-.discount-item p{font-size: 3vw;}
-}
-@media screen and (max-width:500px) {
+.discount-item p{font-size: 3.2vw;}
 /* linepersonal */
 .tit_section{width: 70%; max-width: 570px; margin: 10% auto;}
 .linestep-img{max-width: 80%;}
