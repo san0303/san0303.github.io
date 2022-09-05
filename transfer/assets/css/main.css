@@ -12,13 +12,16 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{width: 100%;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 39.0625%; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: 100% auto; position: relative;}
 .kv .kv-item{position: absolute;}
-.kv .leafL{width: 14.5%; transform: scaleX(-1); top: -6%; left: -1%;}
-.kv .leafR{width: 14.5%; top: -5%; right: 0;}
-.kv .hand{width: 17%; bottom: 7%; right: 22%;}
+.kv .leafL{width: 16%; transform: scaleX(-1); top: -7%; left: -3%;}
+.kv .leafR{width: 16%; top: -7%; right: -3%;}
+.kv .hand{width: 17%; bottom: 7%; right: 22%; transform-origin: right bottom;
+  -webkit-animation: hand 6s infinite ease-in-out; animation: hand 3s infinite ease-in-out;}
 .kv .grass{width: 42%; bottom: 5.5%; right: -2%;}
 .kv .kv_tit{width: 35.5%; top: 4.5%; left: 25%;}
-.kv .kv_tit .coin1{width: 11%; top: 11.5%; left: -2%;}
-.kv .kv_tit .coin2{width: 11%; top: 87.5%; left: 71%;}
+.kv .kv_tit .coin1{width: 11%; top: 12%; left: -2%; transform-origin: center center;
+  -webkit-animation: float 3s infinite ease-in-out; animation: float 3s infinite ease-in-out;}
+.kv .kv_tit .coin2{width: 11%; top: 88.5%; left: 71%; transform-origin: center center;
+  -webkit-animation: float 3s infinite ease-in-out; animation: float 4s infinite ease-in-out;}
 .mobOnly{display: none;}
 /* event*/
 .event_container{ width: 100%; margin: 0 auto; background-color: #f6f2e1; 
@@ -553,8 +556,8 @@ img{margin: 0; padding: 0; display: block;}
 .main{padding-top: 58px;}
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 142.708%; margin: 0 auto; background: url("../images/kv_bg-m.jpg") center top no-repeat; background-size: 100% auto;}
-.kv .leafL{width: 26%; top: -3%; left: -4%;}
-.kv .leafR{width: 26%; top: -3%; right: -4%;}
+.kv .leafL{width: 28%; top: -3%; left: -4%;}
+.kv .leafR{width: 28%; top: -3%; right: -4%;}
 .kv .hand{width: 42%; bottom: 1%; right: 26%;}
 .kv .grass{width: 110%; bottom: 0.5%; right: -4%;}
 .kv .kv_tit{width: 76%; top: 9%; left: 13.2%;}
@@ -628,3 +631,11 @@ img{margin: 0; padding: 0; display: block;}
 }
 
 /* animation */
+@keyframes float {
+  0%,100% { transform: translateY(0px);}
+  50% { transform: translateY(-12px);}
+}
+@keyframes hand {
+  0%,100% { transform: rotate(2deg);}
+      50% { transform: rotate(-3deg);}
+}
