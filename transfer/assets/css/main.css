@@ -91,7 +91,7 @@ img{margin: 0; padding: 0; display: block;}
   max-width: 750px;
   margin: auto;
   margin-top: 30px;
-  padding: 40px 0; }
+  padding: 40px 20px; }
   .step-title {
     margin-bottom: 26px;
     font-size: 28px;
@@ -115,29 +115,40 @@ img{margin: 0; padding: 0; display: block;}
     line-height: 1.2;
     color: #f85959; }
   .step-text {
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center; }
     .step-text .note {
-      margin-top: 20px;
+      margin-top: 18px;
       font-size: 14px;
       line-height: 2; }
+    .step-text ul{
+      text-align: left;
+      padding-left: 32px;}
+    .step-text ul li{
+      position: relative;
+      counter-increment: section;}
+    .step-text ul li::before{
+      content:"(" counter(section,cjk-ideographic) ")";
+      position:absolute;
+      top:0;
+      left:-5px;
+      -webkit-transform:translateX(-100%);transform:translateX(-100%)}
   .owl-carousel .owl-item .step-pic img {
     display: inline-block;
     width: auto; }
   @media only screen and (max-width: 767px) {
     .step {
       margin-top: 0;
-      padding: 33px 0; }
+      padding: 33px 0;}
       .step-title {
         font-size: 22px;
         margin-bottom: 16px; }
       .step-text {
-        font-size: 18px; }
+        font-size: 16px;}
         .step-text .note {
           margin-top: 10px;
-          font-size: 12px;
-          line-height: 1.5; }
+          font-size: 12px;}
       .step-note {
         top: -15px;
         font-size: 13px;
@@ -149,6 +160,11 @@ img{margin: 0; padding: 0; display: block;}
         width: 155px; }
       .owl-carousel .owl-item .step-pic img + img {
         margin-left: 4px; } }
+      @media only screen and (max-width: 550px) {
+        .step-text .note{ 
+          text-align: left;}
+        .step-text .desktopOnly{
+          display: none;} }
 
 .owl-nav {
   position: absolute;
@@ -396,7 +412,7 @@ img{margin: 0; padding: 0; display: block;}
       margin-top: 16px; }
   @media only screen and (max-width: 767px) {
     .checkList > li {
-      font-size: 18px;
+      font-size: 16px;
       padding-left: 27px; }
       .checkList > li::before {
         width: 16px;
@@ -424,7 +440,7 @@ img{margin: 0; padding: 0; display: block;}
 .linestepList-num img{width:24px}
 .linestepList-text{-webkit-flex:1;flex:1;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;box-sizing:border-box;min-height:30px;padding:6px 10px;font-size:18px;line-height:1.4;color:#1e334e;background-color:#def5ff; text-align: left;}
 .linestepList-text p{width:100%;}
-.linestepList-num-w,.stepList-text-w{background-color: #ffffff;}
+.linestepList-num-w,.linestepList-text-w{background-color: #ffffff;}
 /* action */
 .action{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:0 0 5%;}
 .action-item{-webkit-flex:0 1 270px;flex:0 1 270px;max-width:270px;}
@@ -589,7 +605,7 @@ img{margin: 0; padding: 0; display: block;}
 .event .tit2{max-width: 150px; padding: 5% 0;}
 .event .discount .discount-item{width: 110%; height: auto;}
 .discount-item .dis_tit{width: 45%; height: auto;}
-.discount-item .dis_cont{font-size: 3.5vw; text-align: justify; padding: 0 15%;}
+.discount-item .dis_cont{font-size: 4vw; text-align: justify; padding: 0 15%;}
 .discount-item .dis_cont .dis_txt .mobNone{display: none;}
 .discount-item .dis_cont .dis_num{width: 80%; height: auto;}
 .discount-item .hrline{width: 100%;}
@@ -608,7 +624,7 @@ img{margin: 0; padding: 0; display: block;}
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
-.notice{width: 94%;padding: 8% 4% 3%;}
+.notice{width: 94%;padding: 8% 1% 3%;}
 }
 
 /* animation */
