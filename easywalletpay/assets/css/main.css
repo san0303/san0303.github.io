@@ -18,7 +18,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv .kv_logo{width: 26%; position: absolute; bottom: 1%; left: 37%;}
 .mobOnly{display: none;}
 /* content */
-.content_container{ width: 100%; margin: 0 auto; background: #fdf3e1 url("../images/content_bg.jpg") center top no-repeat;}
+.content_container{width: 100%; max-width: 1920px; margin: 0 auto; background: #fdf3e1 url("../images/content_bg.jpg") center top no-repeat;}
 .content{width: 100%; max-width: 1400px; margin: 0 auto;}
 /* event */
 .event{width: 90%; margin: 0 auto; padding: 5% 0; text-align: center; font-size: 20px; line-height: 1.8;}
@@ -168,26 +168,30 @@ img{margin: 0; padding: 0; display: block;}
 .event .web_block{display: inline;}
 .event .tit{margin: 5%;}
 .event .cont{text-align: justify;}
-.event .discount{flex-direction: column; align-items: center; margin: 12% 0;}
-.event .discount .discount-item{width: 80%; margin-bottom: 20%;}
+.event .discount{flex-direction: column; align-items: center; margin: 5% 0 0;}
+.event .discount .discount-item{width: 80%; margin: 10% 0;}
 .discount-item .dis_tit{width: 70%; height: 0; padding-bottom: 15.5%; left: 15%; top: -8%;}
 .discount-item .dis_tit img{margin: 0 3% 0 10%;}
 .discount-item .dis_tit span{font-size: 4vw; line-height: 2.8;}
 .discount-item .dis_cont .dis_txt{font-size: 20px;}
 /* instruction */
-.instruction{padding: 5% 1%;}
-.instruction .dis_tit{width: 75%; height: 0; padding-bottom: 14%; left: 12.5%; top: -0.5%; font-size: 4vw; line-height: 2.4;}
+.instruction{padding: 35% 1% 5%;}
+.instruction .dis_tit{width: 75%; height: 0; padding-bottom: 14%; left: 12.5%; top: 15%; font-size: 4vw; line-height: 2.4;}
 .account{width: 80%; padding: 10%;}
 .step{display: block;}
-.step-title{position:static; box-sizing: border-box;max-width:67%; margin:auto;}
+.step-title{position: static; box-sizing: border-box; max-width: 67%; margin:auto;}
 .step-img{box-sizing:border-box; max-width:50%; margin:10% auto 8%;}
 .step-content{margin-top: 40px ;margin:10% 0 0;}
 .step-content .subTitle{max-width:100%; padding-top: 5%;}
 .step-content .subTitle img{width: 80%; margin:0 auto;}
 .stepList-text{font-size: 16px;}
-/* instruction */
-.easywallet .step-title{position:static; box-sizing: border-box;max-width:100%; margin:auto;}
+/* easywallet */
+.easywallet{width: 100%; background: url("../images/people1.png") center top no-repeat; background-size: 100% auto;}
+.easywallet .step-title{position: static; box-sizing: border-box; max-width:100%; margin:auto;}
 .easywallet .step-content .subTitle{padding-top: 5%;}
+/* linepersonal */
+.linepersonal{width: 100%; background: url("../images/people2.png") center top no-repeat; background-size: 100% auto;}
+.linepersonal .dis_tit{top: 13%;}
 /* action */
 .action{padding: 5% 0 10%;}
 /* notice */
@@ -196,11 +200,10 @@ img{margin: 0; padding: 0; display: block;}
 @media screen and (max-width:767px) {
 .main{padding-top: 58px;}
 /* event */
-.event .discount{margin: 18% 0;}
-.event .discount .discount-item{width: 90%; margin-bottom: 30%;}
+.event .discount .discount-item{width: 90%;}
 .discount-item .dis_cont .dis_txt{font-size: 18px;}
 /* instruction */
-.instruction .dis_tit{width: 90%; height: 0; padding-bottom: 17%; left: 5%; top: -1%; font-size: 5vw; line-height: 2.4;}
+.instruction .dis_tit{width: 90%; height: 0; padding-bottom: 17%; left: 5%; top: 13%; font-size: 5vw; line-height: 2.4;}
 .account {width: 80%; padding: 10%;}
 .step {display: block;}
 .step-title {position: static;box-sizing: border-box; max-width: 80%; margin: auto;}
@@ -209,6 +212,8 @@ img{margin: 0; padding: 0; display: block;}
 .step-content .subTitle {position: static; max-width: 100%; margin: 0 auto; padding-top: 5%;}
 .step-content .subTitle img {width: 100%;}
 .stepList-text p {padding-bottom: 0;}
+/* linepersonal */
+.linepersonal .dis_tit{top: 10%;}
 /* action */
 .action{display:block;}
 .action-item{max-width:300px;margin:auto;}
@@ -248,7 +253,6 @@ img{margin: 0; padding: 0; display: block;}
 .stepList-num img {width: 20px;}
 .stepList-text {min-height: 24px;padding: 2px 10px;font-size: 16px;}
 /* action */
-.action{padding: 5% 0 15%;}
 .action-item{max-width:220px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
