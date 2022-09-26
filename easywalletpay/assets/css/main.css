@@ -247,11 +247,14 @@ img{margin: 0; padding: 0; display: block;}
 .discount-item .dis_cont .dis_txt{font-size: 16px;}
 .discount-item .dis_cont .dis_num{width: 220px; margin: 10% auto;}
 /* instruction */
+.instruction .dis_tit{top: 10%;}
 .step-img{max-width:80%;}
 .tit_section {width: 70%;max-width: 570px;margin: 10% auto;}
 .step-img {max-width: 80%;}
 .stepList-num img {width: 20px;}
 .stepList-text {min-height: 24px;padding: 2px 10px;font-size: 16px;}
+/* linepersonal */
+.linepersonal .dis_tit{top: 8.8%;}
 /* action */
 .action-item{max-width:220px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
