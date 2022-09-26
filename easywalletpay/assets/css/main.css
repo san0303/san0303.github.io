@@ -261,7 +261,7 @@ img{margin: 0; padding: 0; display: block;}
 .btn::after{-webkit-transform:translateY(4px);transform:translateY(4px);}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
-.notice{width: 94%;padding: 8% 4% 3%;}
+.notice{width: 94%;padding: 8% 4% 8%;}
 }
 
 /* animation */
