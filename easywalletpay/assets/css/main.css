@@ -274,7 +274,7 @@ img{margin: 0; padding: 0; display: block;}
 .discount-item .dis_tit span{font-size: 5vw; line-height: 2.8;}
 .discount-item .dis_cont{padding: 8%;}
 .discount-item .dis_cont .dis_txt{font-size: 16px;}
-.discount-item .dis_cont .dis_num{width: 220px; margin: 10% auto;}
+.discount-item .dis_cont .dis_num{width: 85%; max-width: 250px; margin: 10% auto;}
 /* instruction */
 .instruction .dis_tit{top: 10%;}
 .step-img{max-width:80%;}
