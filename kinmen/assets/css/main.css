@@ -114,7 +114,7 @@ background-position: center top,center top; background-repeat: no-repeat,repeat;
 /*kv*/
 .kv{width: 100%; max-width: 1200px; margin: 0 auto; height: 0; padding-bottom: 55%; background: url("../images/kv_bg-1200.png") center top no-repeat; background-size: 100% auto;}
 .kv .kv_tit{width: 55%; margin: 0 auto; padding-top: 5%;}
-.kv .kv_logo{width: 35%; position: absolute; bottom: -5%; left: 32%;}
+.kv .kv_logo{width: 40%; position: absolute; bottom: -6%; left: 30%;}
 .kv .cloud1{width: 9%; position: absolute; top: 44%; left: 12%;}
 .kv .cloud2{width: 9%; position: absolute; top: 46%; left: 81%;}
 .kv .bunker{width: 52%; position: absolute; top: 40%; left: 32%;}
@@ -136,7 +136,7 @@ background-position: center top,center top; background-repeat: no-repeat,repeat;
 .content_container::after{content: ''; display: block; width: 100%; height: 0; padding-bottom: 5.2%; background: url("../images/circle_bg-m.png") center bottom no-repeat; background-size: 100% auto;}
 .content{width: 100%; max-width: 960px;}
 /* event*/
-.event{width: 85%; padding: 10% 0;}
+.event{width: 85%; padding: 8% 0;}
 .event .web_block{display: inline;}
 .event .tit1,
 .event .tit2{width: 100%; max-width: 220px; padding: 4% 0;}
@@ -145,7 +145,7 @@ background-position: center top,center top; background-repeat: no-repeat,repeat;
 .discount-item .dis_tit{width: 120px;}
 .discount-item .dis_cont{width: 450px;}
 /* action */
-.action{padding: 5% 0 10%;}
+.action{padding: 2% 0 5%;}
 /* notice */
 .notice{width: 92%; padding: 5% 3% 3%;}
 }
