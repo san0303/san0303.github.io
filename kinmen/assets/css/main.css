@@ -188,7 +188,7 @@ background-position: center top,center top; background-repeat: no-repeat,repeat;
 }
 @media screen and (max-width:520px) {
 /* event */
-.event .date{font-size: 18px;}
+.event .date{font-size: 20px;}
 .event .cont{font-size: 18px; text-align: justify;}
 .event h3{margin-top: 7%;}
 .event h3 .pointer{width: 28px;}
