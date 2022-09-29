@@ -26,8 +26,8 @@ background-position: center top,center top; background-repeat: no-repeat,repeat;
 .content{width: 100%; max-width: 1400px; margin: 0 auto;}
 /* event*/
 .event{width: 90%; margin: 0 auto; padding: 7% 0; text-align: center; font-size: 20px; line-height: 1.8;}
-.event .light_blue{color: #0276cf; font-weight: bold;}
-.event .light_red{color: #ff602c; font-weight: bold;}
+.light_blue{color: #0276cf; font-weight: bold;}
+.light_red{color: #ff602c; font-weight: bold;}
 .event .web_block{display: block;}
 .event .tit1,
 .event .tit2{width: 240px; margin: 0 auto; padding: 3% 0;}
