@@ -416,6 +416,9 @@
   border-left: 5px solid #6ac273;
   background-image: linear-gradient(to right, #f6f6f6 50%, #fff);
 }
+.linepay .qabx .abx a {
+  color: #2255a2;
+}
 .linepay .qatit {
   font-size: 1.81rem;
   color: #84ad9d;
@@ -563,6 +566,9 @@
   color: #313131;
   border-left: 5px solid #23b8bc;
   background-image: linear-gradient(to right, #f6f6f6 50%, #fff);
+}
+.icashpay .qabx .abx a {
+  color: #2255a2;
 }
 .icashpay .qatit {
   font-size: 1.81rem;
@@ -718,6 +724,9 @@
   color: #313131;
   border-left: 5px solid #fa723f;
   background-image: linear-gradient(to right, #f6f6f6 50%, #fff);
+}
+.pluspay .qabx .abx a {
+  color: #ff4600;
 }
 .pluspay .qatit {
   font-size: 1.81rem;
@@ -962,6 +971,166 @@
   color: #a6a6a6;
   border-bottom: 1px solid #a6a6a6;
 }
+/*--內頁banner06 opay-----*/
+.opay .pointbg {
+  background: url(../images/point_bg-5.png) repeat;
+}
+.opay .inad a {
+  background-color: #91ae44;
+  color: #fff;
+}
+.opay .inad a:hover {
+  background-color: #046eb8;
+}
+.opay .bn02bx .titbx {
+  width: 370px;
+}
+.opay .bn02bx .phonebx {
+  top: 30px;
+  left: 170px;
+  width: 275px;
+}
+.opay .bn02bx .bndeco01 {
+  left: -10%;
+  top: 5%;
+  animation-delay: 0.5s;
+  transform: rotate(-45deg);
+  width: 120px;
+}
+.opay .bn02bx .bndeco03 {
+  left: -5%;
+  right: auto;
+  top: auto;
+  bottom: 6%;
+  transform: rotate(-45deg);
+  width: 70px;
+}
+.opay .bn02bx .bndeco04 {
+  width: 130px;
+}
+.opay .bn02bx .bndeco05 {
+  right: 2%;
+  top: 25%;
+}
+.opay .bn02bx .bndeco06 {
+  left: 40%;
+  bottom: 0;
+}
+.opay .bn02bx .bg_01 {
+  width: 580px;
+  top: -60px;
+}
+/*--opay b頁籤樣式-----*/
+.opay .tabx {
+  background-image: linear-gradient(to bottom, #3183ce, #6fbdf1);
+  border-bottom: 1px solid #007ac8;
+}
+.opay .tabx .sele .bg {
+  border: 1px solid #007ac8;
+  border-bottom: none;
+}
+/*--opay b qa樣式-----*/
+.opay .qablock .sele .qbx span {
+  background: url(../images/qaic_5.png) no-repeat center center / contain;
+}
+.opay .qablock .sele .qbx {
+  color: #007ac8;
+}
+.opay .qabx .abx {
+  color: #313131;
+  border-left: 5px solid #007ac8;
+  background-image: linear-gradient(to right, #f6f6f6 50%, #fff);
+}
+.opay .qabx .abx a {
+  color: #007ac8;
+}
+.opay .qatit {
+  font-size: 1.81rem;
+  color: #f7b146;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+/*--opay樣式-----*/
+.opay .blocksy2 .subtit {
+  width: 450px;
+}
+.opay .blocksy2 .Rightbx .swiper-slide-thumb-active {
+  background-color: #eff9fd;
+}
+.opay .swiper-slide-thumb-active::before {
+  background-color: #53adec;
+}
+.opay .gallery-thumbs3 .swiper-slide-thumb-active {
+  background-color: #eff9fd;
+}
+.opay .gallery-thumbs .swiper-slide-thumb-active {
+  background-color: #eff9fd;
+}
+.opay .swiper-slide-thumb-active::after {
+  border-color: transparent transparent transparent #eff9fd;
+}
+.opay .Rightbx .swiper-slide-thumb-active::after {
+  border-color: transparent #53adec transparent transparent;
+}
+.opay .mode_bx .succedsy {
+  color: #007ac8;
+  border-color: #007ac8;
+}
+.opay .colummode .mode_bx ul .succedsy::before {
+  background-color: #53adec;
+}
+.opay .blocksy2 .phonecon {
+  position: relative;
+}
+.opay .blocksy2 .phonecon::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 230px;
+  background: url(../images/phone_sy2_bg-1.png) no-repeat center center /
+    contain;
+  position: absolute;
+  right: -60px;
+  top: -30px;
+}
+.opay .blocksy2 .phonecon::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 230px;
+  background: url(../images/phone_sy2_bg-2.png) no-repeat center center /
+    contain;
+  position: absolute;
+  left: -60px;
+  bottom: -30px;
+}
+.opay .blocksy2 .phonecons2::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 230px;
+  background: url(../images/phone_sy2_bg-3.png) no-repeat center center /
+    contain;
+  position: absolute;
+  left: -40px;
+  top: 0px;
+}
+.opay .blocksy2 .phonecons2::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 230px;
+  background: url(../images/phone_sy2_bg-4.png) no-repeat center center /
+    contain;
+  position: absolute;
+  right: -80px;
+  bottom: 40px;
+  left: auto;
+}
+.opay .lockbx .succedsy{
+  color: #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+}
 
 /*--頁籤樣式-----*/
 .tabx {
@@ -1190,7 +1359,8 @@
 .linepay .swiper-slide .pic,
 .icashpay .swiper-slide .pic,
 .pluspay .swiper-slide .pic,
-.easywallet .swiper-slide .pic {
+.easywallet .swiper-slide .pic
+.opay .swiper-slide .pic {
   left: 50.5%;
 }
 .phone .pic img {
@@ -1253,14 +1423,16 @@
 }
 .pinbg .swiper-slide-thumb-active,
 .blubg .swiper-slide-thumb-active,
-.orabg .swiper-slide-thumb-active, 
-.yelbg .swiper-slide-thumb-active  {
+.orabg .swiper-slide-thumb-active,
+.graybg .swiper-slide-thumb-active, 
+.lightbluebg .swiper-slide-thumb-active  {
   background-color: #fff;
 }
 .pinbg .swiper-slide-thumb-active::after,
 .blubg .swiper-slide-thumb-active::after,
 .orabg .swiper-slide-thumb-active::after,
-.yelbg .swiper-slide-thumb-active::after {
+.graybg .swiper-slide-thumb-active, 
+.lightbluebg .swiper-slide-thumb-active::after {
   border-color: transparent transparent transparent #fff;
 }
 .swiper-slide-thumb-active {
@@ -1581,13 +1753,22 @@
 .orabg .mode_bx .sele {
   background-color: #fff;
 }
-.yelbg {
+.graybg {
   background-color: #f7f7f7;
 }
-.yelbg .lockbx .subtit p {
+.graybg .lockbx .subtit p {
   color: #a8a8a9;
 }
-.yelbg .mode_bx .sele {
+.graybg .mode_bx .sele {
+  background-color: #fff;
+}
+.lightbluebg {
+  background-color: #eff7fd;
+}
+.lightbluebg .lockbx .subtit p {
+  color: #a8a8a9;
+}
+.lightbluebg .mode_bx .sele {
   background-color: #fff;
 }
 /*--框樣式2 blocksy2-----*/
@@ -1631,7 +1812,8 @@
 .linepay .blocksy2 .subtit p,
 .icashpay .blocksy2 .subtit p,
 .pluspay .blocksy2 .subtit p,
-.easywallet .blocksy2 .subtit p {
+.easywallet .blocksy2 .subtit p,
+.opay .blocksy2 .subtit p {
   top: 20px;
 }
 .blocksy2 .gallery-top {
@@ -1751,7 +1933,8 @@
 .linepay .qabx:last-child,
 .icashpay .qabx:last-child,
 .pluspay .qabx:last-child,
-.easywallet .qabx:last-child {
+.easywallet .qabx:last-child,
+.opay .qabx:last-child {
   padding-bottom: 0px;
   margin-bottom: 0;
 }
@@ -1789,15 +1972,6 @@
 }
 .qabx .abx a {
   color: #e92382;
-}
-.linepay .qabx .abx a {
-  color: #2255a2;
-}
-.icashpay .qabx .abx a {
-  color: #2255a2;
-}
-.pluspay .qabx .abx a {
-  color: #ff4600;
 }
 .qabx .abx p {
   margin-bottom: 5px;
@@ -1956,7 +2130,8 @@
   .linepay .bn02bx .titbx,
   .icashpay .bn02bx .titbx,
   .pluspay .bn02bx .titbx,
-  .easywallet .bn02bx .titbx {
+  .easywallet .bn02bx .titbx,
+  .opay .bn02bx .titbx {
     width: 100%;
     max-width: 400px;
   }
@@ -2018,7 +2193,8 @@
   .linepay .bn02bx .bg_01,
   .icashpay .bn02bx .bg_01,
   .pluspay .bn02bx .bg_01,
-  .easywallet .bn02bx .bg_01 {
+  .easywallet .bn02bx .bg_01,
+  .opay .bn02bx .bg_01 {
     width: 520px;
     top: -50px;
     left: 53%;
@@ -2251,6 +2427,17 @@
   .func_bx .txt_s{
     font-size: 12px;
   }
+  /*---opay---*/
+  .opay .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .opay .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  .func_bx .txt_s{
+    font-size: 12px;
+  }
   /*---區塊更改一列---*/
   .blocksy1 .modebtn {
     justify-content: center;
@@ -2304,8 +2491,11 @@
   .colummode .mode_bx ul li {
     border-bottom: none;
     position: relative;
-    min-height: 95px;
+    min-height: 85px;
     margin-bottom: 20px;
+  }
+  .colummode .inner_colum01 ul li {
+    min-height: 30px;
   }
   .clomode02 .inner_colum02-1 ul li {
     min-height: 150px;
@@ -2345,6 +2535,16 @@
     min-height: 10px;
   }
   .clomode03 .inner_colum03_easywallet ul li{
+    min-height: 10px;
+  }
+  /*opay*/
+  .clomode02 .inner_colum02_opay ul li {
+    min-height: 10px;
+  }
+  .clomode02 .inner_colum02-1_opay ul li {
+    min-height: 10px;
+  }
+  .clomode03 .inner_colum03_opay ul li{
     min-height: 10px;
   }
 
@@ -2549,6 +2749,34 @@
     width: 400px;
     top: 50px;
   }
+  /*--內頁banner03 opay-----*/
+  .opay .bn02bx .phonebx {
+    top: 60px;
+    z-index: 7;
+    animation-delay: 0.2s;
+    animation-duration: 1.2s;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 190px;
+  }
+  .opay .bn02bx .peoplebx {
+    top: 60%;
+  }
+  .opay .bn02bx .bg_01 {
+    top: 10px;
+    left: 51%;
+    width: 400px;
+  }
+  .opay .bn02bx .bg_02 {
+    left: -5%;
+    width: 400px;
+    top: 30px;
+  }
+  .opay .bn02bx .bg_03 {
+    left: -5%;
+    width: 400px;
+    top: 50px;
+  }
 
   /*---qa---*/
   .qabx .qbx {
@@ -2597,6 +2825,9 @@
     font-size: 0.875rem;
     min-height: 60px;
     margin-bottom: 20px;
+  }
+  .blocksy1 .colummode .mode_bx ul .succedsy::before {
+    top: 35px;
   }
   .blocksy2 .colummode .mode_bx ul .succedsy::before {
     top: 35px;
