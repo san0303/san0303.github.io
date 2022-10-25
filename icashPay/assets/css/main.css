@@ -207,6 +207,7 @@ img{margin: 0; padding: 0; display: block;}
 .event-period{text-align: center;}
 }
 @media screen and (max-width:500px) {
+.event-period{font-size: 4.5vw;}
 .action-item{max-width:220px;}
 /* notice */
 .notice{width: 94%;padding: 8% 4% 3%;}
