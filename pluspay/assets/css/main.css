@@ -194,11 +194,11 @@ img{margin: 0; padding: 0; display: block;}
 .s_line{width: 100%; margin: 8% auto;}
 .dudubirdAll{width: 85%; height: 0; padding-bottom: 80%; margin: 0 auto; position: relative;}
 .dudubirdAll .duduAll{width: 86%; position: absolute; top: 5%; left: 0;}
-.dudubirdAll .duduAll .dudu{width: 100%; position: relative; -webkit-animation: move 2s infinite ease-in-out; animation: move 2s infinite ease-in-out;}
-.dudubirdAll .duduAll .shadow{width: 50%; position: absolute; left: 5%; bottom: -15%; -webkit-animation: shadow 2s infinite ease-in-out; animation: shadow 2s infinite ease-in-out;}
+.dudubirdAll .duduAll .dudu{animation: none;}
+.dudubirdAll .duduAll .shadow{animation: none;}
 .dudubirdAll .birdAll{width: 30%; position: absolute; top: 62%; left: 73%;}
-.dudubirdAll .birdAll .bird{width: 100%; position: relative; -webkit-animation: move 1.5s infinite ease-in-out; animation: move 1.5s infinite ease-in-out;}
-.dudubirdAll .birdAll .shadow{width: 50%; position: absolute; left: 30%; bottom: -23%; -webkit-animation: shadow 1.5s infinite ease-in-out; animation: shadow 1.5s infinite ease-in-out;}
+.dudubirdAll .birdAll .bird{animation: none;}
+.dudubirdAll .birdAll .shadow{animation: none;}
 .action{padding:10% 0;}
 /* pluspay */
 .step{display:block;max-width:746px;margin:25px auto;}
