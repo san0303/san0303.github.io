@@ -11,6 +11,52 @@ img{margin: 0; padding: 0; display: block;}
 /* kv */
 .kv_container{width: 100%;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 40.36458%; background: url("../images/kv_bg.png") center top no-repeat; background-size: 100% auto; position: relative;}
+.kv .cloudL{width: 19%; position: absolute; left: 3%; top: 20%;
+    -webkit-animation-name: float;
+            animation-name: float;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;}
+.kv .cloudL img{
+      -webkit-animation-name: cloud;
+              animation-name: cloud;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-duration: 5s;
+              animation-duration: 5s;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;}
+.kv .cloudR{width: 19%; position: absolute; right: 3%; top: 18%;
+    -webkit-animation-name: float;
+            animation-name: float;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;}
+.kv .cloudR img{
+      -webkit-animation-name: cloud;
+              animation-name: cloud;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-duration: 4s;
+              animation-duration: 4s;
+      -webkit-animation-delay: -5s;
+              animation-delay: -5s;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate; }
 .kv .title{width: 50%; margin: 0 auto; padding-top: 1.5%;}
 .kv .title .kv_tit{width: 100%;}
 .kv .title .kv_subtit{width: 80%; margin: 0 auto;}
@@ -127,6 +173,8 @@ img{margin: 0; padding: 0; display: block;}
 .content_container{margin: 10% auto 8%;}
 /* kv */
 .kv{width: 100%; max-width: 1400px; margin: 0 auto; height: 0; padding-bottom: 55.357143%; background: url("../images/kv_bg-1400.png") center top no-repeat; background-size: 100% auto;}
+.kv .cloudL{width: 25%; left: -12%; top: 21%;}
+.kv .cloudR{width: 25%; right: -11%; top: 18%;}
 .kv .title{width: 65%; margin: 0 auto; padding-top: 2%;}
 .kv .peopleAll{width: 78%; left: 11%;}
 .kv .kv_logo{width: 38%; bottom: -8%; left: 31%;}
@@ -167,6 +215,8 @@ img{margin: 0; padding: 0; display: block;}
 .content_container{margin: 18% auto 10%; background: none;}
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 126%; margin: 0 auto; background: url("../images/kv_bg_m.png") center top no-repeat; background-size: 100% auto;}
+.kv .cloudL,
+.kv .cloudR{display: none;}
 .kv .title{width: 92%; padding-top: 5%;}
 .kv .title .kv_subtit{width: 65%; padding-top: 3%;}
 .kv .peopleAll{width: 110%; left: -5%;}
@@ -233,3 +283,34 @@ img{margin: 0; padding: 0; display: block;}
   0%,100%{-webkit-transform:scaleX(.5);transform:scaleX(.5);}
       50%{-webkit-transform:scaleX(1);transform:scaleX(1);}
 }
+@-webkit-keyframes cloud {
+  0% {
+    -webkit-transform: translateX(-3%);
+            transform: translateX(-3%); }
+  100% {
+    -webkit-transform: translateX(3%);
+            transform: translateX(3%); } }
+
+@keyframes cloud {
+  0% {
+    -webkit-transform: translateX(-3%);
+            transform: translateX(-3%); }
+  100% {
+    -webkit-transform: translateX(3%);
+            transform: translateX(3%); } }
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px); } }
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px); } }
