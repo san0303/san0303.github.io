@@ -33,13 +33,15 @@ a:active,
 a:visited {
     text-decoration: none;
 }
-th {
-    font-weight: normal;
-    text-align: left;
+.percentTable,.percentTable th,.percentTable td {
+	border: 1px solid #005bac;
+	border-collapse: collapse;
+}
+.percentTableNumber,.percentTableNumber th,.percentTableNumber td{
+	border: 0;
 }
 .blue {color: #005bac;}
 .gold {color: #bb925b; font-weight: bold;}
-.disBoxAll{ display: block; width: 100%; display: table; text-align: center;}
 @media screen and (max-width: 960px) {
     .wrapper {width: 100% !important; max-width: 100% !important;}
     .disBox-cont {height: 150px !important;}
@@ -50,22 +52,20 @@ th {
 @media screen and (max-width: 767px) {
 	.txt-none {display: none !important;}
 	.txt-block {display: block !important;}
-    .mob-block {display: inline-block !important;}
+    .txt-inlineblock {display: inline-block !important;}
     .disBox { display: inline-block !important; width: 100% !important; text-align: center !important;}
     .countTable {padding: 0 !important;}
     .countBox {display: inline-block !important; width: 100% !important; height: auto !important;}
     .countBox1 {border-bottom: none !important; padding: 20px 0 !important;}
     .countBox2 {padding-bottom: 20px !important;}
-    .slogan-none {display: none !important;}
-    .slogan-block {display: inline-block !important;}
 }
 @media screen and (max-width: 600px) {
     .mob-none {display: none !important;}
-    .info-tit {width: 100% !important; max-width: 300px !important;}
     .info-txt {text-align: justify !important;}
-}
-@media screen and (max-width: 570px) {
-
+    .percent-tit {font-size: 28px !important;}
+    .percent-txt {font-size: 16px !important; line-height: 24px !important; padding: 0 5px !important; height: 100px;}
+    .percent-number {font-size: 30px !important; line-height: 48px !important;}
+    .percent-block {display: block !important;}
 }
 @media screen and (max-width: 460px) {
     table.column-break,
@@ -91,6 +91,9 @@ th {
     .disBox-tit {font-size: 16px !important;}
     .disBox-pic {width: 175px !important;}
     .count-txt {font-size: 16px !important;}
+}
+@media screen and (max-width: 380px) {
+	.percent-txt {font-size: 14px !important;}
 }
 </style>
 </head>
@@ -169,7 +172,54 @@ th {
                                             <img src="images/spacer.gif" height="15" alt="" border="0" />
                                         </td>
                                     </tr>
+                                    <!-- percent -->
+                                    <tr>
+                                    	<td>
+                                    		<table width="100%" class="percentTable" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: center; font-weight: bold;table-layout:fixed">
+                                    			<tr>
+                                                    <td colspan="3" class="percent-tit" style="background-color: #005bac; text-align: center; font-size: 32px; font-weight: bold; line-height: 48px; padding: 15px; color: #ffffff;">最高回饋 <span style="font-size: 48px;">4%</span></td>
+                                                </tr>
+                                                <tr>
+                                                	<td valign="middle" height="200">
+                                                		<table class="percentTableNumber" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                			<tr valign="middle">
+                                                				<td height="60" class="percent-txt" style="font-size: 20px; line-height: 30px; color: #324554;">海外消費<br>基本回饋</td>
+                                                			</tr>
+                                                			<tr valign="middle">
+                                                				<td class="percent-number" style="font-size: 40px; color: #bb925b; line-height: 72px;">2.2%</td>
+                                                			</tr>
+                                                		</table>
+                                                	</td>
+                                                	<td valign="middle" height="200">
+                                                		<table class="percentTableNumber" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                			<tr valign="middle">
+                                                				<td height="60" class="percent-txt" style="font-size: 20px; line-height: 30px; color: #324554;">外幣回饋<br>美金、日圓<br class="percent-block" style="display: none;">任選</td>
+                                                			</tr>
+                                                			<tr valign="middle">
+                                                				<td class="percent-number" style="font-size: 40px; color: #bb925b; line-height: 72px;"><span style="font-size: 24px;">+</span>1%</span></td>
+                                                			</tr>
+                                                		</table>
+                                                	</td>
+                                                	<td valign="middle" height="200">
+                                                		<table class="percentTableNumber" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                			<tr valign="middle">
+                                                				<td height="60" class="percent-txt" style="font-size: 20px; line-height: 30px; color: #324554;">設定<br class="percent-block" style="display: none;">自動扣繳卡費<br>加碼外幣回饋</td>
+                                                			</tr>
+                                                			<tr valign="middle">
+                                                				<td class="percent-number" style="font-size: 40px; color: #bb925b; line-height: 72px;"><span style="font-size: 24px;">+</span>0.8%</span></td>
+                                                			</tr>
+                                                		</table>
+                                                	</td>
+                                                </tr>
+                                    		</table>
+                                    	</td>
+                                    </tr>
                                     <!-- cta -->
+                                    <tr>
+                                        <td height="25">
+                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                        </td>
+                                    </tr>
 						            <tr>
 						        		<td>
 						        			<table cellspacing="0" cellpadding="0" border="0" align="center">
@@ -426,20 +476,15 @@ th {
 						        		</td>
 						        	</tr>
 						        	<!-- cta end -->
-                                    <tr>
-                                        <td height="20">
-                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
-                                        </td>
-                                    </tr>
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="20">
-                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                        <td height="40">
+                                            <img src="images/spacer.gif" height="40" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td height="50" class="spacer2">
-                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                        <td height="25" class="spacer2">
+                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
                                 </table>
@@ -459,7 +504,7 @@ th {
             <!-- creditslogan -->
             <tr>
             	<td>
-            		<table width="100%" class="sloganTable" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#78797a" style="padding:0 30px;">
+            		<table width="100%" class="sloganTable" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#78797a" style="padding:0 20px;">
             			<tr>
                             <td height="25" align="center">
                                 <img src="images/spacer.gif" height="25" alt="" border="0" />
@@ -469,7 +514,7 @@ th {
             				<td class="slogan-tit" style="font-size: 28px; font-weight: bold; letter-spacing: 2px; line-height: 48px; color: #ffffff; text-align: center;">謹慎理財&emsp;信用無價</td>
             			</tr>
             			<tr>
-            				<td class="slogan-txt" style="font-size: 14px; line-height: 24px; color: #ffffff; text-align: center;">信用卡循環信用年利率：2.92%~15.00%(基準日：106/4/1) ｜ 預借現金手續費：每筆預借現金金額x 3.5%+NT$100<br class="slogan-none"><span class="slogan-block" style="display: none;"> ｜ </span>其他費用請至元大網站 yuantabank.com.tw 查詢 ｜ 24小時客服專線：(02)2182-1968、0800-688-168</td>
+            				<td class="slogan-txt" style="font-size: 14px; line-height: 24px; color: #ffffff; text-align: center;">信用卡循環信用年利率：2.92%~15.00%(基準日：106/4/1) ｜ 預借現金手續費：每筆預借現金金額x 3.5%+NT$100<br class="txt-none"><span class="txt-inlineblock" style="display: none;"> ｜ </span>其他費用請至元大網站 yuantabank.com.tw 查詢 ｜ 24小時客服專線：(02)2182-1968、0800-688-168</td>
             			</tr>
             			<tr>
                             <td height="25" align="center">
