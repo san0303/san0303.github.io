@@ -1,0 +1,470 @@
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    color: #4A4A4A;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.teacher-project-experience span,.connect span,.float-cta-wrap span{
+	display:block;
+}
+.cta{
+    width: 200px;
+    margin: 10px 0px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0px;
+    font-size: 18px;
+    background-color: #D66D4D;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px #d66d4da8;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    padding: 15px 0px;
+}
+.title img{
+    vertical-align: bottom;
+    padding: 0px 5px;
+}
+.store-link,.notice-link{
+    text-decoration:underline;
+}
+/*float-btn*/
+.float-cta-wrap{
+    background-color: #A56F5F;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    font-size: 0;
+    text-align: center;
+}
+.float-cta-side{
+    width: calc(100% / 4 - 1px);
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    padding: 22px 5px 8px 5px;
+    border-right: 1px solid #d19d8e;
+}
+.float-cta-side i{
+    position: absolute;
+    width: 60px;
+    height: 69px;
+    top: -40px;
+    left: 15px;
+}
+.float-cta-wrap a:nth-child(4){
+    border-right: none;
+}
+.float-cta-activity{
+    background: url(../images/float-btn-draw.png) no-repeat center center/40px;    
+}
+.float-cta-sign{
+    background: url(../images/float-cta-sign.png) no-repeat center center/45px;
+}
+.float-cta-draw{
+    background: url(../images/float-btn-like.png) no-repeat center center/45px;  
+}
+.float-cta-gogoro{
+    background: url(../images/float-btn-gogoro.png) no-repeat center center/70px; 
+}
+.float-cta{
+    display: none;
+}
+/*header*/
+.sinyi-logo {
+    width: 0px;
+    padding-left: 108px;
+    margin: 15px auto;
+    overflow: hidden;
+    height: 32px;
+    background: url(../images/sinyi-logo.svg) no-repeat left center;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background: url("../images/header-m-kv.png") no-repeat bottom -320px center/ 110%,url("../images/header-m-kv-bg.png") no-repeat bottom center/cover;
+    background-color: #F7F0D2;
+}
+.header-introduce{
+    margin-top: 20px;
+}
+.header-title{
+    font-size: 22px;
+}
+.header-title-earth{
+    font-size: 38px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.header-subtitle{
+    padding: 10px;
+}
+.header-prize{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.header-prize p{
+    background: url(../images/header-prize-bg.svg) no-repeat center center/contain;
+    padding: 15px 10px 30px 10px;
+    box-sizing: border-box;
+    line-height: 1.3;
+    height: 90px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header-prize-item{
+    width: 95%;
+}
+/*活動說明*/
+.event{
+    background-color: #BFDEA4;
+    padding: 15px 0px;
+}
+.event-wrap{
+    margin: 0px 15px;
+    background-color: #ffffff;
+    padding: 0px 15px;
+    position: relative;
+}
+.event-decorate{
+    position: absolute;
+    top: -48px;
+    right: -10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(../images/event-decorate.svg) no-repeat top right / cover;
+}
+.event-photo img{
+    width: 100%;
+}
+.event-title{
+    font-size: 20px;
+    color: #D66D4D;
+    font-weight: 500;
+    clear: both;
+    padding: 10px 0px 10px 0px;
+}
+.event-theme ,.event-wrap{
+    line-height: 1.5;
+}
+.event-team{
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.event-team li{
+    display: table-row;
+}
+.event-team-list{
+    display: table-cell;
+    height: 100%;
+    border: 1px solid gray;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    vertical-align: middle;
+}
+.event-team-list span{
+    display: block;
+}
+.event-item-step{
+    padding: 0px 0px 15px 90px;
+}
+.event-item li h4{
+    color: #ffffff;
+    background-color: #95BF71;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 3px 10px 3px 15px;
+    width: 90px;
+    line-height: 30px;
+}
+.event-item-step:nth-child(1){
+    background: url(../images/event-icon-signup.svg) no-repeat top left 10px/60px;
+}
+.event-item-step:nth-child(2){
+    background: url("../images/event-icon-receive.svg")no-repeat top left 10px/55px;
+}
+.event-item-step:nth-child(3){
+    background: url("../images/event-icon-draw.svg") no-repeat top left 10px/60px;
+}
+.event-item-step:nth-child(4){
+    background: url("../images/event-icon-delivery.svg") no-repeat top left 10px/60px;
+}
+.event-item-step:nth-child(5){
+    background: url("../images/event-icon-selection.svg") no-repeat top left 10px/60px;
+}
+.event-item-step:nth-child(6){
+    background: url("../images/event-icon-trophy.svg") no-repeat top left 10px/60px;
+}
+.event-item-remind{
+    background: url(../images/event-icon-info.svg) no-repeat left 15px center/50px;
+    border: 1px solid #95BF71;
+    border-radius: 5px;
+    padding: 10px 10px 10px 75px;
+    margin: 20px 0px;
+}
+.event-rewards{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.event-rewards-title{
+    background-color: #F2F2F2;
+    font-weight: 500;
+}
+.event-rewards td{
+    border: 1px solid #D6D6D6;
+    line-height: 1.6;
+    padding: 10px;
+}
+.event-wrap >a{
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 30px;
+}
+/*獎品*/
+.prize{
+    padding: 20px 15px 80px 15px;
+    background: url(../images/prize-bg.svg) no-repeat bottom center/100px;
+}
+.prize-list,.prize-list-special{
+    background-color: #F2F2F2;
+    padding: 0px 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.prize-sub-title,.prize-sub-title-focus{
+    font-size: 23px;
+    font-weight: 500;
+}
+.prize-sub-title{
+    padding: 10px 0px 10px 45px;
+    padding-bottom: 15px;
+    background: url(../images/prize-icon-title.svg) no-repeat center left/40px;
+}
+.prize-sub-title-focus{
+    color: #D66D4D;
+}
+.prize-item{
+    width: 100%;
+}
+.prize-item-title{
+    font-size: 20px;
+}
+.prize-item-content{
+    min-height: 100px;
+    padding: 0px 0px 10px 150px;
+    display: block;
+}
+.prize-item-img{
+    float: left;
+    box-sizing: border-box;
+    height: 97px;
+    width: 140px;
+    border: 1px solid #BFDEA4;
+}
+.prize-ateam-first{
+    background: url(../images/prize-a-1.jpg) no-repeat left top/contain;
+}
+.prize-ateam-second,.prize-bteam-second,.prize-cteam-second{
+    background: url(../images/prize-abc-2.jpg) no-repeat left top/contain;
+}
+.prize-ateam-third{
+    background: url(../images/prize-a-3.jpg) no-repeat left top/contain;
+}
+.prize-bteam-first{
+    background: url(../images/prize-b-1.jpg) no-repeat left top/contain;
+}
+.prize-bteam-third{
+    background: url(../images/prize-b-3.jpg) no-repeat left top/contain;
+}
+.prize-cteam-first{
+    background: url(../images/prize-c-1.jpg) no-repeat left top/contain;
+}
+.prize-cteam-third{
+    background: url(../images/prize-c-3.jpg) no-repeat left top/contain;
+}
+.prize-dteam-first{
+    background: url(../images/prize-d-1.jpg) no-repeat left top/contain;
+}
+.prize-dteam-second{
+    background: url(../images/prize-d-2.jpg) no-repeat left top/contain;
+}
+.prize-dteam-third{
+    background: url(../images/prize-d-3.jpg) no-repeat left top/contain;
+}
+.prize-creative{
+    background: url(../images/prize-creative.jpg) no-repeat left top/contain;
+}
+.prize-honorable{
+    background: url(../images/prize-honorable.jpg) no-repeat left top/contain;
+}
+.prize-list-special{
+    padding: 10px 20px 10px 60px;
+    background: url(../images/prize-special-icon.png) no-repeat left 15px center/35px;
+    background-color: #F2F2F2;
+}
+/*特別活動*/
+.special-event{
+    padding: 20px 15px;
+    background-color: #BFDEA4;
+}
+.special-event-cta{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.special-event-content{
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.special-event-content img{
+    width: 100%;
+    vertical-align: top;
+}
+.special-event-content-article{
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.special-event-content-article h3{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.special-event-content-article a{
+    margin: 15px auto 0px auto;
+    width: 100%;
+}
+.special-event-content-foucs{
+    display: block;
+    font-weight: 500;
+    color: #D66D4D;
+    padding-top: 5px;
+}
+.special-gogoro{
+    display: inline;
+}
+/*合作企業*/
+.business{
+    padding: 15px;
+    line-height: 1.8;
+}
+.business-sinyi p{
+    padding-bottom: 6px;
+}
+.business-gogoro-img{
+    width: 100%;
+    text-align: center;
+}
+.business-gogoro-collaboration{
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #F2F2F2;
+}
+/*評審團隊u*/
+.teacher{
+    padding: 15px 15px 90px;
+    background: url("../images/teacher-bg-img.svg") no-repeat bottom -20px center/270px;
+}
+
+.teacher-list li{
+    background-color: #F2F2F2;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.teacher-project-photo{
+    width: 20%;
+    padding: 65px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.teacher-project-name{
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.teacher-project-name h3{
+    font-size: 20px;
+}
+
+.teacher-project-experience{
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #707070;
+}
+.teacher-photo-one{
+    background: url(../images/teacher-1.jpg) no-repeat center/cover;
+}
+.teacher-photo-two{
+    background: url(../images/teacher-2.jpg) no-repeat center/cover;
+}
+.teacher-photo-three{
+    background: url(../images/teacher-3.jpg) no-repeat center/cover;
+}
+.teacher-photo-four{
+    background: url(../images/teacher-4.jpg) no-repeat center/cover;
+}
+.teacher-photo-five{
+    background: url(../images/teacher-5.jpg) no-repeat center/cover;
+}
+/*注意事項*/
+.notice{
+    padding: 15px 15px ;
+    background-color: #BFDEA4;
+}
+.notice-wrap p,.notice-wrap li{
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+}
+.notice-focus{
+    color: #D66D4D;
+    font-weight: 700;
+    display: block;
+}
+/*footer*/
+.footer{
+    color: #ffffff;
+    padding: 15px 15px 100px;
+    background-color: #70865D;
+}
+.connect-service-member p, .connect-service-time p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+/*go top*/
+.footer-gotop{
+    width: 45px;
+    position: fixed;
+    bottom: 118px;
+    right: 8px;
+    color: #fff;
+    padding: 30px 5px 10px 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    text-align: center;
+    display: none;
+    background: url(../images/gotop-icon.svg)no-repeat top;
+    background-color: #868686;
+    z-index: 99999;
+    font-size: 10px;
+    background-size: 20px 35px;
+}

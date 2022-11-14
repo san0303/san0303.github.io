@@ -1,0 +1,6 @@
+*.DS_Store
+*.zip
+*.log
+.vscode/
+node_modules/
+dist/

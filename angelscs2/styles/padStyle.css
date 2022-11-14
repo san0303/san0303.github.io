@@ -1,0 +1,100 @@
+.footer-gotop{
+    bottom:100px;
+}
+/*header*/
+.sinyi-logo{
+    margin: 15px;
+}
+.header{
+    text-align: left;
+    position: relative;
+    background: url(../images/header-m-kv.png) no-repeat right -50px bottom -330px/75%,url(../images/header-pc-kv-bg.png) no-repeat right bottom -145px/100%;
+    background-color: #F7F0D2;
+}
+.header-introduce {
+    margin: 0;
+    padding: 20px 0px 50px 30px;
+    width: 50%;
+}
+.header-title-earth{
+    padding: 0;
+}
+.header-subtitle{
+    padding: 10px 0px;
+}
+.header-prize {
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    margin-top: 0;
+}
+.header-prize p{
+    padding: 16px;
+    width: 357px;
+}
+/*float cta*/
+.float-cta-side i{
+    left: 65px;
+}
+/*活動說明*/
+.event-photo{
+    width: 90%;
+    margin: 0 auto;
+}
+.event-photo img{
+    width: 100%;
+}
+.event-decorate{
+    right: 84px;
+    width: 150px;
+    height: 150px;
+}
+/*獎項*/
+.prize{
+    text-align: center;
+    background: url(../images/prize-bg.svg) no-repeat bottom left 15px/100px;
+}
+.prize>p{
+    margin: 10px 25px;
+}
+.prize-list{
+    min-height: 400px;
+    margin: 10px;
+    width: calc( 100% / 2 - 40px );
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.prize-list:nth-child(6), .prize-list:nth-child(7){
+    min-height: 0;
+}
+.prize-list-special{
+    padding: 25px 0px;
+    background: url(../images/prize-special-icon.png) no-repeat left 21px center/27px;
+    background-color: #F2F2F2;
+}
+/*特別活動*/
+.special-event{
+    padding: 20px 45px;
+}
+.special-event-content{
+    margin-bottom: 20px;
+}
+/*評審團隊*/
+.teacher{
+    padding: 15px 15px 130px;
+    background: url(../images/teacher-bg-img.svg) no-repeat bottom -20px center/50%;
+}
+.teacher-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teacher-list li{
+    margin: 10px;
+    width: 43%;
+}
