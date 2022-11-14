@@ -1,0 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Light.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Regular.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Medium.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Bold.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Black.otf") format("opentype");
+    font-display: swap;
+}
+body { margin: 0; padding: 0; font-family: "Noto Sans TC", sans-serif; color: #2e4f7d; font-size: 16px; line-height: 26px; overflow-x: hidden }
+@media screen and (max-width:576px) {
+	body { font-size: 15px }
+}
+* { box-sizing: border-box; border: none; letter-spacing: .5px }
+.container { margin: auto }
+.container-md { max-width: 1200px; width: 82% }
+@media screen and (max-width:1024px) {
+	.container-md { width: 100%; padding: 0 18px }
+}
+.container-sm { max-width: 1000px; width: 78% }
+@media screen and (max-width:1024px) {
+	.container-sm { width: 100%; padding: 0 18px }
+}
+.container-xs { max-width: 800px; width: 75% }
+@media screen and (max-width:1024px) {
+	.container-xs { width: 90% }
+}
+.d-flex { display: flex; align-items: center }
+.d-flex .flex { flex: 1 }
+.f22 { font-size: 22px; line-height: 36px }
+@media screen and (max-width:576px) {
+	.f22 { font-size: 18px; line-height: 28px }
+}
+.yt-blue { color: #0059bd }
+.blue { color: #0e74dc }
+.orange { color: #fd7400 }
+.text-center { text-align: center }
+b, .bold { font-weight: 700 }
+img { max-width: 100% }
+.mb { display: none !important }
+@media screen and (max-width:576px) {
+	.mb { display: block !important }
+}
+@media screen and (min-width:1025px) {
+	.pad { display: none !important }
+}
+@media screen and (max-width:1024px) {
+	.desktop { display: none !important }
+}
+.top { bottom: 150px }
+@media screen and (max-width:576px) {
+	.top { bottom: 10px }
+}
+.tabs { border-bottom: 1px solid #889ab4 }
+.tabs .tab { display: inline-block; opacity: .4; padding: 15px; cursor: pointer; border-bottom: 3px solid rgba(0, 0, 0, 0); font-weight: 500 }
+@media screen and (max-width:576px) {
+	.tabs .tab { padding: 10px }
+}
+.tabs .tab.active { opacity: 1; color: #0e74dc; border-color: #0e74dc }
+.tabs .fundInfoTab .tab { opacity: 1 }
+header { display: flex; align-items: center; justify-content: space-between; padding: 2px 29px 0 }
+header a img{width: 300px}
+@media screen and (max-width:991px) {
+	header a img{width: 200px}
+}
+@media screen and (max-width:576px) {
+	header { padding: 12px 10px 0 20px; display: block }
+}
+header .links { display: flex; position: relative }
+@media screen and (max-width:576px) {
+	header .links { display: none }
+	header .links.open { display: block; position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: #0e74dc; padding: 10px; font-size: 24px; text-align: center; padding-top: 20vh }
+	header .links.open .link { display: block; padding: 10px 0; color: #fff }
+	header .links.open .link span { display: block }
+	header .links.open .socialmedia { justify-content: center; align-items: center; position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); display: flex }
+	header .links.open .socialmedia li { padding: 0 10px }
+	header .links.open .socialmedia li a { display: flex; align-items: center; justify-content: center }
+	header .links.open .socialmedia li img { width: 30px }
+}
+header .links .link { cursor: pointer; position: relative; padding: 20px 40px; position: relative; transition: all .2s ease-in-out }
+@media screen and (min-width:577px) {
+	header .links .link:hover span { opacity: .8 }
+	header .links .link:hover p { display: block }
+}
+@media screen and (max-width:576px) {
+	header .links .link { display: none }
+}
+/*header .links .link:first-child:after, header .links .link-download:after { content: ""; display: inline-block; width: 1px; height: 15px; background: #0e74dc; border-right: 1px solid; position: absolute; right: 0; top: 50%; transform: translateY(-50%) }*/
+@media screen and (max-width:576px) {
+	header .links .link:first-child:after, header .links .link-download:after { display: none }
+}
+@media screen and (max-width:576px) {
+	header .links .link-download { padding: 0 }
+}
+@media screen and (max-width:576px) {
+	header .links .link-download span { display: none }
+}
+header .links .link p { position: absolute; top: 100%; left: 0; width: 100%; text-align: center; background: #fff; padding: 10px 0; display: none }
+@media screen and (max-width:576px) {
+	header .links .link p { display: block; background: rgba(0, 0, 0, 0); position: relative; top: auto; left: auto; padding: 0 }
+}
+header .links .link p a { display: block; padding: 10px 0; color: #0e74dc; transition: all .2s ease-in-out }
+@media screen and (min-width:1025px) {
+	header .links .link p a:hover { opacity: .8 }
+}
+@media screen and (max-width:576px) {
+	header .links .link p a { color: #fff }
+}
+@media screen and (max-width:576px) {
+	header .links .link span { display: none }
+}
+header .links .socialmedia { display: none }
+header .hbg { width: 25px; position: fixed; top: 8px; right: 20px; z-index: 11 }
+header .hbg span { display: block; background: #0e74dc; margin: 7px 0; width: 100%; height: 2px; transition: all .3s ease-in-out }
+header .hbg.open { top: 13px }
+header .hbg.open span { background: #fff }
+header .hbg.open span:first-child { transform: rotate(45deg) translate(4px, 3px) }
+header .hbg.open span:nth-child(2) { display: none }
+header .hbg.open span:last-child { transform: rotate(-45deg) translate(3px, -3px) }
+article { min-height: 100vh }
+.table { display: table; width: 100% }
+.table .tr { display: table-row }
+.table .tr .td { display: table-cell; padding: 10px; text-align: center; vertical-align: middle }
+.img { width: 100%; overflow: auto }
+@media screen and (max-width:576px) {
+	.img img { width: 800px; max-width: unset }
+}
+section:not(.main):not(.warn) { padding: 60px 0 }
+@media screen and (max-width:992px) {
+	section:not(.main):not(.warn) { padding: 30px 0 }
+}
+section:not(.main):not(.warn) .title { text-align: center }
+section:not(.main):not(.warn) .title h2 { color: #0e74dc; font-size: 48px; line-height: 55px; padding: 40px 0 }
+@media screen and (max-width:1024px) {
+	section:not(.main):not(.warn) .title h2 { font-size: 36px; line-height: 40px }
+}
+@media screen and (max-width:992px) {
+	section:not(.main):not(.warn) .title h2 { padding: 20px 0 }
+}
+@media screen and (max-width:576px) {
+	section:not(.main):not(.warn) .title h2 { font-size: 24px; line-height: 36px; padding: 15px 0; letter-spacing: .2px }
+}
+section:not(.main):not(.warn) .title h2 br { display: none }
+@media screen and (max-width:576px) {
+	section:not(.main):not(.warn) .title h2 br { display: block }
+}
+section:not(.main):not(.warn) .title p { font-size: 20px; line-height: 32px; color: #2e4f7d }
+@media screen and (max-width:768px) {
+	section:not(.main):not(.warn) .title p { font-size: 16px; line-height: 24px }
+}
+section:not(.main):not(.warn) .content { padding: 60px 0 }
+@media screen and (max-width:992px) {
+	section:not(.main):not(.warn) .content { padding: 30px 0 }
+}
+section.main { padding-top: 72px; height: 100vh; position: relative; overflow: hidden; color: #fff; font-weight: 400; background: url(../img/img_kv.jpg) no-repeat; background-position: right center; background-size: auto 100% }
+@media screen and (max-width:1024px) {
+	section.main { background: url(../img/img_kv_mob.jpg) no-repeat; background-position: center bottom; background-size: 100% auto }
+}
+@media screen and (max-width:991px) {
+	section.main { padding-top: 50px }
+}
+section.main .title-area { height: 100%; width: 100% }
+@media screen and (max-width:1024px) {
+	section.main .title-area { display: block }
+}
+section.main .title { color: #0e74dc; font-size: 48px; line-height: 60px; font-weight: bold; padding: 0 60px 130px; background: #fff; width: 760px; height: 100%; margin: 0; position: relative; z-index: 1; display: flex; align-items: center; justify-content: center }
+@media screen and (max-width:1280px) {
+	section.main .title { font-size: 40px; line-height: 50px; width: 650px }
+}
+@media screen and (max-width:1024px) {
+	section.main .title { width: 100%; height: auto; padding: 15px 30px; font-size: 36px; z-index: 0 }
+}
+@media screen and (max-width:576px) {
+	section.main .title { font-size: 22px; line-height: 40px }
+}
+section.main .title h2 { font-size: 90px; line-height: 130px; color: #fd7400; font-weight: bold; padding: 0 0 30px 0; position: relative; display: inline-block }
+@media screen and (max-width:1280px) {
+	section.main .title h2 { font-size: 80px; line-height: 100px }
+}
+@media screen and (max-width:1024px) {
+	section.main .title h2 { font-size: 60px; line-height: 80px; padding: 20px 0 10px 0 }
+}
+@media screen and (max-width:576px) {
+	section.main .title h2 { font-size: 40px; line-height: 58px; padding: 0; margin-top: 20px; display: block }
+}
+section.main .title h2 span { font-size: 30px; line-height: 30px; display: inline-block; transform: translate(-20px 0, -50px); cursor: pointer }
+section.main .title h2 span:hover~p { display: block }
+@media screen and (max-width:576px) {
+	section.main .title h2 span { transform: translate(-5px, -10px) }
+}
+section.main .title h2 p { display: none; color: #52709a; border: 1px solid; padding: 15px; position: absolute; bottom: 0; left: calc(100% + 10px); width: 240px; background: #fff }
+@media screen and (max-width:576px) {
+	section.main .title h2 p { padding: 10px; left: 0; bottom: auto; top: calc(100% + 10px); width: 100% }
+}
+section.main .title h3 { color: #0059bd; padding: 20px 0 }
+@media screen and (max-width:1024px) {
+	section.main .title h3 { padding: 0; margin-bottom: 10px }
+}
+section.main .title p { color: #0059bd; padding-bottom: 30px }
+@media screen and (max-width:576px) {
+	section.main .title p { font-size: 15px; line-height: 22px }
+}
+section.main .title p span { margin-left: 10px }
+@media screen and (max-width:1024px) {
+	section.main .title p span { display: block; margin-left: 0 }
+}
+@media screen and (max-width:576px) {
+	section.main .title p span { font-size: 14px }
+}
+section.main .deco { position: relative; height: 100%; margin-left: -1px }
+@media screen and (max-width:1024px) {
+	section.main .deco { margin-left: 0; height: auto; margin-top: -50px }
+}
+@media screen and (max-width:768px) {
+	section.main .deco { margin-top: -1px }
+}
+section.main .deco img { display: block; height: 100% }
+section.main .deco img.decoLine { position: absolute; top: 0; left: 0 }
+section.main .features { text-align: center; background: rgba(0, 89, 189, .9); position: fixed; bottom: 0; left: 0; width: 100%; justify-content: space-around; z-index: 1 }
+@media screen and (max-width:576px) {
+	section.main .features { position: absolute; padding: 15px 0 }
+}
+section.main .features .feature { border-radius: 4px; color: #fff; margin: 10px; display: flex; align-items: center; justify-content: center; padding: 20px; cursor: pointer; transition: all .2s ease-in-out; font-size: 24px }
+@media screen and (min-width:1025px) {
+	section.main .features .feature:hover { color: #ffde00 }
+	section.main .features .feature:hover .icon, section.main .features .feature:hover .arrow { background: #ffde00 }
+}
+@media screen and (max-width:992px) {
+	section.main .features .feature { margin: 0; font-size: 20px }
+}
+@media screen and (max-width:576px) {
+	section.main .features .feature { padding: 5px; margin: 0; font-size: 15px; line-height: 20px; text-align: left }
+}
+section.main .features .feature:first-child { margin-left: 0 }
+section.main .features .feature:last-child { margin-right: 0 }
+section.main .features .feature#btn-kv-section1 .icon { -webkit-mask-box-image: url(../img/icon_kv_feature1.svg) }
+section.main .features .feature#btn-kv-section2 .icon { -webkit-mask-box-image: url(../img/icon_kv_feature2.svg) }
+section.main .features .feature#btn-kv-section3 .icon { -webkit-mask-box-image: url(../img/icon_kv_feature3.svg) }
+section.main .features .feature .icon { display: block; width: 70px; height: 70px; background: #fff; transition: all .2s ease-in-out }
+@media screen and (max-width:992px) {
+	section.main .features .feature .icon { width: 40px; height: 40px; margin-right: 5px }
+}
+section.main .features .feature .arrow { display: block; width: 17px; height: 7px; background: #fff; transition: all .2s ease-in-out; -webkit-mask-box-image: url(../img/icon_kv_arrow_down.svg); margin-left: 10px }
+@media screen and (max-width:576px) {
+	section.main .features .feature .arrow { display: none }
+}
+section.main .features .feature p { padding: 0 10px }
+@media screen and (max-width:576px) {
+	section.main .features .feature p { padding: 0 }
+}
+section.main .mainBtn { position: fixed; right: 50px; top: 50%; transform: translateY(-50%); z-index: 2; writing-mode: vertical-lr; border-radius: 100px; display: flex; font-weight: 500 }
+@media screen and (max-width:576px) {
+	section.main .mainBtn { right: 10px; top: auto; transform: none; bottom: 90px }
+}
+section.main .mainBtn .link a{ flex: 1; display: inline-block; padding: 20px 12px; position: relative; cursor: pointer; white-space: nowrap; min-height: 106px; color: #0e74dc; letter-spacing: 2px; background: rgba(253, 116, 0, .7); color: #fff; margin: 15px 0; transition: all .2s ease-in-out }
+@media screen and (min-width:1025px) {
+	section.main .mainBtn .link a:hover { background: #fd7400 }
+}
+@media screen and (max-width:576px) {
+	section.main .mainBtn .link a{ padding: 10px 3px; text-align: center; margin: 7px 0; background: #fd7400 }
+}
+section.global .content { width: 90% }
+@media screen and (max-width:1023px) {
+	section.global .content { margin: auto }
+}
+section.global .content .level-img { width: 40% }
+@media screen and (max-width:1280px) {
+	section.global .content .level-img { width: 35%; padding-top: 50px }
+}
+@media screen and (max-width:1023px) {
+	section.global .content .level-img { display: none }
+}
+section.global .content .company { margin: auto; margin-left: -30px }
+@media screen and (max-width:1170px) {
+	section.global .content .company { margin-left: -66px }
+}
+@media screen and (max-width:1023px) {
+	section.global .content .company { margin-left: auto }
+}
+section.global .content .level { padding: 12px 0 }
+@media screen and (max-width:1280px) {
+	section.global .content .level { padding: 8px 0 }
+}
+@media screen and (max-width:576px) {
+	section.global .content .level { text-align: center }
+}
+section.global .content .level:nth-child(2) { padding-left: 40px }
+@media screen and (max-width:1023px) {
+	section.global .content .level:nth-child(2) { padding-left: 0 }
+}
+section.global .content .level:nth-child(2) .name { background: #ff9d4d }
+section.global .content .level:nth-child(3) { padding-left: 80px }
+@media screen and (max-width:1023px) {
+	section.global .content .level:nth-child(3) { padding-left: 0 }
+}
+section.global .content .level:nth-child(3) .name { background: #ffb37b }
+section.global .content .level .name { background: #ff8920; color: #fff; text-align: center; padding: 5px; display: none }
+@media screen and (max-width:1023px) {
+	section.global .content .level .name { display: block }
+}
+section.global .content .level .name span { margin-left: 10px }
+section.global .content .level .type { color: #fd7400; padding: 10px 0; margin-left: -20px }
+@media screen and (max-width:1023px) {
+	section.global .content .level .type { margin-left: 0; text-align: center }
+}
+@media screen and (max-width:576px) {
+	section.global .content .level .type { padding: 5px 0; margin-top: 10px }
+}
+@media screen and (max-width:576px) {
+	section.global .content .level .detail { display: inline-block }
+	section.global .content .level .detail .flex { padding: 5px 0 }
+}
+section.global .content .level .flex:first-child { padding-right: 40px }
+@media screen and (max-width:1280px) {
+	section.global .content .level .flex:first-child { padding-right: 20px }
+}
+@media screen and (max-width:576px) {
+	section.global .content .level .flex:first-child { padding-right: 0 }
+}
+section.global .content .level p { white-space: nowrap; text-align: left }
+section.global .content .level span { word-break: keep-all; padding-right: 20px; line-height: 32px; text-align: center; min-width: 95px }
+@media screen and (max-width:1280px) {
+	section.global .content .level span { font-size: 20px; line-height: 26px }
+}
+@media screen and (max-width:576px) {
+	section.global .content .level span { font-size: 18px }
+}
+section.section2 { padding-bottom: 0 !important }
+section.section2 .content-info { display: flex; justify-content: center; align-items: center }
+@media screen and (max-width:1023px) {
+	section.section2 .content-info { display: block; text-align: center }
+}
+section.section2 .content-info .info { padding: 30px; text-align: center; font-weight: bold }
+@media screen and (max-width:1023px) {
+	section.section2 .content-info .info { display: inline-block }
+}
+@media screen and (max-width:576px) {
+	section.section2 .content-info .info { padding: 15px 0; width: 160px }
+}
+section.section2 .content-info .info .tag { padding: 5px 15px; background: #dbedff; color: #0e74dc; display: inline-block; word-break: keep-all }
+@media screen and (max-width:576px) {
+	section.section2 .content-info .info .tag { font-size: 14px }
+}
+section.section2 .content-info .info .data { color: #fd7400; padding: 10px 0; word-break: keep-all }
+section.section2 .content-info .info .data span { font-size: 66px; line-height: 66px; margin: 0 5px }
+@media screen and (max-width:576px) {
+	section.section2 .content-info .info .data span { font-size: 46px; line-height: 46px }
+}
+section.section2 .content-info .info p { word-break: keep-all }
+section.section2 .tab br { display: none }
+@media screen and (max-width:576px) {
+	section.section2 .tab br { display: block }
+}
+section.section2 .tab-content .tab-content-title { padding: 30px 0; text-align: center; margin-top: 20px; font-size: 18px }
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .tab-content-title { padding: 10px 0 }
+}
+section.section2 .tab-content .img { text-align: center }
+section.section2 .tab-content .img .cycle { padding: 30px 0; width: 85% }
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .img .cycle { width: 800px }
+}
+section.section2 .tab-content .rate { text-align: center; width: 80%; margin: auto; padding: 20px 0; margin-bottom: 40px }
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .rate { display: block; width: 100%; margin-bottom: 0; padding-top: 0 }
+}
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .rate .flex { margin-bottom: 10px }
+}
+section.section2 .tab-content .rate img { width: 15px; margin: 0 10px }
+section.section2 .tab-content .rate img.crown { width: 50px; margin-top: 45px }
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .rate img.crown { position: absolute; left: 6.5vw; top: 50%; transform: translateY(-50%); margin-top: 20px }
+}
+section.section2 .tab-content .rate span { margin: 0 5px }
+section.section2 .tab-content .rate .d-flex { justify-content: center; position: relative }
+section.section2 .tab-content .rate .data { font-weight: bold; font-size: 30px; padding: 20px 0 }
+section.section2 .tab-content .rate .data span { font-size: 66px; line-height: 66px }
+@media screen and (max-width:576px) {
+	section.section2 .tab-content .rate .data span { font-size: 50px; line-height: 50px }
+}
+@media screen and (max-width:576px) {
+	section.funds { padding-bottom: 0 !important }
+}
+section.funds .feature { text-align: center; align-items: stretch }
+@media screen and (max-width:576px) {
+	section.funds .feature { display: block; padding-bottom: 0 !important }
+}
+section.funds .feature .flex { display: block; padding: 25px 15px; padding-bottom: 60px; border: 1px solid #889ab4; margin: 0 40px; position: relative; max-width: 320px }
+@media screen and (max-width:1024px) {
+	section.funds .feature .flex { margin: 0 15px }
+}
+@media screen and (max-width:576px) {
+	section.funds .feature .flex { padding: 20px; padding-bottom: 45px; margin: 0 auto; margin-bottom: 25px }
+}
+section.funds .feature .flex img { height: 73px }
+section.funds .feature .flex h3 { padding: 10px 0 }
+@media screen and (max-width:992px) {
+	section.funds .feature .flex h3 { font-size: 18px }
+}
+section.funds .feature .flex .desc { color: #52709a; letter-spacing: 0px }
+section.funds .feature .flex .dividend { padding: 20px 0 }
+section.funds .feature .flex .dividend span { padding: 5px 20px; color: #fff; background: #ff9d4d; margin: 0 7px }
+@media screen and (max-width:992px) {
+	section.funds .feature .flex .dividend span { padding: 5px 10px; margin: 0 3px }
+}
+section.funds .feature .flex .dividend span.point { background: #ff8920 }
+section.funds .feature .flex .more { cursor: pointer; color: #889ab4; border-top: 1px solid #889ab4; position: absolute; bottom: 0; left: 0; width: 100%; padding: 10px; transition: all .2s ease-in-out }
+@media screen and (min-width:1025px) {
+	section.funds .feature .flex .more:hover { background: #2e4f7d; color: #fff }
+}
+@media screen and (max-width:576px) {
+	section.funds .feature .flex .more { padding: 5px; background: #2e4f7d; color: #fff; border-top: none }
+}
+section.info .content { padding-top: 0 }
+@media screen and (max-width:576px) {
+	section.info .content { padding: 0 !important }
+}
+section.info .content-pc { padding-top: 15px !important }
+@media screen and (max-width:576px) {
+	section.info .content-pc .tabs { display: block; border-bottom: none }
+}
+@media screen and (max-width:576px) {
+	section.info .content-pc .tabs .tab { background: #dbedff; color: #2e4f7d; border-bottom: none; width: 100%; margin: 12px 0 }
+	section.info .content-pc .tabs .tab::after { content: ""; display: inline-block; width: 8px; height: 12px; background: url(../img/icon_section5_arrow_right.svg) no-repeat; background-size: cover; margin-left: 10px }
+	section.info .content-pc .tabs .tab br { display: none }
+}
+section.info .content .tabs { margin-bottom: 60px }
+@media screen and (max-width:992px) {
+	section.info .content .tabs { margin-bottom: 30px }
+}
+@media screen and (max-width:576px) {
+	section.info .content .detail { display: none }
+}
+section.info .detail { display: flex; width: 100% }
+@media screen and (max-width:992px) {
+	section.info .detail { display: block }
+}
+section.info .detail .list { flex: 1 }
+section.info .detail .list p { display: flex; align-items: center; margin: 1px 0; background: #dbedff }
+section.info .detail .list p span:not(.ps) { display: inline-block; text-align: center; padding: 12px }
+@media screen and (max-width:1280px) {
+	section.info .detail .list p span:not(.ps) { padding: 12px 10px }
+}
+section.info .detail .list p span:not(.ps).item { min-width: 160px }
+@media screen and (max-width:1280px) {
+	section.info .detail .list p span:not(.ps).item { min-width: 120px }
+}
+section.info .detail .list p span:not(.ps).val { padding-left: 20px; background: #f2f7fb; width: 100%; text-align: left }
+@media screen and (max-width:1280px) {
+	section.info .detail .list p span:not(.ps).val { padding-left: 10px }
+}
+@media screen and (max-width:576px) {
+	section.info .detail .list p span:not(.ps).val { padding-left: 15px }
+}
+section.info .detail .list p span:not(.ps).val a { margin-right: 20px; color: #2e4f7d }
+@media screen and (max-width:576px) {
+	section.info .detail .list p span:not(.ps).val a { display: block; padding: 5px 0 }
+}
+section.info .detail .list p span:not(.ps).val a img { width: 18px; margin-right: 10px; vertical-align: middle }
+@media screen and (max-width:576px) {
+	section.info .detail .list p span:not(.ps).val a img { width: 14px }
+}
+@media screen and (max-width:1280px) {
+	section.info .detail .list p .ps { font-size: 12px }
+}
+section.info .lbox { padding: 40px 18px }
+section.info .lbox .fundName { font-size: 16px; line-height: 24px; text-align: center; margin-bottom: 10px }
+section.info .lbox .fundName br { display: none }
+section.info .lbox .detail-area { height: calc(80vh - 115px); overflow: auto }
+@media screen and (max-width:992px) {
+	section.future .content { display: block }
+}
+section.future .content .flex:first-child { padding-right: 40px }
+@media screen and (max-width:992px) {
+	section.future .content .flex:first-child { padding-right: 0; margin-bottom: 30px }
+}
+@media screen and (max-width:576px) {
+	section.future .content .flex:first-child .not-mb { display: none }
+}
+section.future .content .flex:last-child { padding-left: 40px }
+@media screen and (max-width:992px) {
+	section.future .content .flex:last-child { padding-left: 0 }
+}
+@media screen and (max-width:576px) {
+	section.future .content .flex.chartImg { padding: 0 25px }
+}
+section.future .content .table .tr.thead { color: #fff; background: #2e4f7d }
+section.future .content .table .tr.thead:not(:last-child) .td { border-right: 3px solid #fff }
+section.future .content .table .tr.thead .td { border-bottom: none }
+@media screen and (max-width:576px) {
+	section.future .content .table .tr.thead .td { padding: 5px; font-size: 12px }
+}
+section.future .content .table .tr .td { width: 25%; border-bottom: 1px solid #889ab4 }
+@media screen and (max-width:576px) {
+	section.future .content .table .tr .td { font-size: 15px; line-height: 18px; padding: 10px }
+}
+section.future .content .table .tr .td.orange { font-weight: bold }
+section.warn { background: #ebf5ff; padding: 50px 0 }
+section.warn .title span { margin-left: 30px }
+section.warn .info { padding: 20px 0 }
+section.warn .content p { margin-bottom: 10px }
+section.warn .end { margin-top: 30px }
+section.warn ul { list-style: decimal; padding-left: 25px}
+section.warn a{ color: #0059bd }
+.lightbox { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 10000; background: rgba(0, 0, 0, .6); display: none }
+@media screen and (max-width:1024px) {
+	.lightbox { padding: 0 10px }
+}
+.lightbox.show { display: flex }
+.lightbox-funds.show { display: block }
+.lightbox-funds .title { padding: 50px 0; text-align: center }
+@media screen and (max-width:576px) {
+	.lightbox-funds .title { padding: 20px 0; margin: 10px 0 }
+}
+.lightbox-funds .tab-content { max-height: calc(80vh - 200px); overflow: auto }
+@media screen and (max-width:576px) {
+	.lightbox-funds .tab-content { max-height: calc(80vh - 160px) }
+}
+.lightbox-funds .tab-content::-webkit-scrollbar { width: 2px }
+.lightbox-funds .tab-content::-webkit-scrollbar-thumb { background: #aaa }
+.lightbox-funds .tab-content .img { margin-bottom: 40px; text-align: center }
+.lightbox-funds .tab-content .img img { width: 80% }
+@media screen and (max-width:576px) {
+	.lightbox-funds .tab-content .img img { width: 800px }
+}
+.lightbox-funds .table { background: #ebf5ff; padding: 0 30px }
+@media screen and (max-width:576px) {
+	.lightbox-funds .table { display: flex; padding: 20px }
+}
+@media screen and (max-width:576px) {
+	.lightbox-funds .table .tr { display: block; flex: 3 }
+}
+@media screen and (max-width:576px) {
+	.lightbox-funds .table .tr:first-child { display: block; flex: 2 }
+}
+.lightbox-funds .table .tr:first-child .td { border-bottom: 1px solid #bbc5d3 }
+@media screen and (max-width:576px) {
+	.lightbox-funds .table .tr:first-child .td { border-bottom: none }
+}
+.lightbox-funds .table .tr .td { padding: 20px }
+@media screen and (max-width:576px) {
+	.lightbox-funds .table .tr .td { display: block; padding: 10px }
+}
+@media screen and (max-width:576px) {
+	.lightbox-funds .table .tr .td:not(:last-child) { border-bottom: 1px solid #bbc5d3 }
+}
+.lightbox-funds .feature { padding: 40px }
+@media screen and (max-width:576px) {
+	.lightbox-funds .feature { padding: 20px }
+}
+.lightbox-funds .feature .flex { justify-content: center }
+@media screen and (max-width:576px) {
+	.lightbox-funds .feature .flex { display: block; text-align: center }
+}
+.lightbox-funds .feature .flex img { width: 40px; margin-right: 15px }
+@media screen and (max-width:576px) {
+	.lightbox-funds .feature .flex img { display: block; margin-right: 0; margin: 10px auto }
+}
+.lightbox-funds .feature .flex br { display: none }
+@media screen and (max-width:576px) {
+	.lightbox-funds .feature .flex br { display: block }
+}
+@media screen and (max-width:576px) {
+	.lightbox-funds .source { margin-top: 30px }
+}
+.lightbox .lbox { background: #fff; padding: 30px 60px; padding-top: 60px; position: relative; margin-top: 15vh; height: 80vh }
+@media screen and (max-width:991px) {
+	.lightbox .lbox { padding: 30px 15px; padding-top: 70px }
+}
+@media screen and (max-width:576px) {
+	.lightbox .lbox { margin-top: 10vh; padding-top: 40px }
+}
+.lightbox .lbox .all-content { max-height: 100%; overflow: auto }
+.lightbox .lbox .all-content::-webkit-scrollbar { width: 2px }
+.lightbox .lbox .all-content::-webkit-scrollbar-thumb { background: #aaa }
+@media screen and (max-width:576px) {
+	.lightbox .lbox .all-content .tabs { overflow: auto }
+	.lightbox .lbox .all-content .tabs .tab { width: 180px; font-size: 16px }
+}
+.lightbox .lbox .content { padding: 20px 0; padding-top: 0 }
+@media screen and (max-width:576px) {
+	.lightbox .lbox .content { padding: 15px 5px; padding-top: 0 }
+}
+.lightbox .lbox .content p.title { padding: 15px 5px; margin-bottom: 10px; border-bottom: 1px solid #889ab4 }
+@media screen and (max-width:576px) {
+	.lightbox .lbox .content p.title { padding: 10px 0 }
+}
+.lightbox .lbox .content .bank { margin-bottom: 50px }
+@media screen and (max-width:576px) {
+	.lightbox .lbox .content .bank { margin-bottom: 30px }
+}
+.lightbox .lbox .content .bank p { width: calc(33.3333333333% - 18px); display: inline-block; padding: 10px 5px; vertical-align: middle; text-align: left }
+@media screen and (max-width:991px) {
+	.lightbox .lbox .content .bank p { width: calc(50% - 14px); line-height: 24px }
+}
+@media screen and (max-width:576px) {
+	.lightbox .lbox .content .bank p { width: 100%; margin: 5px 0; margin: 0; padding: 5px 0 }
+}
+.lightbox .lbox .content .bank p span { margin-right: 10px }
+.lightbox .lbox .close { cursor: pointer; position: absolute; top: 25px; right: 25px; width: 15px }
+@media screen and (max-width:576px) {
+	.lightbox .lbox .close { width: 15px; height: 15px; top: 18px; right: 18px }
+}
+.source { font-size: 14px; line-height: 22px }
+@media screen and (max-width:768px) {
+	.source { font-size: 12px; line-height: 18px }
+}
+.footer {
+    width: 100%;
+    background-color: #007fe0;
+    height: 80px;
+    padding: 10px 0;
+    padding-bottom: 200px
+}
+
+.footerCont {
+    color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 28px;
+	text-align: center;
+}
+
+.footerCont .copyright {
+    width: 100%;
+}
+
+.footerCont .contWrapper {
+    width: 100%;
+}
+
+.contWrapper .footer-item {
+	display: inline-block;
+	padding: 0 5px;
+}
+@media screen and (max-width: 991px) {
+	.footer {
+        padding-bottom: 150px
+    }
+}
+@media screen and (max-width: 767px) {
+	.footer {
+        padding-bottom: 210px
+    }
+    .footerCont {
+        font-size: 12px;
+        line-height: 20px;
+		text-align: left;
+    }
+	
+	.contWrapper .footer-item {
+		width: 100%;
+		display: block;
+		padding: 0;
+	}
+
+    .footerCont .copyright,.footerCont .contact {
+        float: none;
+        display: block;
+        max-width: 100%;
+        padding-bottom: 10px
+    }
+}
+@media screen and (max-width: 576px) {
+	.footer {
+		height: auto;
+        padding-bottom: 15px
+    }
+}
+
