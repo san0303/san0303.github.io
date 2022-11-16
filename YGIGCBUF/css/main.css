@@ -210,14 +210,17 @@ section.main .title h2 { font-size: 90px; line-height: 130px; color: #fd7400; fo
 @media screen and (max-width:576px) {
 	section.main .title h2 { font-size: 40px; line-height: 58px; padding: 0; margin-top: 20px; display: block }
 }
-section.main .title h2 span { font-size: 30px; line-height: 30px; display: inline-block; transform: translate(-20px 0, -50px); cursor: pointer }
+section.main .title h2 span { font-size: 30px; line-height: 30px; display: inline-block; transform: translate(-20px, -50px); cursor: pointer }
 section.main .title h2 span:hover~p { display: block }
+@media screen and (max-width:1024px) {
+	section.main .title h2 span { transform: translate(-5px, -30px) }
+}
 @media screen and (max-width:576px) {
 	section.main .title h2 span { transform: translate(-5px, -10px) }
 }
 section.main .title h2 p { display: none; color: #52709a; border: 1px solid; padding: 15px; position: absolute; bottom: 0; left: calc(100% + 10px); width: 240px; background: #fff }
 @media screen and (max-width:576px) {
-	section.main .title h2 p { padding: 10px; left: 0; bottom: auto; top: calc(100% + 10px); width: 100% }
+	section.main .title h2 p { padding: 10px; left: 0; bottom: auto; top: calc(100% + 5px); width: 100% }
 }
 section.main .title h3 { color: #0059bd; padding: 20px 0 }
 @media screen and (max-width:1024px) {
