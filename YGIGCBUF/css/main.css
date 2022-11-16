@@ -530,9 +530,10 @@ section.warn { background: #ebf5ff; padding: 50px 0 }
 section.warn .title span { margin-left: 30px }
 section.warn .info { padding: 20px 0 }
 section.warn .content p { margin-bottom: 10px }
-section.warn .end { margin-top: 30px }
+section.warn .end { margin-top: 30px; color: #2890e4 }
 section.warn ul { list-style: decimal; padding-left: 25px}
-section.warn a{ color: #0059bd }
+section.warn a{ color: #2890e4 }
+section.warn .underline{ color: #2890e4 }
 .lightbox { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 10000; background: rgba(0, 0, 0, .6); display: none }
 @media screen and (max-width:1024px) {
 	.lightbox { padding: 0 10px }
