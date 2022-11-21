@@ -166,14 +166,15 @@ img{margin: 0; padding: 0; display: block;}
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 137.5%; margin: 0 auto; background: url("../images/kv_bg_m.png") center top no-repeat; background-size: 100% auto;}
 .kv .title{width: 82%; padding-top: 11%;}
-.kv .title .kv_subtit{width: 86%; padding-top: 0;}
-.kv .man{width: 44%; height: 0; padding-bottom: 75%; top: 39%; right: 10.5%; overflow: hidden;}
-.kv .woman{width: 38.5%; height: 0; padding-bottom: 60%; top: 50%; left: 8%; overflow: hidden;}
+.kv .title .kv_subtit{width: 80%; padding-top: 0;}
+.kv .man{width: 44%; height: 0; padding-bottom: 85%; top: 39%; right: 10.5%; overflow: hidden;}
+.kv .woman{width: 38.5%; height: 0; padding-bottom: 70%; top: 50%; left: 8%; overflow: hidden;}
 .kv .points{width: 15%; top: 41%; left: 28%;}
-.kv .kv_logo{width: 70%; bottom: -3%; left: 15%;}
+.kv .kv_logo{width: 70%; bottom: -8%; left: 15%;}
 .webOnly{display: none;}
 .mobOnly{display: block;}
 /* event */
+.event{margin: 5% auto 8%;}
 .event_txt{text-align: justify;}
 .event .discount .discount-item{width: 90%;}
 .discount-item .dis_cont .dis_txt{font-size: 18px;}
