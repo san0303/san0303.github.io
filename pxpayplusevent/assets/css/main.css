@@ -12,7 +12,6 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{width: 100%;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 34.895835%; background: url("../images/kv_bg.png") center top no-repeat; background-size: 100% auto; position: relative;}
 .kv .title{width: 32%; margin: 0 auto; padding-top: 4.7%;}
-.kv .title .kv_tit{width: 100%;}
 .kv .man{width: 16.5%; position: absolute; top: 10.5%; right: 17.5%;}
 .kv .woman{width: 14%; position: absolute; top: 30%; left: 18%;}
 .kv .points{width: 6%; position: absolute; top: 16%; left: 25.5%; 
