@@ -9,8 +9,8 @@
     <title>元大銀行｜全支付帳戶連結支付行銷活動</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" />
 
-    <meta name="keywords" content="元大帳戶、數位帳戶、數位存款帳戶、鑽金數位存款帳戶、行動支付、電子支付、全支付、帳戶連結支付" />
-    <meta name="description" content="即日起至2022/12/31，使用全盈+PAY連結元大帳戶享回饋金50元！" />
+    <meta name="keywords" content="元大帳戶、數位帳戶、數位存款帳戶、鑽金數位存款帳戶、行動支付、電子支付、全支付、PX Pay、帳戶連結支付" />
+    <meta name="description" content="即日起至2022/12/31，全支付連結元大銀行帳戶，最高享全點100點！" />
 
     <meta property="og:title" content="元大銀行｜賺全點 找元大" />
     <meta property="og:site_name" content="元大銀行" />
@@ -66,7 +66,7 @@
         <div class="main">
             <!-- 主視覺 -->
             <section class="section kv_container">
-                <div class="kv">
+                <div class="kv" id="kv">
                     <div class="title animated">
                         <div class="kv_tit animated bounceIn" style="animation-delay: 0.5s; animation-duration: 0.8s;">
                             <img class="webOnly" src="assets/images/kv_tit.png" alt="賺全點 找元大">
@@ -87,7 +87,7 @@
             <!-- content -->
             <section class="section content_container">
                 <div class="content">
-                    <div class="event">
+                    <div class="event" id="event">
                         <div class="event_txt">活動期間內，於全支付APP或於PX Pay首頁之全支付入口（下合稱全支付），<br class="brwebOnly">進入<span class="tt_black">全支付</span>錢包之支付工具後首次連結<span class="tt_blue">元大銀行帳戶</span>，並使用該元大銀行帳戶消費可享以下回饋：</div>
                         <div class="discount" id="discount">
                             <div class="discount-item">
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                     <div class="event pxpayplus">
-                        <div class="account">
+                        <div class="account" id="account">
                             <div class="step">
                                 <div class="step-title"><img src="assets/images/acl_tit.png" alt=""></div>
                                 <div class="step-img"><img src="assets/images/phone_pic.png" alt=""></div>
@@ -170,7 +170,7 @@
             <!-- content End-->
             <!-- 注意事項 -->
             <section class="section notice_container">
-                <div class="notice">
+                <div class="notice" id="notice">
                     <div class="notice_tit">｜活動注意事項｜</div>
                     <input type="checkbox" id="contTab" checked="checked" class="tabbed">
                     <div class="notice_all" id="cont">
