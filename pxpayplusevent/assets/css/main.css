@@ -64,10 +64,6 @@ img{margin: 0; padding: 0; display: block;}
 .stepList-num-w,.stepList-text-w{background-color: #ffffff;}
 .moreInfo{text-align:center;margin-top: 5%;}
 .moreInfo a{display:inline-block;font-size:22px; font-weight:bold;line-height:1.75;color:#007fe0;text-decoration:none;border-bottom:1px solid #007fe0;}
-.action{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;margin:5% 0 2%;}
-.action-item{-webkit-flex:0 1 300px;flex:0 1 300px;max-width:300px;}
-.action-item a{display: block;}
-.action-item+.action-item{margin-left:37px;}
 /* notice */
 .notice_container{}
 .notice{width: 100%; max-width: 1600px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 0 5% 2%; text-align: justify;}
