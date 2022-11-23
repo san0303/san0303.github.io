@@ -10,11 +10,11 @@ img{margin: 0; padding: 0; display: block;}
 
 /* kv */
 .kv_container{width: 100%;}
-.kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 42.7083334%; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: 100% auto; position: relative;}
-.kv .title{width: 47%; margin: 0 auto; padding-top: 11%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
-.kv .payji{width: 13%; position: absolute; right: 19%; top: 62%; animation: float 0.5s linear alternate infinite; -webkit-animation: float 0.5s linear alternate infinite;}
+.kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 36.45833334%; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: 100% auto; position: relative;}
+.kv .title{width: 40%; margin: 0 auto; padding-top: 9%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
+.kv .payji{width: 11.5%; position: absolute; right: 19%; top: 53%; animation: float 0.5s linear alternate infinite; -webkit-animation: float 0.5s linear alternate infinite;}
 .kv .payji img {animation: move 5s -5s ease-in-out alternate infinite; -webkit-animation: move 5s -5s ease-in-out alternate infinite;}
-.kv .pic_circle{width: 18.5%; position: absolute; left: 10%; top: 50%;}
+.kv .pic_circle{width: 14%; position: absolute; left: 16%; top: 53%;}
 .mobOnly{display: none;}
 /* content */
 .content_container{ width: 100%; margin: 0 auto; 
@@ -89,10 +89,10 @@ img{margin: 0; padding: 0; display: block;}
 #contTab:checked ~  .content-more .readmore:hover{opacity: 1}
 @media screen and (max-width: 1400px) {
 /* kv */
-.kv{width: 100%; max-width: 1400px; margin: 0 auto; height: 0; padding-bottom: 58.57142857%; background: url("../images/kv_bg-1400.jpg") center top no-repeat; background-size: 100% auto;}
-.kv .title{width: 60%; padding-top: 15%;}
-.kv .payji{width: 17%; right: 4%; top: 63%;}
-.kv .pic_circle{width: 24%; left: -4.5%; top: 52%;}
+.kv{width: 100%; max-width: 1400px; margin: 0 auto; height: 0; padding-bottom: 50%; background: url("../images/kv_bg-1400.jpg") center top no-repeat; background-size: 100% auto;}
+.kv .title{width: 56%; padding-top: 13%;}
+.kv .payji{width: 16%; right: 5%; top: 52%;}
+.kv .pic_circle{width: 18%; left: 3%; top: 58%;}
 /* event */
 .event{width: 90%;}
 }
@@ -110,7 +110,7 @@ img{margin: 0; padding: 0; display: block;}
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 127.708334%; margin: 0 auto; background: url("../images/kv_bg_m.jpg") center top no-repeat; background-size: 100% auto;}
 .kv .title{width: 84%; padding-top: 20%;}
-.kv .payji{width: 27%; right: 5%;}
+.kv .payji{width: 27%; right: 5%; top: 62%;}
 .kv .pic_circle{width: 36%; left: -6%; top: 62%;}
 .webOnly{display: none;}
 .mobOnly{display: block;}
