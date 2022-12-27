@@ -146,8 +146,8 @@ a.yuanta-link {
 	position: fixed;
 	bottom: 36px;
 	right: 20px;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	display: none;
 	border-radius: 25px;
 	opacity: .7;
@@ -157,10 +157,7 @@ a.yuanta-link {
 
 @media screen and (max-width:767px) {
 	.gotop {
-		width: 40px;
-		height: 40px;
 		bottom: 110px;
-		right: 20px
 	}
 
 }
@@ -598,10 +595,9 @@ section.kv .content .go.stick {
 
 @media screen and (max-width:1400px) {
 	section.kv .content .go.stick {
-		width: 50px;
+		width: 40px;
 		line-break: anywhere;
 	}
-
 }
 
 @media screen and (max-width:768px) {
@@ -641,9 +637,10 @@ section.kv .content .go.stick a {
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:520px) {
 	section.kv .content .go.stick a {
-		font-size: 16px
+		font-size: 17px;
+		letter-spacing: 1px;
 	}
 
 }
@@ -654,13 +651,17 @@ section.kv .content .go a {
 	color: #fff;
 	padding: 12px 7px;
 	width: 180px;
-	letter-spacing: 3px;
-	font-size: 22px; /*goBtn字級大小*/
+	letter-spacing: 5px;
+	font-size: 20px; /*goBtn字級大小*/
+	font-weight: bold;
 	line-height: 1.5;
 	transition: all .2s ease-in-out
 }
-
-
+@media screen and (max-width:1400px) {
+	section.kv .content .go a {
+		font-size: 18px;
+	}
+}
 @media screen and (min-width:1025px) {
 	section.kv .content .go a:hover {
 		background: rgba(255, 255, 255, .8);
