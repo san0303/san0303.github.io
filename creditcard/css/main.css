@@ -632,7 +632,8 @@ section.kv .content .go.stick a {
 	section.kv .content .go.stick a {
 		color: #fff;
 		font-size: 22px;
-		background: #bb022c
+		background: #bb022c;
+		padding: 15px 0
 	}
 
 }
