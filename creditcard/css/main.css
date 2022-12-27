@@ -639,7 +639,7 @@ section.kv .content .go.stick a {
 
 @media screen and (max-width:520px) {
 	section.kv .content .go.stick a {
-		font-size: 17px;
+		font-size: 18px;
 		letter-spacing: 1px;
 	}
 
@@ -1184,7 +1184,7 @@ section.travel .swiper .swiper-slide .content {
 section.travel .swiper .swiper-slide .content .title {
 	border-bottom: 1px solid #bfccd8;
 	display: inline-block;
-	width: 85%;
+	width: 90%;
 	padding: 20px 0
 }
 
