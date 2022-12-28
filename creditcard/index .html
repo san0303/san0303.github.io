@@ -1,16 +1,17 @@
+
 <!DOCTYPE html>
-<html lang="UTF-8">
+<html lang="UTF-8" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>元大鑽金卡4%海外消費現金回饋無上限｜元大銀行</title>
     <meta name="description" content="海外消費首選，新舊戶同享回饋！111/11/01~112/04/30 完成元大銀行外幣帳戶綁定及設定自動扣繳卡費，當月海外實體消費即享最高4%現金回饋。" />
-    <link rel="shortcut icon" href="https://www.yuantafunds.com/images/icologo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://www.yuantafunds.com/active/default/css/default.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/bank/resources/front/images/favicon.ico">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <!-- vue -->
     <script src="js/vue.js"></script>
 
@@ -29,7 +30,7 @@
     <meta property="og:image:secure_url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/Overseas/images/share-img.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <!-- Facebook 縮圖　-->
+    <!---->
 
     <meta name="format-detection" content="telephone=no">
 
@@ -97,7 +98,7 @@
         </header>
 
         <a href="javascript:" id="gotop" :class="gotop" @click="toTop">
-            <img src="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/greenacc/content/images/icon/goTop.svg">
+            <img src="../greenacc/content/images/icon/goTop.svg">
         </a>
 
         <article>
@@ -335,7 +336,7 @@
                     <h2 class="bold">出國旅遊省很大<span class="comma">，</span><br>訂房折扣、免費WiFi、機場接送優惠</h2>
                     <p class="desc f18">立即申辦「元大鑽金智富卡」，出國購物、訂房通通有回饋，選對信用卡，玩的開心、賺得開心</p>
                     <div class="swiper">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper" >
                             <div v-for="item in travelList" :key="item.title" class="swiper-slide">
                                 <img :src="item.img">
                                 <div class="content">
@@ -396,7 +397,7 @@
     </div>
 
     <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
 
     <script>
         var vm = new Vue({
@@ -485,7 +486,7 @@
                                 },
                                 {
                                     que: '出國前已至活動頁面綁定外幣帳戶，回國後才申請本行帳戶自動扣繳卡費，請問可以獲得0.8%外幣回饋？',
-                                    ans: '以本行帳戶申請自動扣款信用卡帳款成功後之海外實體商店消費，即享0.8%加碼外幣回饋。'
+                                    ans: '以本行臺幣帳戶申請自動扣款信用卡帳款成功後之海外實體商店消費，即享0.8%加碼外幣回饋。'
                                 },
                                 {
                                     que: '承上題，本行帳戶存款不足，造成帳戶自動扣款卡費失敗，會影響0.8%帳戶回饋金嗎？',
