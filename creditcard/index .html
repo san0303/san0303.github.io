@@ -339,7 +339,7 @@
                                 <img :src="item.img">
                                 <div class="content">
                                     <div v-html="item.title" class="f24 bold blue title"></div>
-                                    <p>{{ item.content }}</p>
+                                    <p v-html="item.content"></p>
                                 </div>
                             </div>
                         </div>
@@ -406,7 +406,7 @@
                     travelList: [
                         {
                             title: '最高<span>10</span>%<span>+</span><span>7</span>%<br>日本Bic Camera<br>優惠折扣',
-                            content: '112/4/30 前至日本 Bic Camera 消費，出示優惠券，供門市結帳人員以現場掃入優惠電子條碼方式結帳，該筆消費最高享消費稅 10% 及商品 7% 折扣。',
+                            content: '112/4/30 前<span>全卡友</span>至日本 Bic Camera 消費，出示優惠券，供門市結帳人員以現場掃入優惠電子條碼方式結帳，該筆消費最高享消費稅 10% 及商品 7% 折扣。',
                             img: 'images/img_section4_slide1.jpg'
                         },
                         {
