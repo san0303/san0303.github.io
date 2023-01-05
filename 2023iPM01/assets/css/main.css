@@ -12,10 +12,14 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{width: 100%; position: relative;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 28.645833%; background: url("../images/kv_bg.png") center top no-repeat; background-size: 100% auto; position: relative; overflow: hidden;}
 .kv .kv_tit{width: 25.9375%; margin: 0 auto; padding-top: 5.3%;}
-.kv .firecracker{width: 8.3%; position: absolute; top: -10%; left: 28%;}
-.kv .Lrabbit{width: 27%; position: absolute; top: 11%; left: 2%;}
+.kv .firecracker{width: 8.3%; position: absolute; top: -10%; left: 28%; transform-origin: center top; animation: sway 5s ease-in-out infinite;}
+.kv .Lrabbit{width: 27%; height: 0; padding-bottom: 25.34%; position: absolute; top: 11%; left: 2%;}
+.kv .Lrabbit_body{width: 100%; position: absolute; top: 0; left: 0;}
+.kv .Lrabbit_scarf{width: 40%; position: absolute; top: 0; left: 2%; transform-origin: bottom right;animation: scarfShake 1s ease-in-out infinite alternate;}
 .kv .coins{width: 10%; position: absolute; top: 73%; left: 21%;}
-.kv .Rrabbit{width: 28.5%; position: absolute; top: 15%; left: 65.5%;}
+.kv .Rrabbit{width: 28%; height: 0; padding-bottom: 28.1%; position: absolute; top: 15%; left: 77%;}
+.kv .Rrabbit_body{width: 60%; position: absolute; top: 0; left: 0;}
+.kv .Rrabbit_hand{width: 88%; position: absolute; top: 10%; left: -37.5%; transform-origin: top right;animation: handShake 1s ease-in-out infinite alternate;}
 .kv .kv_bottom_bg{width: 100%; position: absolute; bottom: 0; left: 0;}
 .kv_logo{width: 24%; position: absolute; bottom: -5%; left: 38%;}
 .mobOnly{display: none;}
@@ -58,7 +62,7 @@ background-position: center top,center bottom,center top; background-repeat: no-
 .btn:hover img{-webkit-transform:translateY(7px);transform:translateY(7px);}
 /* notice */
 .notice_container{background: #fff3e3;}
-.notice{width: 100%; max-width: 1800px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 3% 5%;}
+.notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 15px; line-height: 2; padding: 3% 5%;}
 .notice_tit{width: 280px; margin: 0 auto;}
 .notice_all{padding: 2%; text-align: justify;}
 .notice_all a{font-weight: bold; text-decoration: underline;}
@@ -115,7 +119,7 @@ background-position: center top,center bottom,center top; background-repeat: no-
 .kv .firecracker{left: 20%;}
 .kv .Lrabbit{width: 33%; top: 25%; left: -2%;}
 .kv .coins{width: 12%; top: 79%; left: 21%;}
-.kv .Rrabbit{width: 33%; top: 27%; left: 68.5%;}
+.kv .Rrabbit{width: 34%; top: 27%; left: 81.5%;}
 .kv_logo{width: 32%; left: 34%; bottom: 0;}
 /* event */
 .event .event_date{font-size: 20px;}
@@ -160,7 +164,8 @@ background-position: center top,center bottom,center top; background-repeat: no-
 .kv .firecracker{display: none;}
 .kv .Lrabbit{width: 54%; top: 53.5%; left: 2%;}
 .kv .coins{width: 24%; top: 85%; left: 31%;}
-.kv .Rrabbit{width: 55%; top: 56%; left: 41%;}
+.kv .Rrabbit{width: 56%; top: 57%; left: 61%;}
+.kv .Rrabbit_hand{top: 16%; left: -38%;}
 .kv_logo{width: 74%; left: 13%; bottom: -15%;}
 /* content */
 .content{padding-top: 25%}
@@ -207,7 +212,7 @@ background-position: center top,center bottom,center top; background-repeat: no-
 .dis_item_all .dis_cont p{font-size: 4vw;}
 .light_blue{font-size: 4vw; margin-top: 2%;}
 .dis_pic1{width: 30%; top: 64%; left: 6%;}
-.dis_pic2{width: 30%; top: 57%; right: 4%;}
+.dis_pic2{width: 30%; top: 55.5%; right: 4%;}
 }
 @media screen and (max-width:520px) {
 /* event */
@@ -221,5 +226,16 @@ background-position: center top,center bottom,center top; background-repeat: no-
 .notice{width: 94%;padding: 8% 4% 3%;}
 }
 
-
 /* animation */
+@keyframes sway {
+  0%,100%{transform: rotate(5deg);-webkit-transform: rotate(5deg);}
+      50%{transform: rotate(-5deg);-webkit-transform: rotate(-5deg);}
+}
+@keyframes scarfShake {
+  0%{transform: rotate(0);-webkit-transform: rotate(0);}
+100%{transform: rotate(-2deg);-webkit-transform: rotate(-2deg);}
+}
+@keyframes handShake {
+  0%{transform: rotate(0);-webkit-transform: rotate(0);}
+100%{transform: rotate(-2deg);-webkit-transform: rotate(-5deg);}
+}
