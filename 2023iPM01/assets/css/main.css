@@ -23,7 +23,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv .Rrabbit_body{width: 60%; position: absolute; top: 0; left: 0;}
 .kv .Rrabbit_hand{width: 88%; position: absolute; top: 10%; left: -37.5%; transform-origin: top right;
     animation: handShake 1s ease-in-out infinite alternate; -webkit-animation: handShake 1s ease-in-out infinite alternate;}
-.kv .kv_bottom_bg{width: 100%; position: absolute; bottom: 0; left: 0;}
+.kv .kv_bottom_bg{width: 100%; position: absolute; bottom: -0.5%; left: 0;}
 .kv_logo{width: 24%; position: absolute; bottom: -5%; left: 38%;}
 .mobOnly{display: none;}
 /* content */
