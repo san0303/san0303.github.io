@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;/* box-sizing: border-box; */}
+* {margin: 0; padding: 0;}
 body{width: 100%; height: 100%; font-family: 'Noto Sans TC','微軟正黑體', 'MS UI Gothic',Arial, Helvetica, sans-serif; font-size: 12px; }
 a,a:hover,a:active,a:visited {display: inline-block; color: #005bac; text-decoration: none;}
 table{width: 100%; border-collapse: collapse; border-spacing: 0;}
@@ -11,7 +11,7 @@ img{margin: 0; padding: 0; display: block;}
 /* kv */
 .kv_container{width: 100%; position: relative;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 28.645833%; background: url("../images/kv_bg.png") center top no-repeat; background-size: 100% auto; position: relative; overflow: hidden;}
-.kv .kv_tit{width: 25.9375%; margin: 0 auto; padding-top: 5.3%;}
+.kv .kv_tit{width: 25.6%; margin: 0 auto; padding-top: 4%;}
 .kv .firecracker{width: 8.3%; position: absolute; top: -10%; left: 28%; transform-origin: center top; 
     animation: sway 5s ease-in-out infinite; -webkit-animation: sway 5s ease-in-out infinite;}
 .kv .Lrabbit{width: 27%; height: 0; padding-bottom: 25.34%; position: absolute; top: 11%; left: 2%;}
@@ -118,12 +118,12 @@ background-position: center top,center bottom,center top; background-repeat: no-
 @media screen and (max-width: 1200px) {
 /*kv*/
 .kv{max-width: 1200px; height: 0; padding-bottom: 41.66666%; background: url("../images/kv_bg-1200.png") center top no-repeat; background-size: 100% auto;}
-.kv .kv_tit{width: 35%; padding-top: 9%;}
-.kv .firecracker{left: 20%;}
+.kv .kv_tit{width: 35%; padding-top: 5%;}
+.kv .firecracker{width: 7.3%; top: -6%; left: 20%;}
 .kv .Lrabbit{width: 33%; top: 25%; left: -2%;}
 .kv .coins{width: 12%; top: 79%; left: 21%;}
 .kv .Rrabbit{width: 34%; top: 27%; left: 81.5%;}
-.kv_logo{width: 32%; left: 34%; bottom: 0;}
+.kv_logo{width: 32%; left: 34%; bottom: -5%;}
 /* event */
 .event .event_date{font-size: 20px;}
 .event .event_txt{font-size: 18px;}
@@ -162,14 +162,14 @@ background-position: center top,center bottom,center top; background-repeat: no-
 @media screen and (max-width:767px) {
 .main{padding-top: 58px;}
 /* kv */
-.kv{width: 100%; height: 0; padding-bottom: 125%; margin: 0 auto; background: url("../images/kv_bg-m.png") center top no-repeat; background-size: 100% auto;}
+.kv{width: 100%; height: 0; padding-bottom: 135.41%; margin: 0 auto; background: url("../images/kv_bg-m.png") center top no-repeat; background-size: 100% auto;}
 .kv .kv_tit{width: 77.9%; padding-top: 17%;}
 .kv .firecracker{display: none;}
-.kv .Lrabbit{width: 54%; top: 53.5%; left: 2%;}
-.kv .coins{width: 24%; top: 85%; left: 31%;}
-.kv .Rrabbit{width: 56%; top: 57%; left: 61%;}
+.kv .Lrabbit{width: 54%; top: 57.5%; left: 2%;}
+.kv .coins{width: 24%; top: 87%; left: 31%;}
+.kv .Rrabbit{width: 56%; top: 59%; left: 61%;}
 .kv .Rrabbit_hand{top: 16%; left: -38%;}
-.kv_logo{width: 74%; left: 13%; bottom: -15%;}
+.kv_logo{width: 74%; left: 13%; bottom: -16%;}
 /* content */
 .content{padding-top: 25%}
 /* event */
