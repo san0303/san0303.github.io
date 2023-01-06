@@ -236,9 +236,9 @@ background-position: center top,center bottom,center top; background-repeat: no-
 }
 @keyframes scarfShake {
   0%{transform: rotate(0);}
-100%{transform: rotate(-2deg);}
+100%{transform: rotate(-5deg);}
 }
 @keyframes handShake {
-  0%{transform: rotate(0);}
-100%{transform: rotate(-2deg);}
+  0%{transform: rotate(-5deg);}
+100%{transform: rotate(0);}
 }
