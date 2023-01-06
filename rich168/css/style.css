@@ -1,0 +1,2772 @@
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Light.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Regular.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Medium.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Bold.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Black.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Light.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Regular.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Medium.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Bold.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Serif TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Black.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GFS Didot';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/GFSDidot-Regular.ttf") format("opentype");
+    font-display: swap;
+}
+
+body {
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif !important;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 72px;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 0 !important;
+}
+
+p,
+small {
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+p b,
+small b {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.pad,
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.top.f13 {
+    display: block;
+    font-family: 'GFS Didot', sans-serif !important;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #ce861d;
+    background: none;
+    height: auto;
+    width: 35px;
+    opacity: 0;
+    z-index: 9;
+}
+
+.top.f13.show {
+    opacity: 1;
+    z-index: 99;
+}
+
+.top.f13 img {
+    width: 7px;
+    display: block;
+    margin: 0 0 5px 10px;
+}
+
+header .alert-btn {
+    padding-right: 10px;
+    float: right;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    color: #2890e4;
+}
+
+header .alert-btn img {
+    width: 26px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 0 0;
+}
+
+
+footer {
+    position: relative;
+    z-index: 9;
+}
+
+section {
+    overflow: hidden;
+}
+
+section .section-center {
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+.kv {
+    padding: 100px 0;
+    background: url(../img/background-kv-web@3x.jpg) top center no-repeat;
+    background-size: 2048px auto;
+    height: calc(100vh - 72px);
+    position: relative;
+    z-index: 10;
+}
+
+.kv > a {
+    font-family: 'GFS Didot', sans-serif !important;
+    display: block;
+    width: 55px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    color: #27aeea;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: auto;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, -15px);
+    }
+}
+
+.kv > a img {
+    display: block;
+    width: 7px;
+    margin: 0px auto 10px auto;
+    animation: float 1s ease-out infinite;
+}
+
+.kv .section-center {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 80%;
+}
+
+.kv .section-center .txt {
+    width: 528px;
+    white-space: nowrap;
+}
+
+.kv .section-center .txt h1 {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 115px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #ce861d;
+    margin-bottom: 20px;
+}
+
+.kv .section-center .txt h2 {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.1px;
+    text-align: left;
+    color: #2890e4;
+    margin-bottom: 20px;
+}
+
+.kv .section-center .txt title {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #2890e4;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.kv .section-center .txt h4 {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #c50025;
+    margin-bottom: 30px;
+}
+
+.kv .section-center .txt title:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 28px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #2890e4;
+}
+
+.kv .section-center .txt title:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #2890e4;
+}
+
+.kv .section-center .txt small {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #3596e5;
+    margin-right: 17px;
+}
+
+.kv .section-center .txt small:last-of-type {
+    margin-right: 0;
+}
+
+.kv .section-center .txt small img {
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.kv .section-center .cover {
+    width: calc(100% - 528px);
+    position: relative;
+}
+
+.kv .section-center .cover img:not(.date) {
+    display: block;
+    width: 100%;
+}
+
+.kv .section-center .cover .date {
+    display: block;
+    width: 120px;
+    position: absolute;
+    right: 125px;
+    bottom: 0;
+}
+
+.video {
+    padding: 100px 0 125px 0;
+    background: url(../img/background-web@3x.jpg) top -604px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.video .fade {
+    position: relative;
+}
+
+.video .fade * {
+    z-index: 1;
+    position: relative;
+    overflow: visible;
+}
+
+.video .fade:before {
+    content: "";
+    display: block;
+    width: 960px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 72%, rgba(239, 226, 210, 0) 100%, #fff 100%);
+    z-index: 0;
+}
+
+.video .fade .txt {
+    padding: 210px 0 0 50px;
+    height: 490px;
+    position: relative;
+}
+
+.video .fade .txt .video-box {
+    width: 660px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.video .fade .txt .video-box .content {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video .fade .txt iframe {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.video .fade .txt p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    color: #092534;
+    display: inline-block;
+}
+
+.video .fade .slick-prev {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../img/btn-arrow-left@3x.png) center #ce861d no-repeat;
+    background-size: 40px 10px;
+    text-indent: -99999px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.video .fade .slick-next {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    background: url(../img/btn-arrow-right@3x.png) center #ce861d no-repeat;
+    background-size: 40px 10px;
+    text-indent: -99999px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.video .fade .slick-next.slick-disabled,
+.video .fade .slick-prev.slick-disabled {
+    background-color: #e2ddd5;
+    cursor: default;
+}
+
+.video .fade .slick-dots {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.video .fade .slick-dots:after {
+    display: block;
+    content: "";
+    background: url(../img/02-big@3x.png) center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 160px;
+    bottom: 10px;
+    width: 45px;
+    height: 35px;
+}
+
+.video .fade .slick-dots:before {
+    content: "/";
+    font-size: 20px;
+    color: #e2ddd5;
+    position: absolute;
+    bottom: 15px;
+    left: 135px;
+}
+
+.video .fade .slick-dots li {
+    display: none;
+    width: 130px;
+    height: 100px;
+}
+
+.video .fade .slick-dots li:nth-of-type(1) {
+    background: url(../img/01-big@3x.png) center no-repeat;
+    background-size: 100%;
+}
+
+.video .fade .slick-dots li:nth-of-type(2) {
+    background: url(../img/02-big@3x.png) center no-repeat;
+    background-size: 100%;
+}
+
+.video .fade .slick-dots li:nth-of-type(3) {
+    background: url(../img/03-big@3x.png) center no-repeat;
+    background-size: 100%;
+}
+
+.video .fade .slick-dots li:nth-of-type(4) {
+    background: url(../img/04-big@3x.png) center no-repeat;
+    background-size: 100%;
+}
+
+.video .fade .slick-dots li.slick-active {
+    display: block;
+}
+
+.video .fade .slick-dots li button {
+    display: none;
+}
+
+.three {
+    padding: 125px 0;
+    text-align: center;
+    background: url(../img/background-web@3x.jpg) top -1319px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.three .section-center > h3 {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 115px;
+    letter-spacing: 2px;
+    color: #2890e4;
+    margin-bottom: 10px;
+}
+
+.three .section-center > h3 i {
+    font-size: 80px;
+    letter-spacing: 4px;
+    font-style: normal;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.three .section-center > title {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #092534;
+    margin-bottom: 60px;
+}
+
+.three .section-center > small {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #74a5bf;
+    margin-top: 30px;
+}
+
+.three .section-center ul li {
+    float: left;
+    display: block;
+    padding: 30px 40px 34px 40px;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    background-color: #fff;
+    margin: 0 40px 0 0;
+    width: calc(33% - 26px);
+    position: relative;
+}
+
+.three .section-center ul li:last-of-type {
+    margin-right: 0;
+}
+
+.three .section-center ul li:before {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 44px;
+    background: url(../img/img-pattern-card-gold-right@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -5px;
+    top: -1px;
+}
+
+.three .section-center ul li:after {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 44px;
+    background: url(../img/img-pattern-card-gold-left@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -5px;
+    bottom: -1px;
+}
+
+.three .section-center ul li img {
+    display: block;
+    width: 150px;
+    margin: 0 auto 10px auto;
+}
+
+.three .section-center ul li b {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 1px;
+    color: #092534;
+    margin-bottom: 15px;
+}
+
+.three .section-center ul li b i {
+    display: inline-block;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #ce861d;
+}
+
+.three .section-center ul li span {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    height: 72px;
+    letter-spacing: 0.8px;
+    color: #092534;
+}
+
+.tab {
+    padding: 125px 0 130px 0;
+    background: url(../img/background-web@3x.jpg) top -2255px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.tab #tabs > ul {
+    display: flex;
+    width: 800px;
+    margin: 0 auto -45px auto;
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+}
+
+.tab #tabs > ul li {
+    width: 50%;
+}
+
+.tab #tabs > ul li a {
+    display: block;
+    font-family: 'Noto Serif TC', sans-serif !important;
+    line-height: 90px;
+    background: #fff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    color: #2890e4;
+}
+
+.tab #tabs > ul li.ui-tabs-active a {
+    background: #2890e4;
+    color: #fff;
+    position: relative;
+}
+
+.tab #tabs > ul li.ui-tabs-active a:after {
+    content: "";
+    display: block;
+    width: 278px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.tab #tabs .ui-tabs-panel {
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    background-color: #fff;
+    padding: 85px 100px 40px 100px;
+}
+
+.tab #tabs .ui-tabs-panel p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #092534;
+}
+
+.tab #tabs .ui-tabs-panel .img {
+    margin: 30px auto;
+    border: 20px solid #fff;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    width: 100%;
+    overflow: hidden;
+}
+
+.tab #tabs .ui-tabs-panel .img img {
+    display: block;
+    width: 100%;
+}
+
+.tab #tabs .ui-tabs-panel small {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #74a5bf;
+}
+
+.more {
+    padding: 130px 0 145px 0;
+    background: url(../img/background-web@3x.jpg) top -3254px center no-repeat;
+    background-size: 2048px auto;
+    text-align: center;
+}
+
+.more > h3 {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    width: 700px;
+    margin: 0 auto 20px auto;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 90px;
+    letter-spacing: 2px;
+    background: #2890e4;
+    color: #fff;
+    position: relative;
+}
+
+.more > h3:after {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 31px;
+    background: url(../img/img-pattern-card-blue@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+
+.more > strong {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1.4px;
+    color: #2890e4;
+    margin-bottom: 60px;
+}
+
+.more > ul li {
+    width: 355px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 40px 0 80px 0;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    background-color: #fff;
+    margin: 0 20px;
+    position: relative;
+}
+
+.more > ul li:after {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 44px;
+    background: url(../img/img-pattern-card-gold-right@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -5px;
+    top: -1px;
+}
+
+.more > ul li > img {
+    display: block;
+    width: 160px;
+    margin: 0px auto 30px auto;
+}
+
+.more > ul li > span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #092534;
+}
+
+.more > ul li > a {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -35px;
+    display: block;
+    width: 220px;
+    line-height: 70px;
+    background: #ce861d;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    color: #fff;
+}
+
+.more > ul li > a img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0 0 10px;
+    width: 40px;
+}
+
+.accord {
+    padding: 145px 0 125px 0;
+    background: url(../img/background-web@3x.jpg) top -4079px center no-repeat;
+    background-size: 2048px auto;
+    text-align: center;
+}
+
+.accord > .section-center > title {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57px;
+    letter-spacing: 2px;
+    color: #2890e4;
+    margin-bottom: 10px;
+}
+
+.accord > .section-center > p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #092534;
+    margin-bottom: 80px;
+}
+
+.accord > .section-center > small {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #74a5bf;
+    margin-top: 30px;
+}
+
+.accord > .section-center > ul li {
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    background-color: #fff;
+    width: calc(33% - 26px);
+    margin: 0 38px 0 0;
+    padding: 30px 45px 36px 45px;
+}
+
+.accord > .section-center > ul li:last-of-type {
+    margin-right: 0;
+}
+
+.accord > .section-center > ul li b {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #2890e4;
+}
+
+.accord > .section-center > ul li img {
+    display: block;
+    width: 160px;
+    margin: 10px auto 20px auto;
+}
+
+.accord > .section-center > ul li span {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #2890e4;
+    margin-bottom: 15px;
+}
+
+.accord > .section-center > ul li span:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #b7e6f4;
+    position: absolute;
+    left: 35px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.accord > .section-center > ul li span:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #b7e6f4;
+    position: absolute;
+    right: 35px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.accord > .section-center > ul li p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #092534;
+}
+
+.accord > .section-center > ul li small {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    height: 42px;
+    color: #74a5bf;
+}
+
+.chart {
+    padding: 125px 0 100px 0;
+    background: url(../img/background-web@3x.jpg) top -5063px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.chart .section-center > title {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57px;
+    letter-spacing: 2px;
+    color: #2890e4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chart .section-center > p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #092534;
+    margin-bottom: 52px;
+}
+
+.chart .section-center > div {
+    position: relative;
+    padding: 53px 900px 53px 40px;
+}
+
+.chart .section-center > div:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 860px;
+    height: 100%;
+    z-index: 0;
+    background-image: linear-gradient(to right, #2890e4 35%, rgba(40, 144, 228, 0) 100%);
+}
+
+.chart .section-center > div > * {
+    position: relative;
+    z-index: 1;
+}
+
+.chart .section-center > div strong {
+    display: block;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.chart .section-center > div small {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+
+.chart .section-center > div .img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 25px solid #fff;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    width: 860px;
+    height: 400px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.chart .section-center > div .img img {
+    width: 100%;
+}
+
+.file {
+    padding: 100px 0 20px 0;
+    background: url(../img/background-web@3x.jpg) top -5928px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.file > title {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57px;
+    letter-spacing: 2px;
+    color: #2890e4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.file .section-center {
+    display: flex;
+    align-items: center;
+}
+
+.file .section-center > table {
+    width: 50%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.file .section-center > table tr td {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    vertical-align: middle;
+    color: #092534;
+    padding: 13px 0;
+}
+
+.file .section-center > table tr:nth-of-type(even) td {
+    background: #f9f9f9;
+}
+
+.file .section-center > table tr:last-of-type td {
+    border: 0;
+}
+
+.file .section-center > table tr td:first-of-type {
+    width: 190px;
+    text-align: center;
+    background: #2890e4;
+    color: #fff;
+}
+
+.file .section-center > table tr td:last-of-type {
+    padding-left: 30px;
+}
+
+.file .section-center > table:first-of-type tr:nth-of-type(4) td:last-of-type,
+.file .section-center > table:last-of-type tr:last-of-type td:last-of-type {
+    height: 74.5px;
+}
+
+.download {
+    padding: 20px 0 50px 0;
+    background: url(../img/background-web@3x.jpg) top -6474px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.download > div {
+    width: 961px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.download > div title {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: #ce861d;
+    margin-bottom: 20px;
+}
+
+.download > div a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(50% - 23px);
+    font-size: 16px;
+    font-weight: 500;
+    height: 70px;
+    letter-spacing: 0.8px;
+    color: #fff;
+    background: #ce861d;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.download > div a.disabled {
+    pointer-events: none;
+}
+
+.download > div a p {
+    text-align: center;
+}
+
+.download > div a p span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.download > div a:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.download > div a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 11px;
+    margin-left: 10px;
+}
+
+.download > div small {
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #6c5a3c;
+}
+
+.alert {
+    padding: 50px 0 45px 0;
+    background: url(../img/background-web@3x.jpg) top -6788px center no-repeat;
+    background-size: 2048px auto;
+}
+
+.alert title {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    color: #2890e4;
+    margin-bottom: 10px;
+}
+
+.alert small {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: #092534;
+    margin-bottom: 10px;
+    text-align: left;
+    text-justify: none;
+}
+
+.alert small span {
+    display: block;
+}
+
+.alert p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    color: #092534;
+    margin-bottom: 10px;
+}
+.alert ol {
+    list-style: decimal;
+    padding-left: 25px;
+}
+.alert ol li {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    color: #092534;
+    text-align: justify;
+}
+.alert p.add{
+    margin: 15px 0 25px;
+}
+.alert a,.alert a:hover{
+    display: inline-block;
+    color: #2890e4;
+}
+.alert .underline{
+    color: #2890e4;
+}
+.alert .non-justify{
+    text-align: left;
+    text-justify: none;
+}    
+.blocker {
+    z-index: 99999;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(59, 69, 74, 0.5);
+    overflow: hidden;
+}
+
+.blocker .modal {
+    max-width: 960px;
+    width: 100%;
+    padding: 60px 100px 85px 100px;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.blocker .modal h3 {
+    font-family: 'Noto Serif TC', sans-serif !important;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 43px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #2890e4;
+    margin-bottom: 40px;
+}
+
+.blocker .modal .cover,
+.blocker .modal .img {
+    width: 100%;
+    border: 15px solid #fff;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    margin-bottom: 40px;
+}
+
+.blocker .modal small {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #74a5bf;
+}
+
+.blocker .modal a.close-modal {
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    box-shadow: 5px 5px 30px 0 rgba(20, 63, 99, 0.1);
+    top: -27px;
+    right: -27px;
+    background: url(../img/icon-close@3x.png) center no-repeat #27aeea;
+    background-size: 15px 15px;
+}
+
+.blocker .modal .next {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    width: 260px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    color: #fff;
+    padding: 13px 0 13px 50px;
+    background: #ce861d;
+}
+
+.blocker .modal .next img {
+    display: block;
+    width: 40px;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+.blocker .modal .prev {
+    display: block;
+    position: absolute;
+    right: 260px;
+    bottom: -40px;
+    width: 260px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    color: #fff;
+    padding: 13px 0 13px 90px;
+    background: #f5b65b;
+}
+
+.blocker .modal .prev img {
+    display: block;
+    width: 40px;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.blocker .modal.sm {
+    max-width: 760px;
+    padding: 50px 100px 100px 100px;
+}
+
+.blocker #modal5 {
+    padding: 60px;
+}
+
+.blocker #modal5 img {
+    margin: auto;
+    max-width: 100%;
+}
+
+.blocker .modal.sm h3 {
+    margin-bottom: 60px;
+}
+
+.blocker .modal.sm ul li {
+    display: block;
+}
+
+.blocker .modal.sm ul li strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #1a66a4;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dedede;
+}
+
+.blocker .modal.sm ul li p {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    color: #092534;
+}
+
+.blocker .modal.sm ul li p span {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.blocker .modal.sm ul li + li {
+    margin-top: 80px;
+}
+
+.fix-btn {
+    position: fixed;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 16px;
+    height: 400px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.fix-btn > a {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1.6px;
+    color: #ce861d;
+    position: relative;
+}
+
+.fix-btn > a:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background-image: linear-gradient(243deg, #ce861d 113%, #f5c952 78%, #ce861d 36%);
+    transform: rotate(-45deg);
+    margin-bottom: 10px;
+}
+
+/* .fix-btn > a:last-of-type {
+    margin-top: 60px;
+} */
+
+.fix-btn > a:nth-child(2),
+.fix-btn > a:nth-child(3) {
+    margin-top: 50px;
+}
+
+.fix-btn .dialog {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 276px;
+    height: 240px;
+    background: url(../img/img-sidebar-bubble@3x.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 60px 20px 35px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.fix-btn .dialog.open {
+    right: 28px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.fix-btn .dialog a {
+    display: block;
+    padding: 20px 25px 20px 0;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #092534;
+}
+
+.fix-btn .dialog a:first-of-type {
+    border-bottom: 1px solid #dcebef;
+}
+
+.fix-btn .dialog a span {
+    display: block;
+    color: #ce861d;
+    margin-top: 6px;
+}
+
+.fix-btn .dialog a span img {
+    display: inline-block;
+    vertical-align: top;
+    width: 28px;
+    margin: 8px 0 0 10px;
+}
+
+#loading {
+    position: fixed;
+    z-index: 99999999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+#loading > center {
+    display: block;
+    width: 345px;
+    height: 345px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#loading > center img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#loading .circle {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-top-color: #8ddcff;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    animation: connect 2.5s linear infinite;
+}
+
+@keyframes connect {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+#loading + #main {
+    display: none;
+}
+
+@media screen and (min-width: 1441px) {
+    .kv .section-center {
+        transform: scale(1.2);
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .video .fade .slick-prev:not(.slick-disabled):hover,
+    .video .fade .slick-next:not(.slick-disabled):hover,
+    .more > ul li > a:hover,
+    .download > div a:hover,
+    .blocker .modal .prev:hover {
+        background-color: #935906;
+    }
+
+    .tab #tabs > ul li:not(.ui-tabs-active) a:hover {
+        color: #0c5997;
+    }
+
+    .blocker .modal .next:hover {
+        background-color: #5b3600;
+    }
+
+    .more > ul li:nth-of-type(1) {
+        background: url(../img/01-big@3x.png) left 30px top 30px no-repeat #fff;
+        background-size: 112px auto;
+    }
+
+    .more > ul li:nth-of-type(2) {
+        background: url(../img/02-big@3x.png) left 30px top 30px no-repeat #fff;
+        background-size: 112px auto;
+    }
+
+    .more > ul li:nth-of-type(3) {
+        background: url(../img/03-big@3x.png) left 30px top 30px no-repeat #fff;
+        background-size: 112px auto;
+    }
+
+    .fix-btn > a:hover,
+    .fix-btn .dialog a:hover span {
+        color: #935906;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding-top: 50px;
+    }
+
+    .desktop,
+    .mobile {
+        display: none;
+    }
+
+    .pad {
+        display: block;
+    }
+
+    .wrapper {
+        background: url(../img/background-pad@3x.jpg) top center no-repeat;
+        background-size: 100% 100%;
+    }
+
+    section .section-center {
+        padding: 0 63px;
+        width: 768px;
+        margin: 0px auto;
+    }
+
+    .kv {
+        padding: 53px 0 20px 0;
+        background: none;
+        height: auto;
+    }
+
+    .kv > a {
+        position: relative;
+        bottom: auto;
+        margin-top: 30px;
+    }
+
+    .kv .section-center {
+        padding: 0 0 0 63px;
+        position: relative;
+    }
+
+    .kv .section-center .txt {
+        width: 315px;
+    }
+
+    .kv .section-center .txt h1 {
+        font-size: 48px;
+        line-height: 69px;
+        letter-spacing: 2.4px;
+        margin-bottom: 10px;
+    }
+
+    .kv .section-center .txt h2 {
+        font-size: 25px;
+        line-height: 36px;
+        letter-spacing: 1.25px;
+        margin-bottom: 10px;
+    }
+
+    .kv .section-center .txt title {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.85px;
+        margin-bottom: 20px;
+    }
+    .kv .section-center .txt h4 {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.85px;
+        margin-bottom: 20px;
+    }
+    .kv .section-center .txt title:before {
+        width: 2px;
+        height: 14px;
+        left: 0;
+    }
+
+    .kv .section-center .txt title:after {
+        width: 2px;
+        height: 14px;
+        right: 0;
+    }
+
+    .kv .section-center .txt small {
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .kv .section-center .txt small img {
+        float: none;
+        display: block;
+        margin: 0 auto 5px auto;
+        width: 50px;
+    }
+
+    .kv .section-center .cover {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 59%;
+    }
+
+    .kv .section-center .cover .date {
+        width: 102px;
+        right: 63px;
+        bottom: 0;
+    }
+
+    .video {
+        padding: 60px 0 50px 0;
+        background: none;
+    }
+
+    .video .fade:before {
+        width: 510px;
+    }
+
+    .video .fade .txt {
+        padding: 82px 0 0 30px;
+        height: 275px;
+    }
+
+    .video .fade .txt .video-box {
+        width: 350px;
+    }
+
+    .video .fade .txt p {
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        width: 240px;
+    }
+
+    .video .fade .slick-prev {
+        width: 60px;
+        height: 60px;
+        background: url(../img/btn-arrow-left@3x.png) center #ce861d no-repeat;
+        background-size: 25px 7px;
+    }
+
+    .video .fade .slick-next {
+        width: 60px;
+        height: 60px;
+        left: 60px;
+        background: url(../img/btn-arrow-right@3x.png) center #ce861d no-repeat;
+        background-size: 25px 7px;
+    }
+
+    .video .fade .slick-dots {
+        left: 30px;
+        top: 30px;
+    }
+
+    .video .fade .slick-dots:after {
+        left: 70px;
+        bottom: 2px;
+        width: 23px;
+        height: 18px;
+    }
+
+    .video .fade .slick-dots:before {
+        font-size: 13px;
+        bottom: 5px;
+        left: 50px;
+    }
+
+    .video .fade .slick-dots li {
+        width: 45px;
+        height: 35px;
+    }
+
+    .three {
+        padding: 50px 0 75px 0;
+        background: none;
+    }
+
+    .three .section-center > h3 {
+        font-size: 30px;
+        line-height: 86px;
+        letter-spacing: 1.5px;
+    }
+
+    .three .section-center > h3 i {
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+
+    .three .section-center > title {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+        max-width: 510px;
+        margin: 0px auto 40px auto;
+        text-align: left;
+    }
+
+    .three .section-center > small {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+        margin-top: 40px;
+    }
+
+    .three .section-center ul li {
+        padding: 20px 22px 70px 22px;
+        margin: 0 30px 0 0;
+        width: calc(33% - 20px);
+    }
+
+    .three .section-center ul li:before {
+        width: 62px;
+        height: 36px;
+        background: url(../img/img-pattern-card-gold-right@3x.png) no-repeat;
+        background-size: 100% 100%;
+        right: -4px;
+    }
+
+    .three .section-center ul li:after {
+        width: 62px;
+        height: 36px;
+        background: url(../img/img-pattern-card-gold-left@3x.png) no-repeat;
+        background-size: 100% 100%;
+        left: -4px;
+    }
+
+    .three .section-center ul li img {
+        width: 90px;
+        margin: 0 auto 5px auto;
+    }
+
+    .three .section-center ul li b {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.9px;
+    }
+
+    .three .section-center ul li span {
+        height: 144px;
+        text-align: left;
+    }
+
+    .tab {
+        padding: 75px 0 80px 0;
+        background: none;
+    }
+
+    .tab #tabs > ul {
+        width: 480px;
+        margin: 0 auto -30px auto;
+    }
+
+    .tab #tabs > ul li a {
+        line-height: 60px;
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
+
+    .tab #tabs > ul li.ui-tabs-active a:after {
+        width: 185px;
+        height: 3px;
+    }
+
+    .tab #tabs .ui-tabs-panel {
+        padding: 60px 30px 30px 30px;
+    }
+
+    .tab #tabs .ui-tabs-panel p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+    }
+
+    .tab #tabs .ui-tabs-panel .img {
+        border: 15px solid #fff;
+    }
+
+    .tab #tabs .ui-tabs-panel small {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .more {
+        padding: 80px 0 75px 0;
+        background: none;
+    }
+
+    .more > h3 {
+        width: 540px;
+        font-size: 30px;
+        line-height: 80px;
+        letter-spacing: 1.5px;
+    }
+
+    .more > strong {
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+
+    .more > ul li {
+        width: 186px;
+        padding: 20px 0 47px 0;
+        margin: 0 10px;
+    }
+
+    .more > ul li:after {
+        width: 62px;
+        height: 36px;
+        right: -4px;
+    }
+
+    .more > ul li > img {
+        width: 96px;
+        margin: 0px auto 20px auto;
+    }
+
+    .more > ul li > span {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+    }
+
+    .more > ul li > a {
+        bottom: -25px;
+        width: 154px;
+        line-height: 50px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .more > ul li > a img {
+        margin: 20px 0 0 5px;
+        width: 28px;
+    }
+
+    .accord {
+        padding: 75px 0;
+        background: none;
+    }
+
+    .accord > .section-center > title {
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 1.5px;
+    }
+
+    .accord > .section-center > p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+        margin-bottom: 40px;
+    }
+
+    .accord > .section-center > small {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+        margin-top: 40px;
+    }
+
+    .accord > .section-center > ul li {
+        width: calc(33% - 22px);
+        margin: 0 30px 0 0;
+        padding: 30px 15px 29px 15px;
+    }
+
+    .accord > .section-center > ul li b {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .accord > .section-center > ul li img {
+        width: 112px;
+        margin: 10px auto 15px auto;
+    }
+
+    .accord > .section-center > ul li span {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+        margin-bottom: 10px;
+    }
+
+    .accord > .section-center > ul li span:before {
+        width: 20px;
+        left: 10px;
+    }
+
+    .accord > .section-center > ul li span:after {
+        width: 20px;
+        right: 10px;
+    }
+
+    .accord > .section-center > ul li p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+        margin-bottom: 10px;
+    }
+
+    .accord > .section-center > ul li small {
+        height: 63px;
+    }
+
+    .chart {
+        padding: 85px 0 75px 0;
+        background: none;
+    }
+
+    .chart .section-center > title {
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+    }
+
+    .chart .section-center > p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+        margin-bottom: 40px;
+    }
+
+    .chart .section-center > div {
+        padding: 290px 30px 30px 30px;
+    }
+
+    .chart .section-center > div:before {
+        right: 0;
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 370px;
+        background-image: linear-gradient(to top, #2890e4 35%, rgba(40, 144, 228, 0) 100%);
+    }
+
+    .chart .section-center > div strong {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        margin-bottom: 19px;
+    }
+
+    .chart .section-center > div small {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .chart .section-center > div .img {
+        left: 0;
+        top: 0;
+        bottom: auto;
+        border: 15px solid #fff;
+        width: 570px;
+        height: 260px;
+    }
+
+    .file {
+        padding: 75px 0 40px 0;
+        background: none;
+    }
+
+    .file > title {
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 1.5px;
+    }
+
+    .file .section-center > table tr td {
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.7px;
+        padding: 10px 0;
+    }
+
+    .file .section-center > table tr td:first-of-type {
+        width: 123px;
+        text-align: left;
+        padding: 10px 20px 10px 15px;
+        white-space: nowrap;
+    }
+
+    .file .section-center > table tr td:last-of-type {
+        padding: 10px 20px 10px 15px;
+    }
+
+    .file .section-center > table:last-of-type tr:last-of-type td:last-of-type {
+        height: auto;
+    }
+
+    .file .section-center > table tr:nth-of-type(1) td,
+    .file .section-center > table tr:nth-of-type(2) td,
+    .file .section-center > table tr:nth-of-type(5) td,
+    .file .section-center > table tr:nth-of-type(6) td {
+        height: 63px;
+    }
+
+    .file .section-center > table tr:nth-of-type(4) td {
+        height: 84px;
+    }
+
+    .download {
+        padding: 40px 0;
+        background: none;
+    }
+
+    .download > div {
+        width: 618px;
+    }
+
+    .download > div title {
+        margin-bottom: 30px;
+    }
+
+    .download > div a {
+        width: calc(50% - 11px);
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
+
+    .download > div a:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+    .download > div a img {
+        margin-left: 5px;
+    }
+
+    .download > div small {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .alert {
+        padding: 40px 0;
+        background: none;
+    }
+
+    .alert title {
+        margin-bottom: 20px;
+    }
+
+    .alert small {
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .alert p {
+        margin-bottom: 20px;
+    }
+
+    .blocker .modal {
+        max-width: 618px;
+        padding: 40px 30px 80px 30px;
+    }
+
+    .blocker .modal h3 {
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 1.1px;
+    }
+
+    .blocker .modal .cover,
+    .blocker .modal .img {
+        border: 10px solid #fff;
+        margin-bottom: 30px;
+    }
+
+    .blocker .modal small {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .blocker .modal a.close-modal {
+        width: 46px;
+        height: 46px;
+        top: -23px;
+        right: -23px;
+    }
+
+    .blocker .modal .next {
+        bottom: -35px;
+        width: 168px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        padding: 11px 0 11px 19px;
+    }
+
+    .blocker .modal .next img {
+        width: 25px;
+        right: 18px;
+        top: 30px;
+    }
+
+    .blocker .modal .prev {
+        right: 168px;
+        bottom: -35px;
+        width: 168px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        padding: 11px 0 11px 53px;
+    }
+
+    .blocker .modal .prev img {
+        width: 25px;
+        left: 18px;
+        top: 30px;
+    }
+
+    .blocker .modal.sm {
+        max-width: 405px;
+        padding: 40px 55px 80px 55px;
+    }
+
+    .blocker #modal5 {
+        padding: 40px;
+    }
+
+    .blocker .modal.sm h3 {
+        margin-bottom: 40px;
+    }
+
+    .blocker .modal.sm ul li strong {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.9px;
+    }
+
+    .blocker .modal.sm ul li p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+    }
+
+    .blocker .modal.sm ul li p span {
+        margin-right: 90px;
+    }
+
+    .fix-btn {
+        right: 0;
+        top: auto;
+        width: 100%;
+        height: 60px;
+        box-shadow: -5px -5px 20px 0 rgba(20, 63, 99, 0.1);
+        background-color: #fff;
+    }
+
+    /* .fix-btn:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #ce861d;
+    } */
+
+    .fix-btn > a::after{ 
+        content: "";
+        display: block;
+        width: 1px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
+        bottom: 0;
+        background: #ce861d;
+    }
+    .fix-btn > a:nth-child(1)::after{ 
+        content: "";
+        display: none;
+    }
+
+    .fix-btn > a {
+        float: left;
+        font-size: 16px;
+        width: 33.33333%;
+        line-height: 60px;
+    }
+
+    .fix-btn > a:before {
+        display: inline-block;
+        vertical-align: top;
+        margin: 30px 10px 0 0;
+    }
+
+    /* .fix-btn > a:last-of-type {
+        margin-top: 0;
+    } */
+    .fix-btn > a:nth-child(2),
+    .fix-btn > a:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .top.f13 {
+        bottom: 90px;
+        right: 20px;
+    }
+
+    footer {
+        margin-bottom: 60px;
+    }
+
+    .fix-btn .dialog {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        top: 0;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        background: rgba(59, 69, 74, 0.5);
+        padding: 0;
+    }
+
+    .fix-btn .dialog.open {
+        right: 0;
+    }
+
+    .fix-btn .dialog a {
+        padding: 18px 0;
+        width: 260px;
+        text-align: center;
+        box-shadow: 5px 5px 20px 0 rgba(20, 63, 99, 0.1);
+        background-color: #fff;
+    }
+
+    .fix-btn .dialog a:first-of-type {
+        border-bottom: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 316px;
+    }
+
+    .fix-btn .dialog a:last-of-type {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 186px;
+    }
+
+    .fix-btn .dialog .close {
+        display: block;
+        cursor: pointer;
+        width: 28px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 108px;
+        margin: auto;
+    }
+
+    .loading > center {
+        width: 279px;
+        height: 279px;
+    }
+
+    .loading > center img {
+        width: 159px;
+        height: 159px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .simplebar-scrollbar.simplebar-visible:before {
+        background: #b7e6f4;
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    .desktop,
+    .pad {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .wrapper {
+        background: url(../img/background-mb@3x.jpg) top center no-repeat;
+        background-size: 100% 100%;
+    }
+
+    section .section-center {
+        padding: 0 30px;
+        max-width: 375px;
+    }
+
+    .kv {
+        padding: 20px 0 25px 0;
+    }
+
+    .kv .section-center {
+        padding: 337px 30px 0 30px;
+        display: block;
+    }
+
+    .kv .section-center .txt {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .kv .section-center .txt small:last-of-type {
+        margin-right: 0;
+    }
+
+    .kv .section-center .cover {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        width: 375px;
+    }
+
+    .kv .section-center .cover img:not(.date) {
+        height: 302px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .kv .section-center .cover .date {
+        right: 29px;
+    }
+
+    .video {
+        padding: 115px 0 75px 0;
+    }
+
+    .video .section-center {
+        padding: 0 20px;
+    }
+
+    .video .fade:before {
+        width: 100%;
+    }
+
+    .video .fade .txt {
+        padding: 130px 0 0 0;
+        height: 300px;
+    }
+
+    .video .fade .txt .video-box {
+        height: auto;
+        width: 316px;
+        top: -88px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .video .fade .txt p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .video .fade .slick-prev {
+        left: auto;
+        right: 60px;
+    }
+
+    .video .fade .slick-next {
+        left: auto;
+        right: 0;
+    }
+
+    .video .fade .slick-dots {
+        left: 30px;
+        top: auto;
+        bottom: 15px;
+    }
+
+    .three {
+        padding: 75px 0;
+    }
+
+    .three .section-center > title {
+        margin-bottom: 0;
+    }
+
+    .three .section-center > small {
+        margin-top: 30px;
+    }
+
+    .three .section-center ul li {
+        padding: 20px 25px 30px 115px;
+        margin: 30px 0 0 0;
+        width: 100%;
+        position: relative;
+        text-align: left;
+    }
+
+    .three .section-center ul li img {
+        height: 90px;
+        margin: auto;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        bottom: 0;
+    }
+
+    .three .section-center ul li b {
+        margin-bottom: 5px;
+        white-space: nowrap;
+    }
+
+    .three .section-center ul li span {
+        height: auto;
+    }
+
+    .tab #tabs > ul {
+        width: 316px;
+        margin: 0 auto -45px auto;
+    }
+
+    .tab #tabs > ul li a {
+        padding: 13px 0;
+        line-height: 32px;
+    }
+
+    .tab #tabs > ul li.ui-tabs-active a:after {
+        width: 97px;
+    }
+
+    .tab #tabs .ui-tabs-panel {
+        padding: 75px 20px 30px 20px;
+    }
+
+    .tab #tabs .ui-tabs-panel .img {
+        border: 5px solid #fff;
+        overflow: auto;
+    }
+
+    .tab #tabs .ui-tabs-panel .img img {
+        width: auto;
+        height: 320px;
+    }
+
+    .more {
+        padding: 80px 0;
+    }
+
+    .more > h3 {
+        width: 316px;
+        line-height: 43px;
+        padding: 15px 0;
+    }
+
+    .more > strong {
+        margin-bottom: -25px;
+    }
+
+    .more > ul li {
+        display: block;
+        width: 316px;
+        padding: 40px 0 66px 166px;
+        margin: 55px auto 0 auto;
+    }
+
+    .more > ul li > img {
+        margin: auto;
+        height: 96px;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        margin: 0;
+    }
+
+    .more > ul li > span {
+        text-align: left;
+    }
+
+    .accord {
+        padding: 90px 0 75px 0;
+    }
+
+    .accord > .section-center > p {
+        margin-bottom: -10px;
+        text-align: left;
+    }
+
+    .accord > .section-center > small {
+        margin-top: 30px;
+    }
+
+    .accord > .section-center > ul li {
+        display: block;
+        width: 100%;
+        margin: 40px 0 0 0;
+        padding: 30px 30px 20px 30px;
+    }
+
+    .accord > .section-center > ul li small {
+        height: auto;
+    }
+
+    .accord > .section-center > ul li span:before {
+        width: 40px;
+        left: 35px;
+    }
+
+    .accord > .section-center > ul li span:after {
+        width: 40px;
+        right: 35px;
+    }
+
+    .chart {
+        padding: 75px 0;
+    }
+
+    .chart .section-center > p {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .chart .section-center > div {
+        padding: 0 0 30px 0;
+    }
+
+    .chart .section-center > div:before {
+        height: 75%;
+    }
+
+    .chart .section-center > div strong,
+    .chart .section-center > div small {
+        padding: 0 35px;
+    }
+
+    .chart .section-center > div .img {
+        position: relative;
+        border: 5px solid #fff;
+        height: auto;
+        width: calc(100% - 20px);
+        margin-bottom: 30px;
+        overflow: auto;
+    }
+
+    .file > title {
+        margin-bottom: 30px;
+    }
+
+    .file .section-center {
+        display: block;
+    }
+
+    .file .section-center > table {
+        width: 100%;
+    }
+
+    .file .section-center > table tr td:first-of-type {
+        width: 130px;
+    }
+
+    .file .section-center > table tr:nth-of-type(1) td,
+    .file .section-center > table tr:nth-of-type(2) td,
+    .file .section-center > table tr:nth-of-type(4) td,
+    .file .section-center > table tr:nth-of-type(5) td,
+    .file .section-center > table tr:nth-of-type(6) td {
+        height: auto;
+    }
+
+    .file .section-center > table tr:last-of-type td {
+        border-bottom: 1px solid #fff;
+    }
+
+    .file .section-center > table:last-of-type tr:last-of-type td {
+        border: 0;
+    }
+
+    .download > div {
+        width: 316px;
+    }
+
+    .download > div a {
+        width: 100%;
+        height: 60px;
+        /* width: calc(50% - 13px); */
+        margin-bottom: 20px;
+    }
+
+    .download > div a:not(:last-of-type) {
+        margin-right: 20px;
+    }
+
+    .download > div a:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .download > div small {
+        margin-top: 0;
+    }
+
+    .alert small {
+        line-height: 20px;
+    }
+
+    .alert small span {
+        margin-bottom: 10px;
+    }
+
+    .blocker .modal {
+        max-width: 335px;
+        padding: 0;
+        height: 80vh;
+    }
+
+    .blocker .modal .overflow {
+        overflow: auto;
+        position: relative;
+        height: 100%;
+        padding: 40px 20px 110px 20px;
+    }
+
+    .blocker .modal h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blocker .modal .cover,
+    .blocker .modal .img {
+        border: 5px solid #fff;
+        overflow: auto;
+    }
+
+    .blocker .modal .img img {
+        display: block;
+        height: 300px;
+    }
+
+    .blocker .modal .next {
+        bottom: 0;
+    }
+
+    .blocker .modal .prev {
+        right: auto;
+        left: 0;
+        bottom: 0;
+    }
+
+    .blocker .modal.sm {
+        max-width: 335px;
+        padding: 40px 35px 80px 35px;
+        height: auto;
+    }
+
+    .blocker .modal.sm ul li p span {
+        margin-right: 70px;
+    }
+
+    .fix-btn .dialog a:first-of-type {
+        bottom: 280px;
+    }
+
+    .fix-btn .dialog a:last-of-type {
+        bottom: 150px;
+    }
+
+    .fix-btn .dialog .close {
+        bottom: 72px;
+    }
+}
