@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1, maximum-scale=1"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1, maximum-scale=1"/>
+    <meta name="format-detection" content="telephone=no">
 
-    <title>元大銀行｜icash Pay新戶輕鬆賺點數回饋活動</title>
+    <title>元大銀行｜icash Pay連結元大銀行帳戶，指定通路消費享10%回饋</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" />
 
-    <meta name="keywords" content="帳戶支付連結,行動支付,電子支付,元大銀行,元大,數位存款,鑽金數位存款,icash Pay,愛金卡,icash, OPEN POINT" />
-    <meta name="description" content="活動期間新註冊icash Pay帳戶並連結元大銀行帳戶，於7-ELEVEN門市進行任一筆帳戶扣款消費贈100點OPEN POINT。" />
+    <meta name="keywords" content="帳戶連結支付,行動支付,電子支付,元大銀行,元大,數位存款,鑽金數位存款,icash Pay,愛金卡,icash, OPEN POINT" />
+    <meta name="description" content="活動期間內於指定通路以icash Pay連結元大銀行存款帳戶扣款方式消費享10%OPEN POINT點數回饋" />
 
-    <meta property="og:title" content="元大銀行｜icash Pay新戶輕鬆賺點數回饋活動" />
+    <meta property="og:title" content="元大銀行｜icash Pay連結元大銀行帳戶，指定通路消費享10%回饋" />
     <meta property="og:site_name" content="元大銀行" />
-    <meta property="og:url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/icashpay_new_client/index.html" />
-    <meta property="og:description" content="活動期間新註冊icash Pay帳戶並連結元大銀行帳戶，於7-ELEVEN門市進行任一筆帳戶扣款消費贈100點OPEN POINT。" />
+    <meta property="og:url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/icashpay_rewards_point/index.html" />
+    <meta property="og:description" content="活動期間內於指定通路以icash Pay連結元大銀行存款帳戶扣款方式消費享10%OPEN POINT點數回饋" />
 
     <!-- Facebook 縮圖 -->
-    <link rel="image_src" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/icashpay_new_client/assets/share_img.png" />
-    <meta property="og:image" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/icashpay_new_client/assets/images/share_img.png"/>
+    <link rel="image_src" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/icashpay_rewards_point/assets/images/share_img.png" />
+    <meta property="og:image" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/icashpay_rewards_point/assets/images/share_img.png"/>
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="628" />
     <meta property="og:type" content="website" />
@@ -38,6 +39,7 @@
     <link href="./assets/css/animate.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/common.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -59,131 +61,184 @@
                 </ul>
             </div>
         </div>
+		
 		<!-- 內容區 -->
         <div class="main">
             <!-- 主視覺 -->
             <section class="section kv_container">
                 <div class="kv">
-                    <div class="staff_hand"></div>
-                    <div class="staff"></div>
-                    <div class="table"></div>
-                    <div class="customer_hand"></div>
-                    <div class="customer"></div>
-                    <div class="chair"><img src="assets/images/chair.png" alt=""></div>
-                    <div class="kv_tit"></div>
+                    <div class="kv_tit">
+                        <img src="assets/images/kv_tit.png" alt="icash Pay連結元大銀行帳戶，指定通路消費享10%回饋">
+                    </div>
+                    <img class="man_phone" src="assets/images/man_phone.png" alt="">
+                    <div class="storecard">
+                        <img class="store1" src="assets/images/store1.png" alt="">
+                        <img class="store2" src="assets/images/store2.png" alt="">
+                        <img class="store3" src="assets/images/store3.png" alt="">
+                    </div>
                 </div>
             </section>
             <!-- 主視覺 End-->
             <!-- content -->
             <section class="section content_container">
                 <div class="content">
-                	<div class="event_logo"><img src="assets/images/event_logo.png" alt="元大銀行｜icash Pay"></div>
-                    <div class="event period">
-                        <div class="eventcont">
-                            <div class="event-title">活動期間</div>
-                            <div class="event-txt event-period">
-                                <p>2022/11/1(二)~2022/12/31(六)</p>
-                            </div>
+                    <div class="kv_logo"><img src="assets/images/kv_logo.png" alt="元大銀行 X icash Pay"></div>
+                    <div class="event" id="event">
+                        <div class="event_part">
+                            <div class="event_tit"><img src="assets/images/tit_date.png" alt="活動期間"></div>
+                            <div class="event_date">2023/1/1(日)~2023/6/30(五)</div>
                         </div>
-                    </div>
-                    <div class="event">
-                        <div class="eventcont">
-                            <div class="event-title">活動內容</div>
-                            <div class="event-txt">
-                                <p>活動期間<span class="highlight-red">新註冊icash Pay帳戶</span>並連結<span class="highlight-blue">元大銀行帳戶</span>，<br class="mob-none">且採<span class="highlight-blue">帳戶扣款</span>方式於<span class="highlight-red">7-ELEVEN實體門市</span>消費，<br class="mob-none">不限金額贈OPEN POINT點數<span class="highlight-red">100點</span>。<br class="mob-none"><span class="stxt">（活動期間每一icash Pay用戶回饋上限100點，總回饋上限500,000點。）</span></p>
-                            </div>
-                            <div class="account">
-                                <div class="step">
-                                    <div class="step-title"><img src="assets/images/title.png" alt=""></div>
-                                    <div class="step-img"><img src="assets/images/phone.png" alt=""></div>
-                                    <div class="step-content">
-                                        <div class="subTitle">
-                                            <img src="assets/images/subTitle.png" alt="">
-                                        </div>
-                                        <div class="stepList">
-                                            <div class="stepList-num stepList-num-w">
-                                                <img src="assets/images/step1.png" alt="">
-                                            </div>
-                                            <div class="stepList-text stepList-text-w">
-                                                <p>開啟【支付條碼】功能，出示條碼或QR Code予商家掃描。</p>
-                                            </div>
-                                        </div>
-                                        <div class="stepList">
-                                            <div class="stepList-num stepList-num-w">
-                                                <img src="assets/images/step2.png" alt="">
-                                            </div>
-                                            <div class="stepList-text stepList-text-w">
-                                                <p>進行身分驗證(使用生物辨識或輸入icash Pay設定的登入密碼)。</p>
-                                            </div>
-                                        </div>
-                                        <div class="stepList">
-                                            <div class="stepList-num">
-                                                <img src="assets/images/step3.png" alt="">
-                                            </div>
-                                            <div class="stepList-text">
-                                                <p>選擇「元大銀行帳戶」付款。</p>
-                                            </div>
-                                        </div>
+                        <div class="event_part">
+                            <div class="event_tit"><img src="assets/images/tit_cont.png" alt="活動內容"></div>
+                        </div>
+                        <div class="discount" id="discount">
+                            <div class="event_txt">活動期間內於活動適用通路以icash Pay<span class="blue"><b>連結元大銀行存款帳戶扣款方式</b></span><br>（「付款方式」選擇元大銀行帳戶）消費享以下優惠：</div>
+                            <div class="discount_all">
+                                <div class="discount-item">
+                                    <div class="dis_item_all">
+                                        <div class="dis_no">優惠一</div>
+                                        <div class="dis_tit" id="dis1"><img src="assets/images/dis_tit1.png" alt="7-ELEVEN 實體門市"></div>
+                                        <div class="dis_icon"><img src="assets/images/icon1.png" alt=""></div>
+                                        <div class="dis_txt">消費單筆新臺幣<span class="orange"><b>150元</b></span>(含)以上，加碼贈<span class="orange"><b>OPEN POINT點數10%回饋</b></span>。<span class="gray">（每月每戶回饋上限100點）</span></div>
+                                        <div class="dis_store"><img src="assets/images/dis_store.png" alt="適用通路"></div>
+                                        <div class="dis_txt">7-ELEVEN實體門市</div>
                                     </div>
                                 </div>
-                                <div class="moreInfo">
-                                    <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/icash_pay_inner_acount.html" id="Icmore" target="_blank">※ <span class="bold">更多詳細資訊</span> ※</a>
+                                <div class="discount-item discount-item2">
+                                    <div class="dis_item_all">
+                                        <div class="dis_no">優惠二</div>
+                                        <div class="dis_tit" id="dis1"><img src="assets/images/dis_tit2.png" alt="指定餐飲"></div>
+                                        <div class="dis_icon"><img src="assets/images/icon2.png" alt=""></div>
+                                        <div class="dis_txt"><span class="blue"><b>每週五~每週日</b></span>消費單筆新臺幣<span class="orange"><b>100元</b></span>(含)以上，加碼贈<span class="orange"><b>OPEN POINT點數10%回饋</b></span>。<span class="gray">（每月每戶回饋上限150點）</span></div>
+                                        <div class="dis_store"><img src="assets/images/dis_store.png" alt="適用通路"></div>
+                                        <div class="dis_txt">星巴克、Mister Donut、COLD STONE、Semeur聖娜、21風味館(21 PLUS)、屋馬燒肉</div>
+                                    </div>
+                                </div>
+                                <div class="discount-item discount-item3">
+                                    <div class="dis_item_all">
+                                        <div class="dis_no">優惠三</div>
+                                        <div class="dis_tit" id="dis1"><img src="assets/images/dis_tit3.png" alt="指定通路"></div>
+                                        <div class="dis_icon"><img src="assets/images/icon3.png" alt=""></div>
+                                        <div class="dis_txt">消費單筆新臺幣<span class="orange"><b>200元</b></span>(含)以上，加碼贈<span class="orange"><b>OPEN POINT點數10%回饋</b></span>。<span class="gray">（每月每戶回饋上限300點）</span></div>
+                                        <div class="dis_store"><img src="assets/images/dis_store.png" alt="適用通路"></div>
+                                        <div class="dis_txt">康是美(含實體門市及網購)、博客來、美廉社(實體門市)、心樸市集(實體門市)、九乘九文具(實體門市)、生活工場(實體門市)。前述通路均不含百貨門市。</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="action">
-                                <div class="action-item">
-                                    <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/icash_pay_inner_acount.html" class="btn gn" id="Iclink" target="_blank">
-                                        <img src="assets/images/btn-gn.png" alt="帳戶綁定">
-                                    </a>
-                                </div>
-                                <div class="action-item">
-                                    <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2021/openacct/index.html" class="btn og" id="Icopen" target="_blank">
-                                        <img src="assets/images/btn-og.png" alt="線上開戶">
-                                    </a>
-                                </div>
+                        </div>
+                        <div class="action">
+                            <div class="action-item">
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/icash_pay_inner_acount.html" class="btn green" target="_blank">
+                                    <img src="assets/images/btn_green.png" alt="立即連結icash Pay 帳戶綁定">
+                                </a>
+                            </div>
+                            <div class="action-item">
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2021/openacct/index.html" class="btn blue" target="_blank">
+                                    <img src="assets/images/btn_blue.png" alt="線上申辦鑽金數位存款帳戶">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="icashpay" id="icashpay">
+                        <div class="account">
+                            <div class="step">
+                                <div class="step-title"><img src="assets/images/acl_tit.png" alt=""></div>
+                                <div class="step-img"><img src="assets/images/phone_pic.png" alt=""></div>
+                                <div class="step-content">
+                                    <div class="subTitle">
+                                        <img src="assets/images/subTitle.png" alt="">
+                                    </div>
+                                    <div class="stepList">
+                                        <div class="stepList-num stepList-num-w">
+                                            <img src="assets/images/step1.png" alt="">
+                                        </div>
+                                        <div class="stepList-text stepList-text-w">
+                                            <p>開啟【支付條碼】功能，出示條碼或QR Code予商家掃描。</p>
+                                        </div>
+                                    </div>
+                                    <div class="stepList">
+                                        <div class="stepList-num stepList-num-w">
+                                            <img src="assets/images/step2.png" alt="">
+                                        </div>
+                                        <div class="stepList-text stepList-text-w">
+                                            <p>進行身分驗證(使用生物辨識或輸入icash Pay設定的登入密碼)。</p>
+                                        </div>
+                                    </div>
+                                    <div class="stepList">
+                                        <div class="stepList-num">
+                                            <img src="assets/images/step3.png" alt="">
+                                        </div>
+                                        <div class="stepList-text">
+                                            <p>選擇「元大銀行帳戶」付款。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="moreInfo">
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/icash_pay_inner_acount.html" target="_blank">※ 更多詳細資訊 ※</a>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="action-item">
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2020/ACCLink/icash_pay_inner_acount.html" class="btn green" target="_blank">
+                                    <img src="assets/images/btn_green.png" alt="立即連結icash Pay 帳戶綁定">
+                                </a>
+                            </div>
+                            <div class="action-item">
+                                <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2021/openacct/index.html" class="btn blue" target="_blank">
+                                    <img src="assets/images/btn_blue.png" alt="線上申辦鑽金數位存款帳戶">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="man"><img class="man" src="assets/images/man.png" alt=""></div>
+                        <div class="woman"><img class="woman" src="assets/images/woman.png" alt=""></div>
+                </div>
             </section>
-            <!-- content -->
+            <!-- content End-->
             <!-- 注意事項 -->
             <section class="section notice_container">
                 <div class="notice">
-                    <div class="notice_tit">｜活動注意事項｜</div>
+                    <div class="notice_tit"><img src="assets/images/tit_notice.png" alt="活動注意事項"></div>
                     <input type="checkbox" id="contTab" checked="checked" class="tabbed">
                     <div class="notice_all" id="cont">
                         <ul>
-                            <li>活動指定條件說明：
+                            <li>本活動須以icash Pay連結元大銀行存款帳戶直接扣款消費(以銀行帳戶金額儲值、自動加值至icash Pay後付款不適用本活動)，方可獲得OPEN POINT加贈點數，部分或缺額支付、條件不符者恕不加贈。
+                            </li>
+                            <li>【7-ELEVEN實體門市消費回饋】活動指定條件說明：
                                 <ol>
-                                    <li>活動期間新註冊icash Pay帳戶並連結元大銀行帳戶，且採帳戶扣款方式於7-ELEVEN實體門市消費，不限金額贈OPEN POINT點數100點，活動期間每一icash Pay用戶回饋上限100點，總回饋上限500,000點，回饋之100點於2023年2月底前匯入符合資格之icash Pay帳戶。</li>
-                                    <li>本活動須以icash Pay連結元大存款帳戶直接扣款消費(以銀行帳戶金額儲值、自動加值至icash Pay後付款不適用本活動)，方可獲得OPEN POINT加贈點數，部份或缺額支付、條件不符者恕不加贈。</li>
-                                    <li>本活動之交易不適用自動加值、現金加值、儲值類交易、菸類商品、代收代售項目或其他經元大銀行公告不適用之項目。</li>
-                                    <li>本活動限實體門市適用，消費所享之基本點數回饋依7-ELEVEN規定為主，基本點數於結帳時回饋，點數計算至小數點後第二位(依小數點後第三位四捨五入計算)。</li>
+                                    <li>本活動之交易不適用自動加值、現金加值、儲值類交易、菸類商品及代收項目。</li>
+                                    <li>每一icash Pay帳戶每月回饋上限150點OPEN POINT，活動總回饋上限30萬點。</li>
+                                    <li>本活動限實體門市適用，消費所享之基本點數回饋依7-ELEVEN規定為主，基本點數於結帳時回饋，額外加5%回饋於次月底前匯入符合資格之icash Pay帳戶對應之OPEN POINT帳號。活動點數計算至小數點後第二位(依小數點後第三位四捨五入計算)。</li>
                                 </ol>
                             </li>
-                            <li>OPEN POINT由統一超商提供，紅利點數相關問題，請洽OPEN POINT客服中心：0800-711-177。</li>
-                            <li>使用icash Pay參與本活動應使用具備Android作業系統5.0以上或iOS作業系統12.0以上的手機，並請將OPEN POINT APP或icash Pay APP之應用程式及手機內建瀏覽器更新至最新版本。icash Pay用戶於獲得本活動回饋前及回饋當下仍應具有OPEN POINT 會員資格及icash Pay使用者資格，icash Pay與其銀行存款帳戶應為「連結狀態」且使用皆為「正常狀態」，回饋入點時應符合本活動資格等相關規範。</li>
-                            <li>詳細活動辦法以統一超商OPEN POINT網站、愛金卡公司及元大銀行網站公告為準。統一超商、愛金卡與元大銀行保留終止、取消、變更活動之權利。</li>
-                            <li>本網站的立場及聲明：
+                            <li>【指定藥妝/超市/居家用品回饋】活動指定條件說明：
                                 <ol>
-                                    <li>本活動係元大銀行舉辦。參加者於參加本活動時，即同意接受本活動內容、個人網路銀行、行動銀行及元大e櫃檯各項使用規範及規定；如有以不當程式或方法干擾，元大銀行將取消參加及回饋資格，元大銀行並得向參加者請求損害賠償。</li>
-									<li>參加者應承諾提出之資料均為真實、正確且未冒用或盜用任何第三人之資料；若有冒用或盜用他人資料，或個人資料有不實、不齊全或不正確之情事，元大銀行將取消參加或（及）回饋資格。如因此造成第三人向元大銀行主張任何權利，應由參加者負全部責任。</li>
-									<li>任何因行動裝置、電腦、網路、電話、技術或不可歸責於元大銀行之事由，而使參加者所登錄之資料有遲延、遺失、錯誤、無法辨識或毀損等情況致未成功參加本活動，參加者不得因此異議或請求元大銀行賠償。</li>
+                                    <li>部分商店/收銀機不適用icash Pay交易(如特殊通路、百貨商場門市、部分加盟藥局等)，請依各門市/櫃位現場服務與活動網站說明為準；倘收銀設備故障或系統線路問題無法連線，恕無法提供本活動贈送之OPEN POINT。</li>
+                                    <li>當月符合資格之消費，點數將於次月底前匯入icash Pay 帳戶所對應之OPEN POINT 會員帳戶。每一icash Pay用戶回饋上限300點，活動總回饋上限30萬點。</li>
+                                    <li>本活動之消費認定將依實際交易金額及發票為主，加碼回饋之OPEN POINT計算至小數點後第二位(依小數點後第三位四捨五入計算)。交易金額僅限一般商品交易，不包含儲值、代收、菸品、代收代售業務等，且須為單筆全額使用icash Pay支付。如交易經取消、退貨及退款，將不予贈點，若於活動贈點發送後退貨，將會追回活動贈點。</li>
+                                </ol>
+                            </li>
+                            <li>OPEN POINT點數由統一超商提供，OPEN POINT點數相關問題，請洽OPEN POINT客服中心：0800-711-177(手機請撥02-2627-1650)或請mail至 <a href="mailto:icashpay_service@mail.icash.com.tw" class="mail">icashpay_service@mail.icash.com.tw</a> 並留下您的icash Pay用戶手機號碼、icash Pay帳號、問題等以供查詢回覆。
+                            </li>
+                            <li>使用icash Pay參與本活動應使用具備Android作業系統5.0以上或iOS作業系統12.0以上的手機，並請將OPEN POINT APP或icash Pay APP之應用程式及手機內建瀏覽器更新至最新版本。icash Pay用戶於獲得本活動回饋前及回饋當下仍應具有OPEN POINT 會員資格及icash Pay使用者資格，icash Pay與元大銀行存款帳戶應為「連結狀態」且使用皆為「正常狀態」，入點時應符合本活動資格等相關規範。
+                            </li>
+                            <li>詳細活動辦法以主辦單位(愛金卡、元大銀行)網站公告為準。主辦單位保留本活動所有事宜之最終解釋之權利，並可隨時變更、取消、終止或暫停本活動及替換其他獎項；活動如遇有任何因電腦系統、網路、電話等故障或傳輸異常、或有不可抗力事由，主辦單位得暫時停止相關服務，參與者同意取消當次消費支付指示。如因而致參加者之資料有延遲、遺失、錯誤或無法辨識等情況，主辦單位不負任何法律責任，參加者亦不得因此異議。其他未盡事宜，悉依主辦單位相關規定辦理。
+                            </li>
+                            <li>所得稅申報注意事項：
+                                <ol>
+                                    <li>依中華民國稅法規定，icash Pay用戶為中華民國境內居住之個人，年度累積贈品價值超過新臺幣1,000元，將併入個人綜合所得稅申報，如贈品價值達新臺幣20,010元(含)以上者，icash Pay用戶需先繳納10%之稅金，始可領取。</li>
+                                    <li>倘icash Pay用戶非中華民國境內居住之個人，不論贈品價值，均需先繳納20%之稅金，始可領取，若未能依法繳納稅額，即視為喪失領取資格。</li>
+                                    <li>前述稅捐法規如於本活動期間有變動，依修正後規定辦理。icash Pay用戶參加本活動而需支付任何稅捐皆為icash Pay用戶之義務，概與元大銀行無關。</li>
                                 </ol>
                             </li>
                             <li>法律管轄權：
                                 <ol>
-                                    <li>參加者同意與本活動有關之任何行為，應依據中華民國法律解釋或辦理，即使使用元大銀行個人網路銀行或行動銀行APP之當時所在地非中華民國境內，仍以中華民國法律規範之。</li>
-									<li>雙方同意如因本活動發生相關訴訟，除法律另有規定外，合意以臺灣臺北地方法院為第一審管轄法院。</li>
+                                    <li>icash Pay用戶同意與本次活動有關之任何行為，應依據中華民國法律解釋或辦理，即使使用元大銀行個人網路銀行或行動銀行APP之當時所在地非中華民國境內，仍以中華民國法律規範之。</li>
+                                    <li>雙方同意如因本活動發生相關訴訟，除法律另有規定外，合意以臺灣臺北地方法院為第一審管轄法院。</li>
                                 </ol>
                             </li>
-                            <li>所得申報：
-                                <p>依中華民國稅法規定，申請人為中華民國境內居住之個人，年度累積贈品價值超過新臺幣1,000元，將併入個人綜合所得稅申報，申請人非中華民國境內居住之個人，不論贈品價值，均需先繳納20%之稅金，始可領取，若未能依法繳納稅額，即視為喪失領取資格。前述相關稅捐法規於本活動期間如有變動，依修正後規定辦理。</p>
-                            </li>
-                            <li>免責聲明：
-                                <p>元大銀行保有審核參加者資格之權利，及取消、終止、修改或暫停本活動辦法及更動贈品的權利。如有其他未盡事宜，悉依元大銀行官方網站公告之相關規定或決定辦理。如有疑問，請洽元大銀行客服中心 (02)2182-1968 或 0800-688-168。</p>
-                            </li>
+                            <li>參加本活動即表示同意接受本活動條款；若有違反者，主辦單位有權取消參加者之參加資格並追回獲得之OPEN POINT點數，如對本活動有任何疑義，可撥打元大銀行客服中心 (02)2182-1968 或 0800-688-168。愛金卡公司客服專線0800-233-888 (手機請撥02-2657-6388)，客服信箱：<a href="mailto:icashpay_service@mail.icash.com.tw" class="mail">icashpay_service@mail.icash.com.tw</a>。</li>
                         </ul>
                     </div>
                     <div class="content-more">
