@@ -117,7 +117,7 @@
                         <p class="additional">* 1.8% 為外幣回饋</p>
                     </div>
                     <div :class="goBtn">
-                        <a href="https://www.yuantabank.com.tw/bank/creditCard/overSeaActReg/list.do" target="_blank">不分新舊卡友同享優惠，新戶再享好禮！<br />立即參加 &raquo;</a>
+                        <a href="https://www.yuantabank.com.tw/bank/creditCard/overSeaActReg/list.do" target="_blank">新舊戶同享優惠，新戶再享好禮！<br />Bic Camera<br class="display-none">最高21%優惠！<br />立即參加 &raquo;</a>
                     </div>
                     <div class="scroll" @click="scroll('reward')">
                         <p>scroll</p>
@@ -203,6 +203,31 @@
                             </ul>
                         </label>
                     </div>
+                </div>
+            </section>
+            <!-- 出國旅遊 -->
+            <section class="travel">
+                <div class="container">
+                    <h2 class="bold">出國旅遊省很大<br class="dis-block">樂享 Bic Camera 優惠、訂房折扣、免費WiFi</h2>
+                    <p class="desc f18">立即申辦「元大鑽金智富卡」，出國購物、訂房通通有回饋，選對信用卡，玩的開心、賺得開心</p>
+                    <div class="swiper">
+                        <div class="swiper-wrapper" >
+                            <div v-for="item in travelList" :key="item.title" class="swiper-slide">
+                                <img :src="item.img">
+                                <div class="content">
+                                    <div v-html="item.title" class="f24 bold blue title"></div>
+                                    <p v-html="item.content"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="images/icon_section4_arrow.svg">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="images/icon_section4_arrow.svg">
+                    </div>
+                    <p class="ps f14">* 各項活動優惠辦法、適用日期及使用限制，詳參<a class="yuanta-link" href="https://www.yuantabank.com.tw/bank/index.do" target="_blank">元大銀行官網</a>、<a class="yuanta-link" href="https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do" target="_blank">優惠活動網頁</a>。</p>
                 </div>
             </section>
             <!-- 線上換匯 -->
@@ -328,31 +353,6 @@
                     </div>
                 </div>
             </section>
-            <!-- 出國旅遊 -->
-            <section class="travel">
-                <div class="container">
-                    <h2 class="bold">出國旅遊省很大<span class="comma">，</span><br>訂房折扣、免費WiFi、機場接送優惠</h2>
-                    <p class="desc f18">立即申辦「元大鑽金智富卡」，出國購物、訂房通通有回饋，選對信用卡，玩的開心、賺得開心</p>
-                    <div class="swiper">
-                        <div class="swiper-wrapper" >
-                            <div v-for="item in travelList" :key="item.title" class="swiper-slide">
-                                <img :src="item.img">
-                                <div class="content">
-                                    <div v-html="item.title" class="f24 bold blue title"></div>
-                                    <p v-html="item.content"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <img src="images/icon_section4_arrow.svg">
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="images/icon_section4_arrow.svg">
-                    </div>
-                    <p class="ps f14">* 各項活動優惠辦法、適用日期及使用限制，詳參<a class="yuanta-link" href="https://www.yuantabank.com.tw/bank/index.do" target="_blank">元大銀行官網</a>、<a class="yuanta-link" href="https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do" target="_blank">優惠活動網頁</a>。</p>
-                </div>
-            </section>
             <!-- QA -->
             <section class="qa">
                 <div class="container">
@@ -406,7 +406,7 @@
                     travelList: [
                         {
                             title: '最高<span>10</span>%<span>+</span><span>7</span>%<br>日本Bic Camera<br>優惠折扣',
-                            content: '112/4/30 前<span>全卡友</span>至日本 Bic Camera 消費，出示優惠券，供門市結帳人員以現場掃入優惠電子條碼方式結帳，該筆消費最高享消費稅 10% 及商品 7% 折扣。',
+                            content: '112/4/30 前至日本 Bic Camera 消費，出示優惠券，供門市結帳人員以現場掃入優惠電子條碼方式結帳，該筆消費最高享消費稅 10% 及商品 7% 折扣。',
                             img: 'images/img_section4_slide1.jpg'
                         },
                         {
