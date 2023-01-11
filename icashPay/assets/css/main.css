@@ -54,7 +54,7 @@ img{margin: 0; padding: 0; display: block;}
 .orange{color: #f55f24;}
 .gray{color: #666666; font-size: 14px;}
 /* icashpay */
-.icashpay{padding:3% 1%; position: relative; background: #43608b url("../images/deco.png") center top no-repeat; background-size: 100% auto;}
+.icashpay{padding:6% 1%; position: relative; background: #43608b url("../images/deco.png") center top no-repeat; background-size: 100% auto;}
 .account{width: 70%; max-width: 1200px; margin: 2% auto 5%; background: #ffffff; border-radius: 10px; padding: 5% 8%;}
 .step{position:relative;display:-webkit-flex;display:flex;}
 .step-title{position:absolute;top:0;right:16%;width:100%;max-width:50%;}
@@ -73,7 +73,7 @@ img{margin: 0; padding: 0; display: block;}
 .moreInfo{text-align:center;margin-top: 5%;}
 .moreInfo a{display:inline-block;font-size:24px;line-height:1.75; font-weight: bold; color:#4c94e4; text-decoration:none; border-bottom:1px solid #4c94e4;margin:3% 0 1%;}
 /* action */
-.action{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:0 0 5%;}
+.action{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:0 0 3%;}
 .action-item{-webkit-flex:0 1 270px;flex:0 1 270px;max-width:270px;}
 .action-item a{display: block;}
 .action-item+.action-item{margin-left:25px;}
@@ -85,7 +85,7 @@ img{margin: 0; padding: 0; display: block;}
 .btn:hover img{-webkit-transform:translateY(6px);transform:translateY(6px);}
 /* notice */
 .notice_container{background: #43608b;}
-.notice{width: 100%; max-width: 1400px; margin: 0 auto; font-size: 15px; line-height: 2; color: #ffffff; padding: 2% 5% 5%;}
+.notice{width: 100%; max-width: 1600px; margin: 0 auto; font-size: 15px; line-height: 2; color: #ffffff; padding: 2% 5%;}
 .notice_tit{font-size: 20px; font-weight: bold; text-align: center}
 .notice_all{padding: 2%;}
 .notice_all a{text-decoration: underline;}
@@ -243,11 +243,11 @@ img{margin: 0; padding: 0; display: block;}
 /* event */
 .event_tit{width: 70%;}
 .event_txt{margin: 2% auto 8%;}
-.discount{width: 100%;}
+.discount{width: 100%; border: #76adea solid 10px;}
 .dis_item_all .dis_tit{width: 60%; margin: 10% auto 6%;}
 .dis_item_all .dis_txt{font-size: 16px;}
-.dis_item_all .dis_icon{width: 50%;}
-.dis_item_all .dis_store{width: 30%;}
+.dis_item_all .dis_icon{width: 42%;}
+.dis_item_all .dis_store{width: 40%;}
 .eaves{width: 120%; top: -1.5%; left: -10%;}
 .man{width: 50%; top: -7%; left: -16%;}
 .event_point{font-size: 16px;}
