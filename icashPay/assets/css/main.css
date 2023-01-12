@@ -251,13 +251,13 @@ img{margin: 0; padding: 0; display: block;}
 .event_tit{width: 70%;}
 .event_date{font-size: 18px;}
 .event_txt{font-size: 16px; margin: 2% auto 8%;}
-.discount{width: 82%; border: #76adea solid 10px; padding: 8% 2% 2%;}
+.discount{width: 86%; border: #76adea solid 10px; padding: 8% 2% 2%;}
 .discount-item{margin-bottom: 14%;}
 .dis_item_all .dis_tit{width: 60%; margin: 10% auto 6%;}
 .dis_item_all .dis_txt{font-size: 16px;}
 .dis_item_all .dis_icon{width: 35%;}
 .dis_item_all .dis_store{width: 40%;}
-.eaves{width: 120%; top: -1%; left: -10%;}
+.eaves{width: 114%; top: -1%; left: -7%;}
 .man{display: none;}
 .event_point{font-size: 16px;}
 /* icashpay */
