@@ -47,7 +47,7 @@ img{margin: 0; padding: 0; display: block;}
 .dis_item_all .dis_no::after{display:block; content:''; width:0; border-width:15px 8px 8px 8px; border-style:solid; border-color:#23b6bc transparent transparent transparent; position: absolute; left: 43%; bottom: -20px;}
 .dis_item_all .dis_tit{width: 240px; margin: 8% auto;}
 .dis_item_all .dis_icon{width: 160px; margin: 0 auto;}
-.dis_item_all .dis_txt{width: 80%; height: 100px; font-size: 16px; line-height: 1.6; text-align: left; margin: 6% auto;}
+.dis_item_all .dis_txt{width: 80%; height: 100px; font-size: 16px; text-align: left; margin: 6% auto;}
 .dis_item_all .dis_711{text-align: center;}
 .dis_item_all .dis_store{width: 140px; margin: 0 auto;}
 .blue{color: #0c61bf;}
@@ -68,7 +68,7 @@ img{margin: 0; padding: 0; display: block;}
 .stepList{display:-webkit-flex;display:flex;margin-top:10px;}
 .stepList-num{-webkit-flex:0 0 40px;flex:0 0 40px;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;background-color:#6ecbcd}
 .stepList-num img{width:24px}
-.stepList-text{-webkit-flex:1;flex:1;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;box-sizing:border-box;min-height:74px;padding:12px 10px;font-size:18px;line-height:1.4;color:#1e334e;background-color:#d2f1f2; text-align: left;}
+.stepList-text{-webkit-flex:1;flex:1;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;box-sizing:border-box;min-height:74px;padding:12px 10px;font-size:18px;color:#1e334e;background-color:#d2f1f2; text-align: left;}
 .stepList-text p{width:100%;}
 .stepList-num-w,.stepList-text-w{background-color: #ffffff;}
 .moreInfo{text-align:center;margin-top: 2%;}
@@ -153,7 +153,7 @@ img{margin: 0; padding: 0; display: block;}
 .dis_item_all .dis_txt{width: 80%; height: 110px;}
 .dis_item_all .dis_store{width: 44%; max-width: 140px;}
 /* icashpay */
-.account{padding: 5% 12%;}
+.account{height: 768px; padding: 5% 12%;}
 }
 @media screen and (max-width: 1200px) {
 /* event */
@@ -161,7 +161,7 @@ img{margin: 0; padding: 0; display: block;}
 .dis_item_all .dis_txt{height: 140px;}
 .man{top: -21%;}
 /* icashpay */
-.account{margin: 4% auto 3%; padding: 5% 12%;}
+.account{height: auto; margin: 4% auto 3%; padding: 5% 12%;}
 }
 @media screen and (max-width: 1024px) {
 .main{padding-top: 76px;}
