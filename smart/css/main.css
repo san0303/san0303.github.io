@@ -1116,6 +1116,7 @@ html {
   .step_4 > ul .feature_card {
     gap: 0 20px;
     padding: 15px;
+    width: 100%;
   }
   .step_4 > ul .feature_card img {
     width: 60px;

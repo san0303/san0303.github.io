@@ -311,8 +311,7 @@ var HomePage = function () {
       default:
         break;
     }
-
-    $("#mobileMenu li").click(function () {
+    $("#mobileMenu li:not('.trigger-submenu')").click(function () {
       var targetId = $(this).attr("href");
       _scrollTo(targetId);
       $("#mobileMenu").removeClass("isOpen");
