@@ -39,17 +39,23 @@ th {
 }
 .primary-color {color: #005bac;}
 .yellow {color: #fcd583;}
+.red {color: #f15238;}
 @media screen and (max-width: 960px) {
     .wrapper {width: 100% !important; max-width: 100% !important;}
 }
 @media screen and (max-width: 900px) {
 	.spacer2 {display: none !important;}
-    .eventBoxAll{ display: block !important; width: 100% !important; display: table-row !important; text-align: center !important;}
+    .eventBoxAll { display: block !important; width: 100% !important; display: table-row !important; text-align: center !important;}
     .eventBox { display: inline-block !important; width: 45% !important; margin-bottom: 3% !important;}
     .eventBox-space1 { display: inline-block !important; width: 5% !important;}
     .eventBox-space2 { display: none !important;}
 }
-
+@media screen and (max-width: 768px) {
+    .welfareBoxAll {width: 100% !important;}
+}
+@media screen and (max-width: 600px) {
+    .welfareBox {display: block !important; width: 100% !important;}
+}
 @media screen and (max-width: 500px) {
     table.column-break,
 	th.column-break,
@@ -67,12 +73,17 @@ th {
 	}
     .spacer3 {display: none !important;}
     .eventBox {width: 90% !important; margin-bottom: 10% !important;}
+    .eventBox-img{width: 220px !important;}
     .eventBox-space1 { display: none !important;}
-    .tit_travel{width: 90% !important;}
     .info-txt {font-size: 22px !important;}
     .info-txts {font-size: 16px !important;}
-    .info-tit {width: 250px !important;}
-    .tit_travel{width: 100% !important;}
+    .tit_travel {width: 100% !important;}
+    .event-txt {font-size: 18px !important;}
+    .event-txts {font-size: 14px !important;}
+    .account-txt {font-size: 22px !important;}
+    .stamp {width: 60% !important;}
+    .welfare-txt {font-size: 16px !important;}
+    .welfare-txtb {font-size: 22px !important;}
 }
 </style>
 </head>
@@ -169,7 +180,7 @@ th {
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event1.png" width="200" alt="" border="0" />
+                                                                                <img class="eventBox-img" src="images/event1.png" width="200" alt="好康1" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -213,7 +224,7 @@ th {
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event2.png" width="200" alt="" border="0" />
+                                                                                <img class="eventBox-img" src="images/event2.png" width="200" alt="好康2" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -257,7 +268,7 @@ th {
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event3.png" width="200" alt="" border="0" />
+                                                                                <img class="eventBox-img" src="images/event3.png" width="200" alt="好康3" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -301,7 +312,7 @@ th {
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event4.png" width="200" alt="" border="0" />
+                                                                                <img class="eventBox-img" src="images/event4.png" width="200" alt="好康4" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -360,10 +371,20 @@ th {
                                         </td>
                                     </tr>
                                     <tr>
-						                <td align="center" class="info-s" style="color: #ffffff; font-size: 18px;"><b>凡完成到任一項之客戶，</b></td>
+						                <td align="center">
+                                            <table cellspacing="0" cellpadding="0" border="0" >
+                                                <tr>
+                                                    <td class="event-txts" style="color: #ffffff; font-size: 18px; line-height: 1.6;"><b>凡完成&ensp;</b></td>
+                                                    <td valign="middle" width="57" style="font-size: 0"><img src="images/e1.png" alt="好康1" width="57" border="0"/></td>
+                                                    <td class="event-txts" style="color: #ffffff; font-size: 18px; line-height: 1.6;"><b>&ensp;到&ensp;</b></td>
+                                                    <td valign="middle" width="57" style="font-size: 0"><img src="images/e4.png" alt="好康4" width="57" border="0"/></td>
+                                                    <td class="event-txts" style="color: #ffffff; font-size: 18px; line-height: 1.6;"><b>&ensp;任一項之客戶，</b></td>
+                                                </tr>
+                                            </table>
+                                        </td>
 						            </tr>
                                     <tr>
-                                        <td align="center" class="info-b" style="color: #ffffff; font-size: 24px;"><b>再加碼抽 <span class="yellow">NT$16,888元</span> 旅遊刷卡金！</b></td>
+                                        <td align="center" class="event-txt" style="color: #ffffff; font-size: 24px; line-height: 1.8"><b>再加碼抽 <span class="yellow">NT$16,888元</span> 旅遊刷卡金！</b></td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -405,27 +426,46 @@ th {
                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="35">
-                                            <img src="images/spacer.gif" height="35" alt="" border="0" />
+                                        <td height="25">
+                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td height="25" class="spacer2">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                        <td height="35" class="spacer3">
+                                            <img src="images/spacer.gif" height="35" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <!-- account -->
                                     <!-- txt -->
                                     <tr>
-                                        <td align="center" class="account-txt" style="color: #284e87; font-size: 28px; line-height: 1.6; text-align: enter;"><b>還沒有網路銀行嗎？申辦數位帳戶立即擁有！</b></span></td>
+                                        <td align="center" class="account-txt" style="color: #284e87; font-size: 28px; line-height: 1.6; text-align: enter;"><b>還沒有網路銀行嗎？<span style="display: inline-block">申辦數位帳戶立即擁有！</span></b></span></td>
                                     </tr>
                                     <tr>
-                                        <td height="35">
-                                            <img src="images/spacer.gif" height="35" alt="" border="0" />
+                                        <td height="25">
+                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
+                                    <!-- welfare -->
                                     <tr>
-                                        <td height="25" class="spacer2">
+                                        <td>
+                                            <table width="80%" cellspacing="0" cellpadding="0" border="0" align="center" style="background-color: #ffffff; padding: 30px 20px;" class="welfareBoxAll">
+                                                <tr>
+                                                    <td valign="middle" align="center" class="welfareBox">
+                                                        <img class="stamp" src="images/stamp.png" alt="" width="240" border="0"/>
+                                                    </td>
+                                                    <td valign="middle" align="center" class="welfareBox" width="10" height="10" style="font-size: 0">
+                                                        <img src="images/spacer.gif" width="10" height="10" alt="" border="0" />
+                                                    </td>
+                                                    <td valign="middle" align="center" class="welfareBox welfare-txt" style="color: #333333; font-size: 18px; line-height: 1.8;">
+                                                        成功申辦<b>鑽金數位存款帳戶</b><br>且完成一筆行動銀行轉帳之新戶<br><span class="red welfare-txtb" style="font-size: 24px;"><b>享NT$200元回饋金</b></span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- welfare end-->
+                                    <tr>
+                                        <td height="25">
                                             <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
@@ -433,7 +473,7 @@ th {
                                         <td align="center" class="account-s" style="color: #333333; font-size: 12px;">*新戶定義：2023年1月1日前未持有元大銀行臺幣帳戶者。</td>
                                     </tr>
                                     <tr>
-                                        <td height="25" class="spacer2">
+                                        <td height="25">
                                             <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
@@ -453,12 +493,7 @@ th {
                                     <!-- account end -->
                                     <!-- spacer -->
                                     <tr>
-                                        <td height="20">
-                                            <img src="images/spacer.gif" height="20" alt="" border="0" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td height="50" class="spacer2">
+                                        <td height="50">
                                             <img src="images/spacer.gif" height="50" alt="" border="0" />
                                         </td>
                                     </tr>
