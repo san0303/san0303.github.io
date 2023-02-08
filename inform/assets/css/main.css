@@ -61,8 +61,8 @@ img{margin: 0; padding: 0; display: block;}
 .main{padding-top: 58px;}
 /* kv */
 .kv_container{width: 100%; max-width: 767px; margin: 0 auto; background: #0d1850 url("../images/kv_bg-m.jpg") center top no-repeat; background-size: 100% auto;}
-.kv{width: 100%; height: 0; padding-bottom: 35.156%;}
-.kv_tit{font-size: 7vw; line-height: 34vw;}
+.kv{width: 100%; height: 0; padding-bottom: 32.552%;}
+.kv_tit{font-size: 7vw; line-height: 33vw;}
 /* system */
 .system{padding: 20px 8%;}
 .system_txt{font-size: 17px; text-align: left;}
