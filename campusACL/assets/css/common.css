@@ -233,7 +233,7 @@ img {
     display: none;
     position: fixed;
     z-index: 99;
-    right: 2em;
+    right: 1em;
     bottom: 2em;
     opacity: .7;
     width: 50px;
