@@ -43,27 +43,30 @@ th {
 @media screen and (max-width: 960px) {
     .wrapper {width: 100% !important; max-width: 100% !important;}
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
+    .info-txt {font-size: 24px !important;}
     .eventBoxAll {width: 100% !important;}
+    .eventBox-img {width: 210px !important;}
+    .event-txt {font-size: 24px !important;}
 }
 @media screen and (max-width: 768px) {
     .spacer2 {display: none !important;}
-    .info-txt {font-size: 24px !important;}
     .giftBoxAll {width: 100% !important;}
     .giftBox {width: 100% !important; max-width: 400px !important;}
     .giftBox-pic {width: 100% !important; max-width: 400px !important;}
-    .gift_tit-pic {width: 80% !important; max-width: 400px !important;}
+    .gift_tit-pic {width: 50% !important; max-width: 400px !important;}
     .gift-txt {font-size: 18px !important; padding: 0 20px;}
     .gift-txtb {font-size: 46px !important;}
-    .travel-txt {font-size: 18px !important;}
+    /* .travel-txt {font-size: 18px !important;} */
+    .eventBoxAll {display: block !important; width: 100% !important; text-align: center !important;}
+    .eventBox {display: inline-block !important; width: 90% !important; margin-bottom: 10% !important;}
+    .eventBox-space { display: none !important;}
+    .eventBox-img {width: 220px !important;}
 }
 @media screen and (max-width: 620px) {
     .spacer3 {display: none !important;}
     .info-txt {font-size: 20px !important;}
-    .event-txt {font-size: 30px !important;}
-    .eventBoxAll {display: block !important; width: 100% !important; text-align: center !important;}
-    .eventBox {display: inline-block !important; width: 90% !important; margin-bottom: 10% !important;}
-    .eventBox-space { display: none !important;}
+    .event-txt {font-size: 20px !important;}
 }
 @media screen and (max-width: 450px) {
     table.column-break,
@@ -86,9 +89,7 @@ th {
     .gift_tit-pic {max-width: 280px !important;}
     .gift-txt {font-size: 16px !important;}
     .gift-txtb {font-size: 30px !important;}
-    .event-txt {font-size: 24px !important;}
-    .eventBox-img {width: 220px !important;}
-    .event-link {font-size: 20px !important;}
+    /* .event-link {font-size: 20px !important;} */
 }
 </style>
 </head>
@@ -137,7 +138,7 @@ th {
                                     </tr>
                                     <!-- txt -->
                                     <tr>
-						                <td align="center" class="info-txt" style="color: #ffffff; font-size: 28px; line-height: 1.6;"><b><span class="yellow mob-none">★</span> 恭喜您，再完成<span class="yellow">【任一筆線上換匯】</span>即可獲得 <span class="yellow mob-none">★</span></b></td>
+						                <td align="center" class="info-txt" style="color: #ffffff; font-size: 28px; line-height: 1.6;"><b><span class="yellow mob-none">★</span> 恭喜您，再完成<span class="yellow">【任一筆行動銀行轉帳】</span>即可獲得 <span class="yellow mob-none">★</span></b></td>
 						            </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -163,8 +164,8 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" width="358" style="font-size: 0">
-                                                                    <img class="gift_tit-pic" src="images/gift_tit.png" alt="" width="358" border="0"/>
+                                                                <td align="center" width="199" style="font-size: 0">
+                                                                    <img class="gift_tit-pic" src="images/gift_tit.png" alt="" width="199" border="0"/>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -173,7 +174,7 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" class="gift-txt" style="color: #333333; font-size: 20px; line-height: 1.6;">(成功線上辦卡且完成任一筆線上換匯)</td>
+                                                                <td align="center" class="gift-txt" style="color: #333333; font-size: 18px; line-height: 1.6;">(成功申辦鑽金數位帳戶且完成一筆行動銀行轉帳之新戶)</td>
                                                             </tr>
                                                             <tr>
                                                                 <td height="10">
@@ -181,7 +182,7 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" class="gift-txtb" style="color: #e25138; font-size: 52px; font-weight: bold;">NT$100回饋金</td>
+                                                                <td align="center" class="gift-txtb" style="color: #e25138; font-size: 52px; font-weight: bold;">NT$200回饋金</td>
                                                             </tr>
                                                             <tr>
                                                                 <td height="10">
@@ -206,22 +207,13 @@ th {
                                             <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td align="center" class="travel-txt" style="color: #ffffff; font-size: 24px; line-height: 1.6">還可再抽 <b><span class="yellow">NT$16,888元</span></b> <span style="display: inline-block">旅遊刷卡金！</span></td>
-                                    </tr>
-                                    <!-- spacer -->
-                                    <tr>
-                                        <td height="25">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
-                                        </td>
-                                    </tr>
                                     <!-- cta -->
                                     <tr>
                                         <td>
                                             <table cellspacing="0" cellpadding="0" border="0" align="center">
                                                 <tr>
                                                     <td class="btnBox" valign="top" align="center" width="180" bgcolor="#e25138">
-                                                        <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/forex/index.html" target="_blank" style="border-top: 7px solid #e25138; border-right: 50px solid #e25138; border-bottom: 7px solid #e25138; border-left: 50px solid #e25138; color: #ffffff; font-size: 18px; line-height: 48px; font-weight: bold;">立即換匯</a>
+                                                        <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/WelcomeQ1/index.html" target="_blank" style="border-top: 7px solid #e25138; border-right: 50px solid #e25138; border-bottom: 7px solid #e25138; border-left: 50px solid #e25138; color: #ffffff; font-size: 18px; line-height: 48px; font-weight: bold;">活動詳情</a>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -260,8 +252,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="50" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="50" alt="" border="0" />
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
                             <!-- main -->
                             <td>
@@ -274,26 +266,70 @@ th {
                                     </tr>
                                     <!-- event -->
                                     <tr>
-                                        <td align="center" class="event-txt" style="color: #284e87; font-size: 36px;"><b>還有眾多優惠等您拿</b></td>
+                                        <td align="center" class="event-txt" style="color: #284e87; font-size: 28px; line-height: 1.6;"><b>還有眾多優惠等您拿<span class="mob-none">，</span><span style="display:inline-block;">再抽NT$16,888旅遊刷卡金</span></b></td>
                                     </tr>
                                     <tr>
-                                        <td height="25">
-                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                        <td height="30">
+                                            <img src="images/spacer.gif" height="30" alt="" border="0" />
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table width="80%" cellspacing="0" cellpadding="0" border="0" align="center" class="eventBoxAll">
+                                            <table width="90%" cellspacing="0" cellpadding="0" border="0" align="center" class="eventBoxAll">
                                                 <tr>
                                                     <!-- 01-->
-                                                    <td width="48%" align="center" valign="top" class="eventBox">
+                                                    <td width="30%" align="center" valign="top" class="eventBox">
                                                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                             <tr>
                                                                 <td align="center" valign="top">
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event3.png" width="250" alt="好康3" border="0" />
+                                                                                <img class="eventBox-img" src="images/event2.png" width="220" alt="好康2" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="25">
+                                                                                <img src="images/spacer.gif" height="25" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!-- cta -->
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                                                                    <tr>
+                                                                                        <td class="btnBox" valign="top" align="center" width="180" bgcolor="#e25138">
+                                                                                            <a href="https://ytbk.tw/vaQvai" target="_blank" style="border-top: 7px solid #e25138; border-right: 50px solid #e25138; border-bottom: 7px solid #e25138; border-left: 50px solid #e25138; color: #ffffff; font-size: 18px; line-height: 48px; font-weight: bold;">立即辦卡</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!-- cta end -->
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- spacer -->
+                                                            <tr>
+                                                                <td height="10">
+                                                                    <img src="images/spacer.gif" height="10" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <!-- spacer -->
+                                                    <td width="5%" align="center" valign="top" class="eventBox-space">
+                                                        <img src="images/spacer.gif" alt="" border="0" />
+                                                    </td>
+                                                    <!-- 02-->
+                                                    <td width="30%" align="center" valign="top" class="eventBox">
+                                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tr>
+                                                                <td align="center" valign="top">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <img class="eventBox-img" src="images/event3.png" width="220" alt="好康3" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -326,18 +362,18 @@ th {
                                                         </table>
                                                     </td>
                                                     <!-- spacer -->
-                                                    <td width="4%" align="center" valign="top" class="eventBox-space">
+                                                    <td width="5%" align="center" valign="top" class="eventBox-space">
                                                         <img src="images/spacer.gif" alt="" border="0" />
                                                     </td>
-                                                    <!-- 02-->
-                                                    <td width="48%" align="center" valign="top" class="eventBox">
+                                                    <!-- 03-->
+                                                    <td width="30%" align="center" valign="top" class="eventBox">
                                                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                             <tr>
                                                                 <td align="center" valign="top">
                                                                     <table cellspacing="0" cellpadding="0" border="0">
                                                                         <tr>
                                                                             <td align="center">
-                                                                                <img class="eventBox-img" src="images/event4.png" width="250" alt="好康4" border="0" />
+                                                                                <img class="eventBox-img" src="images/event4.png" width="220" alt="好康4" border="0" />
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -351,7 +387,7 @@ th {
                                                                                 <table cellspacing="0" cellpadding="0" border="0" align="center">
                                                                                     <tr>
                                                                                         <td class="btnBox" valign="top" align="center" width="180" bgcolor="#e25138">
-                                                                                            <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/smartinvest/index.html#sales" target="_blank" style="border-top: 7px solid #e25138; border-right: 50px solid #e25138; border-bottom: 7px solid #e25138; border-left: 50px solid #e25138; color: #ffffff; font-size: 18px; line-height: 48px; font-weight: bold;">我要申購</a>
+                                                                                            <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2022/smartinvest/index.html#sales" target="_blank" style="border-top: 7px solid #e25138; border-right: 50px solid #e25138; border-bottom: 7px solid #e25138; border-left: 50px solid #e25138; color: #ffffff; font-size: 18px; line-height: 48px; font-weight: bold;">立即申購</a>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </table>
@@ -374,21 +410,15 @@ th {
                                         </td>
                                     </tr>
                                     <!-- event end -->
+                                    <!-- spacer -->
                                     <tr>
-                                        <td height="25" class="spacer3">
+                                        <td height="25">
                                             <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
-                                    <!-- event-link -->
                                     <tr>
-                                        <td align="center">
-                                            <a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/WelcomeQ1/index.html" target="_blank" style="color: #365fa6; font-size: 22px; line-height: 30px; font-weight: bold;" class="event-link"><u>更多活動詳情＞</u></a>
-                                        </td>
-                                    </tr>
-                                    <!-- spacer -->
-                                    <tr>
-                                        <td height="50">
-                                            <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                        <td height="25" class="spacer2">
+                                            <img src="images/spacer.gif" height="25" alt="" border="0" />
                                         </td>
                                     </tr>
                                 </table>
@@ -398,8 +428,8 @@ th {
                             <td width="30" style="font-size: 0">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
-                            <td width="50" style="font-size: 0" class="spacer2">
-                                <img src="images/spacer.gif" width="50" alt="" border="0" />
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
                         </tr>
                     </table>
