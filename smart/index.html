@@ -85,13 +85,14 @@
       /*popup*/
       .popupAD{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color:rgba(0, 0, 0, .3);display: flex;justify-content: center;align-items: center;z-index: 9999;-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);}
       .popupAD .popup_text{width: 80%;max-width: 600px;background-color: #ffffff;box-shadow: 5px 5px 20px 0 rgb(0, 0, 0, .1);position: relative;}
-      .popupAD .popup_text .popup_bn{width: 100%; height: 0; padding-bottom: 37.5%; background: url("./img/popup_bn.jpg") center top no-repeat; background-size: 100% auto;}
-      .popupAD .popup_text p{font-size: 16px;line-height: 1.8; text-align: justify;color: #021835;padding: 6% 8%;margin-bottom: 0;}
+      .popupAD .popup_text .popup_bn{width: 100%; height: 0; padding-bottom: 37.5%; background: url("./img/popup_bn.gif") center top no-repeat; background-size: 100% auto;}
+      .popupAD .popup_text p{font-size: 18px;line-height: 1.8; text-align: justify;color: #021835;padding: 6% 9%;margin-bottom: 0;}
       .popupAD .popup_text span{color: #fe6b00;font-weight: bold;}
-      .popupAD .popup_btn{position: absolute;text-decoration: none;background: #51a8ff url("./img/close.svg") center no-repeat; background-size: 18px 18px;width: 40px;height: 40px;border-radius: 40px;top: -20px;right: -20px;cursor: pointer;}
+      .popupAD .popup_text span.lblue{color: #4881e4;}
+      .popupAD .popup_btn{position: absolute;text-decoration: none;background: #666666 url("./img/close.svg") center no-repeat; background-size: 18px 18px;width: 40px;height: 40px;border-radius: 40px;top: -20px;right: -20px;cursor: pointer;}
       @media screen and (max-width: 767px) {
-      .popupAD .popup_text .popup_bn{width: 100%; height: 0; padding-bottom: 75%; background: url("./img/popup_bn-m.jpg") center top no-repeat; background-size: 100% auto;}
-      .popupAD .popup_text p{text-align: justify;padding: 8% 10%;}
+      .popupAD .popup_text .popup_bn{width: 100%; height: 0; padding-bottom: 75%; background: url("./img/popup_bn-m.gif") center top no-repeat; background-size: 100% auto;}
+      .popupAD .popup_text p{font-size: 16px;padding: 8% 10%;}
       .popupAD .popup_text p br{display: none;}
       }
     </style>
@@ -111,7 +112,7 @@
         <div class="popupAD">
             <div class="popup_text">
                 <div class="popup_bn"></div>
-                <p>即日起至2023/2/28，線上申購指定基金定期（不）定額，每月最低申購金額只要<span>100元</span>、還可日日扣款，即享<span>終身0手續費</span>優惠。</p>
+                <p>即日起至6/30，線上申購指定基金定期（不）定額，即享<span>終身0手續費優惠</span>，每月最低申購金額只要<span class="lblue">NT$100元</span>、還可<span class="lblue">日日扣款</span>。</p>
                 <a class="popup_btn"></a>
             </div>
         </div> 
@@ -748,7 +749,7 @@
                 </div>
                 <div class="save_tab_subtitle">指定基金</div>
                 <div class="save_tab_content">
-                  <div
+                  <!-- <div
                     class="save_list d-flex align-items-center justify-content-between py-3 py-md-1"
                   >
                     <div class="d-flex align-items-center">
@@ -766,7 +767,7 @@
                       alt=""
                       class="link_active"
                     />
-                  </div>
+                  </div> -->
                   <div
                     class="save_list last-fund-item d-flex align-items-center justify-content-between py-3 py-md-1"
                   >
@@ -1527,12 +1528,12 @@
                 <div class="notice_content_title">（一）活動規則</div>
                 <ol data-aos="fade-down">
                   <li>
-                    活動期間（即日起至 2023 年 02 月
-                    28日）內，客戶透過元大商業銀行股份有限公司（以下簡稱本行）個人網路銀行或行動銀行新增定期(不)定額之元大優質全球龍頭平衡基金、元大台灣高股息優質龍頭基金(本基金之配息來源可能為收益平準金)、元大多福基金、元大卓越基金、元大高科技基金、元大經貿基金或元大2001基金定期(不)定額申購扣款設定並成功扣款，即可享該基金定期(不)定額終身優惠0手續費。
+                    活動期間（即日起至 2023 年 06 月
+                    30日）內，客戶透過元大商業銀行股份有限公司（以下簡稱本行）個人網路銀行或行動銀行新增定期(不)定額之元大台灣高股息優質龍頭基金(本基金之配息來源可能為收益平準金)、元大多福基金、元大卓越基金、元大高科技基金、元大經貿基金或元大2001基金定期(不)定額申購扣款設定並成功扣款，即可享該基金定期(不)定額終身優惠0手續費。
                   </li>
                   <li>
-                    活動期間（即日起至 2023 年 02 月
-                    28日）內，客戶透過元大商業銀行股份有限公司（以下簡稱本行）個人網路銀行或行動銀行新增定期(不)定額之元大台灣卓越50基金(0050ETF)、元大台灣高股息基金(0056ETF)、元大臺灣ESG永續ETF基金(00850)或元大全球未來通訊ETF基金(00861)、元大全球5G關鍵科技ETF基金(00876)(原:元大全球未來關鍵科技ETF基金)國內ETF定期(不)定額申購扣款設定並成功扣款，即可享該ETF定期(不)定額終身手續費0.3%。
+                    活動期間（即日起至 2023 年 06 月
+                    30日）內，客戶透過元大商業銀行股份有限公司（以下簡稱本行）個人網路銀行或行動銀行新增定期(不)定額之元大台灣卓越50基金(0050ETF)、元大台灣高股息基金(0056ETF)、元大臺灣ESG永續ETF基金(00850)或元大全球未來通訊ETF基金(00861)、元大全球5G關鍵科技ETF基金(00876)(原:元大全球未來關鍵科技ETF基金)國內ETF定期(不)定額申購扣款設定並成功扣款，即可享該ETF定期(不)定額終身手續費0.3%。
                   </li>
                 </ol>
                 <div class="notice_content_title">（二）本網站的立場及聲明</div>
