@@ -12,10 +12,10 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{width: 100%;}
 .kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 39.0625%; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: 100% auto; position: relative;}
 .kv .title{width: 48.4375%; margin: 0 auto; padding-top: 1%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
-.kv .payji{width: 21.5%; height: 0; padding-bottom: 14%; background: url("../images/payji.png") left top no-repeat; background-size: 200% auto; overflow: hidden; position: absolute; left: 20%; top: 39%; 
-animation: change 1.5s ease-in infinite backwards; -webkit-animation: change 1.5s ease-in infinite backwards; transform-origin: center bottom;}
-.kv .monkey{width: 19%; height: 0; padding-bottom: 16%; background: url("../images/monkey.png") left top no-repeat; background-size: 200% auto; overflow: hidden; position: absolute; right: 24%; top: 35%;
-animation: change 1.5s ease-in infinite backwards; -webkit-animation: change 1.2s ease-in infinite backwards; transform-origin: center bottom;}
+.kv .payji{width: 21.5%; height: 0; padding-bottom: 14%; background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto; position: absolute; left: 20%; top: 39%; 
+animation: payji 1.5s ease-in infinite backwards; -webkit-animation: payji 1.5s ease-in infinite backwards; transform-origin: center bottom;}
+.kv .monkey{width: 19%; height: 0; padding-bottom: 16%; background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto; position: absolute; right: 24%; top: 35%;
+animation: monkey 1.5s ease-in infinite backwards; -webkit-animation: monkey 1.2s ease-in infinite backwards; transform-origin: center bottom;}
 .mobOnly{display: none;}
 /* content */
 .content_container{ width: 100%; margin: 0 auto; 
@@ -165,9 +165,16 @@ animation: change 1.5s ease-in infinite backwards; -webkit-animation: change 1.2
       0% {opacity: 0;}
     100% {opacity: 1;}
 }
-@keyframes change{
-    0% {background-position: left top;}
-   50% {background-position: left top;}
- 50.1% {background-position: right top;}
-  100% {background-position: right top;}
+@keyframes payji{
+    0% {background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto;}
+   50% {background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto;}
+ 50.1% {background: url("../images/payji2.png") left top no-repeat; background-size: 100% auto;}
+  100% {background: url("../images/payji2.png") left top no-repeat; background-size: 100% auto;}
 }
+@keyframes monkey{
+    0% {background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto;}
+   50% {background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto;}
+ 50.1% {background: url("../images/monkey2.png") left top no-repeat; background-size: 100% auto;}
+  100% {background: url("../images/monkey2.png") left top no-repeat; background-size: 100% auto;}
+}
+
