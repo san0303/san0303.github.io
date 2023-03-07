@@ -136,7 +136,7 @@ animation: change 1.5s ease-in infinite backwards; -webkit-animation: change 1.2
 .logo_all img{width: 100%;}
 /* notice */
 .notice_tit img{width: 180px; padding: 8% 0 5%;}
-.notice_all ul{font-size: 14px; padding-left: 20px}
+.notice_all ul{font-size: 14px; padding-left: 28px}
 #contTab:checked ~ #cont{
     max-height: 48vw;
     overflow: hidden;
