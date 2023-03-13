@@ -613,9 +613,9 @@ body {
               animation: bgTree 2s linear infinite alternate; }
   .banner-title {
     top: 15%;
-    left: 50%;
+    left: 53%;
     transform: translateX(-50%) translateX(-80%);
-    width: 21%; }
+    width: 24%; }
     .banner-title img {
       opacity: 0;
       transform: translateY(-100%);
@@ -699,7 +699,7 @@ body {
         top: 7.5%;
         left: 50%;
         transform: translateX(-50%);
-        width: 58%; }
+        width: 65%; }
       .banner-main {
         bottom: 13%;
         left: 50%;
@@ -728,7 +728,7 @@ body {
         .banner-bgTree.-plum {
           top: 21%; }
       .banner-title {
-        width: 65%; }
+        width: 73%; }
       .banner-main {
         width: 88%; }
       .banner-man {
@@ -1873,3 +1873,29 @@ p {
     overflow: hidden !important;
     opacity: 0 !important;
     pointer-events: none !important; } }
+
+/* ------------------------------- video ------------------------------- */
+.video-box {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.video-box .video-content {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.video-box .video-content iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .video-box {width: 90%;}
+  .video-box .video-content {margin-top: 10%;}
+}
