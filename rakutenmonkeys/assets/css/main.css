@@ -11,7 +11,7 @@ img{margin: 0; padding: 0; display: block;}
 /* kv */
 .kv_container{width: 100%; margin: 0 auto; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: cover;}
 .kv{width: 100%; max-width: 1400px; height: 750px; margin: 0 auto; position: relative;}
-.kv .title{width: 58%; margin: 0 auto; padding-top: 2.2%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
+.kv .title{width: 60%; margin: 0 auto; padding-top: 1.5%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
 .kv .payji{width: 27%; height: 0; padding-bottom: 18%; background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto; position: absolute; left: 12%; top: 44%; 
 animation: payji 1.5s ease-in infinite backwards; -webkit-animation: payji 1.5s ease-in infinite backwards; transform-origin: center bottom;}
 .kv .monkey{width: 24%; height: 0; padding-bottom: 21%; background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto; position: absolute; right: 15%; top: 40%;
