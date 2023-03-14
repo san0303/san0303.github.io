@@ -9,12 +9,12 @@ img{margin: 0; padding: 0; display: block;}
 .section{width: 100%; max-width: 1920px; margin: 0 auto;}
 
 /* kv */
-.kv_container{width: 100%;}
-.kv{width: 100%; max-width: 1920px; margin: 0 auto; height: 0; padding-bottom: 39.0625%; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: 100% auto; position: relative;}
-.kv .title{width: 48.4375%; margin: 0 auto; padding-top: 1%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
-.kv .payji{width: 21.5%; height: 0; padding-bottom: 14%; background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto; position: absolute; left: 20%; top: 39%; 
+.kv_container{width: 100%; margin: 0 auto; background: url("../images/kv_bg.jpg") center top no-repeat; background-size: cover;}
+.kv{width: 100%; max-width: 1400px; height: 750px; margin: 0 auto; position: relative;}
+.kv .title{width: 58%; margin: 0 auto; padding-top: 2.2%; opacity: 0; -webkit-animation: opacity .6s .3s ease-in-out forwards; animation: opacity .6s .3s ease-in-out forwards;}
+.kv .payji{width: 27%; height: 0; padding-bottom: 18%; background: url("../images/payji1.png") left top no-repeat; background-size: 100% auto; position: absolute; left: 12%; top: 44%; 
 animation: payji 1.5s ease-in infinite backwards; -webkit-animation: payji 1.5s ease-in infinite backwards; transform-origin: center bottom;}
-.kv .monkey{width: 19%; height: 0; padding-bottom: 16%; background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto; position: absolute; right: 24%; top: 35%;
+.kv .monkey{width: 24%; height: 0; padding-bottom: 21%; background: url("../images/monkey1.png") left top no-repeat; background-size: 100% auto; position: absolute; right: 15%; top: 40%;
 animation: monkey 1.5s ease-in infinite backwards; -webkit-animation: monkey 1.2s ease-in infinite backwards; transform-origin: center bottom;}
 .mobOnly{display: none;}
 /* content */
@@ -90,10 +90,7 @@ animation: monkey 1.5s ease-in infinite backwards; -webkit-animation: monkey 1.2
 #contTab:checked ~  .content-more .readmore:hover{opacity: 1}
 @media screen and (max-width: 1400px) {
 /* kv */
-.kv{width: 100%; max-width: 1400px; margin: 0 auto; height: 0; padding-bottom: 53.571428571%; background: url("../images/kv_bg-1400.jpg") center top no-repeat; background-size: 100% auto;}
-.kv .title{width: 66.428%;}
-.kv .payji{width: 28%; padding-bottom: 18%; left: 10%;}
-.kv .monkey{width: 25%; padding-bottom: 21%; right: 15%;}
+.kv{width: 100%; height: 0; padding-bottom: 53.571428571%;}
 /* content */
 .content_container{ width: 100%; margin: 0 auto; 
     background-image: url("../images/deco.png"), url("../images/grass-1400.png"); 
@@ -112,13 +109,13 @@ animation: monkey 1.5s ease-in infinite backwards; -webkit-animation: monkey 1.2
 /* event */
 .event{width: 94%;}
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 .main{padding-top: 58px;}
 /* kv */
 .kv{width: 100%; height: 0; padding-bottom: 140.3125%; margin: 0 auto; background: url("../images/kv_bg_m.jpg") center top no-repeat; background-size: 100% auto;}
-.kv .title{width: 96%; padding-top: 12%;}
-.kv .payji{width: 46%; padding-bottom: 30%; left: 0; top: 57%;}
-.kv .monkey{width: 43%; padding-bottom: 36%; right: 4%; top: 53%;}
+.kv .title{width: 95%; padding-top: 8%;}
+.kv .payji{width: 45%; padding-bottom: 30%; left: 0; top: 58%;}
+.kv .monkey{width: 42%; padding-bottom: 36%; right: 4%; top: 54%;}
 .webOnly{display: none;}
 .mobOnly{display: block;}
 /* content */
