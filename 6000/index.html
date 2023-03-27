@@ -51,17 +51,16 @@ th {
     .spacer2 {display: none !important;}
 
     .giftBoxAll {width: 100% !important;}
-    .giftBox {width: 100% !important; max-width: 400px !important;}
+    .giftBoxSix {}
+    .giftBox-ribbon{}
+    .giftBox-space1 {display: inline-block !important; width: 5px !important;}
+    .giftBox-space2 {display: none !important; }
     .giftBox-pic {width: 100% !important; max-width: 400px !important;}
-    .gift_tit-pic {width: 280px !important;}
-    .gift-txt {font-size: 18px !important; padding: 0 20px;}
-    .gift-txtb {font-size: 46px !important;}
 }
-@media screen and (max-width: 620px) {
-    
-    /* .eventBoxAll {display: block !important; width: 100% !important; text-align: center !important;}
-    .eventBox {display: inline-block !important; width: 90% !important; margin-bottom: 10% !important;}
-    .eventBox-space { display: none !important;} */
+@media screen and (max-width: 600px) {
+    .giftBoxSix {}
+    .giftBox {display: inline-block !important; width: 45% !important;}
+
 }
 @media screen and (max-width: 450px) {
     table.column-break,
@@ -80,23 +79,23 @@ th {
 	}
     .mob-none {display: none !important;}
     .spacer3 {display: none !important;}
-    .info-txt {font-size: 16px !important; line-height: 28px !important;}
-    .info-txtb {font-size: 24px !important;}
+    .info-txt {font-size: 15px !important; line-height: 28px !important;}
+    .info-txtb {font-size: 22px !important;}
 
     .box-tit {font-size: 14px !important;}
     .box-txt {font-size: 14px !important;}
     .box-btn {width: 40px !important;}
 
-    .event-txt {font-size: 30px !important;}
-    .event-txtm {font-size: 20px !important;}
+    .event-txt {font-size: 28px !important;}
+    .event-txtm {font-size: 18px !important;}
 /*     .eventBox-img {width: 220px !important;}
     .event-link {font-size: 20px !important;}
  */
-    .giftBox {max-width: 280px !important;}
+/*     .giftBox {max-width: 280px !important;}
     .giftBox-pic {max-width: 280px !important;}
     .gift_tit-pic {width: 230px !important;}
     .gift-txt {font-size: 16px !important;}
-    .gift-txtb {font-size: 30px !important;}
+    .gift-txtb {font-size: 30px !important;} */
 }
 </style>
 </head>
@@ -213,10 +212,10 @@ th {
                                     </tr>
                                     <!-- event -->
                                     <tr>
-                                        <td align="center" class="event-txt" style="color: #0276cf; font-size: 44px;"><b>指定元大 <span class="orange">現金翻倍</span></b></td>
+                                        <td align="center" class="event-txt" style="color: #0276cf; font-size: 40px;"><b>指定元大 <span class="orange">現金翻倍</span></b></td>
                                     </tr>
                                     <tr>
-                                        <td align="center" class="event-txtm" style="color: #333333; font-size: 28px;"><b>兩種方式輕鬆<span class="primary-color">抽6000</span>！</b></td>
+                                        <td align="center" class="event-txtm" style="color: #333333; font-size: 24px; line-height: 1.6;"><b>兩種方式輕鬆<span class="primary-color">抽6000</span>！</b></td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -343,7 +342,7 @@ th {
                                     </tr>
                                     <!-- txt -->
                                     <tr>
-                                        <td align="center" class="event-txt" style="color: #0276cf; font-size: 44px;"><b>限時優惠大禮包 <span class="orange" style="display: inline-block">優惠再放大</span></b></td>
+                                        <td align="center" class="event-txt" style="color: #0276cf; font-size: 40px;"><b>限時優惠大禮包 <span class="orange" style="display: inline-block">優惠再放大</span></b></td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -354,18 +353,63 @@ th {
                                     <!-- gift -->
                                     <tr>
                                         <td align="center">
-                                            <table width="500" cellspacing="0" cellpadding="0" border="0" align="center" class="giftBoxAll">
+                                            <table width="80%" cellspacing="0" cellpadding="0" border="0" align="center" class="giftBoxAll">
                                                 <tr>
-                                                    <td align="center" style="font-size: 0" class="giftBox">
-                                                        <img class="giftBox-pic" src="images/ribbon.png" alt="" width="135" border="0"/>
+                                                    <td align="center" style="font-size: 0">
+                                                        <img class="giftBox-ribbon" src="images/ribbon.png" alt="" width="135" border="0"/>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td align="center">
-                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" class="giftBox" style="border-radius: 10px;">
+                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" class="giftBoxSix" style="border-radius: 10px; padding: 20px;">
                                                             <tr>
-                                                                <td height="10">
-                                                                    <img src="images/spacer.gif" height="10" alt="" border="0" />
+                                                                <td>
+                                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                                        <tr>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift1.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                            <!-- spacer -->
+                                                                            <td width="50" class="giftBox-space1">
+                                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                                            </td>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift2.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                            <!-- spacer -->
+                                                                            <td width="50" class="giftBox-space1">
+                                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                                            </td>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift3.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                                        <tr>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift4.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                            <!-- spacer -->
+                                                                            <td width="50" class="giftBox-space1">
+                                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                                            </td>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift5.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                            <!-- spacer -->
+                                                                            <td width="50" class="giftBox-space1">
+                                                                                <img src="images/spacer.gif" alt="" border="0" />
+                                                                            </td>
+                                                                            <td align="center" class="giftBox">
+                                                                                <img class="giftBox-pic" src="images/gift6.jpg" width="180" alt="" border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
                                                                 </td>
                                                             </tr>
                                                         </table>
