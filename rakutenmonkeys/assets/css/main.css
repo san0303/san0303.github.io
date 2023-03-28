@@ -32,7 +32,7 @@ animation: monkey 1.5s ease-in infinite backwards; -webkit-animation: monkey 1.2
 .event_tit img{width: 150px; margin: 0 auto; padding: 3% 0;}
 .event_date{font-size: 24px;}
 .event_txt{text-align: left;}
-.event_store{display: inline-block; background: #e34c94; color: #ffffff; width: 175px; height: 42px; border-radius: 42px; line-height: 42px; font-size: 16px; cursor: pointer; margin: 2% 0; transition: 0.3s;}
+.event_store{display: inline-block; background: #e34c94; color: #ffffff; width: 175px; height: 42px; border-radius: 42px; line-height: 42px; font-size: 16px; margin: 2% 0;}
 .event_storetxt{text-align: left; font-weight: bold; color: #004c90;}
 .pink{color: #e94c96; font-weight: bold;}
 .logo_all{margin: 15% auto 35%;}
