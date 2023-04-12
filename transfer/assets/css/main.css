@@ -136,9 +136,9 @@ img{margin: 0; padding: 0; display: block;}
   /* event */
   .event .tit1,.event .tit2{margin-bottom: 12%; margin-top: 12%;}
   .event p{font-size: 18px; text-align: justify;}
-  .event .dis_txt{top: 20%; text-align: center; padding-top: 25%; font-size: 5vw;}
+  .event .dis_txt{top: 20%; text-align: center; padding-top: 27%; font-size: 4vw;}
   .event .dis_txtb{font-size: 6vw;}
-  .event .quota{font-size: 4vw; margin-top: 2%;}
+  .event .quota{font-size: 3vw; margin-top: 2%;}
   /* action */
   .action-item{max-width:220px; margin:auto;}
   .action-item+.action-item{margin-top:30px; margin-left:auto;}
