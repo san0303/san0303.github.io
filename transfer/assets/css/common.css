@@ -441,7 +441,7 @@ img {
 }
 
 /* appDownload */
-.appDownload{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:25px 0 20px;background-color:#585143;}
+.appDownload{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;padding:0 0 50px;background: #496789 url("../images/bg_b.png") center top repeat;}
 .appDownload-QRcode img{width:120px;margin-right:20px;}
 .appDownload-link h5{margin:10px 0;font-size:16px;line-height:22px;text-align:center;font-weight:bold;color:#ffffff;}
 .appDownload-link a{display:inline-block;padding:0 3px;text-decoration:none;transition:.3s;}
@@ -450,7 +450,7 @@ img {
 .appDownload-link a:hover{-webkit-transform:translateY(-10%);transform:translateY(-10%)}
 }
 @media only screen and (max-width:949px){
-.appDownload{padding:18px 0 20px;}
+.appDownload{padding:0 0 30px;}
 .appDownload-QRcode{display:none}
 .appDownload-link img{width:140px}
 }

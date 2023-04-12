@@ -43,4 +43,11 @@ $(function () {
       scrollTop: $('.event').offset().top - 130
     }, 500);
   });
+
+  // 注意事項收合
+  $(".notice_tit").click(function (e) {
+      e.preventDefault();
+      $(".notice_all").slideToggle(500);
+      $(".arrow").toggleClass("active");
+  });
 });
