@@ -14,13 +14,13 @@ img{margin: 0; padding: 0; display: block;}
 .kv{width: 100%; max-width: 1400px; height: 700px; margin: 0 auto; position: relative;}
 .kv .title{width: 34%; margin: 0 auto; padding-top: 3.5%;}
 .kv .hand{width: 100%; height: 0; padding-bottom: 50%; overflow: hidden; position: absolute; top: 0; left: 0;}
-.kv .money{width: 71.5%; position: absolute; top: 22%; left: 18%;}
-.kv .hand1{width: 19%; position: absolute; top: 29%; left: 5%; animation: hand1 .6s .7s both;}
-.kv .hand2{width: 18%; position: absolute; top: 50%; left: 19.2%; animation: hand2 .8s .4s both;}
-.kv .hand3{width: 15.5%; position: absolute; top: 40%; left: 37%; animation: hand3 .7s  both;}
-.kv .hand4{width: 17.5%; position: absolute; top: 47%; left: 51%; animation: hand4 .6s .4s both;}
-.kv .hand5{width: 12%; position: absolute; top: 40%; left: 68%; animation: hand5 .8s .3s both;}
-.kv .hand6{width: 17%; position: absolute; top: 34.5%; left: 81%; animation: hand6 .6s .2s both;}
+.kv .money{width: 71.5%; position: absolute; top: 22%; left: 18%; animation: money 1s .7s both;}
+.kv .hand1{width: 19%; position: absolute; top: 29%; left: 5%; -webkit-animation: hand1 .6s .7s both; animation: hand1 .6s .7s both;}
+.kv .hand2{width: 18%; position: absolute; top: 50%; left: 19.2%; -webkit-animation: hand2 .8s .4s both; animation: hand2 .8s .4s both;}
+.kv .hand3{width: 15.5%; position: absolute; top: 40%; left: 37%; -webkit-animation: hand3 .7s  both; animation: hand3 .7s  both;}
+.kv .hand4{width: 17.5%; position: absolute; top: 47%; left: 51%; -webkit-animation: hand4 .6s .4s both; animation: hand4 .6s .4s both;}
+.kv .hand5{width: 12%; position: absolute; top: 40%; left: 68%; -webkit-animation: hand5 .8s .3s both; animation: hand5 .8s .3s both;}
+.kv .hand6{width: 17%; position: absolute; top: 34.5%; left: 81%; -webkit-animation: hand6 .6s .2s both; animation: hand6 .6s .2s both;}
 .wave{width: 100%; position: absolute; bottom: 0; left: 0;}
 .cloud1{width: 37%; position: absolute; top: 33%; left: -35%; -webkit-animation: cloud 2.5s ease-in-out infinite; animation: cloud 2.5s ease-in-out infinite; animation-direction: alternate-reverse;}
 .cloud2{width: 37%; position: absolute; top: 10%; right: -30%; -webkit-animation: cloud 3s ease-in-out infinite; animation: cloud 3s ease-in-out infinite; animation-direction: alternate;}
@@ -99,10 +99,10 @@ img{margin: 0; padding: 0; display: block;}
   .kv .hand{padding-bottom: 128%;}
   .kv .money{width: 73%; top: 37%; left: 10%;}
   .kv .hand1,.kv .hand4,.kv .hand5,.kv .hand6{display: none;}
-  .kv .hand2{width: 38%; top: 58%; left: -3.5%; animation: hand2_m .8s .2s both;}
-  .kv .hand3{width: 31.5%; top: 50%; left: 36%; animation: hand3_m .7s  both;}
-  .kv .hand4-m{width: 35%; position: absolute; top: 51%; left: 63%; animation: hand4_m .6s .6s both;}
-  .cloud1{width: 58%; top: 50%; left: -47%;}
+  .kv .hand2{width: 38%; top: 58%; left: -3.5%; -webkit-animation: hand2_m .8s .2s both; animation: hand2_m .8s .2s both;}
+  .kv .hand3{width: 31.5%; top: 50%; left: 36%; -webkit-animation: hand3_m .7s  both; animation: hand3_m .7s  both;}
+  .kv .hand4-m{width: 35%; position: absolute; top: 51%; left: 63%; animation: hand4_m .6s .6s both; -webkit-animation: hand4_m .6s .6s both;}
+  .cloud1{width: 58%; top: 50%; left: -49%;}
   .cloud2{width: 63%; top: 32%; right: -50%;}
   /* event */
   .event .tit1,.event .tit2{margin-bottom: 5%;}
@@ -138,9 +138,9 @@ img{margin: 0; padding: 0; display: block;}
   /* event */
   .event .tit1,.event .tit2{margin-bottom: 8%; margin-top: 12%;}
   .event p{font-size: 18px; text-align: justify;}
-  .event .dis_txt{top: 20%; text-align: center; padding-top: 23%; font-size: 4.8vw;}
+  .event .dis_txt{top: 20%; text-align: center; padding-top: 23%; font-size: 4.6vw;}
   .event .dis_txtb{font-size: 7.5vw;}
-  .event .quota{font-size: 4vw; margin-top: 2%;}
+  .event .quota{font-size: 3.8vw; margin-top: 2%;}
   /* action */
   .action-item{max-width:220px; margin:auto;}
   .action-item+.action-item{margin-top:30px; margin-left:auto;}
@@ -154,7 +154,11 @@ img{margin: 0; padding: 0; display: block;}
 /* animation */
 @keyframes cloud {
     0% {transform: translateX(0); -webkit-transform: translateX(0);}
-  100% {transform: translate(20%); -webkit-transform: translate(20%)}
+  100% {transform: translate(20%); -webkit-transform: translate(20%);}
+}
+@keyframes money {
+    0% {opacity: 0; -webkit-opacity: 0;}
+  100% {opacity: 1; -webkit-opacity: 1;}
 }
 @keyframes hand1 {
   0% {top: 100%;}
