@@ -1059,6 +1059,9 @@ hr.line {
   .app-text {
     font-size: 15px;
   }
+  .app .imgbox .downloadApp {
+    font-size: 16px;
+  }
 
 
   /* footer */
