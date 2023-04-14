@@ -366,19 +366,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </h3>
                 <div class="txt-line-center-w"></div>
 			
-			<div class="appDownload-appLink">
-				<ul class="appDownload-appLink-icon">
-					<li>
-						<a id="btnIOS" href="javascript:;" onClick="btnIOS()"><img src="assets/images/2019event/08-ios.png"></a>
-						<span>iOS版本 1.21.1</span>
-					</li>
-					<li class="last">
-						<a id="btnAndroid" href="javascript:;" onClick="btnAndroid()"><img src="assets/images/2019event/08-android.png"></a>
-						<span>Android版本 1.21.2</span>
-					</li>
-				</ul>
-				<div class="appDownload-appLink-txt">最低支援作業系統為iOS 11(含)以上，Android適用於7.0(含)以上，建議使用8.0(含)以上</div>
-			</div>
+                <div class="appDownload-appIons">
+                    <div class="appDownload-appQRcode">
+                        <a href="https://mobilebank.yuantabank.com.tw/NewYuantaBank-MobileBank-Gateway/getServ/openNewMobilebankApp" target="_blank">
+                            <span class="downloadApp">請掃描下載APP</span>
+                            <img class="qrcode" data-src="assets/images/2019event/qr_pc120.png" >
+                        </a>
+                        <span>名稱：元大銀行 Yuanta Commercial Bank</span>
+                    </div>
+                    <div class="appDownload-appLink">
+                        <ul class="appDownload-appLink-icon">
+                            <li>
+                                <a id="btnIOS" href="https://apps.apple.com/tw/app/yuan-da-yin-xing-yuanta-commercial/id1173515038" target="_blank">
+                                    <span class="downloadApp">iOS下載位置</span>
+                                    <img data-src="assets/images/2019event/08-ios.png">
+                                </a>
+                                <span>iOS版本 1.21.1</span>
+                            </li>
+                            <li class="last">
+                                <a id="btnAndroid" href="https://play.google.com/store/apps/details?id=com.yuantabank.newmobilebank.android&hl=zh_TW" target="_blank">
+                                    <span class="downloadApp">Android下載位置</span>
+                                    <img data-src="assets/images/2019event/08-android.png">
+                                </a>
+                                <span>Android版本 1.21.2</span>
+                            </li>
+                        </ul>
+                        <div class="appDownload-appLink-txt">最低支援作業系統為iOS 11(含)以上，Android適用於7.0(含)以上，建議使用8.0(含)以上</div>
+                    </div>
+                </div>
+
 			<div class="warningWrapper">
 				<div class="warningTxt">提醒您，建議行動裝置安裝防毒軟體，並且勿使用經Root或Jail-break之行動裝置，以保障您的帳戶交易安全。</div>
 			</div>
@@ -386,7 +402,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="remarkSection">
 				<div class="remarksWrapper">
 					<div class="remarksTitle" ref="#remarks__cont">注意事項</div>
-					<div class="remarksCont" id="remarks__cont" style="display: none;">
+					<div class="remarksCont" id="remarks__cont">
 						<div class="remarksTxt">
 						<ol>
 							<li>提醒您，請於元大銀行官方網站或官方應用程式商店下載「元大行動銀行」，並於手機安裝正版防毒軟體，以確保使用行動銀行之資料及環境安全。若您有啟用生物辨識(指紋/臉部)登入，請您定期檢視手機生物辨識設定內容以防資料竊取之虞，謝謝您的配合。</li>
@@ -429,7 +445,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </html>
 
 <script src="assets/js/jquery.viewed-1.0.1.min.js"></script>
-<script src="assets/js/show-hide.js"></script>
 
 <script>
 window.addEventListener("DOMContentLoaded", function() {
