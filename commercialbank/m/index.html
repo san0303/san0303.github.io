@@ -1,0 +1,495 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>元大銀行｜元大行動銀行</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" />
+<meta name="keywords" content="行動銀行、數位、銀行、元大銀行、元大、信用卡、交易、理財、
+無卡提款、QRCode轉帳、到價通知、基金、外幣" />
+<meta name="description" content="全新操作動線、全新服務體驗，元大行動銀行全天候24小時，交易理財隨時掌握在你手中。" />
+
+<meta property="og:title" content="元大行動銀行｜一機在手 行動隨我" />
+<meta property="og:site_name" content="元大銀行｜元大行動銀行" />
+<meta property="og:url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2019/MobileBankingAPP/index.html" />
+<meta property="og:description" content="全新操作動線、全新服務體驗，元大行動銀行全天候24小時，交易理財隨時掌握在你手中。" />
+<meta property="og:image" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2019/MobileBankingAPP/assets/images/Yuanta_MobileBank_facebook_1200x628.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="og:type" content="website" />
+
+    <script>
+        // #region $ 的擴充 function
+        const ua = navigator.userAgent;
+        // 是否為 iPad
+        const isiPad = /ipad;/i.test(ua);
+        const isIOS = isiPad || /(iphone|ipod);/i.test(ua);
+        const isAndroid = /(android)/i.test(ua);
+        // 是否為行動裝置
+        const isMobile = isIOS || isAndroid;
+
+        if(!isMobile){
+            location.href = '../index.html';
+        }
+    </script>
+
+
+
+
+<link href="assets/css/common.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="assets/css/custom.css">
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+
+<script type="text/javascript">
+    function btnIOS() {
+      //gtag('event', 'click', {
+      //    'event_category' : 'MobileBankingAPP',
+      //    'event_label' : 'applestore'
+      //});
+      //if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.href = "https://itunes.apple.com/tw/app/yuan-da-yin-xing-yuanta-commercial/id1173515038";
+        }else{
+            window.location.href = "https://itunes.apple.com/tw/app/yuan-da-yin-xing-yuanta-commercial/id1173515038";
+        }
+    }
+    function btnAndroid() {
+      //gtag('event', 'click', {
+      //    'event_category' : 'MobileBankingAPP',
+      //    'event_label' : 'googleplay'
+      //});
+      //if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.yuantabank.newmobilebank.android&hl=zh_TW";
+        }else{
+            window.location.href = "https://play.google.com/store/apps/details?id=com.yuantabank.newmobilebank.android&hl=zh_TW";
+        }
+    }
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KFT6ZT8');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFT6ZT8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div id="step_laptop" class="wrapper">
+        <div class="header">
+            <div class="yuantaLogo">
+                <a id="CILogo" class="logo" href="https://www.yuantabank.com.tw/bank/" target="_blank" onclick="gtag('event', 'click', {'event_category': 'MobileBankingAPP', 'event_label': 'yuantabank'});">
+                </a>
+            </div>
+        <div class="mediaIcons">
+            <ul>
+                <li class="facebook">
+                    <a id="btnFacebook"
+                    href="https://www.facebook.com/yuantabank"
+                    target="_blank"
+                    onclick="gtag('event', 'click', {'event_category': 'MobileBankingAPP', 'event_label': 'facebook'});"
+                    ></a>
+                </li>
+                <li class="line">
+                    <a id="btnLine"
+                    href="https://line.me/R/ti/p/%40mwr3999i"
+                    target="_blank"
+                    onclick="gtag('event', 'click', {'event_category': 'MobileBankingAPP', 'event_label': 'line'});"
+                    ></a>
+                </li>
+                <li class="instagram">
+                    <a id="btnInstagram"
+                    href="https://www.instagram.com/yuantabank/"
+                    target="_blank"
+                    onclick="gtag('event', 'click', {'event_category': 'MobileBankingAPP', 'event_label': 'instagram'});"
+                    ></a>
+                </li>
+                <li class="youtube">
+                    <a id="btnYoutube"
+                    href="https://www.youtube.com/channel/UCs72_Ba4-zxCCaeF7zsoAoA"
+                    target="_blank"
+                    onclick="gtag('event', 'click', {'event_category': 'MobileBankingAPP', 'event_label': 'youtube'});"
+                    ></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="goTop"></div>
+    <div class="downloadBtn animation fade-in-up"><a href="#YTdownload" alt="立即下載「元大銀行 Yuanta Commercial Bank」"><img src="assets/images/2019event/download.png"></a></div>
+
+
+    <div class="contentWrapper">
+        <!-- 01 -->
+        <section class="CBwarp">
+            <article style="padding:0;overflow: hidden;">
+        <div class="kv-txtwarp -text-center" style="z-index: 10;">
+            <p class="kv-txt-sub animation fade-in-right justify">
+                一機在手 行動隨我
+            </p>
+            <h2 class="kv-txt-title animation fade-in-left justify">
+                行動銀行
+            </h2>
+            <p class="kv-txt-sub-en animation fade-in-left">
+                Mobile Banking APP
+            </p>
+            <p class="kv-txt-info animation fade-in-up delay-1s">
+                全天候24小時，<br>交易理財隨時掌握在你手中。
+            </p>
+        </div>
+        <div class="mb-kv-bg">
+            <div class="night elementToFadeInAndOut">
+            </div>
+        </div>
+           </article>
+        </section>
+
+        <!-- 02 -->
+        <section class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/02-bg.jpg)">
+    <article>
+        <h2 class="-text-heading txt-title txt-blue -text-light -text-line-4 -mb-4 -mh-auto justify">
+            全 新 操 作 動 線<br>全 新 服 務 體 驗
+        </h2>
+        <div class="txt-line-center"></div>
+        <div class="content-02 animation fade-in-up infinite">
+
+            <div class="item-a f-l" >
+                <img  src="assets/images/2019event/Yuanta_MobileBank_intropage_icon-1.gif">
+                <div class="item-txt">一目瞭然</div>
+            </div>
+
+            <div class="item-b f-l" >
+                <img src="assets/images/2019event/Yuanta_MobileBank_intropage_icon-2.gif">
+                <div class="item-txt">切換自如</div>
+            </div>
+
+            <div class="item-c f-l" >
+                <img  src="assets/images/2019event/Yuanta_MobileBank_intropage_icon-3.gif">
+                <div class="item-txt">流暢動線</div>
+            </div>
+
+            <div class="item-e f-l" >
+                <img src="assets/images/2019event/Yuanta_MobileBank_intropage_icon-4.gif">
+                <div class="item-txt">輕鬆交易</div>
+            </div>
+
+            <div class="item-d animation heartbeat">
+                <a id="btnVideo" href="https://www.youtube.com/watch?v=gJy88OP1DRg" class="popup-video">
+                    <img src="assets/images/2019event/02-05-btn.svg">
+                    <div class="item-txt -mt-2 -color-white">觀看影片</div>
+                </a>
+                
+            </div>
+        </div>
+    </article>
+        </section>
+
+        <!-- 03 -->
+        <section class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/03-bg.jpg)">
+        <article self="top-center" class="content-03 -text-center -mb-0">
+                <h2 class="-text-heading txt-title txt-blue -text-light -text-line-4 -mb-4 -mh-auto justify">
+                    8 大基本功能<br>生活理財隨心所欲
+                </h2>
+                <div class="txt-line-center"></div>
+        </article>
+                <figure class="-pt-3">
+                    <article id="CBbank-service">
+                        <div style="width:100%;">
+                            <img class="animation float phone" src="assets/images/2019event/03-01-phone.png"/>
+                        </div>
+                        <h2 class="type_title -mb-2">
+                            <p class="txt-blue -text-bold"><span class="-b-b-1px">銀行服務</span></p>
+                            <p class="txt-blue -text-regular"><a class="button-a" href="#CBbank-card">信用卡服務</a></p>
+                        </h2>
+                        <h3 class="type_info -text-light">
+                            隨身帶著走，掌握即時交易，隨時做好資產管理。
+                        </h3>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-01-a-icon.png">
+                            <h3>即時轉帳</h3>
+                            <p>簡單轉、輕鬆付，一指就能搞定。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-01-b-icon.png">
+                            <h3>線上換匯</h3>
+                            <p>線上超優匯，再享不定期推出的外幣定存優惠利率。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-01-c-icon.png">
+                            <h3>基金交易</h3>
+                            <p>手續費優惠 3 折起，線上即可進行基金申購、轉換、贖回。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-01-d-icon.png">
+                            <h3>生活繳費</h3>
+                            <p>水費、電費、學費、電信費，通通不用出門都能繳。</p>
+                        </div>
+                    </article>
+                    <article id="CBbank-card">
+                        <div style="width:100%;">
+                            <img class="animation float phone" src="assets/images/2019event/03-02-phone.png"/>
+                        </div>
+                        <h2 class="type_title -mb-2">
+                            <p class="txt-blue -text-regular"><a class="button-b" href="#CBbank-service">銀行服務</a></p>
+                            <p class="txt-blue -text-bold"><span class="-b-b-1px">信用卡服務</span></p>
+                        </h2>
+                        <h3 class="type_info -text-light">
+                            信用卡快速登入，即刷即查即繳，輕鬆確認信用卡帳務資訊。
+                        </h3>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-02-a-icon.png">
+                            <h3>帳單查詢</h3>
+                            <p>不怕收不到帳單，線上刷卡帳務查詢及繳費。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-02-b-icon.png">
+                            <h3>消費通知</h3>
+                            <p>即時推播，刷卡消費訊息不漏接。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-02-c-icon.png">
+                            <h3>消費分期</h3>
+                            <p>想買就買、想分就分，刷卡消費無負擔。</p>
+                        </div>
+                        <div class="bank-list">
+                            <img src="assets/images/2019event/03-02-d-icon.png">
+                            <h3>活動登錄</h3>
+                            <p>搶先登錄，不定期刷卡優惠立即享。</p>
+                        </div>
+                    </article>
+                </figure>
+        </section>
+
+
+
+
+
+        <!-- 05 -->
+        <section class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/05-bg.jpg)">
+        <article>
+                    <h2 class="-text-heading txt-title -text-bold">無卡提款</h2>
+                    <p class="txt-sub">
+                        出門只要帶手機，透過元大行動銀行，在有支援無卡提款的 ATM，通通都可以領錢。
+                    </p>
+                    <div class="txt-line"></div>
+                    <div class="sub_with_icon">
+                        <div class="icon">
+                            <img src="assets/images/2019event/05-icon.png">
+                        </div>
+                        <div class="title">
+                            使用步驟
+                        </div>
+                    </div>
+                    <ul class="sub_info">
+                        <li>請先至 ATM 或網路銀行開通無卡提款功能</li>
+                        <li>選擇「我要無卡提款」 </li>
+                        <li>選擇提款帳號、輸入提款金額</li>
+                        <li>完成簡訊驗證並取得「提款序號」，即可至 ATM 提款</li>
+                    </ul>
+                    <a id="btnMore" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2018/Cardless/index.html" target="_blank" class="-button -button-outline -mt-3 info_btn" skin="dark">MORE →</a>
+                    <div style="height:300px;"></div>
+        </article>
+        </section>
+
+
+        <!-- 06 -->
+        <section class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/06-bg.jpg)">
+        <article>
+                    <h2 class="-text-heading txt-title -text-bold">QR Code</h2>
+                    <p class="txt-sub">
+                        轉帳、消費、繳費、繳稅，輕鬆掃，輕鬆完成交易！
+                    </p>
+                    <div class="txt-line"></div>
+                    <div class="sub_with_icon">
+                        <div class="icon">
+                            <img src="assets/images/2019event/05-icon.png">
+                        </div>
+                        <div class="title">
+                            使用步驟
+                        </div>
+                    </div>
+                    <ul class="sub_info-d">
+                        <li>選擇「QR Code」</li>
+                        <li>設定「連結帳戶」</li>
+                        <li>出示收款碼－出示給付款方掃描即可收款。<br>出示付款碼－出示給商店進行掃描即可消費付款。<br>
+                            掃描付款:掃描QR code即可進行轉帳、消費、繳費或繳稅。
+                        </li>
+                    </ul>
+                    <div style="height:300px;"></div>
+        </article>
+        </section>
+
+
+        <!-- 07 -->
+        <section class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/07-bg.jpg)">
+        <article>
+                    <h2 class="-text-heading txt-title -text-bold txt-blue">外幣、基金到價通知</h2>
+                    <p class="txt-sub txt-blue">
+                        免盯盤、免排隊，即時掌握最新匯率與基金動態，買在最佳時機。
+                    </p>
+                    <div class="txt-line-b"></div>
+                    <div class="sub_with_icon">
+                        <div class="icon">
+                            <img src="assets/images/2019event/05-icon-b.png">
+                        </div>
+                        <div class="title txt-blue">
+                            使用步驟
+                        </div>
+                    </div>
+                    <ul class="sub_info-c">
+                        <li>點選右上方選單，選擇「設定」</li>
+                        <li>選擇「推播設定－匯率到價通知設定」新增理想的外幣匯率價格<br>選擇「推播設定－基金到價通知設定」新增基金淨值的上限及下限
+                        </li>
+                    </ul>
+                    <div style="height:300px;"></div>
+        </article>
+        </section>
+
+
+        <!-- 08 -->
+        <section id="YTdownload" class="CBwarp_b -warp-bg" style="background:url(assets/images/2019event/footer-bg.jpg)">
+        <article class="download-txtwarp  -text-center">
+                <h2 class="-text-heading download-txt-title -text-light -mt-4 -mh-auto">
+                    立即下載<br>「元大銀行 Yuanta <br>Commercial Bank」
+                </h2>
+                <h3 class="download-txt-info -text-light -mb-5 -mh-auto">
+                    簡易操作介面、便利線上服務，隨時隨地掌握最新重要訊息，完全不漏接。
+                </h3>
+                <div class="txt-line-center-w"></div>
+			
+			<div class="appDownload-appLink">
+				<ul class="appDownload-appLink-icon">
+					<li>
+						<a id="btnIOS" href="javascript:;" onClick="btnIOS()"><img src="assets/images/2019event/08-ios.png"></a>
+						<span>iOS版本 1.21.1</span>
+					</li>
+					<li class="last">
+						<a id="btnAndroid" href="javascript:;" onClick="btnAndroid()"><img src="assets/images/2019event/08-android.png"></a>
+						<span>Android版本 1.21.2</span>
+					</li>
+				</ul>
+				<div class="appDownload-appLink-txt">最低支援作業系統為iOS 11(含)以上，Android適用於7.0(含)以上，建議使用8.0(含)以上</div>
+			</div>
+			<div class="warningWrapper">
+				<div class="warningTxt">提醒您，建議行動裝置安裝防毒軟體，並且勿使用經Root或Jail-break之行動裝置，以保障您的帳戶交易安全。</div>
+			</div>
+			
+			<div class="remarkSection">
+				<div class="remarksWrapper">
+					<div class="remarksTitle" ref="#remarks__cont">注意事項</div>
+					<div class="remarksCont" id="remarks__cont" style="display: none;">
+						<div class="remarksTxt">
+						<ol>
+							<li>提醒您，請於元大銀行官方網站或官方應用程式商店下載「元大行動銀行」，並於手機安裝正版防毒軟體，以確保使用行動銀行之資料及環境安全。若您有啟用生物辨識(指紋/臉部)登入，請您定期檢視手機生物辨識設定內容以防資料竊取之虞，謝謝您的配合。</li>
+							<li>元大行動銀行使用方式：<br />
+								(1) 若您尚未成為元大網路銀行客戶，請攜帶本人身分證與原留印鑑至元大銀行各營業單位申請「元大網路銀行」功能。後續即可透過您的元大網路銀行使用者代號及密碼，以iPhone/Android行動裝置登入元大行動銀行進行帳戶交易及查詢。<br />
+								(2) 若您已是「元大網路銀行」客戶，即可透過原使用者代號及密碼使用行動銀行服務。<br />
+								(3) 若您為元大純信用卡客戶，即可透過行動銀行「信用卡登入」功能，登入後查詢信用卡帳務內容。
+							</li>
+							<li>請妥善保管您的使用者代號及密碼，也請避免以未知的無線上網方式、他人行動電話或公共場所之裝置使用元大銀行服務。</li>
+							<li>接獲交易結果通知(推播訊息/簡訊/Email)後，請儘速檢核是否正確，如有疑問請立即與我們聯繫。</li>
+						</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+        </article>
+        </section>
+
+    </div>
+
+    <div class="clearboth"></div>
+
+
+
+		<div class="footer">
+			<div class="footerCont">
+				<div class="copyright">
+					Copyright © Yuanta Commercial Bank Co. Ltd. All Rights Reserved.
+				</div>
+				<div class="contWrapper">
+					<div class="footer-item">地址：10557 台北市松山區敦化南路一段 66 號</div>
+					<div class="footer-item">電子信箱：Service@yuanta.com</div>
+					<div class="footer-item"> 客服專線：0800-688-168</div>
+				</div>
+			</div>
+			<div class="clearboth"></div>
+		</div>
+</div>
+</body>
+</html>
+
+<script src="assets/js/jquery.viewed-1.0.1.min.js"></script>
+<script src="assets/js/show-hide.js"></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+  //logo
+  document.querySelector('#CILogo').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'yuantabank' });
+  });
+
+  //more
+  document.querySelector('#btnMore').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'cardless' });
+  });
+
+  //facebook
+  document.querySelector('#btnFacebook').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'Facebook' });
+  });
+
+  //Line
+  document.querySelector('#btnLine').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'Line' });
+  });
+
+  //instagram
+  document.querySelector('#btnInstagram').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'instagram' });
+  });
+
+  //instagram
+  document.querySelector('#btnYoutube').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'youtube' });
+  });
+
+  //IOS
+  document.querySelector('#btnIOS').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'applestore' });
+  });
+
+  //Android
+  document.querySelector('#btnAndroid').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'googleplay' });
+  });
+
+  //Video
+  document.querySelector('#btnVideo').addEventListener('click',function(e){
+    ga('event', 'header', { 'event_category': 'MobileBankingAPP', 'event_label': 'Video' });
+  });
+
+}, false);
+
+</script>
+
+<script type="text/javascript">
+
+$('.button-a').click(function() {
+    $('#CBbank-service').fadeOut(0);
+    $('#CBbank-card').fadeIn(100);
+});
+$('.button-b').click(function() {
+    $('#CBbank-card').fadeOut(0);
+    $('#CBbank-service').fadeIn(100);
+});
+</script>
