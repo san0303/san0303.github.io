@@ -886,7 +886,7 @@ animation-fill-mode: forwards;
 }
 
 .appDownload-appQRcode .qrcode{
-  margin: 8px 0;
+  margin: 8px auto;
 }
 
 .appDownload-appQRcode a{
