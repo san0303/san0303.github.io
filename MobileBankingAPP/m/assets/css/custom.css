@@ -802,38 +802,69 @@ animation-fill-mode: forwards;
 
 /* 2020 Mar Update */
 
-.appDownload-appLink {
+.appDownload-appIons {
 	color: #ffffff;
-	width: 100%;
-	margin: 2em 0;
-	text-align: center;
+	padding: 2em 0;
+	margin: 0 auto;
+}
+
+.appDownload-appQRcode,
+.appDownload-appLink {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.appDownload-appQRcode .qrcode{
+  margin: 8px 0;
+}
+
+.appDownload-appQRcode a{
+  border-bottom: 0;
+}
+
+.appDownload-appQRcode {
+  margin-bottom: 30px;
 }
 
 .appDownload-appLink-icon {
-	margin: 0;
+	width: auto;
+  padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 .appDownload-appLink-icon li {
-	width: 47%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 3%;
+	width: 130px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
 }
 
 .appDownload-appLink-icon li.last {
 	margin-right: 0px;
 }
 
-.appDownload-appLink-icon li a {
-	padding-bottom: 0.7em;
+.appDownload-appLink-icon li span {
+	padding-top: 0.2em;
+  display: block;
 }
 
-.appDownload-appLink-txt {
-	padding-top: 0.5em;
+.appDownload-appIons .downloadApp {
+  margin-bottom: 8px;
+  color: #ffe400;
+  text-decoration: underline;
+}
+
+.project [layout] img, .project figure img {
+	width: 100%;
 }
 
 
 /* 2020 Apr Update */
+
+.download-txtwarp h2 {
+	padding-top: 2em;
+}
 
 .warningWrapper {
 	margin: 0 auto;
@@ -879,7 +910,7 @@ animation-fill-mode: forwards;
 	cursor: pointer;
 }
 
-.remarksWrapper .remarksTitle:after {
+/* .remarksWrapper .remarksTitle:after {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
@@ -891,7 +922,7 @@ animation-fill-mode: forwards;
 	background-size: 100%;
 	margin-left: 0.5em;
     margin-top: -4px;
-}
+} */
 
 @media screen and (min-width: 1201px) {
     .remarksWrapper .remarksTitle {
@@ -917,7 +948,7 @@ animation-fill-mode: forwards;
     }
 }
 
-.remarksWrapper .active.remarksTitle:after {
+/* .remarksWrapper .active.remarksTitle:after {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
@@ -929,7 +960,7 @@ animation-fill-mode: forwards;
 	background-size: 100%;
 	margin-left: 0.5em;
     margin-top: -4px;
-}
+} */
 
 .remarksWrapper .remarksCont {
     display: none;
