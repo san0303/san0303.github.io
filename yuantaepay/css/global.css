@@ -623,6 +623,9 @@ h2 span {
   text-decoration: underline;
   text-align: center;
 }
+.app .imgbox .text-d-none{
+  text-decoration: none;
+}
 .app .imgbox .appName {
   font-size: 16px;
   line-height: 1.6;

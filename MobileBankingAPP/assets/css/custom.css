@@ -925,6 +925,15 @@ animation-fill-mode: forwards;
   color: #ffe400;
   text-decoration: underline;
 }
+.appDownload-appIons .text-d-none{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .webOnly {
+        display: none;
+    }
+}
 
 .project [layout] img, .project figure img {
 	width: 100%;
