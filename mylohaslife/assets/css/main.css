@@ -21,12 +21,13 @@ img{margin: 0; padding: 0; display: block;}
 .content_container{ width: 100%; margin: 0 auto; background: #e6e6e6 url("../images/rate.png") center top no-repeat; background-size: 100% auto;}
 .content{width: 100%; max-width: 1200px; margin: 0 auto; font-size: 18px; line-height: 1.8; color: #333333; text-align: center;}
 /* event */
-.event{width: 86%; margin: 4% auto; padding: 1% 8% 5%; background: #ffffff; border-radius: 20px;}
+.event{width: 86%; margin: 4% auto; padding: 1% 9% 5%; background: #ffffff; border-radius: 20px;}
 .event_part{margin: 5% 0;}
 .event_tit{}
 .event_tit img{width: 150px; margin: 0 auto; padding: 3% 0;}
 .event_date{font-size: 24px;}
 .event_txt{text-align: left;}
+.btn_location img{width: 180px; margin-top: 8%;}
 .pinktt{color: #e94c96; font-weight: bold;}
 .logo_all{margin: 6% auto;}
 .logo_all img{width: 100%; max-width: 600px; margin: 0 auto;}
@@ -46,7 +47,7 @@ img{margin: 0; padding: 0; display: block;}
 .notice{width: 100%; max-width: 1600px; margin: 0 auto; padding: 2% 5% 5%; font-size: 15px; line-height: 2; color: #333333; text-align: justify;}
 .notice_tit{font-size: 20px; font-weight: bold; text-align: center;}
 .notice_all{padding: 2%;}
-.notice_all a{color: #ffdf00; font-weight: bold; text-decoration: underline;}
+.notice_all a{color: #e94c96; font-weight: bold; text-decoration: underline;}
 .notice_all ul{margin: 0; padding-left: 18px; list-style-type: cjk-ideographic;}
 .notice_all ul>li{}
 .notice_all ul>li>ol{list-style-type: decimal; padding-left: 18px;}
@@ -127,7 +128,6 @@ img{margin: 0; padding: 0; display: block;}
 .action-item{max-width:300px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
 /* notice */
-.notice_tit img{width: 180px; padding: 8% 0 5%;}
 .notice_all ul{font-size: 14px; padding-left: 28px}
 #contTab:checked ~ #cont{
     max-height: 48vw;
@@ -147,7 +147,6 @@ img{margin: 0; padding: 0; display: block;}
 .event_tit img{width: 120px;}
 .event_date{font-size: 18px;}
 .event_txt{font-size: 16px;}
-.event_storetxt{font-size: 16px;}
 /* action */
 .action-item{max-width:220px;margin:auto;}
 .action-item+.action-item{margin-top:30px;margin-left:auto;}
@@ -155,6 +154,7 @@ img{margin: 0; padding: 0; display: block;}
 .btn:hover img{-webkit-transform:none;transform:none;}
 /* notice */
 .notice{padding: 2% 6% 8%;}
+.notice_tit{font-size: 18px;}
 }
 
 /* animation */
