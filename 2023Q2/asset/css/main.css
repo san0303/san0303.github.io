@@ -606,9 +606,9 @@ body {
         -webkit-animation: heart 2s ease-in-out infinite;
                 animation: heart 2s ease-in-out infinite; }
   .banner-man {
-    bottom: -58%;
-    left: 36.5%;
-    width: 28%;
+    bottom: -66%;
+    left: 35.5%;
+    width: 29%;
     transform-origin: bottom center;
     -webkit-animation: man 3s ease-in-out infinite alternate;
             animation: man 3s ease-in-out infinite alternate; }
@@ -624,9 +624,9 @@ body {
     right: 10%;
     width: 39%; }
   .banner-hand {
-    bottom: -2.8%;
-    right: 28.8%;
-    width: 25.06944%;
+    bottom: -3%;
+    right: 27.9%;
+    width: 24%;
     transform-origin: top right;
     -webkit-animation: hand 2s ease-in-out infinite alternate;
             animation: hand 2s ease-in-out infinite alternate; }
@@ -683,9 +683,9 @@ body {
       .banner-mom {
         bottom: -101%; }
       .banner-man {
-        bottom: -55%; }
+        bottom: -58%; }
       .banner-woman {
-        bottom: -55%; }
+        bottom: -50%; }
     @-webkit-keyframes line {
       0% {
         transform: translateY(0); }
@@ -747,7 +747,7 @@ body {
         width: 48.875%; }
       .banner-woman {
         bottom: -29.9697%;
-        right: -7.375%;
+        right: -7.5%;
         width: 44.79167%; }
       .banner-mom {
         bottom: -63%;
