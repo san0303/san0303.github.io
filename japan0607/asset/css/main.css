@@ -867,7 +867,7 @@ section:not(.main):not(.warn) h2.title {
 }
 @media screen and (max-width: 575px) {
   section:not(.main):not(.warn) h2.title {
-    font-size: 8vw;
+    font-size: 6.7vw;
     padding: 15px 0;
     letter-spacing: 0.2px;
   }
