@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Light.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Regular.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Medium.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Bold.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSansTC-Black.otf") format("opentype");
+    font-display: swap;
+}
 @charset "UTF-8";
 * {
   box-sizing: border-box;
@@ -202,11 +238,23 @@ header {
 header a {
   display: inline-flex;
 }
+
+/*銀行LOGO*/
+header a img {
+    width: 280px;
+  }
+@media screen and (max-width: 992px) {
+  header a img {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   header img {
     max-width: 100%;
   }
 }
+
 header .hbg {
   width: 25px;
   position: fixed;
@@ -284,11 +332,12 @@ header .list ul li a {
     color: white;
   }
 }
-@media screen and (min-width: 1025px) {
+/* 基金DM
+ @media screen and (min-width: 1025px) {
   header .list ul li:nth-child(1) {
     border-right: 1px solid #002d94;
   }
-}
+} */
 @media screen and (max-width: 575px) {
   header .list ul li {
     margin: 0;
@@ -296,7 +345,7 @@ header .list ul li a {
     text-align: center;
     padding: 10px;
     margin: 10px 0;
-  }
+  }header .list ul li:nth-child(1)
   header .list ul li.f16 {
     font-size: 20px;
   }
@@ -1538,6 +1587,12 @@ section.warn {
   line-height: 22px;
   text-align: justify;
 }
+
+/*銀行警語*/
+section.warn ul { list-style: decimal; padding-left: 25px}
+section.warn a{ color: #1670cc }
+section.warn .underline{ color: #1670cc }
+
 @media screen and (max-width: 600px) {
   section.warn {
     padding: 20px 0;
@@ -2200,3 +2255,62 @@ section h3.bg {
 footer {
   padding-bottom: 70px;
 }/*# sourceMappingURL=main.css.map */
+
+
+/*銀行footer*/
+.footer {
+    width: 100%;
+    background-color: #007fe0;
+    height: 80px;
+    padding: 10px 0
+}
+
+.footerCont {
+    color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footerCont .copyright {
+    width: 100%;
+}
+
+.footerCont .contWrapper {
+    width: 100%;
+}
+
+.contWrapper .footer-item {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding-bottom: 60px;
+        height: auto
+    }
+
+    .footerCont {
+        font-size: 12px;
+        line-height: 20px;
+    text-align: left;
+    }
+  
+    .contWrapper .footer-item {
+      width: 100%;
+      display: block;
+      padding: 0;
+    }
+
+    .footerCont .copyright,.footerCont .contact {
+        float: none;
+        display: block;
+        max-width: 100%;
+        padding-bottom: 10px
+    }
+}
