@@ -637,7 +637,7 @@ article.main .mainBtn .link i {
 }
 @media screen and (max-width: 1024px) {
   article.main .mainBtn .link {
-    padding: 10px 3px;
+    padding: 15px 3px;
     text-align: center;
     background: rgba(0, 45, 148, 0.9);
   }
