@@ -573,7 +573,7 @@ article.main .content .date .to {
 article.main .mainBtn {
   position: fixed;
   right: 20px;
-  top: 57%;
+  top: 50%;
   transform: translateY(-50%);
   z-index: 999;
   writing-mode: vertical-lr;
