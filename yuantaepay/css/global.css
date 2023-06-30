@@ -294,6 +294,54 @@ h2 span {
   flex: 1;
 } */
 
+/* 合作行動支付 */
+.cooperate {
+  width: 80%;
+  margin: 5% auto;
+  text-align: center;
+}
+.cooperate h2::before {
+  content: "";
+  position: absolute;
+  left: calc(55% + 20px);
+  bottom: -5px;
+  display: block;
+  width: 120px;
+  height: 28px;
+  background: rgba(248, 220, 112, 0.7);
+  border-radius: 15px;
+}
+.cooperate h3 {
+  font-size: 30px;
+  line-height: 2.5;
+  font-weight: 700;
+  border-bottom: 2px solid #c06b40;
+}
+.cooperate-all {
+  margin-bottom: 5%;
+}
+.cooperate-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.cooperate-list li {  
+  width: 100%;
+}
+.cooperate-iconbox {
+  padding: 3% 5%;
+}
+.cooperate-icon {
+  width: 100%;
+  margin-bottom: 1%;
+}
+.cooperate-icon img{
+  width: 20%;
+  text-align: center;
+}
+.cooperate-name {
+  font-size:  24px;
+}
 /* 流程 */
 .steps {
   position: relative;
@@ -739,6 +787,11 @@ hr.line {
     margin-bottom: 60px;
     font-size: 18px;
   }
+  /* 合作行動支付 */
+  .cooperate {
+    width: 100%;
+    margin: 5% auto 15%;
+  }
   /* 特色 */
   .feature {
     margin: 0 0 15px;
@@ -862,7 +915,27 @@ hr.line {
   .feature .title {
     font-size: 20px;
   }
-
+  /* 合作行動支付 */
+  .cooperate {
+    width: 90%;
+  }
+  .cooperate h2::before {
+    bottom: 0;
+    width: 60px;
+    height: 14px;
+  }
+  .cooperate h3 {
+    font-size: 20px;
+  }
+  .cooperate-icon {
+    margin: 5% auto 2%;
+  }
+  .cooperate-icon img{
+    width: 40%;
+  }
+  .cooperate-name {
+    font-size:  18px;
+  }
   /* 流程 */
   .steps {
     margin-top: -80vw;
