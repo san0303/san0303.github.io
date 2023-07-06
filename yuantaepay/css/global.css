@@ -451,7 +451,7 @@ h2 span {
   margin-bottom: 1%;
 }
 .cooperate-icon img{
-  width: 20%;
+  width: 140px;
   text-align: center;
 }
 .cooperate-name {
@@ -911,6 +911,15 @@ hr.line {
     width: 100%;
     margin: 5% auto 15%;
   }
+  .cooperate h3 {
+    font-size: 26px;
+  }
+  .cooperate-icon img{
+    width: 110px;
+  }
+  .cooperate-name {
+    font-size:  20px;
+  }
   /* 特色 */
   .feature {
     margin: 0 0 15px;
@@ -1055,7 +1064,7 @@ hr.line {
     margin: 5% auto 2%;
   }
   .cooperate-icon img{
-    width: 40%;
+    width: 100px;
   }
   .cooperate-name {
     font-size:  18px;
@@ -1282,6 +1291,9 @@ hr.line {
     font-size: 22px;
     color: #fff;
     background: #fc9e55;
+  }
+  .footer-links a:nth-child(1) {
+    background: #fcc566;
   }
   .footer-links a:hover,
   .footer-links a:active,
