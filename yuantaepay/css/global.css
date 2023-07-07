@@ -1295,11 +1295,11 @@ hr.line {
   .footer-links a:nth-child(1) {
     background: #fcc566;
   }
-  .footer-links a:hover,
+  /* .footer-links a:hover,
   .footer-links a:active,
   .footer-links a:focus {
     background: #fcc566;
-  }
+  } */
   .footer-links span {
     display: inline-block;
     width: 30px;
