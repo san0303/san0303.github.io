@@ -420,7 +420,6 @@
   color: #2255a2;
 }
 .linepay .qatit {
-  font-size: 1.81rem;
   color: #84ad9d;
   font-weight: bold;
   margin-bottom: 25px;
@@ -571,7 +570,6 @@
   color: #2255a2;
 }
 .icashpay .qatit {
-  font-size: 1.81rem;
   color: #8ec9d7;
   font-weight: bold;
   margin-bottom: 25px;
@@ -732,7 +730,6 @@
   color: #2255a2;
 }
 .pluspay .qatit {
-  font-size: 1.81rem;
   color: #eba341;
   font-weight: bold;
   margin-bottom: 25px;
@@ -888,7 +885,6 @@
   background-image: linear-gradient(to right, #f6f6f6 50%, #fff);
 }
 .easywallet .qatit {
-  font-size: 1.81rem;
   color: #f7b146;
   font-weight: bold;
   margin-bottom: 25px;
@@ -1048,7 +1044,6 @@
   color: #2255a2;
 }
 .opay .qatit {
-  font-size: 1.81rem;
   color: #f7b146;
   font-weight: bold;
   margin-bottom: 25px;
@@ -1208,7 +1203,6 @@
   color: #2255a2;
 }
 .pxpayplus .qatit {
-  font-size: 1.81rem;
   color: #eba341;
   font-weight: bold;
   margin-bottom: 25px;
@@ -2077,6 +2071,9 @@
 .qabigtit {
   margin-bottom: 40px;
 }
+.qatit {
+   font-size: 1.8rem;
+}
 .qabigtit:last-child {
   margin-bottom: 0;
 }
@@ -2568,9 +2565,6 @@
     left: 53%;
     width: 235px;
   }
-  .qatit {
-     font-size: 1.25rem;
-  }
   .blocksy2 .bn02bx .con:first-child {
     height: 370px;
   }
@@ -2787,6 +2781,9 @@
     display: none;
   }
   /*--qabx-----*/
+  .qatit {
+   font-size: 1.4rem;
+  }
   .qabx {
     padding-bottom: 15px;
     margin-bottom: 15px;
