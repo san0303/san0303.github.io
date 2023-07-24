@@ -1969,7 +1969,7 @@ p {
     font-weight: bold;}
   @media only screen and (max-width: 767px) {
     .textorange, .textgreen {
-      font-size: 20px;}}
+      font-size: 16px;}}
   .texts{
     font-size: 14px;
     color: #5f5f5f;}
