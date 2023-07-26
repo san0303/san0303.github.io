@@ -1949,8 +1949,6 @@ p {
       margin-top: 5%;}}
 
   .event-text{
-    display: inline-block;
-    vertical-align: middle;
     font-size: 18px;
     line-height: 2;
     margin-top: 2%;}
@@ -1961,8 +1959,8 @@ p {
       cursor: pointer;}
     .event img.checklist-pic {
       display: inline-block;
-      vertical-align: middle;
-      width: 18px;}
+      vertical-align: sub;
+      width: 20px;}
     .textblue {
       font-size: 22px;
       color: #6991bc;
@@ -1984,7 +1982,7 @@ p {
       font-size: 16px;
       margin-top: 2%;}
     .event img.checklist-pic {
-      width: 14px;}
+      width: 18px;}
       .textblue,.textorange, .textgreen {
       font-size: 16px;}}
 
@@ -2053,8 +2051,7 @@ p {
   .CRlist table th:nth-child(1) {
     background-color: #7ba273; }
   .CRlist table th:nth-child(2) {
-    background-color: #609675;
-    width: 40%; }
+    background-color: #609675; }
   .CRlist table th:nth-child(3) {
     background-color: #4c8365; }
   .CRlist table td{
