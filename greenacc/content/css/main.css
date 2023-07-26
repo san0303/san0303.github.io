@@ -1908,10 +1908,11 @@ p {
   .video-box .video-content {margin-top: 10%;}
 }
 
-/* ------------------------------- 202307camp ------------------------------- */
+/* ------------------------------- 202308camp ------------------------------- */
 
 .event {
   text-align: center;}
+
   .event-pic {
     text-align: center;
     margin-top: 4%;}
@@ -1921,11 +1922,13 @@ p {
     .event-pic img {
       width: 100%;
       max-width: 700px;}}
+
   .event-item {
     padding: 5% 0;}
   @media only screen and (max-width: 767px) {
     .event-item {
       padding: 8% 0}}
+
   .event-title span {
     padding-bottom: 3px;
     font-size: 26px;
@@ -1935,6 +1938,7 @@ p {
   @media only screen and (max-width: 767px) {
     .event-title span {
       font-size: 22px;}}
+
   .event-date {
     font-size: 22px;
     font-weight: bold;
@@ -1943,36 +1947,47 @@ p {
     .event-date {
       font-size: 18px;
       margin-top: 5%;}}
-  .event-text {
+
+  .event-text{
+    display: inline-block;
+    vertical-align: middle;
     font-size: 18px;
     line-height: 2;
     margin-top: 2%;}
+    .event .checklist-tt {
+      color: #ef863e;
+      font-weight: bold;
+      text-decoration: underline;
+      cursor: pointer;}
+    .event img.checklist-pic {
+      display: inline-block;
+      vertical-align: middle;
+      width: 18px;}
+    .textblue {
+      font-size: 22px;
+      color: #6991bc;
+      font-weight: bold;}
+    .textorange {
+      font-size: 18px;
+      color: #ef863e;
+      font-weight: bold;}
+    .textgreen {
+      font-size: 24px;
+      color: #07b53c;
+      font-weight: bold;}
+    .texts{
+      font-size: 14px;
+      color: #5f5f5f;}
   @media only screen and (max-width: 767px) {
     .event-text {
       text-align: left;
       font-size: 16px;
-      margin-top: 2%;}}
-  .textblue {
-    font-size: 22px;
-    color: #6991bc;
-    font-weight: bold;}
-  @media only screen and (max-width: 767px) {
-    .textblue {
+      margin-top: 2%;}
+    .event img.checklist-pic {
+      width: 14px;}
+      .textblue,.textorange, .textgreen {
       font-size: 16px;}}
-  .textorange {
-    font-size: 24px;
-    color: #ef863e;
-    font-weight: bold;}
-  .textgreen {
-    font-size: 24px;
-    color: #0bc858;
-    font-weight: bold;}
-  @media only screen and (max-width: 767px) {
-    .textorange, .textgreen {
-      font-size: 16px;}}
-  .texts{
-    font-size: 14px;
-    color: #5f5f5f;}
+
   .event-btn {
   flex: 0 0 auto;
   margin-top: 3%; }
@@ -1990,12 +2005,115 @@ p {
       -webkit-animation: pulse 1s;
               animation: pulse 1s;
       box-shadow: 0 0 0 0.5em transparent; } }
+
   .event-linepic img {
     width: 317px;}
   @media only screen and (max-width: 767px) {
     .event-linepic img {
       width: 300px;
       margin-top: 5%;}}
+
   .event-item .product-step {
     text-align: left;}
 
+  /*popuplist*/
+  .popup-wrap {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    content: '';
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+  }
+  .popup-box {
+    width: 150%;
+    height: auto;
+    padding: 50px;
+    transform: translate(-50%, -50%) scale(0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+  }
+  .CRlist {
+    height: 1000px;
+    overflow-y: scroll;
+  }
+  .CRlist table {
+    width: 100%;
+    font-size: 1.8em;
+    line-height: 2;
+  }
+  .CRlist table th:nth-child(1) {
+    background-color: #7ba273; }
+  .CRlist table th:nth-child(2) {
+    background-color: #609675;
+    width: 40%; }
+  .CRlist table th:nth-child(3) {
+    background-color: #4c8365; }
+  .CRlist table td{
+    background: #eaeddb;
+  }
+  .close-btn {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    border-radius: 100%;
+    background: #d75f70;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    line-height: 60px;
+    font-size: 40px;
+  }
+  .transform-in, .transform-out {
+    display: block;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .transform-in {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .transform-out {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  /*捲軸底色*/
+  #CRlist::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #bbcdbd; */
+  }
+  /*捲軸寬度*/
+  #CRlist::-webkit-scrollbar {
+    width: 15px;
+    background-color: #e4e4e4;
+  }
+  /*捲軸本體顏色*/
+  #CRlist::-webkit-scrollbar-thumb {
+    background-color: #cacaca;
+  }
+
+@media only screen and (max-width: 767px) {
+  .popup-box {
+    width: 160%;
+    padding: 10px;
+  }
+  .CRlist {
+    height: 1000px;
+    overflow-y: scroll;
+  }
+  .CRlist table {
+    max-width: 1200px;
+  }
+
+}
