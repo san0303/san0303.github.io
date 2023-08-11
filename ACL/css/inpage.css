@@ -2213,20 +2213,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
-  /*---頁籤-*/
-  .tabx li {
-    font-size: 0.875rem;
-  }
-  .tabx .imgbx {
-    display: none;
-  }
-  .tabx .sele .bg {
-    height: 45px;
-  }
-  .inad {
-    display: block;
-  }
+@media screen and (max-width: 820px) {
   /*---banner---*/
   .tit01 li p {
     width: 25px;
@@ -2366,6 +2353,73 @@
     top: -50px;
     left: 53%;
   }
+  /*---linepay---*/
+  .linepay .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .func_bx {
+    padding-top: 0px;
+  }
+  .func_bx .txt_s{
+    font-size: 12px;
+  }
+  .linepay .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  .blocksy2 .bn02bx .con:first-child {
+    height: 370px;
+  }
+  /*---icashpay---*/
+  .icashpay .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .icashpay .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  /*---pluspay---*/
+  .pluspay .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .pluspay .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  /*---easywallet---*/
+  .easywallet .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .easywallet .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  /*---opay---*/
+  .opay .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .opay .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  /*---pxpayplus---*/
+  .pxpayplus .bn02bx .con:first-child {
+    margin-bottom: 50px;
+  }
+  .pxpayplus .bn02bx .phonebx {
+    left: 53%;
+    width: 235px;
+  }
+  /*--浮動紐-----*/
+  .inad {
+    right: 10px;
+    transform: scale(0.8);
+    top: 60%;
+  }
+  /*--裝飾-----*/
+  .deco_wom {
+    display: none;
+  }
   /*--標題樣式1-----*/
   .tit01 {
     display: flex;
@@ -2380,15 +2434,20 @@
   .tit01 .deco {
     width: 28px;
   }
-  /*--浮動紐-----*/
-  .inad {
-    right: 10px;
-    transform: scale(0.8);
-    top: 60%;
+}
+@media screen and (max-width: 768px) {
+  /*---頁籤-*/
+  .tabx li {
+    font-size: 0.875rem;
   }
-  /*--裝飾-----*/
-  .deco_wom {
+  .tabx .imgbx {
     display: none;
+  }
+  .tabx .sele .bg {
+    height: 45px;
+  }
+  .inad {
+    display: block;
   }
   /*--區塊一----*/
   .swiper-container {
@@ -2550,63 +2609,6 @@
   .blocksy2 .Rreacon .tit01 {
     justify-content: flex-start;
     display: none;
-  }
-  /*---linepay---*/
-  .linepay .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .func_bx {
-    padding-top: 0px;
-  }
-  .func_bx .txt_s{
-    font-size: 12px;
-  }
-  .linepay .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
-  }
-  .blocksy2 .bn02bx .con:first-child {
-    height: 370px;
-  }
-  /*---icashpay---*/
-  .icashpay .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .icashpay .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
-  }
-  /*---pluspay---*/
-  .pluspay .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .pluspay .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
-  }
-  /*---easywallet---*/
-  .easywallet .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .easywallet .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
-  }
-  /*---opay---*/
-  .opay .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .opay .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
-  }
-  /*---pxpayplus---*/
-  .pxpayplus .bn02bx .con:first-child {
-    margin-bottom: 50px;
-  }
-  .pxpayplus .bn02bx .phonebx {
-    left: 53%;
-    width: 235px;
   }
   /*---區塊更改一列---*/
   .blocksy1 .modebtn {
