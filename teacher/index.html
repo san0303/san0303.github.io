@@ -55,6 +55,11 @@ th {
     .info-box {display: block !important; width: 100% !important;}
     .info-text {font-size: 20px !important; padding: 0 15px !important;}
     .mob-none {display: none;}
+    .disBox { display: inline-block !important; width: 100% !important;}
+    .disBox-space { display: none !important;}
+    .disBox-space2 { display: inline-block !important; width: 100% !important;}
+    .disBox-cont {}
+    .separate {border-right: none !important; border-bottom: 1px solid #5481bb !important;}
 }
 @media screen and (max-width: 600px) {
     .title {text-align: justify !important;}
@@ -62,7 +67,8 @@ th {
     .info-title-pic {width: 320px !important;}
     .tit-gift-pic {width: 200px !important;}
     .info-pic {width: 250px !important;}
-    .info-tit {font-size: 24px !important; line-height: 1.5 !important;}
+    .info-tit {font-size: 24px !important;}
+    .info-subtit {font-size: 18px !important;}
     .btnBox {display: block; width: 100% !important;}
 }
 @media screen and (max-width: 450px) {
@@ -138,7 +144,7 @@ th {
                                     </tr>
                                     <!-- title -->
                                     <tr>
-                                        <td align="center" class="title" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">感謝老師的辛勞！<br class="mob-none">元大銀行為您獻上<span class="blue title-b" style="font-size: 26px; font-weight: bold;">《9愛教師禮》</span>，給您最深的祝福。<br class="mob-none">未來的每一天，都讓元大銀行陪您一起渡過。</td>
+                                        <td align="center" class="title" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">感謝老師的辛勞！<br class="mob-none">元大銀行為您獻上<b class="blue title-b" style="font-size: 26px;">《9愛教師禮》</b>，給您最深的祝福。<br class="mob-none">未來的每一天，都讓元大銀行陪您一起渡過。</td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -156,6 +162,7 @@ th {
                             <td width="30" style="font-size: 0" class="spacer2">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
+                        </tr>
                     </table>
                 </td>
             </tr>
@@ -181,7 +188,7 @@ th {
                                     </tr>
                                     <!-- txt -->
                                     <tr>
-                                        <td align="center" class="text" style="color: #ffffff; font-size: 34px; line-height: 1.7; text-align: center;">全臺教職員憑<span class="yellow" style="color: #f4d335;"><b>教師證書/服務證</b></span>，<br>至<span class="yellow" style="color: #f4d335;"><b>臨櫃</b></span>完成指定業務申辦</td>
+                                        <td align="center" class="text" style="color: #ffffff; font-size: 34px; line-height: 1.5; text-align: center;">全臺教職員憑<b class="yellow" style="color: #f4d335;">教師證書/服務證</b>，<br>至<b class="yellow" style="color: #f4d335;">臨櫃</b>完成指定業務申辦</td>
                                     </tr>
                                     <!-- spacer -->
                                     <tr>
@@ -199,10 +206,11 @@ th {
                             <td width="30" style="font-size: 0" class="spacer2">
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
                             </td>
+                        </tr>
                     </table>
                 </td>
             </tr>
-            <!-- Content -->
+            <!-- Discount -->
             <tr>
                 <td>
                     <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#dff0fb">
@@ -260,7 +268,7 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" class="info-text" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">憑<span class="lightblue" style="color: #5481bb;"><b>【教師證書/服務證】</b></span>至<span class="red" style="color: #d83e24;"><b>【分行臨櫃】</b></span>完成<span class="lightblue" style="color: #5481bb;"><b><u>美元定存業務</u></b></span>申辦</td>
+                                                                <td align="center" class="info-text" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">憑<b class="lightblue" style="color: #5481bb;">【教師證書/服務證】</b>至<b class="red" style="color: #d83e24;">【分行臨櫃】</b>完成<b class="lightblue" style="color: #5481bb;"><u>美元定存業務</u></b>申辦</td>
                                                             </tr>
                                                             <tr>
                                                                 <td height="15">
@@ -388,7 +396,7 @@ th {
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" class="info-text" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">使用任一行動支付<span class="red" style="color: #d83e24;"><b>連結元大銀行帳戶</b></span>進行帳戶直接扣款消費或儲值，<br class="mob-none">最高享<span class="lightblue" style="color: #5481bb;"><b>40%回饋</b></span>(每人回饋上限為新臺幣200元)</td>
+                                                                <td align="center" class="info-text" style="color: #333333; font-size: 22px; line-height: 1.7; text-align: center;">使用任一行動支付<b class="red" style="color: #d83e24;">連結元大銀行帳戶</b>進行帳戶直接扣款消費或儲值，<br class="mob-none">最高享<b class="lightblue" style="color: #5481bb;">40%回饋</b>(每人回饋上限為新臺幣200元)</td>
                                                             </tr>
                                                             <tr>
                                                                 <td height="15">
@@ -475,7 +483,7 @@ th {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="info-tit" align="center" style="color: #1c5ea9; font-size: 30px; line-height: 1.7;"><b>還未加入元大銀行<span style="display: inline-block">行動支付行列嗎 ?</span></b></td>
+                                        <td class="info-tit" align="center" style="color: #1c5ea9; font-size: 30px; line-height: 1.5;"><b>還未加入元大銀行<span style="display: inline-block">行動支付行列嗎 ?</span></b></td>
                                     </tr>
                                     <tr>
                                         <td height="15">
@@ -515,6 +523,378 @@ th {
                                 <img src="images/spacer.gif" width="30" alt="" border="0" />
 							</td>
                         </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- ACL -->
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f4f4f4">
+                        <tr>
+                            <!-- side spacer -->
+                            <td width="30" style="font-size: 0">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
+                            </td>
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
+                            </td>
+                            <!-- main -->
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <!-- spacer -->
+                                    <tr>
+                                        <td height="40">
+                                            <img src="images/spacer.gif" height="40" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                    <!-- title -->
+                                    <tr>
+                                        <td class="info-tit" align="center" style="color: #1c5ea9; font-size: 30px; line-height: 1.5;"><b>更多行動支付好康送給您！</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="info-subtit" align="center" style="color: #5481bb; font-size: 24px; line-height: 1.5;"><b>連結元大銀行帳戶進行帳戶直扣優惠：</b></td>
+                                    </tr>
+                                    <!-- ACL -->
+                                    <tr>
+                                        <td>
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <!-- spacer -->
+                                                <tr>
+                                                    <td height="35">
+                                                        <img src="images/spacer.gif" height="35" alt="" border="0" />
+                                                    </td>
+                                                </tr>
+                                                <!-- ACL -->
+                                                <tr>
+                                                    <td>
+                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <!-- disbox -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table cellspacing="0" cellpadding="0" border="0" width="100%" class="disBoxAll">
+                                                                      <tr>
+                                                                        <!-- 1 -->
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL1.png" alt="台灣Pay" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">龜記享<b class="red" style="color: #d83e24;">10%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/twpay_guiji/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">千野村享<b class="red" style="color: #d83e24;">10%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/twpay_senyavillage/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">泰晶殿享<b class="red" style="color: #d83e24;">10%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/twpay_tgdspa/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">樂天棒球場享<b class="red" style="color: #d83e24;">20%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/twpay_rakutenmonkeys/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>    
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- separate -->
+                                                                        <td width="0.1%" style="font-size: 0; border-right: 1px solid #5481bb;" class="disBox separate">
+                                                                            <img src="images/spacer.gif" width="1" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- 2 -->
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL2.png" alt="icash Pay" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">指定通路享<b class="red" style="color: #d83e24;">10%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/icashpay_rewards_point/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">統一精工享<b class="red" style="color: #d83e24;">5%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/icashpay_mechsmile_gasstation/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                         <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- separate -->
+                                                                        <td width="0.1%" style="font-size: 0; border-right: 1px solid #5481bb;" class="disBox separate">
+                                                                            <img src="images/spacer.gif" width="1" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- 3 -->
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL3.png" alt="iPASS MONEY" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">購買通勤月票並消費<br>享<b class="red" style="color: #d83e24;">100元儲值金回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.i-pass.com.tw/Preferential/Detail/2847" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">彰化指定店家單筆滿200<br>抽<b class="red" style="color: #d83e24;">100元儲值金</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://web-tw-pay.line.me/cms/event/template1.3/9886691e-7827-4d3b-b591-7568dc1113c5" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td> 
+                                                                      </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- disbox end -->
+                                                            <!-- separate -->
+                                                            <tr>
+                                                                <td height="20">
+                                                                    <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="100%" style="font-size: 0; border-bottom: 1px solid #5481bb;" class="disBox">
+                                                                    <img src="images/spacer.gif" width="1" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="20">
+                                                                    <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                                </td>
+                                                            </tr>
+                                                            <!-- disbox -->
+                                                            <tr>
+                                                                <td align="center">
+                                                                    <table cellspacing="0" cellpadding="0" border="0" width="100%" class="disBoxAll">
+                                                                      <tr>
+                                                                        <!-- 1 -->
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL4.png" alt="全盈+PAY" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">首綁消費享<b class="red" style="color: #d83e24;">100%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">清心福全單筆消費滿100元<br>享<b class="red" style="color: #d83e24;">75元全盈儲值金</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.pluspay.com.tw/Campaign/event/activity?inApp=0" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">東森購物消費<br>筆筆贈<b class="red" style="color: #d83e24;">10%全盈儲值金</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.pluspay.com.tw/Campaign/event/activity?inApp=0" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>    
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- separate -->
+                                                                        <td width="0.1%" style="font-size: 0; border-right: 1px solid #5481bb;" class="disBox separate">
+                                                                            <img src="images/spacer.gif" width="1" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- 2 -->
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL5.png" alt="全支付" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">周年慶筆筆消費<br>享<b class="red" style="color: #d83e24;">50%回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/pxpayplus_anniversary/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">首次綁定再送<b class="red" style="color: #d83e24;">100全點</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/pxpayplus_anniversary/index.html" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                         <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- separate -->
+                                                                        <td width="0.1%" style="font-size: 0; border-right: 1px solid #5481bb;" class="disBox separate">
+                                                                            <img src="images/spacer.gif" width="1" alt="" border="0" />
+                                                                        </td>
+                                                                        <!-- 3 -->
+                                                                        <td width="2%" align="center" valign="top" class="disBox-space2">
+                                                                            <img src="images/spacer.gif" alt="" border="0" />
+                                                                        </td>
+                                                                        <td align="center" valign="top" class="disBox">
+                                                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                                <!-- logo -->
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" align="center" width="100" style="font-size: 0"><img class="point-pic" src="images/ACL6.png" alt="悠遊付" width="100" border="0"/></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                   <td valign="middle" height="20"><img src="images/spacer.gif" height="20" alt="" border="0" /></td>
+                                                                                </tr>
+                                                                                <!-- event -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">購買通勤月票並消費<br>享<b class="red" style="color: #d83e24;">100元儲值金回饋</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" valign="top" class="disBox-cont" style="color: #222222; font-size: 18px; line-height: 1.7;">彰化指定店家單筆滿200<br>抽<b class="red" style="color: #d83e24;">100元儲值金</b><br><a style="color: #1c5ea9; font-size: 16px; line-height: 1.7; font-weight: bold; border-bottom: 2px solid #1c5ea9;" href="" target="_blank">參閱詳情 ></a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15">
+                                                                                        <img src="images/spacer.gif" height="15" alt="" border="0" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td> 
+                                                                      </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- disbox end -->
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <!-- ACL end -->
+                                                <!-- spacer -->
+                                                <tr>
+                                                    <td height="20">
+                                                        <img src="images/spacer.gif" height="20" alt="" border="0" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="50" class="spacer2">
+                                                        <img src="images/spacer.gif" height="50" alt="" border="0" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- spacer -->
+                                    <tr>
+                                        <td height="30">
+                                            <img src="images/spacer.gif" height="30" alt="" border="0" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- main end -->
+                            <!-- side spacer -->
+                            <td width="30" style="font-size: 0">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
+                            </td>
+                            <td width="30" style="font-size: 0" class="spacer2">
+                                <img src="images/spacer.gif" width="30" alt="" border="0" />
+                            </td>
+						</tr>
                     </table>
                 </td>
             </tr>
