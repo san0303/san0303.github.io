@@ -439,12 +439,17 @@ h2 span {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding: 3% 5%;
+}
+.cooperate-list2 {
+  width: 500px;
+  margin: 0 auto;
 }
 .cooperate-list li {  
   width: 100%;
 }
 .cooperate-iconbox {
-  padding: 3% 5%;
+
 }
 .cooperate-icon {
   width: 100%;
@@ -677,7 +682,7 @@ h2 span {
 .qaList {
   list-style: none;
 }
-.qaList li { 
+.qaList>li { 
   position: relative;
   margin-bottom: 30px;
   color: #2c3e50;
@@ -685,10 +690,10 @@ h2 span {
   border-radius: 12px;
   transition: all 0.2s;
 }
-.qaList li:nth-last-child(1) {
+.qaList>li:nth-last-child(1) {
   margin: 0;
 }
-.qaList li:after {
+.qaList>li:after {
   content: '';
   position: absolute;
   left: -4px;
@@ -719,6 +724,11 @@ h2 span {
   position: absolute;
   top: 5px;
   left: 30px;
+}
+.qaList .ans ol{
+  list-style-type: disc;
+}
+.qaList .ans ol li{
 }
 /* FAQ_qalist_open */
 .qaList .open {
@@ -1060,6 +1070,9 @@ hr.line {
   .cooperate h3 {
     font-size: 20px;
   }
+  .cooperate-list2 {
+    width: 100%;
+  }
   .cooperate-icon {
     margin: 5% auto 2%;
   }
@@ -1209,7 +1222,7 @@ hr.line {
   .block {
     padding: 18px;
   }
-  .qaList li {
+  .qaList>li {
     margin: 0 0 16px;
   }
   .qaList .que {
