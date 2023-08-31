@@ -98,7 +98,7 @@ img{margin: 0; padding: 0; display: block;}
 .kv_container{background: none;}
 .kv{width: 100%; height: 0; padding-bottom: 145.83333333%; margin: 0 auto; background: url("../images/kv_bg_m.jpg") center top no-repeat; background-size: 100% auto;}
 /* content */
-.content_container{background:none;}
+.content_container{background: none;}
 .content{width: 100%; max-width: 767px; border-top: none;}
 /* event */
 .event_part{margin: 7% 0;}
