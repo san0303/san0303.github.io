@@ -20,7 +20,7 @@ img{margin: 0; padding: 0; display: block;}
 /* event */
 .event{width: 90%; margin: 4% auto; padding: 0 5%; color: #833509; font-size: 22px; line-height: 1.8; text-align: center;}
 .event_part{margin: 5% 0;}
-.event_tit{font-size: 36px; font-weight: bold; margin-bottom: 2%;}
+.event_tit{font-size: 32px; font-weight: bold; margin-bottom: 2%;}
 .pinktt{color: #e94c96; font-weight: bold;}
 .logo_all{padding: 10% 0 20%;}
 .logo_all img{width: 100%; max-width: 731px; margin: 0 auto;}
