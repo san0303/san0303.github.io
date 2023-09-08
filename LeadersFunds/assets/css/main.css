@@ -34,45 +34,8 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Noto Serif TC';
-    font-style: normal;
-    font-weight: 300;
-    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Light.otf") format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif TC';
-    font-style: normal;
-    font-weight: 400;
-    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Regular.otf") format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif TC';
-    font-style: normal;
-    font-weight: 500;
-    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Medium.otf") format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif TC';
-    font-style: normal;
-    font-weight: 700;
-    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Bold.otf") format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif TC';
-    font-style: normal;
-    font-weight: 900;
-    src: url("https://www.yuantabank.com.tw/bankwebIMG/event/fonts/NotoSerifTC-Black.otf") format("opentype");
-    font-display: swap;
-}
-
-
 body {
-    font-family: "Noto Sans TC", "Microsoft JhengHei","MS UI Gothic", Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans TC","MS UI Gothic", Arial, Helvetica, sans-serif;
     line-height: 1.75em;
     color: #002362;
 }
@@ -105,7 +68,7 @@ h2 {
 /*bank*/
 ol.txt-sm-bank {
     list-style-type: decimal;
-    padding-left:  25px;
+    padding-left:  20px;
 }
 
 
