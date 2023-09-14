@@ -229,6 +229,11 @@ img {
 	padding: 0 5px;
 }
 
+.contWrapper .footer-item a{
+    display: inline-block;
+    text-decoration: underline;
+}
+
 .goTop {
     display: none;
     position: fixed;
