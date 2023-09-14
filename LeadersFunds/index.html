@@ -1,280 +1,485 @@
-<html lang="UTF-8">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover">
-    <meta name="description" content="布局美、日、台龍頭企業打造完整組合，透過元大龍頭系列基金，迎接三大高科技強國時代，參與閃耀國際龍頭企業的成長，同時分散風險也不錯過股債行情。" />
-    <link rel="shortcut icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/common.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <title>元大銀行｜追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+<title>元大銀行｜元大日本龍頭企業基金</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" />
+	
+<style type="text/css">
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		-ms-text-size-adjust: none;
+		-webkit-font-smoothing: antialiased;
+		-webkit-text-size-adjust: none;
+		width: 100%;
+		height: 100%;
+		font-family: "微軟正黑體", "MS UI Gothic", Arial, Helvetica, sans-serif;
+	}
+	img {
+		display: block;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		text-decoration: none;
+	}
+	a,
+	a:hover,
+	a:active,
+	a:visited {
+		color: #005bac;
+		text-decoration: none;
+	}
+	th {
+		font-weight: normal;
+		text-align: center;
+	}
+	
+	@media screen and (max-width: 960px) {
+		.wrapper {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+	}
+	
+	@media screen and (max-width: 767px) {
+		.main-wrapper,
+		.cont-wrapper {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+		.main-divider {
+			width: 60% !important;
+			max-width: 60% !important;
+		}
+		table.column-break,
+		th.column-break,
+		table.MTcolumn-break,
+		th.MTcolumn-break {
+			display: block !important;
+			width: 100% !important;
+		}
+		th.mob-txt-left,
+		td.mob-txt-left {
+			text-align: left !important;
+		}
+		.txt-title {
+			font-size: 20px !important;
+		}
+		.txt-subtitle {
+			font-size: 18px !important;
+			line-height: 24px !important;
+		}
+		.txt-cont {
+			font-size: 16px !important;
+			line-height: 22px !important;
+		}
+		.txt-remark {
+			font-size: 14px !important;
+			line-height: 20px !important;
+		}
+		.txt-copyright {
+			line-height: 18px !important;
+		}
+		.mob-txt-center {
+			text-align: center !important;
+		}
+		.btn-blue {
+			width: 180px !important;
+			border-top: none !important;
+			border-right: none !important;
+			border-bottom: none !important;
+			border-left: none !important;
+			background-color: #166fdb;
+			text-align: center;
+		}
+		.btn-hollow {
+			width: 180px !important;
+			border-top: none !important;
+			border-right: none !important;
+			border-bottom: none !important;
+			border-left: none !important;
+			text-align: center;
+		}
+		table.double-cta,
+		table.double-cta .btn-blue,
+		table.double-cta .btn-hollow {
+			width: 160px !important;
+		}
+		.mob-hide {
+			display: none;;
+		}
+		
+		/* Width n Height for Mobile */
+		.mob-width5 {
+			width: 5px !important;
+		}
+		.mob-width10 {
+			width: 10px !important;
+		}
+		.mob-width15 {
+			width: 15px !important;
+		}
+		.mob-width20 {
+			width: 20px !important;
+		}
+		
+		.mob-height5 {
+			height: 5px !important;
+		}
+		.mob-height10 {
+			height: 10px !important;
+		}
+		.mob-height20 {
+			height: 20px !important;
+		}
+		.mob-height30 {
+			height: 30px !important;
+		}
+		.mob-height40 {
+			height: 40px !important;
+		}
+	}
 
-    <!-- google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-    <!-- Facebook 縮圖 -->
-    <meta property="fb:app_id" content="元大銀行｜追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中" />
-    <meta property="og:title" content="元大銀行｜追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="布局美、日、台龍頭企業打造完整組合，透過元大龍頭系列基金，迎接三大高科技強國時代，參與閃耀國際龍頭企業的成長，同時分散風險也不錯過股債行情。" />
-    <meta property="og:image" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/LeadersFunds/assets/img/share-img.jpg">
-    <meta property="og:site_name" content="元大銀行｜追成長、抓收益、抗波動｜元大龍頭系列基金定期定額優惠中" />
-    <meta property="og:url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/LeadersFunds/index.html " />
-    <!-- Facebook 縮圖　-->
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TDNQKZC');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- <style>
-        [v-cloak] {
-            display: none;
-        }
-    </style> -->
-    <script src="asset/js/jquery-3.6.0.min.js"></script>
-    <script src="asset/js/vue.min.js"></script>
-    <script type="text/javascript" src="asset/js/common.js"></script>
+	@media screen and (max-width: 600px) {
+		.qrcode {
+			display: none !important;
+		}
+	}
+</style>
 </head>
 
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDNQKZC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div id="app" v-cloak>
-        <div class="header">
-            <div class="yuantaLogo">
-                <a href="https://www.yuantabank.com.tw/bank/" target="_blank" alt="元大銀行"> </a>
-                <div class="yuantaplusLogo"></div>
-            </div>
-        </div>
-    
-        <section class="kv">
-            <div class="kvSlogan">
-                <img src="./assets/img/img-kv-slogan.svg" alt="" class="hide-mobile">
-                <img src="./assets/img/img-kv-slogan-mob.svg" alt="" class="hide-pc">
-            </div>
-            <div class="sideBtn-wrapper">
-                <div v-show="showAllotList" style="display: none;">
-                    <ul class="popup borderRadius-md">
-                    <li class="popupItem txt-left txt-lg fw-bold">
-                        <p>元大台灣高股息優質龍頭基金<br />(本基金之配息來源可能為收益平準金)</p>
-                        <a id="btn-side-twA" href="https://yuantafunds.page.link/KcUC" target="_blank" class="btn-hover-opc">A類型不配息</a>
-                        <a id="btn-side-twB" href="https://yuantafunds.page.link/Liq5" target="_blank" class="btn-hover-opc">B類型配息</a>
-                    </li>
-                    <li class="popupItem txt-left txt-lg fw-bold">
-                        <p>元大全球優質龍頭平衡基金</p>
-                        <a id="btn-side-gb" href="https://yuantafunds.page.link/Ek4h" target="_blank" class="btn-hover-opc">定期定額</a>
-                    </li>
-                    <li class="popupItem txt-left txt-lg fw-bold">
-                        <p>元大日本龍頭企業基金</p>
-                        <a id="btn-side-jp" href="https://yuantafunds.page.link/xWZb" target="_blank" class="btn-hover-opc">定期定額</a>
-                    </li>
-                    </ul>
-                </div>
-                <div class="sideBtn">
-                    <a id="btn-side-apply" @click="toggle" class="main txt-md txt-center  fw-bold btn-hover-opc">我要申購</a>
-                    <a id="btn-side-openacc" href="https://www.yuantafunds.com/active/openacc/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="txt-md txt-center  fw-bold btn-hover-opc">立即開戶</a>
-                </div>
-            </div>
-        </section>
-        <section class="feature">
-            <div class="container">
-                <h2>升息尾聲，優質股債可望迎來新一波多頭格局</h2>
-                <div class="descrip txt-lg">回顧前次升息循環，在最後一次升息日後進場全球百大企業、投資等級債、日股、台股報酬率亮眼</div>
-                <div class="fundCharts">
-                    <div class="chart"><img src="./assets/img/chart-tw.svg" alt=""></div>
-                    <div class="chart"><img src="./assets/img/chart-gb.svg" alt=""></div>
-                    <div class="chart"><img src="./assets/img/chart-jp.svg" alt=""></div>
-                </div>
-                <div class="notice txt-sm txt-left">資料來源：彭博資訊，前次升息循環最後一次升息日為2018/12/20，全球百大企業係以標普全球100指數為代表，投資級債係以J.P. Morgan US Liquid Index (JULI)為代表、日股係以東證指數為代表、台股係以臺灣加權股價指數為代表。上述資產依原幣計價。<span class="fw-bold">以上僅為歷史資料，不代表實際報酬率及未來績效保證，不同時間結果亦可能不同。指數報酬率非指基金報酬率，投資人不可直接投資該指數。本文提及之經濟走勢預測不必然代表本基金之績效，本基金投資風險請詳閱基金公開說明書。</span></div>
-            </div>
-            <div class="container">
-                <h2>追成長、抓收益、抗波動 打造完整組合</h2>
-                <div class="fundCards">
-                    <div class="card cardTW borderRadius-md">
-                        <div class="cardTxt">
-                            <div class="txt-lg fw-bold">元大台灣高股息優質龍頭基金(本基金之配息來源可能為收益平準金)</div>
-                            <div class="txt-md txt-left">
-                                <p class="fw-bold">台股高息及成長機會</p>
-                                <ul>
-                                    <li>台股首檔每月配息+年終配(註1)的台股基金。</li>
-                                    <li>聚焦台股優質高息與資本利得的雙重投資機會。</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="cardBtns txt-md fw-bold">
-                        <a id="btn-funds-tw-more" href="https://www.yuantafunds.com/active/IPO_202008_HYL/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc">瞭解更多</a>
-                        <a id="btn-funds-tw-apply" href="https://yuantafunds.page.link/Liq5" target="_blank" class="main borderRadius-sm btn-hover-opc">立即申購</a>
-                        </div>
-                    </div>
-                    <div class="card cardGB borderRadius-md">
-                        <div class="cardTxt">
-                            <div class="txt-lg fw-bold">元大全球優質龍頭平衡基金</div>
-                            <div class="txt-md txt-left">
-                                <p class="fw-bold">全球優質股債資產</p>
-                                <ul>
-                                    <li>兼納股票攻擊力及債券防禦力，投資攻守兼備。</li>
-                                    <li>掌握景氣趨勢，建立最佳股債比。</li>
-                                    <li>完全不投資垃圾債(註2)，規避高違約風險的非投資等級債券。</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="cardBtns txt-md fw-bold">
-                        <a id="btn-funds-gb-more" href="https://www.yuantafunds.com/active/YGLBF/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc">瞭解更多</a>
-                        <a id="btn-funds-gb-apply" href="https://yuantafunds.page.link/Ek4h" target="_blank" class="main borderRadius-sm btn-hover-opc">立即申購</a>
-                        </div>
-                    </div>
-                    <div class="card cardJP borderRadius-md">
-                        <div class="cardTxt">
-                            <div class="txt-lg fw-bold">元大日本龍頭企業基金</div>
-                            <div class="txt-md txt-left">
-                                <p class="fw-bold">日本龍頭爆發潛力</p>
-                                <ul>
-                                    <li>鎖定日本製造龍頭優勢。</li>
-                                    <li>精選優質成長動能，發掘各產業具備高成長潛力的投資標的。</li>
-                                    <li>日股評價低廉，有利分散風險。</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="cardBtns txt-md fw-bold">
-                        <a id="btn-funds-jp-more" href="https://www.yuantafunds.com/active/JapanFund/index.html?utm_source=%E5%85%83%E5%A4%A7%E5%9F%BA%E9%87%91%E7%90%86%E8%B2%A1%E7%B6%B2&utm_medium=%E9%BE%8D%E9%A0%AD%E7%B3%BB%E5%88%97%E5%9F%BA%E9%87%91%E7%B6%B2%E9%A0%81" target="_blank" class="borderRadius-sm btn-hover-opc">瞭解更多</a>
-                        <a id="btn-funds-jp-apply" href="https://yuantafunds.page.link/xWZb" target="_blank" class="main borderRadius-sm btn-hover-opc">立即申購</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="notice txt-sm txt-left">資料來源：元大投信整理，2023/8/30。註1：元大台灣高股息優質龍頭基金的年終配息機制(每年度分配收益)，係以基金B類型受益權單位投資於中華民國境內所得之已實現資本利得扣除資本損失(包括已實現及未實現之資本損失)，並扣除應負擔之費用之正數餘額為可分配收益，如無正數餘額時將不予分配。註2：垃圾債為非投資等級債券之俗稱。元大全球優質龍頭平衡基金同時投資股票與債券等部位需達70%，且依全球景氣循環階段，動態彈性調整各類資產的投資配置，其中股票資產配置水位可介於10%~90%。日本龍頭企業的定義為於日本股票市場交易的企業，且為各產業類別之全部上市櫃股票市值排序前30%(含)者。<span class="fw-bold">基金淨資產需有大於等於60%的總金額投資在符合「日本龍頭企業」定義之股票。本說明非代表本基金未來必然之配置，未來投資將依公開說明書規範及當時市場環境與經濟現況而調整。</span></div>
-            </div>
-          </section>
-          <section class="offer">
-            <div class="container">
-                <h2>買基金享優惠</h2>
-                <div class="contBox borderRadius-lg">
-                <div class="contImg"><img src="./assets/img/img-offer.svg" alt=""></div>
-                <div class="contTxt">
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold">活動期間</span>即日起~2023/12/31</p>
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold">活動說明</span>活動期間定期定額申購元大龍頭系列基金【元大台灣高股息優質龍頭基金(本基金之配息來源可能為收益平準金)】、【元大全球優質龍頭平衡基金】、【元大日本龍頭企業基金】，即可享終身零手續費優惠。</p>
-                </div>
-                </div>
-            </div>
-          </section>
-          <section class="openacc">
-            <div class="container">
-                <h2>買基金快開戶</h2>
-                <div class="contBox borderRadius-lg">
-                <div class="contImg"><img src="./assets/img/img-openacc.svg" alt=""></div>
-                <div class="contTxt">
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold long">線上開戶資格</span>(1) 年滿 18 歲中華民國國民、(2)不具有美國或其他國家、地區的稅務居民身分或指標、(3)不具有輔助宣告身分</p>
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold">必要文件</span>身分證、第二證件(如健保卡或駕照)</p>
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold">開戶說明</span>線上透過網路銀行、電子支付 (icash Pay) 完成身分驗證，提供北富銀、國泰世華、中信銀、台新銀、中華郵政等多家扣款銀行選擇。</p>
-                    <p class="txt-lg txt-left"><span class="borderRadius-sm txt-md txt-center fw-bold">開戶優惠</span>完成開戶就送 0 手續費優惠序號，不限單筆申購或定期定額享有元大系列基金 0 元手續費優惠；生日當月再送專屬壽星生日禮。</p>
-                </div>
-                </div>
-            </div>
-          </section>
-          <section class="warning">
-            <div class="container">
-                <div class="warning-notice txt-sm txt-left">
-                    <p class="fw-bold">注意事項</p>
-                    <ul>
-                        <li>本優惠活動如有變更，以網站公告為準，不另行個別通知。</li>
-                        <li>參加本活動者視同接受本注意事項之規範，元大投信保有修改、終止或變更本活動內容細節之權利。</li>
-                        <li>如有未盡事宜，悉依元大基金理財網公告或相關規定辦理。</li>
-                    </ul>
-                </div>
-                <div class="warning-cont txt-left">
-                    <p class="txt-md fw-bold"><span class="txt-lg">基金警語</span>投資一定有風險，基金投資有賺有賠，申購前請詳閱公開說明書 !</p>
-                    <div class="info">
-                        <p class="txt-tn">元大證券投資信託股份有限公司</p>
-                        <p class="txt-tn">台北總公司：106台北市大安區敦化南路二段69號18樓、67號B1(客戶服務相關業務請至67號B1辦理) (02)2717-5555　109年金管投信新字第012號</p>
-                        <p class="txt-tn">台中分公司：406台中市北屯區崇德路二段46-4號5樓 (04)2232-7878　111年金管投信新分字第002號</p>
-                        <p class="txt-tn">本公司兼營投顧的核准文號：96 年 7 月 30 日金管證四字第 0960039848 號函</p>
-                    </div>
-                    <ul class="txt-sm">
-                        <li>【元大投信獨立經營管理】元大系列基金經金管會核准或同意生效，惟不表示絕無風險。本公司以往之經理績效，不保證系列基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責系列基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，基金不歡迎受益人進行短線交易。有關基金應負擔之費用已揭露於基金之公開說明書中，投資人可至公開資訊觀測站中查詢。元大系列基金的運用限制、投資風險、配息機制及投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及基金之銷售機構索取，或至公開資訊觀測站( mops.twse.com.tw )及本公司網站( www.yuantafunds.com )中查詢。基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。</li>
-                        <li>【元大台灣高股息優質龍頭基金<span>(本基金之配息來源可能為收益平準金)</span>】<br /><span>本基金之配息率不代表基金報酬率，且過去配息率不代表未來配息率，基金淨值可能因市場因素而上下波動。本基金配息可能由基金的收益平準金中支付。任何涉及由收益平準金支出的部份可能導致原始投資金額減損。收益平準金係指本基金成立日起，計算日之每日受益權單位淨資產價值中，相當於原受益人可分配之收益金額。本基金持股之股利配發時間及金額視各別企業而定。主要來自於「高股息優質龍頭」企業發放的現金股利於累積一段期間後，分為12個月，每月分配給投資人。另每月之收益分配係以本基金B類型受益權單位投資於中華民國境內所得之現金股利、利息收入、已實現股票股利、子基金收益分配及收益平準金等收入扣除應負擔之費用後之可分配收益且不需扣除已實現及未實現之資本損失。每年度分配收益係以本基金B類型受益權單位投資於中華民國境內所得之已實現資本利得扣除資本損失(包括已實現及未實現之資本損失)，並扣除應負擔之費用後之可分配收益。經理公司認為有必要(如市況變化足以對相關基金造成影響)可適時調整收益分配金額，惟本基金B類型受益權單位可分配收益，於經理公司決定收益分配金額後，若有未分配收益得累積併入以後之可分配收益。B類型受益權單位之任一受益人應得之分配金額為新臺幣伍佰元(含)以下者，受益人(除基金銷售機構以自己名義受託申購基金專戶、特定金錢信託專戶、財富管理專戶或壽險公司透過投資型保單等方式為投資人申購本基金者外)同意授權經理公司得以該收益分配金額再申購本基金B類型受益權單位作為當期收益分配之給付方式，該等收益分配金額再申購本基金之申購手續費為零。</span></li>
-                        <li>【元大全球優質龍頭平衡基金】<br />本基金經金管會核准或申報生效，惟不表示絕無風險。本公司以往之經理績效，不保證本基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span>為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，本基金不歡迎受益人進行短線交易。</span>基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span>本基金的運用限制、投資風險、基金申購手續費之收取方式和比率、投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及本基金之銷售機構索取，亦可至公開資訊觀測站(mops.twse.com.tw)或本公司網站(www.yuantafunds.com)中查詢。</span>本基金為多幣別計價之基金，並分別以新臺幣及美元做為計價貨幣，<span>新臺幣級別之申購及買回應以新臺幣收付，不得以美元收付；美元級別之申購及買回應以美元收付，不得以新臺幣收付。</span>如投資人以其他非該類型計價級別之貨幣換匯後投資者，須自行承擔匯率變動之風險，當該類型計價幣別相對其他貨幣貶值時，將產生匯兌損失。因投資人與銀行進行外匯交易有賣價與買價之差異，投資人進行換匯時須承擔買賣價差，此價差依各銀行報價而定。此外，投資人亦須承擔匯款費用，且外幣匯款費用可能高於新臺幣匯款費用。本基金以新臺幣及美元計價，而本基金所投資的有價證券可能以新臺幣及美元以外之貨幣計價，因此本基金承受相關匯率波動風險而可能使基金報酬與投資目標產生偏離。本基金可投資地區包括中國大陸(含人民幣計價之點心債券)，本基金得透過經理公司獲批之境外機構投資者(QFII)額度直接投資於中國大陸有價證券，由於中國大陸之政經情勢或法規變動較已開發國家劇烈，可能對本基金投資標的造成直接或間接之影響。另中國大陸為外匯管制市場，可能影響本基金資金匯出入中國大陸之流動性，如遇受益人大量買回，可能因此延遲給付買回價款。本基金主要投資風險包括國家風險、市場風險、利率風險、匯率風險、債券交易市場流動性不足之風險、投資無擔保公司債之風險及債券發行人違約之信用風險等，本基金所投資標的發生上開風險時，本基金之淨資產價值可能因此產生波動。</li>
-                        <li>【元大日本龍頭企業基金】<br />本基金經金管會核准或申報生效，惟不表示絕無風險。本公司以往之經理績效，不保證本基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span>為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，本基金不歡迎受益人進行短線交易。</span>基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span>本基金的運用限制、投資風險、基金申購手續費之收取方式和比率、投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及本基金之銷售機構索取，亦可至公開資訊觀測站(mops.twse.com.tw)或本公司網站(www.yuantafunds.com)中查詢。</span>本基金可能投資於非基金計價幣別之投資標的，當不同幣別間之匯率產生較大變化時，將會影響該基金不同計價幣別之淨資產價值。本基金主要投資於日本證券交易市場交易之有價證券為主，有可能發生投資區域分散性較低，以及類股過度集中之風險。此外，全球政經情勢或法規之變動、外匯管制及匯率、證券交易市場流動性不足等因素，可能對本基金所參與的投資市場及投資工具之報酬造成直接或間接的影響。此外，本基金亦可投資於日本企業發行而於新加坡、香港、美國、英國與德國等國證券交易所交易之有價證券，惟全球經濟環環相扣，各國不同產業之景氣循環將對基金投資績效產生影響。惟本基金不能也無法保證該風險發生之可能性。</li>
-                    </ul>
-                    <br/><br/>
-                    <p class="txt-md fw-bold">基金注意事項：</p>
-                    <div class="info">
-                        <ol class="txt-sm txt-sm-bank">
-                            <li>銀行辦理信託業務，應盡善良管理人之注意義務及忠實義務。</li>
-                            <li>銀行不擔保信託業務之管理或運用績效，委託人及受益人應自負盈虧。</li>
-                            <li>信託財產經運用於存款以外之標的者，不受存款保險之保障，投資人申購前應仔細閱讀行銷文件。</li>
-                            <li>基金並非存款，基金投資具有投資風險，可能使本金發生虧損。</li>
-                            <li>投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證。</li>
-                            <li>如基金投資以外幣計價之有價證券，其淨值可能因匯率而變動。</li>
-                            <li><u class="underline">本專案之基金經金管會核准或同意生效，惟不表示絕無風險。基金經理公司以往之經理績效不保證基金之最低投資收益；基金經理公司除盡善良管理人之注意義務外，不負責基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金簡式公開說明書及基金公開說明書。</u></li>
-                            <li>委託人之交易如經基金公司認定為短線交易者，基金公司或本行可拒絕受理申請轉換或申購要求，並可請求支付一定比例之贖回費用或其他相關費用，費用標準均依各該基金公司之規定。</li>
-                            <li class="non-justify">有關投資基金應承擔之相關風險(如國家風險、市場風險、貨幣風險、匯率風險、信用風險、債券風險等)及負擔之費用(含分銷費用)，已揭露於基金之公開說明書或投資人須知中，投資人欲索閱基金公開說明書(或其中譯本)或投資人須知，可至分行洽詢理財專員或洽該基金公司，或至公開資訊觀測站或境外基金資訊觀測站(<a href="http://www.fundclear.com.tw" target="_blank">http://www.fundclear.com.tw</a>)查詢。</li>
-                        </ol>
-                    </div>
-                    <br/>
-                    <p>【元大銀行總行地址：臺北市松山區敦化南路一段66號；聯絡電話：(02)2173-6699】<br/>詳情歡迎親洽各分行理財業務專員，或撥0800-688-168，或至本行網站：<a href="https://www.yuantabank.com.tw/" target="_blank">www.yuantabank.com.tw</a>查詢。</p>
-                    <p class="txt-md fw-bold last">［ 洗錢防制宣導警語 ］ 一、防杜非法洗錢，保障自身財產安全。二、開戶審查做得好，客戶權益有保障。三、自己權益要顧好，淪為人頭累累累！</p>
-                </div>
-            </div>
-          </section>
-    </div>
-
-    <!-- footer -->
-    <div class="footer">
-        <div class="footerCont">
-            <div class="copyright">
-                Copyright © Yuanta Commercial Bank Co. Ltd. All Rights Reserved.
-            </div>
-            <div class="contWrapper">
-                <div class="footer-item">地址：10557 台北市松山區敦化南路一段 66 號</div>
-                <div class="footer-item">官網留言：<a href="https://www.yuantabank.com.tw/bank/service/customer/suggest/list.do">與我聯絡</a></div>
-                <div class="footer-item">客服專線：0800-688-168</div>
-            </div>
-        </div>
-        <div class="clearboth"></div>
-    </div>
-
-    <script>
-        var vm = new Vue({
-          el: '#app',
-          data() {
-            return {
-              showAllotList: false,
-            }
-          },
-          computed: {},
-          mounted() {
-            document.addEventListener('click', this.closeAllotList)
-          },
-          methods: {
-            toggle(e) {
-              this.showAllotList = !this.showAllotList
-            },
-            closeAllotList(e) {
-              const apply = document.querySelector('#btn-side-apply')
-  
-              if (!apply.contains(e.target)) {
-                this.showAllotList = false
-              }
-            },
-          },
-        })
-      </script>
-    <!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-08TZJFEECX"></script>
-    <script> window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-08TZJFEECX'); 
-    </script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#e3eff5" style="font-size: 0; margin: 0; padding: 0;">
+	
+	<!-- inbox-preview --> 
+	<div class="inbox-preview" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all;">	•	定期定額終身 0 手續費，台灣、日本、全球龍頭基金供您選擇。</div>
+	<!-- link -->
+    <p style="text-align: center;"><span style="color: #1b74c7; font-size: 11pt; line-height: 2.5;"><a style="color: #1b74c7;" href="mailhunteronlineedm.aspx"><span style="text-decoration: underline;">【若無法顯示，請點此觀看網頁版，謝謝！】</span></a></span></p>
+	<table width="950" align="center" cellspacing="0" cellpadding="0" border="0" class="wrapper">
+		<tbody>
+			<!-- CIbar & Banner -->
+			<tr>
+				<td style="padding: 0;">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td style="font-size: 0;"><img src="images/header.jpg" alt="元大金控 | 元大銀行  大眾的專業銀行" style="width: 100%; max-width: 950px;"></td>
+						</tr>
+						<tr>
+							<td style="font-size: 0;">
+								<a href="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/japanfund/index.html" target="_blank"><img src="images/topbanner.jpg" alt="" style="display: block; width: 100%; max-width: 950px;"></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- Container -->
+			<tr>
+				<td bgcolor="#ffffff">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<!-- spacer -->
+							<td width="20"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="20" alt=""></td>
+							<!-- Content -->
+							<td align="center">
+								<table width="700" cellspacing="0" cellpadding="0" border="0" class="main-wrapper">
+									<tr>
+										<td height="30" class="mob-height20"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="30" alt="" class="mob-height20"></td>
+									</tr>
+									<!-- Lead-in -->
+									<tr>
+										<td align="center" style="color: #324554; font-size: 24px; line-height:28px; font-weight: bold;" class="txt-title">定期定額終身 0 手續費優惠中</td>
+									</tr>
+									<tr>
+										<td height="15" class="mob-height10"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="15" alt="" class="mob-height10"></td>
+									</tr>
+									<tr>
+										<td align="center" style="color: #324554; font-size: 18px; line-height: 24px;" class="txt-cont">追成長、抓收益、抗波動，打造完整龍頭組合。透過元大龍頭系列基金，迎接三大高科技強國時代，參與閃耀國際龍頭企業的成長，同時分散風險也不錯過股債行情。</td>
+									</tr>
+									<!-- Lead-in end -->
+									<!-- Divider -->
+									<tr>
+										<td height="40" class="mob-height30"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="40" alt="" class="mob-height30"></td>
+									</tr>
+									<tr>
+										<td align="center">
+											<table width="300" cellspacing="0" cellpadding="0" border="0" class="main-divider">
+												<tr>
+													<td style="border-bottom: 1px solid #c2d2de;"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="1" alt=""></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="50" class="mob-height30"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="50" alt="" class="mob-height30"></td>
+									</tr>
+									<!-- Divider end -->
+									<!-- Features Long ver. -->
+									<tr>
+										<td>
+											<table width="100%" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<th align="center" valign="middle" width="100" class="column-break"><img src="images/icon-01.png" style="width: 100%; max-width: 100px; margin: 0 auto;" width="100" alt=""></th>
+													<th width="20" height="10" class="column-break"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="20" height="10" alt=""></th>
+													<th valign="middle" class="column-break">
+														<table width="100%" cellspacing="0" cellpadding="0" border="0">
+															<tr>
+																<td align="left" style="color: #324554; font-size: 20px; line-height: 28px; font-weight: bold;" class="txt-subtitle mob-txt-center">元大台灣高股息優質龍頭基金<br>本基金之配息來源可能為收益平準金</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+															<tr>
+																<td align="left" style="color: #324554; font-size: 18px; line-height: 24px;" class="txt-cont">特選<span style="color: #005bac;">台灣各產業龍頭股</span>，掌握台股相對經營穩健及具備現金股息殖利率穩定度較佳的優質成長標的，國內首檔每月配息加年終配*的台股基金，長線定期定額佈局台股。</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt="" class="mob-height10"></td>
+									</tr>
+									<tr>
+										<td align="right" style="color: #eb6100; font-size: 16px; line-height: 10px; font-weight: bold;" class="link-more">
+											<a href="https://www.yuantafunds.com/active/IPO_202008_HYL/index.html?utm_source=eDM&utm_medium=Customer_Member&utm_name=20230906&openExternalBrowser=1" target="_blank" style="color: #eb6100;">瞭解更多&nbsp;&gt;</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" class="mob-height10"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="25" alt="" class="mob-height10"></td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<th align="center" valign="middle" width="100" class="column-break"><img src="images/icon-02.png" style="width: 100%; max-width: 100px; margin: 0 auto;" width="100" alt=""></th>
+													<th width="20" height="10" class="column-break"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="20" height="10" alt=""></th>
+													<th valign="middle" class="column-break">
+														<table width="100%" cellspacing="0" cellpadding="0" border="0">
+															<tr>
+																<td align="left" style="color: #324554; font-size: 20px; line-height: 28px; font-weight: bold;" class="txt-subtitle mob-txt-center">元大全球優質龍頭平衡基金</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+															<tr>
+																<td align="left" style="color: #324554; font-size: 18px; line-height: 24px;" class="txt-cont">股債平衡，鎖定<span style="color: #00adee;">全球龍頭股與優質債券</span>，降低波動兼具收益成長，定期定額好股搭好債，投資全球就靠這一檔。</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+															<tr>
+																<td align="right" style="color: #eb6100; font-size: 16px; line-height: 10px; font-weight: bold;" class="link-more">
+																	<a href="https://www.yuantafunds.com/active/YGLBF/index.html?utm_source=eDM&utm_medium=Customer_Member&utm_name=20230906&openExternalBrowser=1" target="_blank" style="color: #eb6100;">瞭解更多&nbsp;&gt;</a>
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" class="mob-height10"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="25" alt="" class="mob-height10"></td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<th align="center" valign="middle" width="100" class="column-break"><img src="images/icon-03.png" style="width: 100%; max-width: 100px; margin: 0 auto;" width="100" alt=""></th>
+													<th width="20" height="10" class="column-break"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="20" height="10" alt=""></th>
+													<th valign="middle" class="column-break">
+														<table width="100%" cellspacing="0" cellpadding="0" border="0">
+															<tr>
+																<td align="left" style="color: #324554; font-size: 20px; line-height: 28px; font-weight: bold;" class="txt-subtitle mob-txt-center">元大日本龍頭企業基金</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+															<tr>
+																<td align="left" style="color: #324554; font-size: 18px; line-height: 24px;" class="txt-cont">搶進物美價廉的日本股市，聚焦<span style="color: #c61026;">日本製造業龍頭股</span>，跟著股神巴菲特加碼日股，定期定額輕鬆拿下投資送分題。
+</td>
+															</tr>
+															<tr>
+																<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt=""></td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="5"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="5" alt="" class="mob-height10"></td>
+									</tr>
+									<tr>
+										<td align="right" style="color: #eb6100; font-size: 16px; line-height: 10px; font-weight: bold;" class="link-more">
+											<a href="https://www.yuantafunds.com/active/JapanFund/index.html?utm_source=eDM&utm_medium=Customer_Member&utm_name=20230906&openExternalBrowser=1" target="_blank" style="color: #eb6100;">瞭解更多&nbsp;&gt;</a>
+										</td>
+									</tr>
+									<!-- Features Long ver. end -->
+									<tr>
+										<td height="60" class="mob-height40"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" height="60" alt="" class="mob-height40"></td>
+									</tr>
+									<!-- Double CTA -->
+									<tr>
+										<td align="center">
+											<table cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<td>
+														<table width="180" cellspacing="0" cellpadding="0" border="0" class="double-cta">
+															<tr>
+																<td align="center" style="border: 1px solid #166fdb;">
+																	<a href="#" target="_blank" style="border-top: 6px solid #ffffff; border-right: 49px solid #ffffff; border-bottom: 6px solid #ffffff; border-left: 49px solid #ffffff; color: #166fdb; font-size: 20px; line-height: 40px; font-weight: bold;" class="btn-hollow">瞭解更多</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+													<td width="30" class="mob-width15"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="30" alt="" class="mob-width15"></td>
+													<td>
+														<table width="180" cellspacing="0" cellpadding="0" border="0" class="double-cta">
+															<tr>
+																<td align="center" bgcolor="#166fdb">
+																	<a href="#" target="_blank" style="border-top: 7px solid #166fdb; border-right: 50px solid #166fdb; border-bottom: 7px solid #166fdb; border-left: 50px solid #166fdb; color: #ffffff; font-size: 20px; line-height: 40px; font-weight: bold;" class="btn-blue">立即申購</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- Double CTA end -->
+									<!-- Notice -->
+									<tr>
+										<td height="60" class="mob-height40"><img src="images/spacer.gif" height="60" alt="" class="mob-height40"></td>
+									</tr>
+									<tr>
+										<td style="color: #324554; font-size: 16px; line-height: 28px; font-weight: bold; text-align: center;"><a href="#" target="_blank" style="text-decoration: underline;">【基金警語】投資一定有風險，基金投資有賺有賠，申購前請詳閱公開說明書！</a></td>
+									</tr>
+									
+									<tr>
+										<td height="60" class="mob-height40"><img src="images/spacer.gif" height="60" alt="" class="mob-height40"></td>
+									</tr>
+								</table>
+							</td>
+							<!-- spacer -->
+							<td width="20"><img src="https://www.yuantafunds.com/active/eDM-img/common/spacer.gif" width="20" alt=""></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- Footer -->
+			<tr>
+				<td bgcolor="#f4f4f4">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<!-- spacer -->
+							<td width="30" style="font-size: 0;"><img src="images/spacer.gif" width="30" alt=""></td>
+							<!-- txt -->
+							<td>
+								<table width="100%" cellspacing="0" cellpadding="0" border="0">
+									<tr>
+										<td height="30" align="center"><img src="images/spacer.gif" height="30" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center" style="color: #333333; font-size: 18px; line-height:26px; font-weight: bold;">立即下載元大行動銀行</td>
+									</tr>
+									<tr>
+										<td height="20"><img src="images/spacer.gif" height="20" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center" class="qrcode"><img src="images/QRcode-app.png" width="100" alt="QR code"></td>
+									</tr>
+									<tr>
+										<td height="25" class="qrcode"><img src="images/spacer.gif" height="25" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center">
+											<table cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<td align="center" width="140" style="font-size: 0;"><a href="https://itunes.apple.com/tw/app/yuan-da-yin-xing-yuanta-commercial/id1173515038?mt=8" target="_blank"><img src="images/icon_appstore.png" alt="App Store" width="140"></a></td>
+													<td width="15" style="font-size: 0;"><img src="images/spacer.gif" width="15" alt=""></td>
+													<td align="center" width="140" style="font-size: 0;"><a href="https://play.google.com/store/apps/details?id=com.yuantabank.newmobilebank.android&hl=zh_TW" target="_blank"><img src="images/icon_googleplay.png" alt="Google Play" width="140"></a></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="30"><img src="images/spacer.gif" height="30" alt=""></td>
+									</tr>
+									<tr>
+										<td width="50%" style="font-size: 0; border-bottom: 1px solid #cccccc;"><img src="images/spacer.gif" width="1" alt=""></td>
+									</tr>	
+									<tr>
+										<td height="30"><img src="images/spacer.gif" height="30" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center">
+											<table cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<!-- facebook -->
+													<td align="center" width="30" style="font-size: 0;"><a href="https://www.facebook.com/yuantabank" target="_blank"><img src="images/socialmedia_facebook.png" alt="facebook" width="30"></a></td>
+													<td width="15" style="font-size: 0;"><img src="images/spacer.gif" width="15" alt=""></td>
+													<!-- line -->
+													<td align="center" width="30" style="font-size: 0;"><a href="https://line.me/R/ti/p/%40mwr3999i" target="_blank"><img src="images/socialmedia_line.png" alt="LINE" width="30"></a></td>
+													<td width="15" style="font-size: 0;"><img src="images/spacer.gif" width="15" alt=""></td>
+													<!-- instagram -->
+													<td align="center" width="30" style="font-size: 0;"><a href="https://www.instagram.com/yuantabank/" target="_blank"><img src="images/socialmedia_instagram.png" alt="Instagram" width="30"></a></td>
+													<td width="15" style="font-size: 0;"><img src="images/spacer.gif" width="15" alt=""></td>
+													<!-- youtube -->
+													<td align="center" width="30" style="font-size: 0;"><a href="https://www.youtube.com/channel/UCs72_Ba4-zxCCaeF7zsoAoA" target="_blank"><img src="images/socialmedia_youtube.png" alt="Youtube" width="30"></a></td>
+													<td width="15" style="font-size: 0;"><img src="images/spacer.gif" width="15" alt=""></td>
+													<!-- telegram -->
+													<td align="center" width="30" style="font-size: 0;"><a href="https://t.me/yuantabanktw" target="_blank"><img src="images/socialmedia_telegram.png" alt="Youtube" width="30"></a></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="15" align="center"><img src="images/spacer.gif" height="15" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center" style="color: #333333; font-size: 12px; line-height: 18px;" class="mob-txt-left">未經元大商業銀行股份有限公司授權同意，不得將網站內容轉載於任何形式媒體。</td>
+									</tr>
+									<tr>
+										<td height="6" align="center"><img src="images/spacer.gif" height="6" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center" style="color: #333333; font-size: 12px; line-height: 18px;" class="mob-txt-left">提醒您：此封信函為系統發出，請勿直接點選回覆！若您欲取消訂閱電子郵件或有任何問題，歡迎您至元大銀行網站<a href="https://www.yuantabank.com.tw/bank/service/customer/suggest/list.do" target="_blank">與我聯絡</a>留言，本行將由客服人員與您聯絡。</td>
+									</tr>
+									<tr>
+										<td height="6" align="center"><img src="images/spacer.gif" height="6" alt=""></td>
+									</tr>
+									<tr>
+										<td align="center">
+											<table cellspacing="0" cellpadding="0" border="0" class="column-break">
+												<tr>
+													<td align="center" style="color: #333333; font-size: 12px; line-height: 18px; font-weight:normal;" class="column-break mob-txt-left">客服專線：<a href="tel:+886800688168">0800-688-168</a></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" align="center"><img src="images/spacer.gif" height="30" alt=""></td>
+									</tr>
+								</table>
+							</td>
+							<!-- spacer -->
+							<td width="30" style="font-size: 0;"><img src="images/spacer.gif" width="30" alt=""></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>
