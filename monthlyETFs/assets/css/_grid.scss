@@ -1,0 +1,83 @@
+/* 可能會微調 bootstrap 的 grid system */
+$screen-ssss: 375px;
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-xl: 1300px;
+/* RWD */
+@mixin smbelow {
+   @media (max-width: ($screen-md - 1)){
+    @content;
+  }
+}
+@mixin smabove {
+   @media (min-width: $screen-sm){
+    @content;
+  }
+}
+@mixin xs {
+   @media (max-width: ($screen-sm - 1)){
+    @content;
+  }
+}
+@mixin xsabove {
+  @media (min-width: ($screen-sm)){
+   @content;
+ }
+}
+@mixin xxs {
+   @media (max-width: ($screen-xs - 1)){
+    @content;
+  }
+}
+@mixin ssss {
+  @media (max-width: ($screen-ssss - 1)){
+   @content;
+ }
+}
+@mixin sm {
+   @media (min-width: $screen-sm) and (max-width: ($screen-md - 1)){
+    @content;
+  }
+}
+@mixin md {
+   @media (min-width: $screen-md){
+    @content;
+  }
+}
+@mixin mdbelow {
+  @media (max-width: $screen-md){
+    @content;
+  }
+}
+@mixin mdonly {
+  @media (min-width: $screen-md) and (max-width: ($screen-lg - 1)){
+   @content;
+ }
+}
+@mixin mdtoxl{
+  @media (min-width: $screen-md) and (max-width: ($screen-xl - 1)){
+    @content;
+  }
+}
+@mixin lg {
+   @media (min-width: $screen-lg){
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: $screen-xl){
+   @content;
+ }
+}
+@mixin lgbelow {
+  @media  (max-width: ($screen-lg - 1)){
+   @content;
+  }
+}
+@include sm {
+  .container {
+    width: 100%;
+  }
+};

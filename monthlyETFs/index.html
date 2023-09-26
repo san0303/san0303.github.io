@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Title -->
+  <title>元大銀行｜季配息 更有感｜ETF三劍客 每月加薪領息樂</title>
+  <!-- description -->
+  <meta name="description" content="元大ETF三劍客 - 元大高股息（0056）、元大台灣高息低波（00713）、元大臺灣ESG永續（00850）打造月配息行事曆，每月領息更有感。">
+  <!-- Facebook 縮圖 -->
+  <meta property="og:title" content="元大銀行｜季配息 更有感｜ETF三劍客 每月加薪領息樂" />
+  <meta property="og:description" content="元大ETF三劍客 - 元大高股息（0056）、元大台灣高息低波（00713）、元大臺灣ESG永續（00850）打造月配息行事曆，每月領息更有感。" />
+  <meta property="og:image" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/monthlyETFs/assets/img/share-img.jpg">
+  <meta property="og:url" content="https://www.yuantabank.com.tw/bankwebIMG/event/Bank_Act2023/monthlyETFs/" />
+  <link rel="shortcut icon" href="https://www.yuantabank.com.tw/bank/resources/front/images/favicon.ico" type="image/x-icon">
+
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="assets/css/default.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/tailwind.min.css" rel="stylesheet">
+
+  <!-- 先引入 Vue -->
+  <!-- <script type="text/javascript" src="https://unpkg.com/vue@3.2.36/dist/vue.global.js"></script> -->
+  <!-- development version -->
+  <!-- <script src="https://unpkg.com/vue@3.1.1"></script> -->
+
+  <!-- production version -->
+
+  <script type="text/javascript" src="assets/js/vue@3.1.1_dist_vue.global.prod.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="assets/js/hammer.min.js"></script>
+  <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/axios.min.js"></script>
+  <script type="text/javascript" src="assets/js/chart.js"></script>
+
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TDNQKZC');</script>
+    <!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.min.js"></script> -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDNQKZC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <div id="app" v-cloak>
+
+    <div class="top" @click="goTop" :class="yScrollVaule > 300 ? 'show':''">TOP</div>
+
+    <div class="header">
+        <div class="yuantaLogo">
+            <a href="https://www.yuantabank.com.tw/bank/" target="_blank" alt="元大銀行"> </a>
+            <div class="yuantaplusLogo"></div>
+        </div>
+    </div>
+    <section class="activity-0">
+      <div class="sideBtn-wrapper">
+          <div class="sideBtn">
+              <a id="btn-side-apply" @click="toggle" class="main txt-md txt-center  fw-bold btn-hover-opc">我要申購</a>
+              <a id="btn-side-openacc" href="#" target="_blank" class="txt-md txt-center  fw-bold btn-hover-opc">立即開戶</a>
+          </div>
+      </div>
+      <div class="Area1200">
+        <div class="box">
+          <div class="for_pc">
+            <div class="title"><img src="./assets/img/section-0-title.png" alt=""></div>
+          </div>
+          <div class="for_phone">
+            <div class="title"><img src="./assets/img/section-0-bg-m.jpg" alt=""></div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="activity-1">
+      <div class="Area1200 ">
+        <div class="box">
+
+          <div class="card-wrp">
+            <div class="card">
+              <div class="card-num">
+                <div class="left">高股息黑馬</div>
+                <div class="right">00713</div>
+              </div>
+              <div class="card-name">
+                元大台灣高息低波
+                <div class="brackets">(本基金之配息來源可能為收益平準金)</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-num">
+                <div class="left">正宗高股息</div>
+                <div class="right">0056</div>
+              </div>
+              <div class="card-name">
+                元大高股息
+                <div class="brackets">(本基金之配息來源可能為收益平準金)</div>
+              </div>
+
+            </div>
+
+            <div class="card">
+              <div class="card-num">
+                <div class="left">永續領航者</div>
+                <div class="right">00850</div>
+              </div>
+              <div class="card-name">
+                元大臺灣ESG永續
+                <div class="brackets">(本基金之配息來源可能為收益平準金)</div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="calendar-wrp">
+            <div class="calendar-title">定期定額存ETF，<br class="for_phone">
+              每月都有配息領！</div>
+            <div class="calendar-subtitle">一次投資 3 檔季配息 ETF，打造「月配息行事曆」
+            </div>
+            <div class="calendar-table">
+              <div class="table-grid">
+                <div class="grid-item item-top item-a item-b"> </div>
+                <div class="grid-item item-top">1月</div>
+                <div class="grid-item item-top">2月</div>
+                <div class="grid-item item-top">3月</div>
+                <div class="grid-item item-top">4月</div>
+                <div class="grid-item item-top">5月</div>
+                <div class="grid-item item-top">6月</div>
+                <div class="grid-item item-top">7月</div>
+                <div class="grid-item item-top">8月</div>
+                <div class="grid-item item-top">9月</div>
+                <div class="grid-item item-top">10月</div>
+                <div class="grid-item item-top">11月</div>
+                <div class="grid-item item-top">12月</div>
+
+                <div class="grid-item item-b item-0056">
+                  <div class="num">0056</div>
+                </div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item item-b item-00850">
+                  <div class="num">00850</div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item item-b item-00713">
+                  <div class="num">00713</div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                  <div class="icon"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dividend-wrp">
+            <div class="dividend-subtitle">最近一次配息時程</div>
+            <div class="dividend-container swiper">
+              <div class="swiper-wrapper">
+
+                <!--00713 元大台灣高息低波 5-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">00713</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/05/31</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/06/15</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/06/16</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/07/14 </div>
+                    </div>
+                  </div>
+                </div>
+                <!--0056 元大高股息 6-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">0056</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/06/30</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/07/17</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/07/18</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/08/11</div>
+                    </div>
+                  </div>
+                </div>
+                <!--00850 元大臺灣ESG永續 7-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">00850</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/07/31</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/08/15</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/08/16</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/09/11</div>
+                    </div>
+                  </div>
+                </div>
+                <!--00713 元大台灣高息低波 8-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">00713</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/08/31</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/09/15</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/09/18</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/10/17</div>
+                    </div>
+                  </div>
+                </div>
+                <!--0056 元大高股息 9-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">0056</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/09/30</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/10/18</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/10/19</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/11/14</div>
+                    </div>
+                  </div>
+                </div>
+                <!--00850 元大臺灣ESG永續 10-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">00850</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/10/31</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/11/15</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/11/16</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/12/12</div>
+                    </div>
+                  </div>
+                </div>
+                <!--00713 元大台灣高息低波 11-->
+                <div class="dividend-card swiper-slide">
+                  <div class="title">00713</div>
+                  <div class="hr"></div>
+                  <div class="day">
+                    <div class="day-item">
+                      <div class="left">收益分配決定做成日</div>
+                      <div class="right">2023/11/30</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">參與配息最後申購日</div>
+                      <div class="right">2023/12/15</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">除息日</div>
+                      <div class="right">2023/12/18</div>
+                    </div>
+                    <div class="day-item">
+                      <div class="left">發放日</div>
+                      <div class="right">2023/01/12 </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-navigation swiper-button-prev"></div>
+              <div class="swiper-navigation swiper-button-next"></div>
+            </div>
+            <p class="warning">以上「預定配息時間」僅供參考，<br class="for_phone" />相關作業日期以本公司最新公告為準。</p>
+            <!-- 右側按鈕 -->
+            <button class="btn-sales" id="show-modal" @click="showModal('modalShow')">
+              <span><img src="./assets/img/icon-money.png" alt=""></span>一鍵申購<i></i>
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="activity-2">
+      <div class="Area1200">
+        <div class="box">
+          <div class="blank"></div>
+          <div class="etf-title">靠配息被動加薪</div>
+          <div class="etf-subtitle">「月月領息」完全攻略：高股息 + 市值型 ETF</div>
+          <div class="etf-content">
+            <div class="etf-card">
+              <div class="card-img"><img src="./assets/img/section-2-img1.png" alt=""></div>
+              <div class="card-txt">
+                <div class="title">
+                  <div>正宗高股息</div>
+                  <div>0056 元大高股息<br>(本基金之配息來源可能為收益平準金)</div>
+                </div>
+                <div class="tag">
+                  <span>#高股息ETF始祖</span>
+                  <span>#市場填息紀錄保持人</span>
+                </div>
+                <div class="txt">
+                  歷經各種多空淬鍊，連續 13 年配息並連續 13 年完成填息。
+                </div>
+              </div>
+              
+              <div class="card-link">
+                <button id="btn-info-more-0056" @click="showDetail('isOpen_0056')">
+                  更多基金資訊
+                  <span :class="activeBtn('isOpen_0056')"></span>
+                </button>
+              </div>
+
+              <div class="card-link">
+                <button id="btn-info-more-0056" @click="showDetail('isOpen_0056')">
+                  更多基金資訊
+                  <span :class="activeBtn('isOpen_0056')"></span>
+                </button>
+              </div>
+            </div>
+            <div v-show="isOpen_0056" class="detail-block">
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>基本資料</h3>
+                <div class="row-wrp">
+                  <div class="row">
+                    <div class="key">證券簡稱</div>
+                  <div class="value">{{  data56.fund.name  }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">證券代碼</div>
+                    <div class="value">{{ data56.etf.STK_CD }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">追蹤指數</div>
+                    <div class="value">{{ data56.etf.INDEX_FUND_NAME }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份檔數</div>
+                    <div class="value">{{ data56.etf.INDEX_PREPARE }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">經理人</div>
+                    <div class="value">{{ data56.etf.MANAGER }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">保管銀行</div>
+                    <div class="value">{{ data56.etf.CUSTODIAN_BANK }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份股審核與調整</div>
+                    <div class="value">{{ data56.etf.INDEX_REVIEW }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>投資產業配置</h3>
+                <div class="chart-wrp">
+                  <div class="chart-img">
+                    <canvas id="chartIndustry_0056" width="160" height="160"></canvas>
+                  </div>
+                  <div class="chart-list">
+                    <div class="row-wrp">
+                      <div v-for="(item, index) in data56.fund.investIndustry" :key="item.Item" class="row">
+                        <div class="color" :style="{background:barColors[index]}"></div>
+                        <div class="item">{{ item.Item }}</div>
+                        <div class="ratio">{{ item.Ratio }}%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data56.fund.investIndustryDate }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>前10大標的</h3>
+                <div class="row-wrp">
+                  <div v-for="item in data56.fund.top10" class="row">
+                    <div class="key">{{ item.STK_CHNM }}</div>
+                    <div class="value right">{{ item.HOLD_RTO }}%</div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data56.fund.top10Date }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>歷史配息</h3>
+                <div class=" row-wrp">
+                  <div v-for="divItem in data56.divList.slice(0,3)" class="row dividend">
+                    <div class="key">收益分配評價日/<br>決定做成日</div>
+                    <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+
+                    <div class="key">除息日</div>
+                    <div class="value right">{{ divItem.SHARE_DATE }}</div>
+
+                    <div class="key">配息支付日</div>
+                    <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+
+                    <div class="key">每單位分配金額</div>
+                    <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+
+                    <div class="key">年化配息率</div>
+                    <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                  </div>
+                </div>
+                <div class="more-wrp">
+                  <button class="btn-more" @click="showDivList('0056')">更多歷史配息<i class="arrow"></i></button>
+                </div>
+              </div>
+              <div class="warn-wrp">
+                <div class="warn">
+                  <p>註1.基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</p>
+                  <p>
+                    註2.基金配息之年化配息率計算公式為「每單位配息金額/除息日前一日之淨值*一年配息次數*100%」，年化配息率為估算值，第一次配息或將包含成立以來的可分配息值，可能導致首次年化配息率偏高，請投資人注意。
+                  </p>
+                  <p>註3.
+                    本基金之配息頻率自年配息改為季配息，業經金融監督管理委員會{{ data56.msg.date }}金管證投字第{{
+                      data56.msg.issueNo }}號函同意在案，故於配息頻率調整之當年度，計算公式之「一年配息次數」將以「預計配息次數」進行預估，本基金{{
+                        data56.msg.divYear }}年度預計配息次數為2次。</p>
+                </div>
+              </div>
+            </div>
+            <div class="etf-card">
+              <div class="card-img"><img src="./assets/img/section-2-img2.png" alt=""></div>
+              <div class="card-txt">
+                <div class="title">
+                  <div>高股息黑馬</div>
+                  <div>00713 元大台灣高息低波<br>(本基金之配息來源可能為收益平準金)
+                  </div>
+                </div>
+                <div class="tag">
+                  <span>#攻守兼備ETF</span>
+                  <span>#持股穩健跟漲抗跌</span>
+                </div>
+                <div class="txt">
+                  不錯過股價成長機會，追蹤指數近兩年績效均超越大盤。
+                </div>
+              </div>
+              <div class="card-link">
+                <button id="btn-info-more-00713" @click="showDetail('isOpen_00713')">
+                  更多基金資訊
+                  <span :class="activeBtn('isOpen_00713')"></span>
+                </button>
+              </div>
+            </div>
+            <div v-show="isOpen_00713" class="detail-block">
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>基本資料</h3>
+                <div class="row-wrp">
+                  <div class="row">
+                    <div class="key">證券簡稱</div>
+                    <div class="value">{{ data713.fund.name }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">證券代碼</div>
+                    <div class="value">{{ data713.etf.STK_CD }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">追蹤指數</div>
+                    <div class="value">{{ data713.etf.INDEX_FUND_NAME }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份檔數</div>
+                    <div class="value">{{ data713.etf.INDEX_PREPARE }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">經理人</div>
+                    <div class="value">{{ data713.etf.MANAGER }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">保管銀行</div>
+                    <div class="value">{{ data713.etf.CUSTODIAN_BANK }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份股審核與調整</div>
+                    <div class="value">{{ data713.etf.INDEX_REVIEW }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>投資產業配置</h3>
+                <div class="chart-wrp">
+                  <div class="chart-img">
+                    <canvas id="chartIndustry_00713" width="160" height="160"></canvas>
+                  </div>
+                  <div class="chart-list">
+                    <div class="row-wrp">
+                      <div v-for="(item, index) in data713.fund.investIndustry" class="row">
+                        <div class="color" :style="{background:barColors[index]}"></div>
+                        <div class="item">{{ item.Item }}</div>
+                        <div class="ratio">{{ item.Ratio }}%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data713.fund.investIndustryDate }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>前10大標的</h3>
+                <div class="row-wrp">
+                  <div v-for="item in data713.fund.top10" class="row">
+                    <div class="key">{{ item.STK_CHNM }}</div>
+                    <div class="value right">{{ item.HOLD_RTO }}%</div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data713.fund.top10Date }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>歷史配息</h3>
+                <div class=" row-wrp">
+                  <div v-for="divItem in data713.divList.slice(0,3)" class="row dividend">
+                    <div class="key">收益分配評價日/<br>決定做成日</div>
+                    <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+
+                    <div class="key">除息日</div>
+                    <div class="value right">{{ divItem.SHARE_DATE }}</div>
+
+                    <div class="key">配息支付日</div>
+                    <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+
+                    <div class="key">每單位分配金額</div>
+                    <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+
+                    <div class="key">年化配息率</div>
+                    <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                  </div>
+                </div>
+                <div class="more-wrp">
+                  <button class="btn-more" @click="showDivList('00713')">更多歷史配息<i class="arrow"></i></button>
+                </div>
+              </div>
+              <div class="warn-wrp">
+                <div class="warn">
+                  <p>註1.基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</p>
+                  <p>
+                    註2.基金配息之年化配息率計算公式為「每單位配息金額/除息日前一日之淨值*一年配息次數*100%」，年化配息率為估算值，第一次配息或將包含成立以來的可分配息值，可能導致首次年化配息率偏高，請投資人注意。
+                  </p>
+                  <p>註3.
+                    本基金之配息頻率自年配息改為季配息，業經金融監督管理委員會{{ data713.msg.date }}金管證投字第{{
+                      data713.msg.issueNo }}號函同意在案，故於配息頻率調整之當年度，計算公式之「一年配息次數」將以「預計配息次數」進行預估，本基金{{
+                        data713.msg.divYear }}年度預計配息次數為2次。</p>
+                </div>
+              </div>
+            </div>
+            <div class="etf-card">
+              <div class="card-img"><img src="./assets/img/section-2-img3.png" alt=""></div>
+              <div class="card-txt">
+                <div class="title">
+                  <div>永續領航者</div>
+                  <div> 00850 元大臺灣ESG永續<br>(本基金之配息來源可能為收益平準金)</div>
+                </div>
+                <div class="tag">
+                  <span>#全台首檔ESG ETF</span>
+                  <span>#兼顧報酬與永續</span>
+                </div>
+                <div class="txt">
+                  存股組合納入追蹤大盤的市值型 ETF，加速資產累積速度。
+                </div>
+              </div>
+              <div class="card-link">
+                <button id="btn-info-more-00850" @click="showDetail('isOpen_00850')">
+                  更多基金資訊
+                  <span :class="activeBtn('isOpen_00850')"></span>
+                </button>
+              </div>
+            </div>
+            <div v-show="isOpen_00850" class="detail-block">
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>基本資料</h3>
+                <div class="row-wrp">
+                  <div class="row">
+                    <div class="key">證券簡稱</div>
+                    <div class="value">{{  data850.fund.name  }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">證券代碼</div>
+                    <div class="value">{{ data850.etf.STK_CD }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">追蹤指數</div>
+                    <div class="value">{{ data850.etf.INDEX_FUND_NAME }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份檔數</div>
+                    <div class="value">{{ data850.etf.INDEX_PREPARE }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">經理人</div>
+                    <div class="value">{{ data850.etf.MANAGER }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">保管銀行</div>
+                    <div class="value">{{ data850.etf.CUSTODIAN_BANK }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份股審核與調整</div>
+                    <div class="value">{{ data850.etf.INDEX_REVIEW }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>投資產業配置</h3>
+                <div class="chart-wrp">
+                  <div class="chart-img">
+                    <canvas id="chartIndustry_00850" width="160" height="160"></canvas>
+                  </div>
+                  <div class="chart-list">
+                    <div class="row-wrp">
+                      <div v-for="(item, index) in data850.fund.investIndustry" class="row">
+                        <div class="color" :style="{background:barColors[index]}"></div>
+                        <div class="item">{{ item.Item }}</div>
+                        <div class="ratio">{{ item.Ratio }}%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data850.fund.investIndustryDate }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>前10大標的</h3>
+                <div class="row-wrp">
+                  <div v-for="item in data850.fund.top10" class="row">
+                    <div class="key">{{ item.STK_CHNM }}</div>
+                    <div class="value right">{{ item.HOLD_RTO }}%</div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ data850.fund.top10Date }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>歷史配息</h3>
+                <div class=" row-wrp">
+                  <div v-for="divItem in data850.divList.slice(0,3)" class="row dividend">
+                    <div class="key">收益分配評價日/<br>決定做成日</div>
+                    <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+
+                    <div class="key">除息日</div>
+                    <div class="value right">{{ divItem.SHARE_DATE }}</div>
+
+                    <div class="key">配息支付日</div>
+                    <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+
+                    <div class="key">每單位分配金額</div>
+                    <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+
+                    <div class="key">年化配息率</div>
+                    <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                  </div>
+                </div>
+                <div class="more-wrp">
+                  <button class="btn-more" @click="showDivList('00850')">更多歷史配息<i class="arrow"></i></button>
+                </div>
+
+              </div>
+              <div class="warn-wrp">
+                <div class="warn">
+                  <p>註1.基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</p>
+                  <p>
+                    註2.基金配息之年化配息率計算公式為「每單位配息金額/除息日前一日之淨值*一年配息次數*100%」，年化配息率為估算值，第一次配息或將包含成立以來的可分配息值，可能導致首次年化配息率偏高，請投資人注意。
+                  </p>
+                  <p>註3.
+                    本基金之配息頻率自年配息改為季配息，業經金融監督管理委員會{{ data850.msg.date }}金管證投字第{{
+                      data850.msg.issueNo }}號函同意在案，故於配息頻率調整之當年度，計算公式之「一年配息次數」將以「預計配息次數」進行預估，本基金{{
+                        data850.msg.divYear }}年度預計配息次數為2次。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="activity-3">
+      <div class="Area1200">
+        <div class="box">
+          <div class="sav-wrp">
+            <div class="sav-title">存股也要存市值型 ETF</div>
+            <div class="sav-subtitle">加速財富累積，每季配息再投入達到複利效果</div>
+            <div class="sav-container">
+              <div class="content-1">
+                <p>
+                  <span class="green bold"> 00850</span>具備市值型與季配息，投資組合納入市值型產品與經濟趨勢同步成長，更容易參與台股長期以來的豐收果實。搭配<span
+                    class="orange bold">0056</span>、<span class="blue bold">00713</span>替自己加薪以外，將配息再投入，加快存到人生第一桶金，買車買房更風光！
+                </p>
+
+                <img src="./assets/img/section-3-img1.png" alt="">
+              </div>
+              <div class="content-2">
+                <div class="group">
+                  <p>假設從 25 歲開始每月定期定額 5,000 元，若年化報酬率 8%，還不到退休年紀即可累積一筆財富，抵擋通膨和高房價。</p>
+                  <img class="for_pc" src="./assets/img/section-3-chart1.png" alt="">
+                  <img class="for_phone" src="./assets/img/section-3-chart1-m.png" alt="">
+                </div>
+              </div>
+            </div>
+            <p class="warning">資料來源：元大投信整理，2023/06。 上圖係假設每月定期定額投資新台幣 5,000 元，且持續投資 30 年不中斷之情況下，分別以 IRR 固定投資報酬率 5%、8%
+              及月複利方式為計算基礎，不計入交易成本後之試算結果，投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證，投資人仍須留意投資風險。以上僅為模擬之結果，不代表實際報酬率及未來績效保證，不同時間進行模擬操作，其結果亦可能不同，以上資料僅供參考。註：IRR
+              (Internal Rate of Return) 中文可翻譯為內部報酬率，簡單來說就是將報酬率加入時間成本跟現金流的概念，是一種投資的評估方法。</p>
+          </div>
+          <div class="sav-wrp">
+            <div class="sav-title">全民熱愛高股息！</div>
+            <div class="sav-subtitle">補貼生活開銷，打造每月現金流</div>
+            <div class="sav-container">
+              <div class="content-2">
+                <div class="group">
+                  <p>假設退休後單筆投資一次請領的勞工退休金 300 萬元，若殖利率 6%、年化報酬率 10%，存 15
+                    年即可累積一筆為數不小的資產，當領到配息時，除了支付日常開銷，實現理想退休生活，最後的資產還可以傳承給下一代。</p>
+                  <img class="for_pc" src="./assets/img/section-3-chart2.png" alt="">
+                  <img class="for_phone" src="./assets/img/section-3-chart2-m.png" alt="">
+                </div>
+              </div>
+              <div class="content-1">
+                <p>
+                  國民最愛、聲量最高的<span class="orange bold">0056</span>、<span class="blue bold">00713</span>，讓投資人一次滿足高股息與低波動特性！無論是想透過投資理財減少生活開銷的壓力、創造現金流完成夢想，或是退休後靠領息讓人生更精彩，高股息 ETF
+                  協助您完成這些顧慮。搭配<span class="green bold"> 00850</span>打造每月都有配息領，增加被動收入！
+                </p>
+
+                <img src="./assets/img/section-3-img2.png" alt="">
+              </div>
+
+            </div>
+            <p class="warning">
+              資料來源：元大投信整理，2023/06。 以上投報率計算僅為假設，以每個月最後營業日投入表列金額計算，並未考慮交易成本、投資人交易方式及其狀態、交易時間差及短線交易等限制，<b>以上僅為模擬之結果，不代表實際報酬率及未來績效保證，不同時間進行模擬操作，其結果亦可能不同，以上資料僅供參考。</b>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="activity-4">
+      <div class="Area1200">
+        <div class="box">
+          <div class="act-wrp">
+            <div class="act-title">「月月領息」投資組合<br class="for_phone">納入元大 ETF 三劍客</div>
+            <div class="act-subtitle">用配息打造被動收入，兼顧報酬與配息，風險更分散</div>
+            <div class="act-container">
+              <div class="content content-1">
+                <div class="group">
+                  <div class="title">三劍客組合， <span>總報酬更勝大盤！</span></div>
+                  <img class="for_pc" src="./assets/img/section-4-chart1.png" alt="">
+                  <img class="for_phone" src="./assets/img/section-4-chart1-m.png" alt="">
+                </div>
+              </div>
+              <div class="bg-middle for_phone">
+                <img src="./assets/img/section-4-bg-m3.png" alt="">
+              </div>
+              <div class="content content-2">
+                <div class="group">
+                  <div class="title">定期定額三劍客組合，<span>領息更有感！</span></div>
+                  <img class="for_pc" src="./assets/img/section-4-chart2.png" alt="">
+                  <img class="for_phone" src="./assets/img/section-4-chart2-m.png" alt="">
+                </div>
+                <div class="group">
+                  <div class="title">存股存三劍客，<span>風險更分散！</span></div>
+                  <img class="for_pc" src="./assets/img/section-4-chart3.png" alt="">
+                  <img class="for_phone" src="./assets/img/section-4-chart3-m.png" alt="">
+                </div>
+              </div>
+            </div>
+            <p class="warning">
+              資料來源：彭博資訊、元大投信整理。三劍客組合係以元大高股息(0056)、元大台灣高息低波(00713)、元大臺灣ESG永續(00850)標的指數臺灣高股息指數、臺灣指數公司特選高股息低波動指數、臺灣永續指數簡單平均報酬率計算。資料期間：中美貿易戰(2018/10/1~2019/1/4)、新冠疫情(2020/1/20~2020/3/19)、美國升息(2022/1/17~2022/10/25)。上述提及之指數報酬率均為含息報酬率，意指利用指數所計算之投資報酬率中，以新台幣投資不計入交易成本，亦包含現金股利之報酬。
+              <b>
+                指數報酬率非指基金報酬率，投資人不可直接投資該指數。以上僅為歷史資料，不代表實際報酬率及未來績效保證，不同時間結果亦可能不同。
+              </b>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="foot-info">
+      <div class="Area1200">
+        <div class="box">
+          <div class="foot-info-18">
+            <b>基金警語</b>投資一定有風險，基金投資有賺有賠，申購前請詳閱公開說明書 !
+          </div>
+          <div class="c">
+            元大證券投資信託股份有限公司<br />
+            台北總公司：106台北市大安區敦化南路二段69號18樓、67號B1(客戶服務相關業務請至67號B1辦理) (02)2717-5555　109年金管投信新字第012號<br />
+            台中分公司：406台中市北屯區崇德路二段46-4號5樓 (04)2232-7878　111年金管投信新分字第002號<br />
+            本公司兼營投顧的核准文號：96 年 7 月 30 日金管證四字第 0960039848 號函
+          </div>
+          <div class="text-sm">
+            【元大投信獨立經營管理】元大系列基金經金管會核准或同意生效，惟不表示絕無風險。本公司以往之經理績效，不保證系列基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責系列基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。定期定額報酬率將因投資人不同時間進場，而有不同之投資績效，過去之績效亦不代表未來績效之保證；本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。為避免因受益人短線交易頻繁，造成基金管理及交易成本增加，進而損及基金長期持有之受益人權益，基金不歡迎受益人進行短線交易。有關基金應負擔之費用已揭露於基金之公開說明書中，投資人可至公開資訊觀測站中查詢。元大系列基金的運用限制、投資風險、配息機制及投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及基金之銷售機構索取，或至公開資訊觀測站(
+            mops.twse.com.tw )及本公司網站( www.yuantafunds.com )中查詢。基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。
+          </div>
+          <div class="text-sm">
+            【元大台灣高股息基金<span class="highlight">(本基金之配息來源可能為收益平準金)</span>】<br />
+            元大系列基金經金管會核准或同意生效，惟不表示絕無風險。本公司以往之經理績效，不保證系列基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責系列基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span
+              class="highlight">基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</span>元大系列基金的運用限制、投資風險、配息機制及投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及基金之銷售機構索取，或至公開資訊觀測站及本公司網站
+            ( www.yuantafunds.com ) 查詢。基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span
+              class="highlight">基金配息可能由基金的收益平準金中支付。任何涉及由收益平準金支出的部份，可能導致原始投資金額減損。本基金收益分配頻率之調整自112年5月27日起生效，並自112年7月18日起施行，由年度收益分配變更為每季收益分配。淨值組成項目查詢：https://www.yuantafunds.com/myfund/dividend。本基金受益憑證上市後之買賣成交價格依臺灣證券交易所有關規定辦理。</span>「FTSE®」是倫敦證券交易所集團的商標，「TWSE」和「TAIEX」是臺灣證券交易所的商標，且均由富時國際有限公司（「富時集團」）根據授權使用。臺灣證券交易所臺灣高股息指數是富時集團/臺灣證交所的一種產品（「指數」），該指數由臺灣證交所在富時集團的協助下計算。惟上開二公司均不贊助、背書或宣傳此產品，與此產品不存在任何形式的關聯，不對任何人因依賴或使用「指數」或本出版物內容導致的任何損失承擔任何責任。「指數」中的所有智慧財產權均歸富時集團和臺灣證交所所有。元大投信已從富時集團和臺灣證交所獲得將此類智慧財產權用於創造此產品的全面許可。
+          </div>
+          <div class="text-sm">
+            【元大台灣高股息低波動ETF基金<span class="highlight">(本基金之配息來源可能為收益平準金)</span>】<br />
+            (一)本基金經金融監督管理委員會核准或同意生效，惟不表示本基金絕無風險。本證券投資信託事業以往之經理績效不保證本基金之最低投資收益；本證券投資信託事業除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱本基金公開說明書。(二)本公開說明書之內容如有虛偽或隱匿之情事者，應由本證券投資信託事業及負責人與其他曾在公開說明書上簽章者依法負責。<span
+              class="highlight">(三)投資人交易本基金前，應再特別注意下列事項：1、本基金之操作目標為追蹤標的指數(即臺灣指數公司特選高股息低波動指數，簡稱特選高息低波指數)相關之報酬，而標的指數成分股票價格波動(包括但不限於受利多、利空或除息等因素影響)將影響標的指數的走勢，然本基金追求標的指數報酬之目標，不因標的指數劇烈波動而改變。2、本基金雖以追蹤標的指數為操作目標，然下列因素仍可能使本基金報酬偏離標的指數報酬，且偏離方向無法預估：(1)本基金可能因應申贖或維持所需曝險比例等因素而需每日進行基金曝險調整，故基金淨值將受到每日所交易之有價證券或期貨成交價格、交易費用、基金其他必要之費用(如：經理費、保管費等)、投資組合成分價格波動或基金整體曝險比例等因素的影響而使基金報酬與投資目標產生偏離。(2)本基金投資組合與標的指數相關性將受到基金持有之有價證券或期貨與標的指數之相關性等因素影響。此外，基金投資組合中持有的期貨部位，因期貨的價格發現功能使其對市場信息、多空走勢之價格反應可能不同於股票，因此當市場出現特定信息時，基金淨值將同時承受期貨及股票對市場信息反應不一所產生的價格波動影響，可能使本基金報酬將與投資目標產生偏離。有關本基金投資策略請詳見本基金公開說明書【基金概況】/壹、基金簡介/十、投資策略及特色之重點摘述之說明。</span>(四)本基金之投資風險包括但不限於上述第(三)項內容，投資人交易前，應詳閱本基金公開說明書並確定已充分瞭解本基金之風險及特性。有關本基金運用之限制及投資風險之揭露請詳見第14頁至第15頁及第23頁至第29頁。(五)「基金配息率」不代表基金報酬率，且過去配息率不代表未來配息率，基金淨值可能因市場因素而上下波動。本基金配息可能由基金的收益平準金中支付。任何涉及由收益平準金支出的部份，可能導致原始投資金額減損。<span
+              class="highlight">(六)本基金收益分配頻率之調整自111年7月29日起生效，並自111年9月19日施行，由年度收益分配變更為每季收益分配。</span>(七)本基金自成立日起，即運用本基金資產進行投資組合佈局，本基金投資組合成分價格波動會影響本基金淨值表現。<span
+              class="highlight">投資人於本基金成立日(不含當日)前參與申購所買入的本基金每受益權單位之發行價格(即新臺幣參拾元)，不等同於本基金掛牌上市之價格，參與申購投資人需自行承擔本基金成立日起至掛牌日止期間之本基金淨資產價格波動所產生折/溢價的風險。本基金上市日前(不含當日)，經理公司不接受基金受益權單位數之買回。本基金受益憑證上市後之買賣成交價格依臺灣證券交易所有關規定辦理。</span>(八)本基金自上市日(含當日)起之申購，經理公司將依本公開說明書規定依本基金「現金申購/買回日清單公告」所載之「每申購/買回基數約當市值」加計110s%向申購人預收申購價金。(九)指數免責聲明：「臺灣指數公司特選高股息低波動指數」係由臺灣指數股份有限公司編製及計算；惟「基金」並非由臺灣指數股份有限公司贊助、認可、銷售或推廣，且臺灣指數股份有限公司不就使用「臺灣指數公司特選高股息低波動指數」或該指數於任何特定日期、時間所代表數字之預期結果提供任何明示或默示之擔保或聲明。
+          </div>
+          <div class="text-sm">
+            【元大臺灣ESG永續ETF基金 <span class="highlight">(本基金之配息來源可能為收益平準金)</span>】<br />
+            元大系列基金經金管會核准或同意生效，惟不表示絕無風險。本公司以往之經理績效，不保證系列基金之最低投資收益；本公司除盡善良管理人之注意義務外，不負責系列基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。本文提及之經濟走勢預測，不必然代表基金之績效，基金投資風險請詳閱基金公開說明書。<span
+              class="highlight">基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</span>元大系列基金的運用限制、投資風險、配息機制及投資人應直接或間接負擔之相關費用、紛爭處理及申訴管道等皆已揭露於基金公開說明書中，投資人可向本公司及基金之銷售機構索取，或至公開資訊觀測站及本公司網站（www.yuantafunds.com）查詢。基金非存款或保險，故無受存款保險、保險安定基金或其他相關保障機制之保障。<span
+              class="highlight">基金配息可能由基金的收益平準金中支付。任何涉及由收益平準金支出的部份，可能導致原始投資金額減損。本基金收益分配頻率之調整自112年5月27日起生效，並自112年8月16日起施行，由年度收益分配變更為每季收益分配。淨值組成項目查詢：www.yuantafunds.com/myfund/dividend。本基金受益憑證上市後之買賣成交價格依臺灣證券交易所有關規定辦理。本公司所發行的基金中僅本基金為「環境、社會及治理(ESG)相關主題基金」，有關本基金之ESG資訊，投資人應於申購前詳閱基金公開說明書所載之基金所有特色或目標等資訊，定期評估資訊將於公司網站(
+              www.yuantafunds.com/myfund/information/1198
+              )公告，ESG相關主題基金名單可至基金資訊觀測站（announce.fundclear.com.tw/MOPSonshoreFundWeb/ESG.jsp）。</span>本基金之操作目標為追蹤標的指數(即臺灣永續指數)相關之報酬，而標的指數成分股票價格波動(包括但不限於受利多、利空或除息等因素影響)將影響標的指數的走勢，然本基金追求標的指數報酬之目標，不因標的指數劇烈波動而改變。本基金雖以追蹤標的指數為操作目標，然下列因素仍可能使本基金報酬偏離標的指數報酬，且偏離方向無法預估：(1)本基金可能因應申贖或維持所需曝險比例等因素而需每日進行基金曝險調整，故基金淨值將受到每日所交易之有價證券或期貨成交價格、交易費用、基金其他必要之費用(如：經理費、保管費等)、投資組合成分價格波動或基金整體曝險比例等因素的影響而使基金報酬與投資目標產生偏離。(2)本基金投資組合與標的指數相關性將受到基金持有之有價證券或期貨與標的指數之相關性等因素影響。此外，基金投資組合中持有的期貨部位，因期貨的價格發現功能使其對市場信息、多空走勢之價格反應可能不同於股票，因此當市場出現特定信息時，基金淨值將同時承受期貨及股票對市場信息反應不一所產生的價格波動影響，可能使本基金報酬將與投資目標產生偏離。有關本基金投資策略請詳見本基金公開說明書【基金概況】/壹、基金簡介/十、投資策略及特色之重點摘述之說明。投資人於本基金成立日(不含當日)前參與申購所買入的本基金每受益權單位之發行價格(即新臺幣貳拾元)，不等同於本基金掛牌上市之價格，參與申購投資人需自行承擔本基金成立日起至掛牌日止期間之本基金淨資產價格波動所產生折/溢價的風險。本基金上市日前(不含當日)，經理公司不接受基金受益權單位數之買回。本基金受益憑證上市後之買賣成交價格依臺灣證券交易所有關規定辦理。指數免責聲明：「臺灣永續指數」係由臺灣指數股份有限公司及富時國際有限公司共同編製及計算；惟「基金」並非由臺灣指數股份有限公司及富時國際有限公司贊助、認可、銷售或推廣，且臺灣指數股份有限公司及富時國際有限公司不就使用「臺灣永續指數」或該指數於任何特定日期、時間所代表數字之預期結果提供任何明示或默示之擔保或聲明。
+          </div>
+          <br/><br/>
+          <p class="foot-info-18">基金注意事項：</p>
+          <div>
+              <ol class="text-sm txt-sm-bank">
+                  <li>銀行辦理信託業務，應盡善良管理人之注意義務及忠實義務。</li>
+                  <li>銀行不擔保信託業務之管理或運用績效，委託人及受益人應自負盈虧。</li>
+                  <li>信託財產經運用於存款以外之標的者，不受存款保險之保障，投資人申購前應仔細閱讀行銷文件。</li>
+                  <li>基金並非存款，基金投資具有投資風險，可能使本金發生虧損。</li>
+                  <li>投資人因不同時間進場，將有不同之投資績效，過去之績效亦不代表未來績效之保證。</li>
+                  <li>如基金投資以外幣計價之有價證券，其淨值可能因匯率而變動。</li>
+                  <li><u class="underline">本專案之基金經金管會核准或同意生效，惟不表示絕無風險。基金經理公司以往之經理績效不保證基金之最低投資收益；基金經理公司除盡善良管理人之注意義務外，不負責基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金簡式公開說明書及基金公開說明書。</u></li>
+                  <li>委託人之交易如經基金公司認定為短線交易者，基金公司或本行可拒絕受理申請轉換或申購要求，並可請求支付一定比例之贖回費用或其他相關費用，費用標準均依各該基金公司之規定。</li>
+                  <li class="non-justify">有關投資基金應承擔之相關風險(如國家風險、市場風險、貨幣風險、匯率風險、信用風險、債券風險等)及負擔之費用(含分銷費用)，已揭露於基金之公開說明書或投資人須知中，投資人欲索閱基金公開說明書(或其中譯本)或投資人須知，可至分行洽詢理財專員或洽該基金公司，或至公開資訊觀測站或境外基金資訊觀測站(<a href="http://www.fundclear.com.tw" target="_blank">http://www.fundclear.com.tw</a>)查詢。</li>
+              </ol>
+          </div>
+          <br/>
+          <p>【元大銀行總行地址：臺北市松山區敦化南路一段66號；聯絡電話：(02)2173-6699】<br/>詳情歡迎親洽各分行理財業務專員，或撥0800-688-168，或至本行網站：<a href="https://www.yuantabank.com.tw/" target="_blank">www.yuantabank.com.tw</a>查詢。</p>
+          <div class="foot-info-18">
+            ［洗錢防制宣導警語］一. 防杜非法洗錢，保障自身財產安全。二. 開戶審查做得好，客戶權益有保障。三. 自己權益要顧好，淪為人頭累累累!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footerCont">
+            <div class="copyright">
+                Copyright © Yuanta Commercial Bank Co. Ltd. All Rights Reserved.
+            </div>
+            <div class="contWrapper">
+                <div class="footer-item">地址：10557 台北市松山區敦化南路一段 66 號</div>
+                <div class="footer-item">官網留言：<a href="https://www.yuantabank.com.tw/bank/service/customer/suggest/list.do">與我聯絡</a></div>
+                <div class="footer-item">客服專線：0800-688-168</div>
+            </div>
+        </div>
+        <div class="clearboth"></div>
+    </div>
+
+    <!-- RWD定期定額銷售機構 -->
+    <transition name="modal">
+      <modal v-show="modalShow" @close="hideModal('modalShow')" title="定期定額銷售機構" mod="">
+        <template v-slot:body>
+          <div class="all-content company-list swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="content swiper-slide">
+                <p class="title orange">{{ etfCodeArr[0]}}</p>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">證券商</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund1Sec" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">銀行</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund1Bank" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content swiper-slide">
+                <p class="title blue">{{ etfCodeArr[1] }}</p>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">證券商</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund2Sec" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">銀行</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund2Bank" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content swiper-slide">
+                <p class="title green">{{ etfCodeArr[2] }}</p>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">證券商</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund3Sec" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="type">
+                    <div class="tag">銀行</div>
+                  </div>
+                  <div class="company">
+                    <p v-for="item in company.fund3Bank" :key=" item + item.index">{{item}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template v-slot:footer>
+          <div></div>
+        </template>
+      </modal>
+    </transition>
+
+
+    <!-- MB基金資訊彈跳視窗 -->
+    <transition name="modal">
+      <modal v-show="fundListShow" @close="hideModal('fundListShow')" :title="activeFundList.title"
+        :color="activeFundList.color" mod="">
+        <template v-slot:body>
+          <div class="all-content fund-list">
+            <div class="detail-block">
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>基本資料</h3>
+                <div class="row-wrp">
+                  <div class="row">
+                    <div class="key">證券簡稱</div>
+                    <div class="value">{{ activeFundList.infomation.STK_NAME }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">證券代碼</div>
+                    <div class="value">{{ activeFundList.infomation.STK_CD }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">追蹤指數</div>
+                    <div class="value">{{ activeFundList.infomation.INDEX_FUND_NAME }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份檔數</div>
+                    <div class="value">{{ activeFundList.infomation.INDEX_PREPARE }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">經理人</div>
+                    <div class="value">{{ activeFundList.infomation.MANAGER }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">保管銀行</div>
+                    <div class="value">{{ activeFundList.infomation.CUSTODIAN_BANK }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="key">成份股審核與調整</div>
+                    <div class="value">{{ activeFundList.infomation.INDEX_REVIEW }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>投資產業配置</h3>
+                <div class="chart-wrp">
+                  <div class="chart-img">
+                    <canvas id="chart_mobile" width="160" height="160"></canvas>
+                  </div>
+                  <div class="chart-list">
+                    <div class="row-wrp">
+                      <div v-for="(item, index) in activeFundList.investInfo.investIndustry" class="row">
+                        <div class="color" :style="{background:barColors[index]}"></div>
+                        <div class="item">{{ item.Item }}</div>
+                        <div class="ratio">{{ item.Ratio }}%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ activeFundList.investInfo.investIndustryDate}}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>前10大標的</h3>
+                <div class="row-wrp">
+                  <div v-for="item in activeFundList.top10Info.top10" class="row">
+                    <div class="key">{{ item.STK_CHNM }}</div>
+                    <div class="value right">{{ item.HOLD_RTO }}%</div>
+                  </div>
+                </div>
+                <div class="data-date">資料日期：{{ activeFundList.top10Info.top10Date }}</div>
+              </div>
+              <div class="info-wrp">
+                <h3><span class="spcolor">▌</span>歷史配息</h3>
+                <div class="row-wrp div-wrp">
+                  <div v-for="divItem in activeFundList.divList.slice(0,3)" class="row dividend">
+                    <div class="key">收益分配評價日/決定做成日</div>
+                    <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+                    <div class="key">除息日</div>
+                    <div class="value right">{{ divItem.SHARE_DATE }}</div>
+                    <div class="key">配息支付日</div>
+                    <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+                    <div class="key">每單位分配金額</div>
+                    <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+                    <div class="key">年化配息率</div>
+                    <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                  </div>
+                </div>
+                <div class="more-wrp">
+                  <button class="btn-more" @click="showMoreDivList()">更多歷史配息<i class="arrow"></i></button>
+                </div>
+                <div class="warn-wrp">
+                  <div class="warn">
+                    <p>註1.基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。於獲配息時，宜一併注意基金淨值之變動。</p>
+                    <p>
+                      註2.基金配息之年化配息率計算公式為「每單位配息金額/除息日前一日之淨值*一年配息次數*100%」，年化配息率為估算值，第一次配息或將包含成立以來的可分配息值，可能導致首次年化配息率偏高，請投資人注意。
+                    </p>
+                    <p>註3.
+                      本基金之配息頻率自年配息改為季配息，業經金融監督管理委員會{{ activeFundList.msgWarning.date }}金管證投字第{{
+                      activeFundList.msgWarning.issueNo }}號函同意在案，故於配息頻率調整之當年度，計算公式之「一年配息次數」將以「預計配息次數」進行預估，本基金{{
+                      activeFundList.msgWarning.divYear }}年度預計配息次數為2次。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template v-slot:footer>
+          <div></div>
+        </template>
+      </modal>
+    </transition>
+
+    <!-- MB基金配息彈跳視窗 -->
+    <transition name="modal">
+      <modal v-show="fundMoreListShow" @close="hideModal('fundMoreListShow')" @back="showMoreDivList"
+        :title="activeFundList.titleDiv" :color="activeFundList.color" mod="multiple">
+        <template v-slot:body>
+          <div class="all-content fund-list">
+            <div class="info-wrp">
+              <div class="row-wrp div-wrp pb-16">
+                <div v-for="divItem in activeFundList.divList" class="row dividend">
+                  <div class="key">收益分配評價日/決定做成日</div>
+                  <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+                  <div class="key">除息日</div>
+                  <div class="value right">{{ divItem.SHARE_DATE }}</div>
+                  <div class="key">配息支付日</div>
+                  <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+                  <div class="key">每單位分配金額</div>
+                  <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+                  <div class="key">年化配息率</div>
+                  <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template v-slot:footer>
+          <div></div>
+        </template>
+      </modal>
+    </transition>
+
+    <!-- PC配息彈跳視窗 -->
+    <transition name="modal">
+      <modal v-show="divListShow" @close="hideModal('divListShow')" :title="activeDivList.title"
+        :color="activeDivList.color" mod="">
+        <template v-slot:body>
+          <div class="all-content div-list">
+            <div class=" row-wrp">
+              <div v-for="divItem in activeDivList.divList" class="row dividend">
+                <div class="item">
+                  <div class="key">收益分配評價日/決定做成日</div>
+                  <div class="value right">{{ divItem.ESTIMATEDATE }}</div>
+                </div>
+                <div class="item">
+                  <div class="key">除息日</div>
+                  <div class="value right">{{ divItem.SHARE_DATE }}</div>
+                </div>
+                <div class="item">
+                  <div class="key">配息支付日</div>
+                  <div class="value right">{{ getPayDate(divItem.PAY_DATE) }}</div>
+                </div>
+                <div class="item">
+                  <div class="key">每單位分配金額</div>
+                  <div class="value right">{{divItem.DIVIDEN_PER_UNIT }}</div>
+                </div>
+                <div class="item">
+                  <div class="key">年化配息率</div>
+                  <div class="value right">{{ getYearAssignRation(divItem.YEAR_ASSIGN_RATIO) }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template v-slot:footer>
+          <div></div>
+        </template>
+      </modal>
+    </transition>
+
+  </div>
+
+  <script type="text/javascript" src='./assets/js/moment.min.js'></script>
+
+  <script type="text/javascript" src="./assets/js/index.js"></script>
+  <script type="text/javascript" src="./assets/js/vue_main.js"></script>
+
+  <!-- Google tag (gtag.js) --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-08TZJFEECX"></script>
+  <script> window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-08TZJFEECX'); 
+  </script>
+</body>
+
+</html>
