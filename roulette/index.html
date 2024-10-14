@@ -5,10 +5,12 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <meta name="format-detection" content="telephone=no" />
      <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover" />
-     <title>元大銀行</title>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"/>
+     <title></title>
      <!-- 这里是css部分 -->
      <style>
       *{margin:0; padding:0;}
+      body {font-family: 'Noto Sans TC', '微軟正黑體', 'MS UI Gothic', 'MS UI Gothic', Arial, Helvetica, sans-serif;}
         .wrap {max-width:1024px; margin:0 auto;}
          #bg {
              width:100%;
@@ -72,12 +74,12 @@
                      setTimeout(function () {
                          offOn = !offOn;
                          num = rdm % 360;
-                         if (num <= cat * 1) { alert("1.元大龍頭系列基金有幾種?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "1.元大龍頭系列基金有幾種?"); }
-                         else if (num <= cat * 2) { alert("6.是否有貸款進度查詢?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "6.是否有貸款進度查詢?"); }
-                         else if (num <= cat * 3) { alert("5.元大精選基金的元大五小福是哪五小福?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "5.元大精選基金的元大五小福是哪五小福?"); }
-                         else if (num <= cat * 4) { alert("4.ETF三劍客中元大台灣ESG永續代號是?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "4.ETF三劍客中元大台灣ESG永續代號是?"); }
-                         else if (num <= cat * 5) { alert("3.線上換匯的美金優惠是什麼?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "3.線上換匯的美金優惠是什麼?"); }
-                         else if (num <= cat * 6) { alert("2.元先生推薦的元大精選基金有幾個?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "2.元先生推薦的元大精選基金有幾個?"); }
+                         if (num <= cat * 1) { alert("【Q1】元大龍頭系列基金有幾種?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "【Q1】元大龍頭系列基金有幾種?"); }
+                         else if (num <= cat * 2) { alert("【Q6】是否有貸款進度查詢?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "【Q6】是否有貸款進度查詢?"); }
+                         else if (num <= cat * 3) { alert("【Q5】元大精選基金的元大五小福是哪五小福?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "Q5.元大精選基金的元大五小福是哪五小福?"); }
+                         else if (num <= cat * 4) { alert("【Q4】ETF三劍客中元大台灣ESG永續代號是?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "Q4.ETF三劍客中元大台灣ESG永續代號是?"); }
+                         else if (num <= cat * 5) { alert("【Q3】線上換匯的美金優惠是什麼?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "【Q3】線上換匯的美金優惠是什麼?"); }
+                         else if (num <= cat * 6) { alert("【Q2】元先生推薦的元大精選基金有幾個?"); console.log("rdm=" + rdm + "，num=" + num + "，" + "【Q2】元先生推薦的元大精選基金有幾個?"); }
                      }, 4000);
                  }
              }, 30);
@@ -97,17 +99,18 @@
                 "position" : "fixed",
                 "left" : "0",
                 "right" : "0",
-                "top" : "25%",
-                "width" : "50%",
+                "top" : "35%",
+                "width" : "75%",
                 "height" : "auto",
                 "padding" : "30px",
                 "border-radius" : "25px",
                 "margin" : "0 auto",
                 "color" : "#005BAC",
                 "background-color" : "#FFFFFF",
-                "font-size" : "36px",
+                "box-shadow" : "0px 0px 50px rgba(0,10,55,0.8)",
+                "font-size" : "5vw",
                 "font-weight" : "bold",
-                "font-family" : "微軟正黑體",
+                "font-family" : "Noto Sans TC",
                 "line-height" : "1.6",
                 "text-align" : "center",
                 "z-index" : "20"
@@ -116,7 +119,8 @@
                 "background" : "#005BAC",
                 "color" : "#FFFFFF",
                 "cursor" : "pointer",
-                "margin-top" : "30px"
+                "margin-top" : "20px",
+                "border-radius" : "50px",
             })
             // 内部结构套入
             p.appendChild(textNode);
