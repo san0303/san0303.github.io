@@ -6144,7 +6144,11 @@ p {
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	background-color: #eef3f7;
-	text-align: center
+	text-align: center;
+	/*20241108*/
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width:768px) {
