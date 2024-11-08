@@ -6138,7 +6138,7 @@ p {
 
 .tabs-item {
 	flex: 1 0 auto;
-	padding: .5rem .875rem 1.4375rem;
+	padding: .5rem 0 1.4375rem; /*20241108*/
 	border: 2px solid #95A6B8;
 	border-bottom: 0;
 	border-top-right-radius: 20px;
@@ -6181,7 +6181,7 @@ p {
 
 @media (min-width:768px) {
 	.tabs-item__link {
-		font-size: 1.25rem
+		font-size: 1rem /*20241108*/
 	}
 
 }
@@ -6923,15 +6923,16 @@ p {
 	object-fit: contain
 }
 
-.features>.container .tab-content-pane:first-child .feature-caption {
+.features>.container .tab-content-pane:first-child .feature-caption,
+.features>.container .tab-content-pane:nth-child(2) .feature-caption {
 	width: 18rem
 }
 
-.features>.container .tab-content-pane:nth-child(2) .feature-caption {
+.features>.container .tab-content-pane:nth-child(3) .feature-caption {
 	width: 13.75rem
 }
 
-.features>.container .tab-content-pane:nth-child(3) .feature-caption {
+.features>.container .tab-content-pane:nth-child(4) .feature-caption {
 	width: 11.6875rem
 }
 
