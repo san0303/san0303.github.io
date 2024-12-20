@@ -7915,6 +7915,7 @@ button.swiper-pagination-bullet {
 	.exchange{
 		flex-direction: column;
 		padding: 10% 5%;
+		border: 2px solid rgb(18, 59, 104);
 	}
 }
 @media only screen and (max-width: 480px) {
