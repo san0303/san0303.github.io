@@ -7853,7 +7853,7 @@ button.swiper-pagination-bullet {
 	background: #FFFFFF;
 	border: 3px solid rgb(18, 59, 104);
 	border-radius: 20px;
-	margin: 2% auto;
+	margin: 5% auto 2%;
 	padding: 5%;
 	display: flex;
 	gap: 20px;
@@ -7868,7 +7868,7 @@ button.swiper-pagination-bullet {
 	align-items: center;
 }
 .exchange_tit{
-	font-size: 32px;
+	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-align: center;
