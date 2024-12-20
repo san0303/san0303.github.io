@@ -7918,6 +7918,10 @@ button.swiper-pagination-bullet {
 	}
 }
 @media only screen and (max-width: 480px) {
+	.exchange{
+		width: 85%;
+		margin: 10% auto 2%;
+	}
 	.exchange_tit{    
 		width: 70vw;
 	    padding: 1.6vw;
