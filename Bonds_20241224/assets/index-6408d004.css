@@ -6138,20 +6138,29 @@ p {
 
 .tabs-item {
 	flex: 1 0 auto;
-	padding: .5rem .875rem 1.4375rem;
+	padding: .5rem 0 1.4375rem; /*20241108*/
 	border: 2px solid #95A6B8;
 	border-bottom: 0;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	background-color: #eef3f7;
-	text-align: center
+	text-align: center;
+	/*20241108*/
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width:768px) {
-	.tabs-item {
-		border-width: 3px
+	.tabs-item__link {
+		font-size: 1.1rem /*20241108*/
 	}
-
+}
+/*20241108*/
+@media (max-width:500px) {
+	.tabs-item__link {
+		font-size: 0.9rem 
+	}
 }
 
 .tabs-item.is-active {
