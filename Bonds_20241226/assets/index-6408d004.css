@@ -6925,7 +6925,7 @@ p {
 .features>.container .tab-content-pane {
 	display: flex;
 	flex-direction: column;
-	height: min(80vw, 435px)
+	height: min(80vw, 465px)
 }
 
 .features>.container .tab-content-pane .feature-figure {
