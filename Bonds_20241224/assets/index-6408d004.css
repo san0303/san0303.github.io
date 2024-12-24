@@ -6151,7 +6151,7 @@ p {
     justify-content: center;
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
 	.tabs-item {
 		border: 2px;/*20241108*/
 	}
