@@ -6139,7 +6139,7 @@ p {
 .tabs-item {
 	flex: 1 0 auto;
 	padding: .5rem 0 1.4375rem; /*20241108*/
-	border: 2px solid #95A6B8;
+	border: 3px solid #95A6B8; /*20241108*/
 	border-bottom: 0;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
@@ -6151,6 +6151,11 @@ p {
     justify-content: center;
 }
 
+@media (min-width:768px) {
+	.tabs-item {
+		border: 2px;/*20241108*/
+	}
+}
 
 .tabs-item.is-active {
 	position: relative;
