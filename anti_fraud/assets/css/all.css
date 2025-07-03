@@ -1187,11 +1187,15 @@ ul.identify-txt li::before {
   .offerAD-cont {
     max-height: 480px;
   }
+  .offerAD-cont img.mark {
+    width: 40px;
+  }
   .offerAD-cont .popup_tit {
     font-size: 4.2vw;
   }
   .offerAD-cont p {
-    font-size: 3.2vw;
+    padding: 2% 4%;
+    font-size: 3.3vw;
     line-height: 1.3;
   }
 }
