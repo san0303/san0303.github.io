@@ -1,0 +1,58 @@
+.offerAD {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  z-index: 99999;
+}
+.offerAD-cont {
+  display: flex;
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  height: 95vw;
+  max-height: 600px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  top: 50%;
+  justify-content: flex-end;
+  flex-direction: column;
+  transform: translate(0, -50%);
+}
+.offerAD-cont .popup_bn {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background: url(../images/popup/popup_bn.jpg) top center / 100% no-repeat;
+  border-radius: 20px;
+}
+.offerAD-cont button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  right: 15px;
+  background: #323232 url(../images/popup/close.svg) center center / 100% no-repeat;
+  background-size: 18px 18px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 680px) {
+  .offerAD-cont {
+    height: 84vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+.offerAD-cont button {
+    top: -20px;
+    right: -8px;
+  }
+}
